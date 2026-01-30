@@ -1,7 +1,10 @@
 import pandas as pd
+import numpy as np
 import glob
 import os
 import re
+import yaml
+import math
 
 # ------------------------------------------------------
 # READ RAW DATA AND MERGE THEM INTO DESIRED FOLDER
@@ -319,7 +322,7 @@ def clean_raw_data(df):
                     'price_thb', 'weight_g'   
                     ]
 
-    df[target_column] = df[target_column].applymap(clean_numeric)   # Apply for each element
+    df[target_column] = df[target_column].map(clean_numeric)   # Apply for each element
 
     for col in target_column:
         df[col] = pd.to_numeric(df[col], errors='coerce')
@@ -341,3 +344,67 @@ def clean_raw_data(df):
     print(type_counts)
 
     return df
+
+# -----------------------------------------------------
+# LOAD CONFIG FROM SIMULATION_CONFIG.YAML
+# -----------------------------------------------------
+def load_config(config_path):
+    with open(config_path, 'r') as file:
+        return yaml.safe_load(file)
+
+
+# -----------------------------------------------------
+# COST CALCULATION (PRICE/UNIT, COST/APPLICATION)
+# -----------------------------------------------------
+def feature_calculation(df, config):
+    df['area_mm2'] = np.nan
+    df['area_mm2'] = (df['length_mm'] * df['width_mm'])
+
+    # PRICE/UNIT
+    df["price_per_mm2"] = np.nan
+    mask_pad = df['type'].isin(['Thermal Pad','Phase Change Material'])
+    df.loc[mask_pad, 'price_per_mm2'] = (df.loc[mask_pad, 'price_thb'] / df.loc[mask_pad, 'area_mm2']) 
+
+    df["price_per_gram"] = np.nan
+    mask_pad = df['type'].isin(['Grease','Other'])
+    df.loc[mask_pad, 'price_per_gram'] = (df.loc[mask_pad, 'price_thb'] / df.loc[mask_pad, 'weight_g']) 
+
+    # PRICE/APPLICATION
+    led_diameter_mm = config['heat_source']['outer_dia_mm']
+    target_area_mm2 = math.pi * ((led_diameter_mm/2) ** 2)
+    blt_average_mm = (config['uncertainties']['grease_blt']['blt_max_mm'] + config['uncertainties']['grease_blt']['blt_min_mm'])/2
+    grease_density = config['constants']['grease_density']
+
+    # grease application weight
+    # aplication_volumn_cc = (target_area_mm2 * blt_average_mm)/1000 -> change unit into gram
+    application_volumn_cc = (target_area_mm2 * blt_average_mm)/1000
+    application_weight_g = application_volumn_cc * grease_density
+
+    mask_pad = df['type'].isin(['Thermal Pad','Phase Change Material'])
+    df.loc[mask_pad, 'cost_per_application'] = ((df.loc[mask_pad, 'price_per_mm2']) * target_area_mm2)
+
+    mask_grease = df['type'].isin(['Grease','Other'])
+    df.loc[mask_grease, 'cost_per_application'] = ((df.loc[mask_grease, 'price_per_gram']) * application_weight_g)
+
+    target_column = ['area_mm2', 'price_per_mm2', 'price_per_gram', 'cost_per_application']
+    precision = {'area_mm2':2, 
+                'price_per_mm2':4, 
+                'price_per_gram':2, 
+                'cost_per_application':2,
+    }
+
+    df = df.round(precision)
+    return df
+
+if __name__ == "__main__":
+    merge_data(None)
+    clean_df = clean_raw_data(None)
+    config_path = "config/simulation_config.yaml"
+    if os.path.exists(config_path):
+        config = load_config(config_path)
+        cost_df = feature_calculation(clean_df, config)
+        cost_df.to_csv("cost_data.csv", index=False)
+    else:
+        print(f"Can't find config file at {config_path}")
+
+
