@@ -240,35 +240,49 @@ def clean_raw_data(df):
         if pd.isna(val): return None
         s = str(val).lower().strip()
         
-        # Extract value in thickness_mm column
-        pattern_match = re.findall(r'\((.*?)\)', s)
-        for value in pattern_match: 
-            m = re.search(r'(\d*\.?\d+)\s*(mm|")', value)
-            if m: 
-                val = float(m.group(1))
-                unit = m.group(2)
-                return val*25.4 if unit == '"' else val
-            
-        # Extract from description
-        pattern = [
-            r'(\d*\.?\d+)\s*(mm|")\s*Thickness',    # For example, 0.005" Thickness
-            r'Thickness,\s*(\d*\.?\d+)\s*(mm|")',   # For example, Thickness, 0.5 mm
-            r'(\d*\.?\d+)\s*mm',                # For example, 1.5mm
-            r'(\d*\.?\d+)"'                     # For example, 0.02"
-        ]
+        if re.search(r'\d\s*[xX*]\s*\d', s):
+            return None
 
-        for pat in pattern:
-            m = re.search(pat, s, re.I)
-            if m:
-                val = float(m.group(1))
-                try:
-                    unit = m.group(2)
-                except IndexError:
-                    unit = '"' if '"' in pat else 'mm'
-                return val*25.4 if unit == '"' else val
+        m = re.search(r'(\d*\.?\d+)\s*(mm|mil|in|")', s)
+        if m:
+            v = float(m.group(1))
+            unit = m.group(2)
+            if unit == 'mil': return v * 0.0254
+            if unit == 'in' or unit == '"': return v * 25.4
+            return v
+        
+        try:
+            return float(s)
+        except:
+            return None
+            
+    def extract_thck_from_desc(desc):
+        if pd.isna(desc): return None
+        s = str(desc).lower()
+        
+        m = re.search(r'(?<![\dxX]\s)(\d*\.?\d+)\s*(mm|mil|in|")\s*(?:thk|thick)', s)
+        if m:
+            v = float(m.group(1))
+            unit = m.group(2)
+            if unit == 'mil': return v * 0.0254
+            if unit == 'in' or unit == '"': return v * 25.4
+            return v
+            
+        m = re.search(r'(?:thk|thick)[^0-9]*(\d*\.?\d+)\s*(mm|mil|in|")', s)
+        if m:
+            v = float(m.group(1))
+            unit = m.group(2)
+            if unit == 'mil': return v * 0.0254
+            if unit == 'in' or unit == '"': return v * 25.4
+            return v
+            
         return None
 
-    df["thickness_mm"] = df["description"].apply(extract_thck_mm)
+    df['thickness_clean'] = df['thickness_mm'].apply(extract_thck_mm)
+    mask_nan = df['thickness_clean'].isna()
+    df.loc[mask_nan, 'thickness_clean'] = df.loc[mask_nan, 'description'].apply(extract_thck_from_desc)
+    df['thickness_mm'] = df['thickness_clean']
+    df.drop(columns=['thickness_clean'], inplace=True)
 
     # Remove thickness value from other types
     mask_target = df['type'].isin(['Thermal Pad', 'Phase Change Material'])
