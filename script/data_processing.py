@@ -102,16 +102,19 @@ def clean_raw_data(df):
     def define_timtype(type_str):
         desc = type_str
         t = str(type_str).lower()
-        # Phase Change Material
-        if "phase change" in t or "pcm" in t:
-            return "Phase Change Material"
-        # Other (Permanent bond)
+        # Other (Permanant bond)
         if "tape" in t: 
-            return "Other" 
-        if "epoxy" in t or "potting" in t or "glue" in t or "hardener" in t:
+            return "Other"
+        if any(x in t for x in ["epoxy", "potting", "glue", "hardener", "cement", "bond"]):
             return "Other"
         if "adhesive" in t and "pad" not in t:
             return "Other"
+        # PCM -> Grease / Thermal Pad
+        if "phase change" in t or "pcm" in t:
+            liquid_keywords = ["paste", "compound", "syringe", "tube", "can", "jar", "grease", "dispensable", "flow"]
+            if any(x in t for x in liquid_keywords):
+                return "Grease"
+            return "Thermal Pad"
         # Grease
         grease_keywords = [
             "grease", "paste", "gel", "putty", "liquid", "compound", 
@@ -123,6 +126,7 @@ def clean_raw_data(df):
         pad_keywords = ["pad", "sheet", "gap pad", "thermal pad", "tflex","tpli"]
         if any(x in t for x in pad_keywords):
             return "Thermal Pad"
+        return "Other"
 
     is_unneed = df["description"].apply(define_nontim)
     df = df[~is_unneed].copy()
@@ -136,7 +140,6 @@ def clean_raw_data(df):
         # dictionary to track counts for each category
         count_profile = {
             "Thermal Pad": 0,
-            "Phase Change Material": 0,
             "Grease": 0,
             "Other": 0
         }
@@ -152,8 +155,6 @@ def clean_raw_data(df):
             # Given prefix
             if cat == "Thermal Pad":
                 prefix = "TP"
-            elif cat == "Phase Change Material":
-                prefix = "PCM"
             elif cat == "Grease":
                 prefix = "GR"
             else:
@@ -220,7 +221,7 @@ def clean_raw_data(df):
                 
         return w, l
 
-    mask_tp = df['type'].isin(['Thermal Pad', 'Phase Change Material'])
+    mask_tp = df['type'].isin(['Thermal Pad'])
     res = df.loc[mask_tp].apply(process_row, axis=1, result_type='expand')   
 
     if not res.empty:
@@ -228,7 +229,7 @@ def clean_raw_data(df):
         df.loc[mask_tp, 'length_mm'] = res[1]
 
     # Remove width_mm and length_mm value from other types
-    mask_other = ~df['type'].isin(['Thermal Pad', 'Phase Change Material'])
+    mask_other = ~df['type'].isin(['Thermal Pad'])
     df.loc[mask_other, ['width_mm', 'length_mm']] = np.nan
 
     # Remove row with missing width and length values
@@ -285,7 +286,7 @@ def clean_raw_data(df):
     df.drop(columns=['thickness_clean'], inplace=True)
 
     # Remove thickness value from other types
-    mask_target = df['type'].isin(['Thermal Pad', 'Phase Change Material'])
+    mask_target = df['type'].isin(['Thermal Pad'])
     df.loc[~mask_target, ['thickness_mm']] = np.nan     # Thickness in Other and Grease type will be NaN
     # Remove row with missing thickness values of thermal pad and pcm
     mask_keep = (~mask_target) | (mask_target & df['thickness_mm'].notna())
@@ -376,7 +377,7 @@ def feature_calculation(df, config):
 
     # PRICE/UNIT
     df["price_per_mm2"] = np.nan
-    mask_pad = df['type'].isin(['Thermal Pad','Phase Change Material'])
+    mask_pad = df['type'].isin(['Thermal Pad'])
     df.loc[mask_pad, 'price_per_mm2'] = (df.loc[mask_pad, 'price_thb'] / df.loc[mask_pad, 'area_mm2']) 
 
     df["price_per_gram"] = np.nan
@@ -394,7 +395,7 @@ def feature_calculation(df, config):
     application_volumn_cc = (target_area_mm2 * blt_average_mm)/1000
     application_weight_g = application_volumn_cc * grease_density
 
-    mask_pad = df['type'].isin(['Thermal Pad','Phase Change Material'])
+    mask_pad = df['type'].isin(['Thermal Pad'])
     df.loc[mask_pad, 'cost_per_application'] = ((df.loc[mask_pad, 'price_per_mm2']) * target_area_mm2)
 
     mask_grease = df['type'].isin(['Grease','Other'])
