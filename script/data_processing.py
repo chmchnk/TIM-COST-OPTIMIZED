@@ -346,6 +346,7 @@ def clean_raw_data(df):
                 'thickness_mm':2, 
                 'length_mm':2, 
                 'width_mm':2,
+            
                 'price_thb':2, 
                 'weight_g':1   
     }
@@ -421,5 +422,3 @@ if __name__ == "__main__":
         cost_df.to_csv("cost_data.csv", index=False)
     else:
         print(f"Can't find config file at {config_path}")
-
-
