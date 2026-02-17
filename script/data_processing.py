@@ -135,36 +135,6 @@ def clean_raw_data(df):
 
     df.sort_values(by=["type","price_thb"], inplace=True)   # sort data from cheapest to most expensive in each category
 
-    # CREATE TIM ID FOR EACH TYPE
-    def generate_id(df):
-        # dictionary to track counts for each category
-        count_profile = {
-            "Thermal Pad": 0,
-            "Grease": 0,
-            "Other": 0
-        }
-        ids = []
-        for cat in df["type"]:
-            if pd.isna(cat) or cat not in count_profile:
-                target_cat = "Other"
-            else:
-                target_cat = cat
-            count_profile[target_cat] += 1
-            num = count_profile[target_cat]
-
-            # Given prefix
-            if cat == "Thermal Pad":
-                prefix = "TP"
-            elif cat == "Grease":
-                prefix = "GR"
-            else:
-                prefix = "OT"
-        
-            tim_id = f"{prefix}-{num:04d}"  # ID with leading zeros
-            ids.append(tim_id)
-        return ids
-    df["tim_id"] = generate_id(df)
-
     # EXTRACT DIMENSION VALUE FOR WIDTH_MM AND LENGTH_MM COLUMNS
     def extract_dim_mm(val):
         if pd.isna(val): return None
@@ -358,6 +328,36 @@ def clean_raw_data(df):
     df.to_csv("cleanned_data.csv", index=False)
     type_counts = df["type"].value_counts()
     print(type_counts)
+
+        # CREATE TIM ID FOR EACH TYPE
+    def generate_id(df):
+        # dictionary to track counts for each category
+        count_profile = {
+            "Thermal Pad": 0,
+            "Grease": 0,
+            "Other": 0
+        }
+        ids = []
+        for cat in df["type"]:
+            if pd.isna(cat) or cat not in count_profile:
+                target_cat = "Other"
+            else:
+                target_cat = cat
+            count_profile[target_cat] += 1
+            num = count_profile[target_cat]
+
+            # Given prefix
+            if cat == "Thermal Pad":
+                prefix = "TP"
+            elif cat == "Grease":
+                prefix = "GR"
+            else:
+                prefix = "OT"
+        
+            tim_id = f"{prefix}-{num:04d}"  # ID with leading zeros
+            ids.append(tim_id)
+        return ids
+    df["tim_id"] = generate_id(df)
 
     return df
 
