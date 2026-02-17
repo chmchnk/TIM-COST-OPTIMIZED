@@ -11,7 +11,7 @@ import sys
 CURRENT_SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.dirname(CURRENT_SCRIPT_DIR)
 
-def find_file(filename, search_subdirs=['data/processed', '../data/processed', '.']):
+def find_file(filename, search_subdirs=['data/processed/simulation', 'data/processed', '../data/processed', '.']):
     if os.path.exists(filename): return filename
     for base in [CURRENT_SCRIPT_DIR, PROJECT_ROOT]:
         for sub in search_subdirs:
@@ -104,7 +104,22 @@ def run_ml_analysis():
     output_dir = os.path.dirname(find_file(f"simu_results_{heatsink_models[0]}.csv"))
     output_path = os.path.join(output_dir, 'final_recommendation_data.csv')
     
-    df_all.to_csv(output_path, index=False)
+    # Remove internal columns for cleaner Power BI data
+    df_final = df_all.drop(columns=['log_cost', 'cluster_id'])
+    
+    # Reorder columns for Final Recommendation
+    cols_order = [
+         'recommendation_group', 
+         'tim_id', 'mpn', 'manufacturer', 'description', 'type',
+         'cost_per_app', 'calculated_tim_r_cw', 'pass_probability_pct',
+         'heatsink_model', 'heatsink_r_th',
+         'reliability_status', 'avg_margin_cw',
+         'k_wmk', 'thickness_mm'
+    ]
+    final_cols = [c for c in cols_order if c in df_final.columns] + [c for c in df_final.columns if c not in cols_order]
+    df_final = df_final[final_cols]
+    
+    df_final.to_csv(output_path, index=False)
     print(f"\nFinal Data Saved: {output_path}")
     
     # Show Summary

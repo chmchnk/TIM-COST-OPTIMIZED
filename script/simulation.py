@@ -154,7 +154,8 @@ def run_simulation(data_name='cost_data.csv', config_name='simulation_config.yam
                 'type': row['type'],
                 'cost_per_app': row['cost_per_application'],
                 'k_wmk': row['thermal_conductivity_wmk'],
-                'heatsink_model': hs_model,               
+                'heatsink_model': hs_model,
+                'heatsink_r_th': r_hs,   # Added for Power BI context
                 'threshold_limit_cw': system_threshold_cw,
                 'calculated_tim_r_cw': avg_r_tim,            
                 'reliability_status': status,              
@@ -167,11 +168,25 @@ def run_simulation(data_name='cost_data.csv', config_name='simulation_config.yam
             })
 
         # Save Results for THIS Heatsink
-        output_dir = os.path.dirname(data_path)
+        output_dir = os.path.join(PROJECT_ROOT, 'data', 'processed', 'simulation')
+        os.makedirs(output_dir, exist_ok=True)
+        
         safe_model_name = hs_model.replace(" ", "_").replace(".", "")
         output_file = os.path.join(output_dir, f'simu_results_{safe_model_name}.csv')
         
+        
         res_df = pd.DataFrame(results)
+        
+        # Reorder columns for Simulation Results
+        cols_order = [
+             'reliability_status', 'pass_probability_pct', 'avg_margin_cw',
+             'tim_id', 'mpn', 'type', 'heatsink_model', 'heatsink_r_th',
+             'calculated_tim_r_cw', 'threshold_limit_cw', 'max_t_case_99',
+             'cost_per_app', 'k_wmk', 'thickness_mm', 'manufacturer', 'description'
+        ]
+        final_cols = [c for c in cols_order if c in res_df.columns] + [c for c in res_df.columns if c not in cols_order]
+        res_df = res_df[final_cols]
+        
         precision = {
             'threshold_limit_cw': 4, 
             'calculated_tim_r_cw': 4, 

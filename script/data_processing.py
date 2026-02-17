@@ -329,6 +329,17 @@ def clean_raw_data(df):
 
     # drop rows with NaN value in thermal_conductivity_wmk ccolumns
     df = df.dropna(subset=['thermal_conductivity_wmk'])
+    
+    # Reorder columns for better readability
+    cols_order = [
+         'tim_id', 'type', 'manufacturer', 'mpn', 'description',
+         'thermal_conductivity_wmk', 'thickness_mm', 'width_mm', 'length_mm',
+         'price_thb', 'weight_g'
+    ]
+    # Keep only existing columns (just in case)
+    final_cols = [c for c in cols_order if c in df.columns] + [c for c in df.columns if c not in cols_order]
+    df = df[final_cols]
+    
     df.to_csv("data/processed/cleanned_data.csv", index=False)
     type_counts = df["type"].value_counts()
     print(type_counts)
@@ -423,6 +434,17 @@ if __name__ == "__main__":
     if os.path.exists(config_path):
         config = load_config(config_path)
         cost_df = feature_calculation(clean_df, config)
+        
+        # Reorder columns for Cost Data
+        cols_order = [
+             'tim_id', 'type', 'manufacturer', 'mpn', 
+             'cost_per_application', 'price_per_mm2', 'price_per_gram',
+             'thermal_conductivity_wmk', 'thickness_mm', 'area_mm2',
+             'description', 'price_thb', 'width_mm', 'length_mm', 'weight_g'
+        ]
+        final_cols = [c for c in cols_order if c in cost_df.columns] + [c for c in cost_df.columns if c not in cols_order]
+        cost_df = cost_df[final_cols]
+        
         cost_df.to_csv("data/processed/cost_data.csv", index=False)
     else:
         print(f"Can't find config file at {config_path}")
