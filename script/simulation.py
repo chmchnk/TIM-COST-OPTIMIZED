@@ -174,10 +174,9 @@ def run_simulation(data_name='cost_data.csv', config_name='simulation_config.yam
         safe_model_name = hs_model.replace(" ", "_").replace(".", "")
         output_file = os.path.join(output_dir, f'simu_results_{safe_model_name}.csv')
         
-        
         res_df = pd.DataFrame(results)
         
-        # Reorder columns for Simulation Results
+        # Reorder columns
         cols_order = [
              'reliability_status', 'pass_probability_pct', 'avg_margin_cw',
              'tim_id', 'mpn', 'type', 'heatsink_model', 'heatsink_r_th',

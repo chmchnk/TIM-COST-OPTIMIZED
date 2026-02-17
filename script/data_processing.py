@@ -330,13 +330,13 @@ def clean_raw_data(df):
     # drop rows with NaN value in thermal_conductivity_wmk ccolumns
     df = df.dropna(subset=['thermal_conductivity_wmk'])
     
-    # Reorder columns for better readability
+    # Reorder columns
     cols_order = [
          'tim_id', 'type', 'manufacturer', 'mpn', 'description',
          'thermal_conductivity_wmk', 'thickness_mm', 'width_mm', 'length_mm',
          'price_thb', 'weight_g'
     ]
-    # Keep only existing columns (just in case)
+    
     final_cols = [c for c in cols_order if c in df.columns] + [c for c in df.columns if c not in cols_order]
     df = df[final_cols]
     
@@ -435,7 +435,7 @@ if __name__ == "__main__":
         config = load_config(config_path)
         cost_df = feature_calculation(clean_df, config)
         
-        # Reorder columns for Cost Data
+        # Reorder columns
         cols_order = [
              'tim_id', 'type', 'manufacturer', 'mpn', 
              'cost_per_application', 'price_per_mm2', 'price_per_gram',

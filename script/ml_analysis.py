@@ -107,7 +107,7 @@ def run_ml_analysis():
     # Remove internal columns for cleaner Power BI data
     df_final = df_all.drop(columns=['log_cost', 'cluster_id'])
     
-    # Reorder columns for Final Recommendation
+    # Reorder columns
     cols_order = [
          'recommendation_group', 
          'tim_id', 'mpn', 'manufacturer', 'description', 'type',

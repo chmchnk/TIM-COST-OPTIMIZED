@@ -1,0 +1,577 @@
+reliability_status,pass_probability_pct,avg_margin_cw,tim_id,mpn,type,heatsink_model,heatsink_r_th,calculated_tim_r_cw,threshold_limit_cw,max_t_case_99,cost_per_app,k_wmk,thickness_mm,manufacturer,description
+FAIL,95.45,0.0315,GR-0001,09599,Grease,ModuleLED_Nano_7050,2.2,0.0937,0.1252,105.24,5.95,1.17,,SparkFun Electronics,Thermal Silicone Compound 5 gram Syringe
+PASS,100.0,0.1123,GR-0002,TC3-1G,Grease,ModuleLED_Nano_7050,2.2,0.0129,0.1252,101.32,55.98,8.5,,Chip Quik Inc.,Thermal Silicone Compound 1 gram Syringe
+PASS,100.0,0.0884,GR-0003,8615,Grease,ModuleLED_Nano_7050,2.2,0.0368,0.1252,102.47,17.58,3.0,,MG Chemicals,Thermal Non-Silicone Grease 3.5 gram Syringe
+PASS,100.0,0.0683,GR-0004,SILVGREASE1,Grease,ModuleLED_Nano_7050,2.2,0.0569,0.1252,103.45,51.05,1.93,,StarTech.com,Thermal Silicone Compound 1.5 gram Syringe
+FAIL,14.23,-0.0392,GR-0005,TC1-10G,Grease,ModuleLED_Nano_7050,2.2,0.1644,0.1252,108.62,8.42,0.67,,Chip Quik Inc.,Thermal Silicone Compound 10 gram Syringe
+FAIL,83.76,0.0228,GR-0006,HEATGREASE20,Grease,ModuleLED_Nano_7050,2.2,0.1023,0.1252,105.68,4.37,1.07,,StarTech.com,Thermal Silicone Compound 20 gram Tube
+FAIL,32.77,-0.0171,GR-0007,8610-60G,Grease,ModuleLED_Nano_7050,2.2,0.1423,0.1252,107.59,1.9,0.77,,MG Chemicals,Thermal Non-Silicone Compound 2 oz Tube
+PASS,100.0,0.1238,GR-0008,TC4-1G,Grease,ModuleLED_Nano_7050,2.2,0.0014,0.1252,100.76,109.41,79.0,,Chip Quik,Thermal Interface Products Heat Sink Thermal Compound - Deep-Space Liquid Metal 79 W/mK 1g/1cc Syringe
+PASS,100.0,0.1238,GR-0009,TC4-1G,Grease,ModuleLED_Nano_7050,2.2,0.0014,0.1252,100.76,113.46,79.0,,Chip Quik Inc.,"Thermal Thermal Compound, Liquid Metal 1 gram Syringe"
+FAIL,15.04,-0.0386,GR-0010,TC1-20G,Grease,ModuleLED_Nano_7050,2.2,0.1638,0.1252,108.65,6.09,0.67,,Chip Quik Inc.,Thermal Silicone Compound 20 gram Syringe
+FAIL,30.8,-0.0189,GR-0011,250G,Grease,ModuleLED_Nano_7050,2.2,0.1441,0.1252,107.7,2.25,0.76,,"Boyd Laconia, LLC",Thermal Silicone Compound 2 oz Tube
+PASS,100.0,0.113,GR-0012,TG-N909-30,Grease,ModuleLED_Nano_7050,2.2,0.0122,0.1252,101.28,4.65,9.0,,t-Global Technology,Thermal Non-Silicone Grease 30 gram Container
+PASS,100.0,0.1123,GR-0013,TC3-3.5G,Grease,ModuleLED_Nano_7050,2.2,0.0129,0.1252,101.32,40.18,8.5,,Chip Quik Inc.,Thermal Silicone Compound 3.5 gram Syringe
+FAIL,21.8,-0.0293,GR-0014,CW7270,Grease,ModuleLED_Nano_7050,2.2,0.1545,0.1252,108.19,20.85,0.71,,Chemtronics,Thermal Non-Silicone Grease 7 gram Syringe
+PASS,100.0,0.0522,GR-0015,65-00-GREASE15-0010,Grease,ModuleLED_Nano_7050,2.2,0.073,0.1252,104.24,6.4,1.5,,Parker Chomerics,Thermal Silicone Grease 10cc Syringe
+PASS,100.0,0.1238,GR-0016,TC4-2G,Grease,ModuleLED_Nano_7050,2.2,0.0014,0.1252,100.76,82.22,79.0,,Chip Quik,Thermal Interface Products Heat Sink Thermal Compound - Deep-Space Liquid Metal 79 W/mK 2g/1cc Syringe
+PASS,100.0,0.1238,GR-0017,TC4-2G,Grease,ModuleLED_Nano_7050,2.2,0.0014,0.1252,100.76,83.35,79.0,,Chip Quik Inc.,"Thermal Thermal Compound, Liquid Metal 2 gram Syringe"
+PASS,100.0,0.0888,GR-0018,65-00-GREASE30-0010,Grease,ModuleLED_Nano_7050,2.2,0.0364,0.1252,102.46,6.73,3.0,,Parker Chomerics,Thermal Silicone Grease 10cc Syringe
+PASS,100.0,0.1033,GR-0019,65-00-GREASE50-0010,Grease,ModuleLED_Nano_7050,2.2,0.0218,0.1252,101.76,7.06,5.0,,Parker Chomerics,Thermal Silicone Grease 10cc Jar
+PASS,100.0,0.1095,GR-0020,65-00-GREASE70-0010,Grease,ModuleLED_Nano_7050,2.2,0.0157,0.1252,101.46,7.26,7.0,,Parker Chomerics,Thermal Silicone Grease 10cc Syringe
+PASS,100.0,0.1068,GR-0021,65-00-CIP60-0045,Grease,ModuleLED_Nano_7050,2.2,0.0183,0.1252,101.58,1.56,6.0,,Parker Chomerics,"Thermal Silicone Compound, 2 Part 50cc Cartridge"
+PASS,100.0,0.0996,GR-0022,TC2-10G,Grease,ModuleLED_Nano_7050,2.2,0.0256,0.1252,101.93,20.65,4.3,,Chip Quik Inc.,Thermal Silicone Compound 10 gram Syringe
+PASS,100.0,0.0659,GR-0023,CW7250,Grease,ModuleLED_Nano_7050,2.2,0.0593,0.1252,103.57,62.15,1.85,,Chemtronics,Thermal Non-Silicone Grease 3.4 gram Syringe
+PASS,100.0,0.1238,GR-0024,TC4-5G,Grease,ModuleLED_Nano_7050,2.2,0.0014,0.1252,100.76,43.78,79.0,,Chip Quik Inc.,"Thermal Thermal Compound, Liquid Metal 5 gram Syringe"
+PASS,100.0,0.1238,GR-0025,TC4-5G,Grease,ModuleLED_Nano_7050,2.2,0.0014,0.1252,100.76,43.9,79.0,,Chip Quik,Thermal Interface Products Heat Sink Thermal Compound - Deep-Space Liquid Metal 79 W/mK 5g/1cc Syringe
+FAIL,72.29,0.0156,GR-0026,8617-85ML,Grease,ModuleLED_Nano_7050,2.2,0.1095,0.1252,106.01,1.12,1.0,,MG Chemicals,Thermal Non-Silicone Grease 85 ml Tube
+FAIL,71.82,0.0155,GR-0027,GF1000-00-15-50CC,Grease,ModuleLED_Nano_7050,2.2,0.1097,0.1252,106.02,1.91,1.0,,Bergquist,"Thermal Liquid Gap Filler, 2 Part 50cc Cartridge"
+PASS,100.0,0.0886,GR-0028,X-PUTTY-100,Grease,ModuleLED_Nano_7050,2.2,0.0366,0.1252,102.47,2.64,3.0,,"Shiu Li Technology Co., Ltd.",Thermal Silicone Putty 100 gram Cartridge
+PASS,100.0,0.0813,GR-0029,8327GF25-50CC,Grease,ModuleLED_Nano_7050,2.2,0.0438,0.1252,102.81,2.2,2.5,,MG Chemicals,Thermal Silicone Gap Filler 50 ml Cartridges
+PASS,100.0,0.0954,GR-0030,65-00-GEL37-0010,Grease,ModuleLED_Nano_7050,2.2,0.0297,0.1252,102.13,11.07,3.7,,Parker Chomerics,Thermal Silicone Gel 10cc Syringe
+PASS,100.0,0.0704,GR-0031,PK223DM-110,Grease,ModuleLED_Nano_7050,2.2,0.0548,0.1252,103.35,2.65,2.0,,"Shiu Li Technology Co., Ltd.","Thermal Liquid Gap Filler, 2 Part 110 gram Cartridge"
+PASS,100.0,0.091,GR-0032,SILV5-THERMAL-PASTE,Grease,ModuleLED_Nano_7050,2.2,0.0342,0.1252,102.36,196.47,3.2,,StarTech.com,Thermal Silicone Compound 1.5 gram Syringe
+PASS,100.0,0.0938,GR-0033,65-00-GEL35VT-0010,Grease,ModuleLED_Nano_7050,2.2,0.0314,0.1252,102.21,12.11,3.5,,Parker Chomerics,Thermal Silicone Gel 10cc Syringe
+PASS,100.0,0.1238,GR-0034,TC4-10G,Grease,ModuleLED_Nano_7050,2.2,0.0014,0.1252,100.76,31.12,79.0,,Chip Quik,Thermal Interface Products Heat Sink Thermal Compound - Deep-Space Liquid Metal 79 W/mK 10g/3cc Syringe
+PASS,100.0,0.1238,GR-0035,TC4-10G,Grease,ModuleLED_Nano_7050,2.2,0.0014,0.1252,100.76,32.14,79.0,,Chip Quik Inc.,"Thermal Thermal Compound, Liquid Metal 10 gram Syringe"
+FAIL,8.68,-0.0488,GR-0036,CT40-5,Grease,ModuleLED_Nano_7050,2.2,0.174,0.1252,109.15,2.28,0.63,,Chemtronics,Thermal Silicone Compound 5 oz Tube
+PASS,100.0,0.1007,GR-0037,GF4500CVO-00-240-50CC,Grease,ModuleLED_Nano_7050,2.2,0.0244,0.1252,101.87,2.6,4.5,,Bergquist Company,"Thermal Interface Products Liquid Gap-Filling Material, 2-Part, 4.5W/m-K, 50ml Cartridge, TGF4500CVO"
+PASS,100.0,0.0643,GR-0038,GF1500-00-60-50CC,Grease,ModuleLED_Nano_7050,2.2,0.0609,0.1252,103.65,2.61,1.8,,Bergquist,"Thermal Liquid Gap Filler, 2 Part 50cc Cartridge"
+PASS,100.0,0.0938,GR-0039,S-PUTTY-100,Grease,ModuleLED_Nano_7050,2.2,0.0314,0.1252,102.21,3.53,3.5,,"Shiu Li Technology Co., Ltd.",Thermal Silicone Putty 100 gram Cartridge
+PASS,100.0,0.0938,GR-0040,N-PUTTY-100,Grease,ModuleLED_Nano_7050,2.2,0.0314,0.1252,102.21,3.54,3.5,,"Shiu Li Technology Co., Ltd.",Thermal Non-Silicone Putty 100 gram Cartridge
+PASS,100.0,0.1122,GR-0041,TC3-10G,Grease,ModuleLED_Nano_7050,2.2,0.0129,0.1252,101.32,28.56,8.5,,Chip Quik Inc.,Thermal Silicone Compound 5cc Syringe
+PASS,100.0,0.0795,GR-0042,65-00-GEL20-0010,Grease,ModuleLED_Nano_7050,2.2,0.0457,0.1252,102.91,14.76,2.4,,Parker Chomerics,Thermal Gel Gap Filler 10cc Syringe
+PASS,100.0,0.0938,GR-0043,H-PUTTY-100,Grease,ModuleLED_Nano_7050,2.2,0.0314,0.1252,102.21,3.71,3.5,,"Shiu Li Technology Co., Ltd.",Thermal Silicone Putty 100 gram Cartridge
+PASS,100.0,0.1069,GR-0044,127-6-10,Grease,ModuleLED_Nano_7050,2.2,0.0183,0.1252,101.58,15.05,6.0,,Wakefield Thermal Solutions,Thermal Non-Silicone Grease 10cc Syringe
+PASS,100.0,0.1069,GR-0045,127-6-10,Grease,ModuleLED_Nano_7050,2.2,0.0183,0.1252,101.58,15.35,6.0,,Wakefield Thermal,"Thermal Interface Products Thermal Grease, High Performance, Non-Silicone, 6 W/m-K, 10cc Syringe"
+PASS,100.0,0.0996,GR-0046,TC2-20G,Grease,ModuleLED_Nano_7050,2.2,0.0255,0.1252,101.93,19.26,4.3,,Chip Quik Inc.,Thermal Silicone Compound 20 gram Syringe
+PASS,100.0,0.052,GR-0047,65-02-GREASE15-0030,Grease,ModuleLED_Nano_7050,2.2,0.0732,0.1252,104.23,5.42,1.5,,Parker Chomerics,Thermal Silicone Grease 30cc Cartridge
+PASS,100.0,0.0938,GR-0048,65-02-GEL35VT-0030,Grease,ModuleLED_Nano_7050,2.2,0.0313,0.1252,102.22,5.51,3.5,,Parker Chomerics,Thermal Silicone Gel 30cc Syringe
+PASS,100.0,0.1032,GR-0049,65-00-GEL50TBL-0010,Grease,ModuleLED_Nano_7050,2.2,0.022,0.1252,101.75,16.63,5.0,,Parker Chomerics,Thermal Silicone Gel 10cc Syringe
+PASS,100.0,0.0983,GR-0050,8327GF41-50CC,Grease,ModuleLED_Nano_7050,2.2,0.0269,0.1252,101.99,3.36,4.1,,MG Chemicals,Thermal Silicone Gap Filler 50 ml Cartridges
+PASS,100.0,0.0886,GR-0051,65-02-GREASE30-0030,Grease,ModuleLED_Nano_7050,2.2,0.0365,0.1252,102.46,5.71,3.0,,Parker Chomerics,Thermal Silicone Grease 30cc Cartridge
+FAIL,0.0,-0.1132,GR-0052,8463-7G,Grease,ModuleLED_Nano_7050,2.2,0.2384,0.1252,112.23,62.82,0.46,,MG Chemicals,Thermal Silicone Grease 7 gram Syringe
+PASS,100.0,0.0518,GR-0053,GCS-NSP15-100ML,Grease,ModuleLED_Nano_7050,2.2,0.0733,0.1252,104.23,1.78,1.5,,European Thermodynamics Ltd,Thermal Non-Silicone Putty 100 ml Syringe
+PASS,100.0,0.1032,GR-0054,65-02-GREASE50-0030,Grease,ModuleLED_Nano_7050,2.2,0.0219,0.1252,101.76,5.99,5.0,,Parker Chomerics,Thermal Silicone Grease 30cc Cartridge
+PASS,100.0,0.0886,GR-0055,TGF3000SF-00-1500-50CC,Grease,ModuleLED_Nano_7050,2.2,0.0365,0.1252,102.47,3.67,3.0,,Bergquist Company,"Thermal Interface Products Gap Filler, 2-Part, Sil-Free, Room Temp Cure, 3W/mK, 50ml Cartridge, TGF3000SF"
+PASS,100.0,0.1095,GR-0056,65-02-GREASE70-0030,Grease,ModuleLED_Nano_7050,2.2,0.0156,0.1252,101.46,6.16,7.0,,Parker Chomerics,Thermal Silicone Grease 30cc Cartridge
+FAIL,14.63,-0.0388,GR-0057,TC1-200G,Grease,ModuleLED_Nano_7050,2.2,0.1639,0.1252,108.63,2.35,0.67,,Chip Quik Inc.,Thermal Silicone Compound 200 gram Jar
+PASS,100.0,0.1114,GR-0058,TG-N8000-30,Grease,ModuleLED_Nano_7050,2.2,0.0138,0.1252,101.36,15.74,8.0,,t-Global Technology,Thermal Non-Silicone Putty 30 gram Jar
+PASS,100.0,0.0408,GR-0059,G3380NA-120,Grease,ModuleLED_Nano_7050,2.2,0.0844,0.1252,104.77,3.98,1.3,,"Shiu Li Technology Co., Ltd.",Thermal Non-Silicone Grease 120 gram Cartridge
+PASS,100.0,0.0946,GR-0060,GF3500S35-07-60-50CC,Grease,ModuleLED_Nano_7050,2.2,0.0305,0.1252,102.17,3.88,3.6,,Bergquist,"Thermal Liquid Gap Filler, 2 Part 50cc Cartridge"
+PASS,100.0,0.0885,GR-0061,TG4040-D-30CC,Grease,ModuleLED_Nano_7050,2.2,0.0367,0.1252,102.47,6.65,3.0,,t-Global Technology,Thermal Silicone Putty 30cc Syringe
+PASS,100.0,0.1068,GR-0062,S-PUTTY2-100,Grease,ModuleLED_Nano_7050,2.2,0.0183,0.1252,101.58,5.04,6.0,,"Shiu Li Technology Co., Ltd.",Thermal Silicone Putty 100 gram Cartridge
+PASS,100.0,0.0947,GR-0063,GF3500S35-00-60-50CC,Grease,ModuleLED_Nano_7050,2.2,0.0304,0.1252,102.17,4.06,3.6,,Bergquist,"Thermal Liquid Gap Filler, 2 Part 50cc Cartridge"
+PASS,100.0,0.1105,GR-0064,65-00-GEL75VT-0010,Grease,ModuleLED_Nano_7050,2.2,0.0146,0.1252,101.4,20.32,7.5,,Parker Chomerics,Thermal Silicone Gel 10cc Syringe
+PASS,100.0,0.1033,GR-0065,65-02-GEL50TBL-0030,Grease,ModuleLED_Nano_7050,2.2,0.0219,0.1252,101.76,6.79,5.0,,Parker Chomerics,Thermal Silicone Gel 30cc Syringe
+PASS,100.0,0.0938,GR-0066,GL-20-10,Grease,ModuleLED_Nano_7050,2.2,0.0313,0.1252,102.21,20.5,3.5,,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gel, 10cc Syringe, Pink, 20g/m Flow Rate, 0.004"", 3.5w/mK"
+PASS,100.0,0.0977,GR-0067,TG-N4000-30CC,Grease,ModuleLED_Nano_7050,2.2,0.0274,0.1252,102.03,6.87,4.0,,t-Global Technology,Thermal Non-Silicone Putty 30cc Syringe
+PASS,100.0,0.1049,GR-0068,A18835-01,Grease,ModuleLED_Nano_7050,2.2,0.0203,0.1252,101.68,4.13,5.4,,Laird Technologies - Thermal Materials,Thermal Liquid Gap Filler 50cc Cartridge
+PASS,100.0,0.1238,GR-0069,TC4-20G,Grease,ModuleLED_Nano_7050,2.2,0.0014,0.1252,100.76,26.04,79.0,,Chip Quik Inc.,"Thermal Thermal Compound, Liquid Metal 20 gram Syringe"
+PASS,100.0,0.1041,GR-0070,65-02-GEL50VT-0030,Grease,ModuleLED_Nano_7050,2.2,0.0211,0.1252,101.72,6.98,5.2,,Parker Chomerics,Thermal Silicone Gel 30cc Syringe
+PASS,100.0,0.1069,GR-0071,8327GL6-30ML,Grease,ModuleLED_Nano_7050,2.2,0.0183,0.1252,101.59,7.05,6.0,,MG Chemicals,Thermal Non-Silicone Gel 30 ml Cartridge
+PASS,100.0,0.1068,GR-0072,H-PUTTY2-100,Grease,ModuleLED_Nano_7050,2.2,0.0184,0.1252,101.58,5.31,6.0,,"Shiu Li Technology Co., Ltd.",Thermal Silicone Putty 100 gram Cartridge
+PASS,100.0,0.1238,GR-0073,TC4-20G,Grease,ModuleLED_Nano_7050,2.2,0.0014,0.1252,100.76,26.74,79.0,,Chip Quik,Thermal Interface Products Heat Sink Thermal Compound - Deep-Space Liquid Metal 79 W/mK 20g/3cc Syringe
+PASS,100.0,0.0793,GR-0074,65-02-GEL20-0030,Grease,ModuleLED_Nano_7050,2.2,0.0458,0.1252,102.91,7.15,2.4,,Parker Chomerics,Thermal Gel Gap Filler 30cc Cartridge
+PASS,100.0,0.0886,GR-0075,X-PUTTY-100-KIT,Grease,ModuleLED_Nano_7050,2.2,0.0366,0.1252,102.47,5.61,3.0,,"Shiu Li Technology Co., Ltd.",Thermal Silicone Putty 100 gram Cartridge
+PASS,100.0,0.0955,GR-0076,A17170-01,Grease,ModuleLED_Nano_7050,2.2,0.0297,0.1252,102.13,2.99,3.7,,Laird Technologies - Thermal Materials,Thermal Silicone Compound 75cc Cartridge
+PASS,100.0,0.1105,GR-0077,65-00-GEL75-0010,Grease,ModuleLED_Nano_7050,2.2,0.0146,0.1252,101.4,22.96,7.5,,Parker Chomerics,Thermal Silicone Gel 10cc Syringe
+PASS,100.0,0.1069,GR-0078,G3380D-100,Grease,ModuleLED_Nano_7050,2.2,0.0183,0.1252,101.58,6.0,6.0,,"Shiu Li Technology Co., Ltd.",Thermal Silicone Grease 100 gram Cartridge
+PASS,100.0,0.0753,GR-0079,EPDM20-135,Grease,ModuleLED_Nano_7050,2.2,0.0498,0.1252,103.11,4.81,2.2,,"Shiu Li Technology Co., Ltd.","Thermal Liquid Gap Filler, 2 Part 50 ml Cartridges"
+PASS,100.0,0.1032,GR-0080,N-PUTTY2-100,Grease,ModuleLED_Nano_7050,2.2,0.022,0.1252,101.76,6.19,5.0,,"Shiu Li Technology Co., Ltd.",Thermal Non-Silicone Putty 100 gram Cartridge
+PASS,100.0,0.1056,GR-0081,CW7100,Grease,ModuleLED_Nano_7050,2.2,0.0196,0.1252,101.64,98.45,5.6,,Chemtronics,Thermal Silicone Grease 6.5 gram Syringe
+PASS,100.0,0.0704,GR-0082,PK223DM-110-KIT,Grease,ModuleLED_Nano_7050,2.2,0.0548,0.1252,103.34,5.84,2.0,,"Shiu Li Technology Co., Ltd.","Thermal Liquid Gap Filler, 2 Part 110 gram Cartridge"
+PASS,100.0,0.0642,GR-0083,GCS-018-GS-WE-1KG,Grease,ModuleLED_Nano_7050,2.2,0.061,0.1252,103.64,0.64,1.8,,European Thermodynamics Ltd,Thermal Silicone Grease 1 kg Container
+PASS,100.0,0.0795,GR-0084,GL-08-10,Grease,ModuleLED_Nano_7050,2.2,0.0457,0.1252,102.91,25.84,2.4,,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gel, 10cc Syringe, Yellow, 8g/m Flow Rate, 0.015"", 2.4w/mK"
+PASS,100.0,0.0939,GR-0085,S-PUTTY-100-KIT,Grease,ModuleLED_Nano_7050,2.2,0.0312,0.1252,102.2,6.49,3.5,,"Shiu Li Technology Co., Ltd.",Thermal Silicone Putty 100 gram Cartridge
+PASS,100.0,0.0939,GR-0086,N-PUTTY-100-KIT,Grease,ModuleLED_Nano_7050,2.2,0.0313,0.1252,102.21,6.5,3.5,,"Shiu Li Technology Co., Ltd.",Thermal Non-Silicone Putty 100 gram Cartridge
+PASS,100.0,0.0948,GR-0087,PK404DM-150,Grease,ModuleLED_Nano_7050,2.2,0.0304,0.1252,102.17,4.42,3.6,,"Shiu Li Technology Co., Ltd.","Thermal Liquid Gap Filler, 2 Part 150 gram Cartridge"
+PASS,100.0,0.0938,GR-0088,H-PUTTY-100-KIT,Grease,ModuleLED_Nano_7050,2.2,0.0314,0.1252,102.22,6.68,3.5,,"Shiu Li Technology Co., Ltd.",Thermal Silicone Putty 100 gram Cartridge
+PASS,100.0,0.1105,GR-0089,65-02-GEL75VT-0030,Grease,ModuleLED_Nano_7050,2.2,0.0146,0.1252,101.4,9.06,7.5,,Parker Chomerics,Thermal Silicone Gel 30cc Cartridge
+PASS,100.0,0.1008,GR-0090,G3380NC-100,Grease,ModuleLED_Nano_7050,2.2,0.0244,0.1252,101.87,6.81,4.5,,"Shiu Li Technology Co., Ltd.",Thermal Non-Silicone Grease 100 gram Cartridge
+PASS,100.0,0.107,GR-0091,65-00-CIP60-0200,Grease,ModuleLED_Nano_7050,2.2,0.0182,0.1252,101.58,1.42,6.0,,Parker Chomerics,"Thermal Silicone Compound, 2 Part 200cc Cartridge"
+FAIL,72.04,0.0158,GR-0092,8617-1P,Grease,ModuleLED_Nano_7050,2.2,0.1093,0.1252,106.0,0.61,1.0,,MG Chemicals,Thermal Non-Silicone Grease 473 ml Jar
+PASS,100.0,0.0938,GR-0093,2456616,Grease,ModuleLED_Nano_7050,2.2,0.0314,0.1252,102.22,5.82,3.5,,Bergquist,"Thermal Liquid Gap Filler, 2 Part 50cc Cartridge"
+PASS,100.0,0.1115,GR-0094,SH-PUTTY3-100,Grease,ModuleLED_Nano_7050,2.2,0.0137,0.1252,101.36,7.53,8.0,,"Shiu Li Technology Co., Ltd.",Thermal Silicone Putty 100 gram Cartridge
+PASS,100.0,0.1105,GR-0095,65-02-GEL75-0030,Grease,ModuleLED_Nano_7050,2.2,0.0146,0.1252,101.4,10.24,7.5,,Parker Chomerics,Thermal Silicone Gel 30cc Syringe
+PASS,100.0,0.0776,GR-0096,A16872-02,Grease,ModuleLED_Nano_7050,2.2,0.0475,0.1252,103.01,4.2,2.3,,Laird Technologies - Thermal Materials,Thermal Liquid Gap Filler 75cc Cartridge
+PASS,100.0,0.0939,GR-0097,8327GL3-180ML,Grease,ModuleLED_Nano_7050,2.2,0.0313,0.1252,102.21,1.77,3.5,,MG Chemicals,Thermal Non-Silicone Gel 180 ml Cartridge
+PASS,100.0,0.1069,GR-0098,S-PUTTY2-100-KIT,Grease,ModuleLED_Nano_7050,2.2,0.0183,0.1252,101.58,8.0,6.0,,"Shiu Li Technology Co., Ltd.",Thermal Silicone Putty 100 gram Cartridge
+PASS,100.0,0.1069,GR-0099,H-PUTTY2-100-KIT,Grease,ModuleLED_Nano_7050,2.2,0.0183,0.1252,101.58,8.27,6.0,,"Shiu Li Technology Co., Ltd.",Thermal Silicone Putty 100 gram Cartridge
+PASS,100.0,0.0409,GR-0100,G3380NA-120-KIT,Grease,ModuleLED_Nano_7050,2.2,0.0843,0.1252,104.78,6.9,1.3,,"Shiu Li Technology Co., Ltd.",Thermal Non-Silicone Grease 120 gram Cartridge
+PASS,100.0,0.0887,GR-0101,EPDM30-135,Grease,ModuleLED_Nano_7050,2.2,0.0365,0.1252,102.46,6.93,3.0,,"Shiu Li Technology Co., Ltd.","Thermal Liquid Gap Filler, 2 Part 50 ml Cartridges"
+PASS,100.0,0.0704,GR-0102,LF2000-00-00-30CC,Grease,ModuleLED_Nano_7050,2.2,0.0548,0.1252,103.35,11.74,2.0,,Bergquist Company,"Thermal Interface Products 1-Part, Liquid Formable Material, 30CC Cartridge, 2 W/m-K, Liqui-Form"
+PASS,100.0,0.0977,GR-0103,TG-N4000-55CC,Grease,ModuleLED_Nano_7050,2.2,0.0275,0.1252,102.03,6.41,4.0,,t-Global Technology,Thermal Non-Silicone Putty 55cc Syringe
+PASS,100.0,0.0955,GR-0104,A17170-02,Grease,ModuleLED_Nano_7050,2.2,0.0296,0.1252,102.13,1.97,3.7,,Laird Technologies - Thermal Materials,Thermal Silicone Compound 180cc Cartridge
+PASS,100.0,0.1095,GR-0105,TG-A7000-55CC,Grease,ModuleLED_Nano_7050,2.2,0.0157,0.1252,101.45,7.09,7.0,,t-Global Technology,Thermal Silicone Putty 50cc Syringe
+PASS,100.0,0.0886,GR-0106,GCS-NSP30-100ML,Grease,ModuleLED_Nano_7050,2.2,0.0366,0.1252,102.46,3.55,3.0,,European Thermodynamics Ltd,Thermal Non-Silicone Putty 100 ml Syringe
+PASS,100.0,0.1114,GR-0107,TG-N8000-30CC,Grease,ModuleLED_Nano_7050,2.2,0.0138,0.1252,101.36,11.91,8.0,,t-Global Technology,Thermal Non-Silicone Putty 30cc Syringe
+PASS,100.0,0.1032,GR-0108,N-PUTTY2-100-KIT,Grease,ModuleLED_Nano_7050,2.2,0.022,0.1252,101.75,9.15,5.0,,"Shiu Li Technology Co., Ltd.",Thermal Non-Silicone Putty 100 gram Cartridge
+PASS,100.0,0.0997,GR-0109,TC2-50G,Grease,ModuleLED_Nano_7050,2.2,0.0255,0.1252,101.93,18.81,4.3,,Chip Quik Inc.,Thermal Silicone Compound 50 gram Jar
+PASS,100.0,0.1069,GR-0110,8618-85ML,Grease,ModuleLED_Nano_7050,2.2,0.0183,0.1252,101.58,4.44,6.0,,MG Chemicals,Thermal Non-Silicone Grease 85 ml Syringe
+PASS,100.0,0.0752,GR-0111,EPDM20-135-KIT,Grease,ModuleLED_Nano_7050,2.2,0.0499,0.1252,103.12,7.61,2.2,,"Shiu Li Technology Co., Ltd.","Thermal Liquid Gap Filler, 2 Part 50 ml Cartridges"
+PASS,100.0,0.1105,GR-0112,GCS-NSP75 - 50ML,Grease,ModuleLED_Nano_7050,2.2,0.0147,0.1252,101.4,7.67,7.5,,European Thermodynamics Ltd,Thermal Non-Silicone Putty 50 ml Syringe
+PASS,100.0,0.1069,GR-0113,G3380D-100-KIT,Grease,ModuleLED_Nano_7050,2.2,0.0183,0.1252,101.58,9.69,6.0,,"Shiu Li Technology Co., Ltd.",Thermal Silicone Grease 100 gram Cartridge
+PASS,100.0,0.0938,GR-0114,2292097,Grease,ModuleLED_Nano_7050,2.2,0.0314,0.1252,102.21,8.0,3.5,,Bergquist,"Thermal Silicone Compound, 2 Part 50cc Cartridge"
+PASS,100.0,0.0946,GR-0115,PK404DM-150-KIT,Grease,ModuleLED_Nano_7050,2.2,0.0305,0.1252,102.18,6.76,3.6,,"Shiu Li Technology Co., Ltd.","Thermal Liquid Gap Filler, 2 Part 150 gram Cartridge"
+PASS,100.0,0.1142,GR-0116,S-PUTTY5-100,Grease,ModuleLED_Nano_7050,2.2,0.011,0.1252,101.22,13.64,10.0,,"Shiu Li Technology Co., Ltd.",Thermal Silicone Putty 30cc Tube
+PASS,100.0,0.1008,GR-0117,G3380NC-100-KIT,Grease,ModuleLED_Nano_7050,2.2,0.0243,0.1252,101.87,10.31,4.5,,"Shiu Li Technology Co., Ltd.",Thermal Non-Silicone Grease 100 gram Cartridge
+PASS,100.0,0.0702,GR-0118,D2000-140,Grease,ModuleLED_Nano_7050,2.2,0.055,0.1252,103.37,7.52,2.0,,"Shiu Li Technology Co., Ltd.","Thermal Silicone Grease, 2 Part 140 gram Cartridge"
+PASS,100.0,0.1115,GR-0119,SH-PUTTY3-100-KIT,Grease,ModuleLED_Nano_7050,2.2,0.0137,0.1252,101.36,10.68,8.0,,"Shiu Li Technology Co., Ltd.",Thermal Silicone Putty 100 gram Cartridge
+PASS,100.0,0.0938,GR-0120,2167388,Grease,ModuleLED_Nano_7050,2.2,0.0314,0.1252,102.21,8.81,3.5,,Bergquist,"Thermal Silicone Compound, 2 Part 50cc Cartridge"
+PASS,100.0,0.1081,GR-0121,A17262-01,Grease,ModuleLED_Nano_7050,2.2,0.0171,0.1252,101.52,8.82,6.4,,Laird Technologies - Thermal Materials,Thermal Silicone Gap Filler 50cc Cartridge
+PASS,100.0,0.1115,GR-0122,TG-N8000-55CC,Grease,ModuleLED_Nano_7050,2.2,0.0136,0.1252,101.36,8.37,8.0,,t-Global Technology,Thermal Non-Silicone Putty 55cc Syringe
+PASS,100.0,0.1032,GR-0123,PK605DM-160,Grease,ModuleLED_Nano_7050,2.2,0.0219,0.1252,101.76,7.52,5.0,,"Shiu Li Technology Co., Ltd.","Thermal Liquid Gap Filler, 2 Part 160 gram Cartridge"
+PASS,100.0,0.0937,GR-0124,2179547,Grease,ModuleLED_Nano_7050,2.2,0.0314,0.1252,102.21,9.68,3.5,,Bergquist,"Thermal Silicone Compound, 2 Part 50cc Cartridge"
+PASS,100.0,0.0886,GR-0125,EPDM30-135-KIT,Grease,ModuleLED_Nano_7050,2.2,0.0366,0.1252,102.46,9.74,3.0,,"Shiu Li Technology Co., Ltd.","Thermal Liquid Gap Filler, 2 Part 50 ml Cartridges"
+PASS,100.0,0.1142,GR-0126,S-PUTTY5-100-KIT,Grease,ModuleLED_Nano_7050,2.2,0.011,0.1252,101.23,16.28,10.0,,"Shiu Li Technology Co., Ltd.",Thermal Silicone Putty 30cc Tube
+PASS,100.0,0.0775,GR-0127,A16872-03,Grease,ModuleLED_Nano_7050,2.2,0.0477,0.1252,103.0,2.74,2.3,,Laird Technologies - Thermal Materials,Thermal Liquid Gap Filler 180cc Cartridge
+PASS,100.0,0.0517,GR-0128,65-00-GREASE15-0160,Grease,ModuleLED_Nano_7050,2.2,0.0735,0.1252,104.24,3.13,1.5,,Parker Chomerics,Thermal Silicone Grease 160cc Container
+PASS,100.0,0.107,GR-0129,TT3000-150,Grease,ModuleLED_Nano_7050,2.2,0.0182,0.1252,101.58,8.4,6.0,,"Shiu Li Technology Co., Ltd.",Thermal Silicone Grease 150 gram Cartridge
+PASS,100.0,0.1083,GR-0130,DP-100,Grease,ModuleLED_Nano_7050,2.2,0.0169,0.1252,101.51,17.06,6.5,,Taica,"Thermal Interface Products Thermal Conductive GEL, 6.5W/mK, 5.0kV/mm, 30ml Syringe, Lamda Gel DP"
+PASS,100.0,0.0938,GR-0131,LF3500-00-00-30CC,Grease,ModuleLED_Nano_7050,2.2,0.0314,0.1252,102.21,17.26,3.5,,Bergquist Company,"Thermal Interface Products 1-Part, Liquid Formable Material, 30CC Cartridge, 3.5 W/m-K, Liqui-Form"
+PASS,100.0,0.116,GR-0132,127-12-10,Grease,ModuleLED_Nano_7050,2.2,0.0091,0.1252,101.14,1307.58,12.0,,Wakefield Thermal Solutions,Thermal Non-Silicone Grease 1 gram Syringe
+PASS,100.0,0.116,GR-0133,127-12-10,Grease,ModuleLED_Nano_7050,2.2,0.0092,0.1252,101.14,52.3,12.0,,Wakefield Thermal,"Thermal Interface Products Thermal Grease, Extreme Performance, Non-Silicone, 12 W/m-K, 10cc Syringe"
+PASS,100.0,0.0886,GR-0134,65-00-GREASE30-0160,Grease,ModuleLED_Nano_7050,2.2,0.0366,0.1252,102.46,3.29,3.0,,Parker Chomerics,Thermal Silicone Grease 160cc Container
+PASS,100.0,0.1197,GR-0135,127-20-10,Grease,ModuleLED_Nano_7050,2.2,0.0055,0.1252,100.96,1362.89,20.0,,Wakefield Thermal Solutions,Thermal Non-Silicone Grease 1 gram Syringe
+PASS,100.0,0.1197,GR-0136,127-20-10,Grease,ModuleLED_Nano_7050,2.2,0.0055,0.1252,100.96,54.52,20.0,,Wakefield Thermal,"Thermal Interface Products Thermal Grease, Extreme Performance, Non-Silicone, 20 W/m-K, 10cc Syringe"
+PASS,100.0,0.1032,GR-0137,65-00-GREASE50-0160,Grease,ModuleLED_Nano_7050,2.2,0.022,0.1252,101.76,3.45,5.0,,Parker Chomerics,Thermal Silicone Grease 160cc Container
+FAIL,97.67,0.0341,GR-0138,A14855-02,Grease,ModuleLED_Nano_7050,2.2,0.0911,0.1252,105.12,1.38,1.2,,Laird Technologies,Thermal Interface Products Tgrease 1500 1kg 1.2 W/mK
+PASS,100.0,0.1131,GR-0139,A18560-09,Grease,ModuleLED_Nano_7050,2.2,0.012,0.1252,101.28,18.48,9.1,,Laird Technologies - Thermal Materials,Thermal Liquid Gap Filler 30cc Cartridge
+PASS,100.0,0.1049,GR-0140,A18835-02,Grease,ModuleLED_Nano_7050,2.2,0.0203,0.1252,101.68,2.79,5.4,,Laird Technologies - Thermal Materials,Thermal Liquid Gap Filler 200cc Cartridge
+PASS,100.0,0.0703,GR-0141,D2000-140-KIT,Grease,ModuleLED_Nano_7050,2.2,0.0549,0.1252,103.35,10.02,2.0,,"Shiu Li Technology Co., Ltd.","Thermal Silicone Grease, 2 Part 140 gram Cartridge"
+PASS,100.0,0.1095,GR-0142,65-00-GREASE70-0160,Grease,ModuleLED_Nano_7050,2.2,0.0157,0.1252,101.46,3.55,7.0,,Parker Chomerics,Thermal Silicone Grease 160cc Container
+PASS,100.0,0.0885,GR-0143,A10548-5,Grease,ModuleLED_Nano_7050,2.2,0.0367,0.1252,102.47,5.92,3.0,,Laird Technologies - Thermal Materials,Thermal Silicone Putty 100cc Jar
+PASS,100.0,0.1068,GR-0144,TLF6000HG-00-00-150CC,Grease,ModuleLED_Nano_7050,2.2,0.0184,0.1252,101.58,3.35,6.0,,Bergquist Company,"Thermal Interface Products Conductive, 1-Part, Liquid Formable, 180ml Cartridge, 6 W/m-K, Liqui-Form"
+PASS,100.0,0.0955,GR-0145,65-01-GEL37-0180,Grease,ModuleLED_Nano_7050,2.2,0.0297,0.1252,102.14,3.37,3.7,,Parker Chomerics,Thermal Silicone Gel 180cc Syringe
+PASS,100.0,0.0886,GR-0146,TGF3000SF-00-1500-200CC,Grease,ModuleLED_Nano_7050,2.2,0.0366,0.1252,102.46,3.03,3.0,,Bergquist Company,"Thermal Interface Products Gap Filler, 2-Part, Sil-Free, Room Temp Cure, 3W/mK, 200ml Cartridge, TGF3000SF"
+PASS,100.0,0.1032,GR-0147,PK605DM-160-KIT,Grease,ModuleLED_Nano_7050,2.2,0.022,0.1252,101.76,9.71,5.0,,"Shiu Li Technology Co., Ltd.","Thermal Liquid Gap Filler, 2 Part 160 gram Cartridge"
+PASS,100.0,0.1008,GR-0148,GF4500CVO-00-240-200CC,Grease,ModuleLED_Nano_7050,2.2,0.0244,0.1252,101.88,3.14,4.5,,Bergquist Company,"Thermal Interface Products Liquid Gap-Filling Material, 2-Part, 4.5W/m-K, 200ml Cartridge, TGF4500CVO"
+PASS,100.0,0.1069,GR-0149,2624519,Grease,ModuleLED_Nano_7050,2.2,0.0183,0.1252,101.58,4.26,6.0,,Bergquist,Thermal Silicone Gel 150cc Cartridge
+PASS,100.0,0.1008,GR-0150,GF4500CVO-00-240-400CC,Grease,ModuleLED_Nano_7050,2.2,0.0244,0.1252,101.88,1.72,4.5,,Bergquist Company,"Thermal Interface Products Liquid Gap-Filling Material, 2-Part, 4.5W/m-K, 400ml Cartridge, TGF4500CVO"
+PASS,100.0,0.0794,GR-0151,65-02-GEL20-0180,Grease,ModuleLED_Nano_7050,2.2,0.0457,0.1252,102.91,4.24,2.4,,Parker Chomerics,Thermal Gel Gap Filler 180cc Cartridge
+PASS,100.0,0.0885,GR-0152,X-PUTTY-900,Grease,ModuleLED_Nano_7050,2.2,0.0366,0.1252,102.47,2.15,3.0,,"Shiu Li Technology Co., Ltd.",Thermal Silicone Putty 900 gram Container
+PASS,100.0,0.0776,GR-0153,A16872-04,Grease,ModuleLED_Nano_7050,2.2,0.0476,0.1252,103.0,2.2,2.3,,Laird Technologies - Thermal Materials,Thermal Liquid Gap Filler 360cc Cartridge
+PASS,100.0,0.1041,GR-0154,65-02-GEL50VT-0180,Grease,ModuleLED_Nano_7050,2.2,0.021,0.1252,101.71,4.57,5.2,,Parker Chomerics,Thermal Silicone Gel 180cc Syringe
+PASS,100.0,0.1095,GR-0155,PK700DM-140,Grease,ModuleLED_Nano_7050,2.2,0.0157,0.1252,101.45,17.33,7.0,,"Shiu Li Technology Co., Ltd.","Thermal Liquid Gap Filler, 2 Part 50 ml, 400 ml Cartridges"
+PASS,100.0,0.1131,GR-0156,A18578-08,Grease,ModuleLED_Nano_7050,2.2,0.012,0.1252,101.28,11.71,9.1,,Laird Technologies - Thermal Materials,Thermal Liquid Gap Filler 75cc Cartridge
+PASS,100.0,0.1106,GR-0157,65-02-GEL75VT-0180,Grease,ModuleLED_Nano_7050,2.2,0.0145,0.1252,101.4,5.13,7.5,,Parker Chomerics,Thermal Silicone Gel 180cc Cartridge
+PASS,100.0,0.0522,GR-0158,A17064-00,Grease,ModuleLED_Nano_7050,2.2,0.0729,0.1252,104.22,2.41,1.5,,Laird Technologies - Thermal Materials,Thermal Phase Change Thermal Compound 1 kg Can
+PASS,100.0,0.1049,GR-0159,A18835-03,Grease,ModuleLED_Nano_7050,2.2,0.0203,0.1252,101.67,2.43,5.4,,Laird Technologies - Thermal Materials,Thermal Liquid Gap Filler 400cc Cartridge
+PASS,100.0,0.1095,GR-0160,PK700DM-140-KIT,Grease,ModuleLED_Nano_7050,2.2,0.0157,0.1252,101.45,20.13,7.0,,"Shiu Li Technology Co., Ltd.","Thermal Liquid Gap Filler, 2 Part 50 ml, 400 ml Cartridges"
+PASS,100.0,0.0978,GR-0161,GCS-040-GNS-1KG,Grease,ModuleLED_Nano_7050,2.2,0.0274,0.1252,102.02,2.55,4.0,,European Thermodynamics Ltd,Thermal Non-Silicone Grease 1 kg Container
+PASS,100.0,0.0946,GR-0162,GF3500S35-00-60-400CC,Grease,ModuleLED_Nano_7050,2.2,0.0305,0.1252,102.17,2.57,3.6,,Bergquist,"Thermal Liquid Gap Filler, 2 Part 400cc Cartridge"
+PASS,100.0,0.0884,GR-0163,TG4040-D-1000,Grease,ModuleLED_Nano_7050,2.2,0.0368,0.1252,102.47,2.71,3.0,,t-Global Technology,Thermal Silicone Putty 1 kg Container
+PASS,100.0,0.0938,GR-0164,S-PUTTY-950,Grease,ModuleLED_Nano_7050,2.2,0.0314,0.1252,102.21,2.97,3.5,,"Shiu Li Technology Co., Ltd.",Thermal Silicone Putty 950 gram Container
+PASS,100.0,0.0938,GR-0165,H-PUTTY-950,Grease,ModuleLED_Nano_7050,2.2,0.0314,0.1252,102.22,3.13,3.5,,"Shiu Li Technology Co., Ltd.",Thermal Silicone Putty 950 gram Container
+PASS,100.0,0.0887,GR-0166,TGF3000SF-00-1500-400CC,Grease,ModuleLED_Nano_7050,2.2,0.0365,0.1252,102.47,2.99,3.0,,Bergquist Company,"Thermal Interface Products Gap Filler, 2-Part, Sil-Free, Room Temp Cure, 3W/mK, 400ml Cartridge, TGF3000SF"
+PASS,100.0,0.0886,GR-0167,2761872,Grease,ModuleLED_Nano_7050,2.2,0.0366,0.1252,102.46,2.99,3.0,,Bergquist,"Thermal Liquid Gap Filler, 2 Part 400cc Cartridge"
+PASS,100.0,0.0963,GR-0168,A14259-01,Grease,ModuleLED_Nano_7050,2.2,0.0289,0.1252,102.09,3.01,3.8,,Laird Technologies,Thermal Interface Products Tgrease 2500 1kg 3.8W/mK Sil Free
+PASS,100.0,0.0795,GR-0169,65-00-GEL20-0300,Grease,ModuleLED_Nano_7050,2.2,0.0457,0.1252,102.9,4.06,2.4,,Parker Chomerics,Thermal Gel Gap Filler 300cc Cartridge
+PASS,100.0,0.1142,GR-0170,TLF10000L150CC,Grease,ModuleLED_Nano_7050,2.2,0.0109,0.1252,101.22,8.63,10.0,,Bergquist Company,"Thermal Interface Products Thermally Conductive Gel Interface Material, 10 W/m-K, 150ml Cartridge"
+PASS,100.0,0.1041,GR-0171,65-00-GEL50VT-0300,Grease,ModuleLED_Nano_7050,2.2,0.021,0.1252,101.71,4.55,5.2,,Parker Chomerics,Thermal Silicone Gel 300cc Syringe
+PASS,100.0,0.0977,GR-0172,TG-N4000-330CC,Grease,ModuleLED_Nano_7050,2.2,0.0275,0.1252,102.02,4.27,4.0,,t-Global Technology,Thermal Non-Silicone Putty 330cc Syringe
+PASS,100.0,0.0977,GR-0173,TG-N4000-1000,Grease,ModuleLED_Nano_7050,2.2,0.0275,0.1252,102.02,3.52,4.0,,t-Global Technology,Thermal Non-Silicone Putty 1 kg Jar
+PASS,100.0,0.1078,GR-0174,TG6060-D-1000,Grease,ModuleLED_Nano_7050,2.2,0.0173,0.1252,101.54,3.77,6.3,,t-Global Technology,Thermal Silicone Putty 1 kg Container
+PASS,100.0,0.113,GR-0175,TG-N909-1000,Grease,ModuleLED_Nano_7050,2.2,0.0122,0.1252,101.28,3.79,9.0,,t-Global Technology,Thermal Non-Silicone Grease 1 kg Container
+PASS,100.0,0.1095,GR-0176,TG-A7000-1000,Grease,ModuleLED_Nano_7050,2.2,0.0157,0.1252,101.45,3.9,7.0,,t-Global Technology,Thermal Silicone Putty 1 kg Container
+PASS,100.0,0.1095,GR-0177,TG-A7000-330CC,Grease,ModuleLED_Nano_7050,2.2,0.0157,0.1252,101.45,4.73,7.0,,t-Global Technology,Thermal Silicone Putty 330cc Syringe
+PASS,100.0,0.1069,GR-0178,S-PUTTY2-985,Grease,ModuleLED_Nano_7050,2.2,0.0183,0.1252,101.58,4.1,6.0,,"Shiu Li Technology Co., Ltd.",Thermal Silicone Putty 985 gram Container
+PASS,100.0,0.0873,GR-0179,TGF 2900LVO-00-400CC,Grease,ModuleLED_Nano_7050,2.2,0.0379,0.1252,102.52,4.11,2.9,,Bergquist Company,"Thermal Interface Products Gap Filler, 2-Part, 2.9 W/m-K, Silicone, 400CC Cartridge, IDH 2859942"
+PASS,100.0,0.107,GR-0180,H-PUTTY2-1000,Grease,ModuleLED_Nano_7050,2.2,0.0182,0.1252,101.58,4.24,6.0,,"Shiu Li Technology Co., Ltd.",Thermal Silicone Putty 1 kg Container
+PASS,100.0,0.1114,GR-0181,TG-N8000-330CC,Grease,ModuleLED_Nano_7050,2.2,0.0137,0.1252,101.36,5.37,8.0,,t-Global Technology,Thermal Non-Silicone Putty 330cc Syringe
+PASS,100.0,0.1115,GR-0182,TG-N8000-1000,Grease,ModuleLED_Nano_7050,2.2,0.0137,0.1252,101.36,4.43,8.0,,t-Global Technology,Thermal Non-Silicone Putty 1 kg Jar
+PASS,100.0,0.1131,GR-0183,A18578-02,Grease,ModuleLED_Nano_7050,2.2,0.0121,0.1252,101.28,10.68,9.1,,Laird Technologies - Thermal Materials,Thermal Liquid Gap Filler 180cc Cartridge
+PASS,100.0,0.0886,GR-0184,TGF3000SF-00-1500-1200CC,Grease,ModuleLED_Nano_7050,2.2,0.0365,0.1252,102.47,2.03,3.0,,Bergquist Company,"Thermal Interface Products Gap Filler, 2-Part, Sil-Free, Room Temp Cure, 3W/mK, 1200ml Cartridge, TGF3000SF"
+FAIL,97.27,0.0338,GR-0185,A14855-01,Grease,ModuleLED_Nano_7050,2.2,0.0913,0.1252,105.13,0.91,1.2,,Laird Technologies,Thermal Interface Products Tgrease 1500 7kg can 1.2 W/mK
+PASS,100.0,0.1009,GR-0186,GF4500CVO-00-240-1200CC,Grease,ModuleLED_Nano_7050,2.2,0.0243,0.1252,101.87,2.71,4.5,,Bergquist Company,"Thermal Interface Products Liquid Gap-Filling Material, 2-Part, 4.5W/m-K, 1200ml Cartridge, TGF4500CVO"
+PASS,100.0,0.1069,GR-0187,TLF6000HG-00-00-0.7G,Grease,ModuleLED_Nano_7050,2.2,0.0183,0.1252,101.58,15691.74,6.0,,Bergquist Company,"Thermal Interface Products Conductive, 1-Part, Liquid Formable, 1 Gallon Pail, 6 W/m-K, Liqui-Form"
+PASS,100.0,0.1069,GR-0188,2580287,Grease,ModuleLED_Nano_7050,2.2,0.0183,0.1252,101.58,26440.03,6.0,,Bergquist Company,"Thermal Interface Products Conductive, 1-Part, Liquid Formable, 1 Gallon, 6.0 W/m-K, Liqui-Form TLF 6000HG"
+PASS,100.0,0.1007,GR-0189,2956733,Grease,ModuleLED_Nano_7050,2.2,0.0244,0.1252,101.88,12474.78,4.5,,Bergquist Company,"Thermal Interface Products Liquid Gap-Filling Material, 2-Part, 4.5W/m-K, 5 Gallon Hobbock/Pail, TGF4500CVO"
+PASS,100.0,0.1008,GR-0190,GF4500CVO-00-240-6G,Grease,ModuleLED_Nano_7050,2.2,0.0244,0.1252,101.88,10395.65,4.5,,Bergquist Company,"Thermal Interface Products Liquid Gap-Filling Material, 2-Part, 4.5W/m-K, 6 Gallon Pail Kit, TGF4500CVO"
+PASS,100.0,0.0939,GR-0191,LF3500-00-00-4.33G,Grease,ModuleLED_Nano_7050,2.2,0.0312,0.1252,102.21,16815.24,3.5,,Bergquist Company,"Thermal Interface Products 1-Part, Liquid Formable Material, 4.33 Gallon Pail, 3.5 W/m-K, Liqui-Form"
+FAIL,64.42,0.0033,OT-0001,9460TC-3ML,Other,ModuleLED_Nano_7050,2.2,0.1219,0.1252,105.33,32.15,0.8,,MG Chemicals,Thermal Epoxy Adhesive 3 ml Syringe
+PASS,100.0,0.0555,OT-0002,8329TCS-6ML,Other,ModuleLED_Nano_7050,2.2,0.0697,0.1252,103.34,22.09,1.4,,MG Chemicals,"Thermal Epoxy, 2 Part 6 ml Syringe"
+PASS,100.0,0.0168,OT-0003,8349TFM-25ML,Other,ModuleLED_Nano_7050,2.2,0.1083,0.1252,104.81,7.43,0.9,,MG Chemicals,"Thermal Epoxy, 2 Part 25 ml Syringe"
+PASS,100.0,0.0439,OT-0004,8329TFS-25ML,Other,ModuleLED_Nano_7050,2.2,0.0812,0.1252,103.78,7.53,1.2,,MG Chemicals,"Thermal Epoxy, 2 Part 25 ml Syringe"
+PASS,100.0,0.0168,OT-0005,8349TFM-50ML,Other,ModuleLED_Nano_7050,2.2,0.1084,0.1252,104.81,5.33,0.9,,MG Chemicals,"Thermal Epoxy, 2 Part 50 ml Cartridges"
+PASS,100.0,0.0438,OT-0006,8329TFS-50ML,Other,ModuleLED_Nano_7050,2.2,0.0814,0.1252,103.78,5.97,1.2,,MG Chemicals,"Thermal Epoxy, 2 Part 45 ml Cartridge"
+PASS,100.0,0.0555,OT-0007,8329TCS-50ML,Other,ModuleLED_Nano_7050,2.2,0.0696,0.1252,103.34,5.59,1.4,,MG Chemicals,"Thermal Epoxy, 2 Part 50 ml Jar"
+PASS,100.0,0.0169,OT-0008,8349TFM-45ML,Other,ModuleLED_Nano_7050,2.2,0.1082,0.1252,104.81,7.35,0.9,,MG Chemicals,"Thermal Epoxy, 2 Part 45 ml Jar"
+PASS,100.0,0.0973,OT-0009,TGF35-07870787-020,Other,ModuleLED_Nano_7050,2.2,0.0279,0.1252,101.75,27.66,3.5,,LeaderTech,Thermal Interface Products 3.5W/m-K 200*200*0.5 TGF35 Green
+PASS,100.0,0.0973,OT-0010,TGF35-07870787-039,Other,ModuleLED_Nano_7050,2.2,0.0279,0.1252,101.75,27.66,3.5,,LeaderTech,Thermal Interface Products 3.5W/m-K 200*200*1 TGF35 Green
+PASS,100.0,0.071,OT-0011,2193454,Other,ModuleLED_Nano_7050,2.2,0.0542,0.1252,102.75,9.02,1.8,,Bergquist,"Thermal Epoxy, 2 Part 50cc Cartridge"
+PASS,100.0,0.0862,OT-0012,EP770-1100,Other,ModuleLED_Nano_7050,2.2,0.039,0.1252,102.18,1.15,2.5,,"Shiu Li Technology Co., Ltd.","Thermal Epoxy, 2 Part 1 kg Can"
+PASS,100.0,0.0555,OT-0013,8329TCM-200ML,Other,ModuleLED_Nano_7050,2.2,0.0696,0.1252,103.34,2.44,1.4,,MG Chemicals,"Thermal Epoxy, 2 Part 200 ml Jar"
+PASS,100.0,0.0555,OT-0014,8329TCS-200ML,Other,ModuleLED_Nano_7050,2.2,0.0696,0.1252,103.34,2.44,1.4,,MG Chemicals,"Thermal Epoxy, 2 Part 200 ml Jar"
+PASS,100.0,0.071,OT-0015,2194122,Other,ModuleLED_Nano_7050,2.2,0.0542,0.1252,102.75,10.01,1.8,,Bergquist,"Thermal Epoxy, 2 Part 50cc Cartridge"
+PASS,100.0,0.0524,OT-0016,1188099,Other,ModuleLED_Nano_7050,2.2,0.0728,0.1252,103.46,1.07,1.34,,LOCTITE,"Thermal Epoxy, 2 Part (Order Catalyst Separately) 3 lb Container"
+PASS,100.0,0.1089,OT-0017,TGF60-07870787-039,Other,ModuleLED_Nano_7050,2.2,0.0163,0.1252,101.31,35.08,6.0,,LeaderTech,Thermal Interface Products 6W/m-K 200*200*1 TGF60 Gray
+PASS,100.0,0.0901,OT-0018,1188134,Other,ModuleLED_Nano_7050,2.2,0.0351,0.1252,102.03,1.57,2.78,,LOCTITE,"Thermal Epoxy, 2 Part (Order Catalyst Separately) 3 lb Container"
+PASS,100.0,0.1089,OT-0019,TGF60-07870787-020,Other,ModuleLED_Nano_7050,2.2,0.0162,0.1252,101.31,48.58,6.0,,LeaderTech,Thermal Interface Products 6W/m-K 200*200*0.5 TGF60 Gray
+PASS,100.0,0.0901,OT-0020,1188135,Other,ModuleLED_Nano_7050,2.2,0.0351,0.1252,102.03,0.47,2.78,,LOCTITE,"Thermal Epoxy, 2 Part (Order Catalyst Separately) 20 lb Container"
+PASS,100.0,0.0926,OT-0021,TGF3000SF-00-1500-7GAL,Other,ModuleLED_Nano_7050,2.2,0.0325,0.1252,101.93,12622.86,3.0,,Bergquist Company,"Thermal Interface Products Gap Filler, 2-Part, Sil-Free, Room Temp Cure, 3W/mK, 7 Gallon Pail, TGF3000SF"
+PASS,100.0,0.0471,TP-0001,TG-A1250-5-5-1.0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.078,0.1252,103.86,133.8,12.5,1.0,t-Global Technology,Thermal Pad Green 5.00mm x 5.00mm Square
+FAIL,0.0,-0.7649,TP-0002,TG-A2200-5-5-2.0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.89,0.1252,137.06,133.8,2.2,2.01,t-Global Technology,Thermal Pad Gray 5.00mm x 5.00mm Square Tacky - One Side
+FAIL,0.0,-0.0324,TP-0003,TG-A6200-7.2-6.3-1.0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1576,0.1252,107.1,73.74,6.2,1.0,t-Global Technology,Thermal Pad Blue 7.20mm x 6.30mm Rectangular Tacky - Both Sides
+FAIL,0.0,-0.318,TP-0004,TG-A2200-10-10-1.0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.4432,0.1252,118.75,33.45,2.2,1.0,t-Global Technology,Thermal Pad Gray 10.00mm x 10.00mm Square Tacky - One Side
+FAIL,96.55,0.0169,TP-0005,TG-A4500-10-10-0.5,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1083,0.1252,105.12,33.45,4.5,0.5,t-Global Technology,Thermal Pad Purple 10.00mm x 10.00mm Square Tacky - Both Sides
+FAIL,0.0,-0.0321,TP-0006,TG-A6200-5-5-1.0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1572,0.1252,107.11,133.8,6.2,1.0,t-Global Technology,Thermal Pad Blue 5.00mm x 5.00mm Square Tacky - Both Sides
+FAIL,0.0,-0.5395,TP-0007,TG-A2200-10-10-1.5,Thermal Pad,ModuleLED_Nano_7050,2.2,0.6647,0.1252,127.84,36.85,2.2,1.5,t-Global Technology,Thermal Pad Gray 10.00mm x 10.00mm Square Tacky - One Side
+PASS,100.0,0.0465,TP-0008,TG-A6200-10-10-0.5,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0787,0.1252,103.9,40.14,6.2,0.5,t-Global Technology,Thermal Pad Blue 10.00mm x 10.00mm Square Tacky - Both Sides
+FAIL,0.0,-0.766,TP-0009,TG-A2200-10-10-2.0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.8912,0.1252,136.92,43.54,2.2,2.01,t-Global Technology,Thermal Pad Gray 10.00mm x 10.00mm Square Tacky - One Side
+PASS,100.0,0.0787,TP-0010,TG-ALC-15-15-0.2-0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0464,0.1252,102.58,19.35,4.2,0.2,t-Global Technology,Thermal Pad Green 15.00mm x 15.00mm Square Tacky - Both Sides
+FAIL,0.0,-0.4349,TP-0011,TG-A3500-10-10-2.0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.5601,0.1252,123.46,43.54,3.5,2.01,t-Global Technology,Thermal Pad Yellow 10.00mm x 10.00mm Square Tacky - Both Sides
+FAIL,0.0,-0.0373,TP-0012,SPK4-0.006-00-58,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1625,0.1252,107.31,19.36,0.9,0.15,Bergquist,Thermal Pad Gray 19.05mm x 12.70mm Rectangular
+PASS,100.0,0.1148,TP-0013,T62-1-15-15-0.16,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0104,0.1252,101.12,20.81,15.0,0.16,t-Global Technology,Thermal Pad Black 15.00mm x 15.00mm Square Adhesive - One Side
+FAIL,0.0,-0.049,TP-0014,DC0011/08-TG-A373F-0.25-2A,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1742,0.1252,107.78,20.76,1.4,0.25,t-Global Technology,Thermal Pad Yellow 19.05mm x 12.70mm Rectangular Adhesive - Both Sides
+PASS,100.0,0.0619,TP-0015,Q3-0.005-00-104,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0633,0.1252,103.28,11.06,2.0,0.13,Bergquist,Thermal Pad Black 25.40mm x 19.05mm Rectangular
+FAIL,0.0,-0.1909,TP-0016,TG-A6200-10-5-2.0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.316,0.1252,113.54,107.04,6.2,2.01,t-Global Technology,Thermal Pad Blue 10.00mm x 5.00mm Rectangular Tacky - Both Sides
+PASS,100.0,0.0618,TP-0017,Q3-0.005-00-51,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0634,0.1252,103.27,22.86,2.0,0.13,Bergquist,Thermal Pad Black 17.45mm x 14.27mm Rectangular
+FAIL,0.0,-0.712,TP-0018,TG-A3500-10-10-3.0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.8371,0.1252,134.74,60.21,3.5,3.0,t-Global Technology,Thermal Pad Yellow 10.00mm x 10.00mm Square Tacky - Both Sides
+FAIL,0.0,-0.0318,TP-0019,TG-A6200-10-10-1.0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.157,0.1252,107.08,60.21,6.2,1.0,t-Global Technology,Thermal Pad Blue 10.00mm x 10.00mm Square Tacky - Both Sides
+FAIL,0.0,-0.0989,TP-0020,SP600-90,Thermal Pad,ModuleLED_Nano_7050,2.2,0.224,0.1252,109.82,16.29,1.0,0.23,Bergquist,Thermal Pad Green 21.84mm x 18.80mm Rectangular
+PASS,100.0,0.0862,TP-0021,TG-A1250-10-10-0.5,Thermal Pad,ModuleLED_Nano_7050,2.2,0.039,0.1252,102.28,66.9,12.5,0.5,t-Global Technology,Thermal Pad Green 10.00mm x 10.00mm Square
+FAIL,0.0,-0.3178,TP-0022,TG-A2200-15-15-1.0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.4429,0.1252,118.75,29.73,2.2,1.0,t-Global Technology,Thermal Pad Gray 15.00mm x 15.00mm Square Tacky - One Side
+FAIL,0.0,-0.3101,TP-0023,TG-A4500-10-10-2.0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.4353,0.1252,118.45,66.9,4.5,2.01,t-Global Technology,Thermal Pad Purple 10.00mm x 10.00mm Square Tacky - Both Sides
+FAIL,0.0,-0.1241,TP-0024,SP400-0.009-00-58,Thermal Pad,ModuleLED_Nano_7050,2.2,0.2493,0.1252,110.84,29.06,0.9,0.23,Bergquist,Thermal Pad Gray 19.05mm x 12.70mm Rectangular
+FAIL,0.0,-0.1238,TP-0025,SP400-0.009-00-54,Thermal Pad,ModuleLED_Nano_7050,2.2,0.249,0.1252,110.86,29.06,0.9,0.23,Bergquist,Thermal Pad Gray 19.05mm x 12.70mm Rectangular
+FAIL,0.0,-0.0697,TP-0026,SP400-0.007-00-54,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1949,0.1252,108.62,30.42,0.9,0.18,Bergquist,Thermal Pad Gray 19.05mm x 12.70mm Rectangular
+FAIL,0.0,-0.0321,TP-0027,TG-A6200-11-11-1.0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1573,0.1252,107.1,60.82,6.2,1.0,t-Global Technology,Thermal Pad Blue 11.00mm x 11.00mm Square Tacky - Both Sides
+FAIL,0.0,-0.9861,TP-0028,TG-A3500-10-10-4.0,Thermal Pad,ModuleLED_Nano_7050,2.2,1.1113,0.1252,145.97,73.59,3.5,3.99,t-Global Technology,Thermal Pad Yellow 10.00mm x 10.00mm Square Tacky - Both Sides
+FAIL,0.0,-0.1184,TP-0029,LI98-28-28-0.25,Thermal Pad,ModuleLED_Nano_7050,2.2,0.2436,0.1252,110.64,9.39,1.0,0.25,t-Global Technology,Thermal Pad White 28.00mm x 28.00mm Square Adhesive - Both Sides
+FAIL,0.0,-0.1185,TP-0030,TG-T1000-10-10-0.25-5PT,Thermal Pad,ModuleLED_Nano_7050,2.2,0.2437,0.1252,110.62,73.59,1.0,0.25,t-Global Technology,Thermal Pad White 10.00mm x 10.00mm Square Adhesive - Both Sides
+FAIL,0.0,-0.07,TP-0031,SP400-0.007-AC-54,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1952,0.1252,108.63,31.82,0.9,0.18,Bergquist,Thermal Pad Gray 19.05mm x 12.70mm Rectangular Adhesive - One Side
+FAIL,96.47,0.0168,TP-0032,TG-A9000-10-10-1.0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1084,0.1252,105.11,76.99,9.0,1.0,t-Global Technology,Thermal Pad Pink 10.00mm x 10.00mm Square
+FAIL,0.0,-0.0699,TP-0033,SP400-0.007-00-104,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1951,0.1252,108.64,17.29,0.9,0.18,Bergquist,Thermal Pad Gray 25.40mm x 19.05mm Rectangular
+PASS,100.0,0.1188,TP-0034,T62-30-30-0.13,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0063,0.1252,100.95,9.3,20.0,0.13,t-Global Technology,Thermal Pad Black 30.00mm x 30.00mm Square
+PASS,100.0,0.0465,TP-0035,TG-A6200-15-15-0.5,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0786,0.1252,103.89,37.19,6.2,0.5,t-Global Technology,Thermal Pad Blue 15.00mm x 15.00mm Square Tacky - Both Sides
+FAIL,0.0,-1.2668,TP-0036,TG-A3500-10-10-5.0,Thermal Pad,ModuleLED_Nano_7050,2.2,1.392,0.1252,157.42,86.97,3.5,5.0,t-Global Technology,Thermal Pad Yellow 10.00mm x 10.00mm Square Tacky - Both Sides
+FAIL,0.0,-0.1238,TP-0037,SP400-0.009-00-90,Thermal Pad,ModuleLED_Nano_7050,2.2,0.249,0.1252,110.84,22.01,0.9,0.23,Bergquist,Thermal Pad Gray 21.84mm x 18.80mm Rectangular
+FAIL,0.0,-0.111,TP-0038,TG-A6200-10-10-1.5,Thermal Pad,ModuleLED_Nano_7050,2.2,0.2362,0.1252,110.33,90.37,6.2,1.5,t-Global Technology,Thermal Pad Blue 10.00mm x 10.00mm Square Tacky - Both Sides
+FAIL,10.1,-0.0152,TP-0039,SP900S-0.009-AC-54,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1403,0.1252,106.4,40.12,1.6,0.23,Bergquist,Thermal Pad Pink 19.05mm x 12.70mm Rectangular Adhesive - One Side
+FAIL,10.51,-0.0148,TP-0040,SP900S-0.009-00-54,Thermal Pad,ModuleLED_Nano_7050,2.2,0.14,0.1252,106.4,40.12,1.6,0.23,Bergquist,Thermal Pad Pink 19.05mm x 12.70mm Rectangular
+FAIL,0.0,-0.1237,TP-0041,SP400-0.009-00-51,Thermal Pad,ModuleLED_Nano_7050,2.2,0.2488,0.1252,110.83,40.3,0.9,0.23,Bergquist,Thermal Pad Gray 17.45mm x 14.27mm Rectangular
+PASS,100.0,0.0472,TP-0042,TG-A1250-10-10-1.0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.078,0.1252,103.85,107.04,12.5,1.0,t-Global Technology,Thermal Pad Green 10.00mm x 10.00mm Square
+FAIL,0.0,-0.0453,TP-0043,HF115AC-0.0055-AC-54,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1704,0.1252,107.64,45.65,0.8,0.14,Bergquist,Thermal Pad Gray 19.05mm x 12.70mm Rectangular Adhesive - One Side
+FAIL,0.0,-0.0618,TP-0044,1009-54,Thermal Pad,ModuleLED_Nano_7050,2.2,0.187,0.1252,108.3,45.65,1.2,0.23,Bergquist,Thermal Pad Pink 19.05mm x 12.70mm Rectangular
+FAIL,89.88,0.0126,TP-0045,SPK10-0.006-00-54,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1125,0.1252,105.28,48.41,1.3,0.15,Bergquist,Thermal Pad Beige 19.05mm x 12.70mm Rectangular
+FAIL,10.32,-0.015,TP-0046,SP900S-0.009-00-90,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1402,0.1252,106.41,28.53,1.6,0.23,Bergquist,Thermal Pad Pink 21.84mm x 18.80mm Rectangular
+FAIL,10.14,-0.0148,TP-0047,SP900S-0.009-00-104,Thermal Pad,ModuleLED_Nano_7050,2.2,0.14,0.1252,106.4,24.89,1.6,0.23,Bergquist,Thermal Pad Pink 25.40mm x 19.05mm Rectangular
+FAIL,10.66,-0.0149,TP-0048,SP900S-0.009-AC-58,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1401,0.1252,106.41,52.54,1.6,0.23,Bergquist,Thermal Pad Pink 19.05mm x 12.70mm Rectangular Adhesive - One Side
+FAIL,0.0,-0.1994,TP-0049,2188938,Thermal Pad,ModuleLED_Nano_7050,2.2,0.3246,0.1252,113.95,52.28,0.9,0.3,Bergquist,"Thermal Pad Gray, Green 25.02mm x 11.00mm Round"
+PASS,100.0,0.0862,TP-0050,TG-A1250-15-15-0.5,Thermal Pad,ModuleLED_Nano_7050,2.2,0.039,0.1252,102.28,65.41,12.5,0.5,t-Global Technology,Thermal Pad Green 15.00mm x 15.00mm Square
+FAIL,0.0,-0.1058,TP-0051,CP23-TO220-21.5-11.4-5.8-0.45,Thermal Pad,ModuleLED_Nano_7050,2.2,0.2309,0.1252,110.12,65.51,1.9,0.45,t-Global Technology,Thermal Pad Gray 21.50mm x 11.40mm x 5.80mm Rectangular
+PASS,100.0,0.1146,TP-0052,THJP0603AST1,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0106,0.1252,101.13,13873.09,70.0,0.76,Vishay Dale Thin Film,Thermal Pad 1.55mm x 0.84mm Rectangular
+FAIL,0.0,-0.0374,TP-0053,53-77-9G,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1626,0.1252,107.32,79.73,0.9,0.15,"Boyd Laconia, LLC","Thermal Pad Gray, Green 18.42mm x 13.21mm Rectangular"
+FAIL,0.0,-0.1053,TP-0054,CP33-TO247-28.5-17.5-5.8-0.45,Thermal Pad,ModuleLED_Nano_7050,2.2,0.2304,0.1252,110.08,42.92,1.9,0.45,t-Global Technology,Thermal Pad Gray 28.50mm x 17.50mm x 5.80mm Rectangular
+FAIL,89.64,0.0127,TP-0055,SPK10-0.006-00-58,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1125,0.1252,105.28,92.65,1.3,0.15,Bergquist,Thermal Pad Beige 19.05mm x 12.70mm Rectangular
+PASS,100.0,0.0617,TP-0056,Q3-0.005-00-54,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0635,0.1252,103.27,94.02,2.0,0.13,Bergquist,Thermal Pad Black 19.05mm x 12.70mm Rectangular
+FAIL,0.0,-0.1999,TP-0057,SPT400-12-13.5-25,Thermal Pad,ModuleLED_Nano_7050,2.2,0.325,0.1252,113.93,69.32,0.9,0.3,Bergquist,"Thermal Pad Gray, Green 25.02mm x 13.50mm Round"
+PASS,100.0,0.0473,TP-0058,TG-A1250-15-15-1.0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0779,0.1252,103.86,104.07,12.5,1.0,t-Global Technology,Thermal Pad Green 15.00mm x 15.00mm Square
+FAIL,0.0,-0.1185,TP-0059,60-11-8302-1674,Thermal Pad,ModuleLED_Nano_7050,2.2,0.2437,0.1252,110.6,103.74,1.0,0.25,Parker Chomerics,Thermal Pad Blue 18.03mm x 12.70mm Rectangular
+FAIL,90.13,0.0125,TP-0060,SPK10-0.006-00-90,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1126,0.1252,105.27,58.66,1.3,0.15,Bergquist,Thermal Pad Beige 21.84mm x 18.80mm Rectangular
+FAIL,0.0,-0.167,TP-0061,175-6-220P,Thermal Pad,ModuleLED_Nano_7050,2.2,0.2922,0.1252,112.62,106.84,0.5,0.15,Wakefield Thermal Solutions,Thermal Pad Gray 18.00mm x 12.70mm Rectangular
+FAIL,89.94,0.0127,TP-0062,SPK10-0.006-00-104,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1124,0.1252,105.28,51.86,1.3,0.15,Bergquist,Thermal Pad Beige 25.40mm x 19.05mm Rectangular
+FAIL,0.0,-0.0374,TP-0063,53-77-4G,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1625,0.1252,107.32,107.84,0.9,0.15,"Boyd Laconia, LLC","Thermal Pad Gray, Green 19.05mm x 12.70mm Rectangular"
+PASS,100.0,0.1223,TP-0064,THJP0612AST1,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0029,0.1252,100.81,7889.05,259.0,0.76,Vishay Dale Thin Film,Thermal Pad 1.06mm x 3.20mm Rectangular
+FAIL,0.0,-0.0454,TP-0065,HF115AC-0.0055-AC-90,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1706,0.1252,107.65,66.04,0.8,0.14,Bergquist,Thermal Pad Gray 21.84mm x 18.79mm Rectangular Adhesive - One Side
+FAIL,0.0,-0.0372,TP-0066,53-77-4ACG,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1624,0.1252,107.3,116.14,0.9,0.15,"Boyd Laconia, LLC","Thermal Pad Gray, Green 19.05mm x 12.70mm Rectangular Adhesive - One Side"
+FAIL,2.54,-0.0214,TP-0067,173-7-240A,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1465,0.1252,106.65,125.51,1.2,0.18,Wakefield Thermal Solutions,Thermal Pad Gray 19.10mm x 12.70mm Rectangular Adhesive - One Side
+FAIL,0.0,-0.855,TP-0068,TG-APC93-20-20-2.0-0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.9801,0.1252,140.57,81.13,2.0,2.01,t-Global Technology,Thermal Pad Gray 20.00mm x 20.00mm Square
+FAIL,0.0,-0.7099,TP-0069,TG-A3500-25-25-3.0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.8351,0.1252,134.7,55.13,3.5,3.0,t-Global Technology,Thermal Pad Yellow 25.00mm x 25.00mm Square Tacky - Both Sides
+FAIL,0.0,-0.0372,TP-0070,53-77-9ACG,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1623,0.1252,107.31,142.97,0.9,0.15,"Boyd Laconia, LLC","Thermal Pad Gray, Green 18.42mm x 13.21mm Rectangular Adhesive - One Side"
+FAIL,0.0,-0.1911,TP-0071,TG-A6200-20-20-2.0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.3163,0.1252,113.58,101.2,6.2,2.01,t-Global Technology,Thermal Pad Blue 20.00mm x 20.00mm Square Tacky - Both Sides
+FAIL,0.0,-0.0993,TP-0072,SP600-104,Thermal Pad,ModuleLED_Nano_7050,2.2,0.2244,0.1252,109.84,89.87,1.0,0.23,Bergquist,Thermal Pad Green 25.40mm x 19.05mm Rectangular
+FAIL,0.0,-0.0316,TP-0073,TG-A1250-15-15-2.0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1567,0.1252,107.06,197.75,12.5,2.01,t-Global Technology,Thermal Pad Green 15.00mm x 15.00mm Square
+FAIL,98.88,0.0193,TP-0074,SP2000-0.015-00-104,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1059,0.1252,105.01,100.93,3.5,0.38,Bergquist,Thermal Pad White 25.40mm x 19.05mm Rectangular
+FAIL,0.0,-3.8303,TP-0075,TG-AH486-21-15-13.0-1A,Thermal Pad,ModuleLED_Nano_7050,2.2,3.9555,0.1252,262.15,161.6,3.2,13.0,t-Global Technology,Thermal Pad Gray 21.00mm x 15.00mm Rectangular Adhesive - One Side
+PASS,100.0,0.124,TP-0076,QB0603B25WYT,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0012,0.1252,100.74,45749.91,50.0,0.06,KYOCERA AVX,Thermal Pad 1.52mm x 0.76mm Rectangular
+PASS,100.0,0.0861,TP-0077,TG-A1250-30-30-0.5,Thermal Pad,ModuleLED_Nano_7050,2.2,0.039,0.1252,102.28,60.21,12.5,0.5,t-Global Technology,Thermal Pad Green 30.00mm x 30.00mm Square
+PASS,100.0,0.1223,TP-0078,THJP1225AST1,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0029,0.1252,100.81,2989.15,259.0,0.76,Vishay Dale Thin Film,Thermal Pad 3.20mm x 6.40mm Rectangular
+FAIL,0.0,-2.0105,TP-0079,TG-AH486-35-10-7.0-0,Thermal Pad,ModuleLED_Nano_7050,2.2,2.1357,0.1252,187.64,184.47,3.2,7.01,t-Global Technology,Thermal Pad Gray 35.00mm x 10.00mm Rectangular
+PASS,100.0,0.0618,TP-0080,HSP-2,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0634,0.1252,103.28,26.73,2.0,0.13,Sensata-Crydom,Thermal Pad Black 57.15mm x 44.45mm Rectangular Adhesive - One Side
+FAIL,0.0,-0.262,TP-0081,TG-A486G-20-20-2.5-0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.3871,0.1252,116.45,169.77,6.3,2.5,t-Global Technology,Thermal Pad Gray 20.00mm x 20.00mm Square Tacky - Both Sides
+PASS,100.0,0.113,TP-0082,407150015050,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0122,0.1252,101.19,325.6,400.0,5.0,Würth Elektronik,Thermal Pad Black 15.00mm x 15.00mm Square Adhesive - Both Sides
+PASS,100.0,0.1178,TP-0083,407150015030,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0073,0.1252,100.99,325.6,400.0,3.0,Würth Elektronik,Thermal Pad Black 15.00mm x 15.00mm Square Adhesive - Both Sides
+FAIL,0.0,-1.7005,TP-0084,TG-AH486-45-25-6.0-0,Thermal Pad,ModuleLED_Nano_7050,2.2,1.8257,0.1252,175.17,72.85,3.2,5.99,t-Global Technology,Thermal Pad Gray 45.00mm x 25.00mm Rectangular
+PASS,100.0,0.0764,TP-0085,407150015200,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0488,0.1252,102.68,367.22,400.0,19.99,Würth Elektronik,Thermal Pad Black 15.00mm x 15.00mm Square Adhesive - Both Sides
+PASS,100.0,0.1152,TP-0086,QB0805A40WYT,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0099,0.1252,101.1,32308.5,100.0,1.02,KYOCERA AVX,Thermal Pad 2.03mm x 1.27mm Rectangular
+PASS,100.0,0.1152,TP-0087,QB0805B40WYT,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0099,0.1252,101.1,32308.5,100.0,1.02,KYOCERA AVX,Thermal Pad 2.03mm x 1.27mm Rectangular
+FAIL,0.0,-2.6148,TP-0088,TG-AH486-25-25-9.0-0,Thermal Pad,ModuleLED_Nano_7050,2.2,2.74,0.1252,212.16,135.41,3.2,8.99,t-Global Technology,Thermal Pad Gray 25.00mm x 25.00mm Square
+PASS,100.0,0.1215,TP-0089,407150045015,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0037,0.1252,100.84,127.36,400.0,1.5,Würth Elektronik,Thermal Pad Black 45.00mm x 15.00mm Rectangular Adhesive - Both Sides
+PASS,100.0,0.0439,TP-0090,EAPUS SARCON GR-HM 10.8X10.8X0.5MM,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0812,0.1252,104.0,816.21,6.0,0.5,ADLINK Technology,"Thermal Interface Products Pad,Type=GR-Hm,Size=10.8x10.8x0.5mm,K=6W/mK,Color=Reddish Gray"
+FAIL,0.0,-1.499,TP-0091,EAPUS SARCON XR-Hl 16.5X7.5X2.0MM,Thermal Pad,ModuleLED_Nano_7050,2.2,1.6241,0.1252,166.9,769.31,1.2,2.0,ADLINK Technology,"Thermal Interface Products Pad,Type=XR-HL,Size=16.5x7.5x2.0mm,K=1.2W/mK,Color=Black"
+FAIL,0.0,-1.9058,TP-0092,EAPUS SARCON XR-Hl 20X10X2.5MM,Thermal Pad,ModuleLED_Nano_7050,2.2,2.0309,0.1252,183.5,476.01,1.2,2.5,ADLINK Technology,"Thermal Interface Products Pad,Type=XR-HL,Size=20x10x2.5mm,K=1.2W/mK,Color=Black"
+FAIL,0.0,-1.9033,TP-0093,EAPUS SARCON XR-Hl 35X11X2.5MM,Thermal Pad,ModuleLED_Nano_7050,2.2,2.0285,0.1252,183.41,247.28,1.2,2.5,ADLINK Technology,"Thermal Interface Products Pad,Type=XR-HL,Size=35x11x2.5mm,K=1.2W/mK,Color=Black"
+FAIL,0.0,-2.3139,TP-0094,EAPUS SARCON XR-Hl 12X14X3.0MM,Thermal Pad,ModuleLED_Nano_7050,2.2,2.4391,0.1252,200.13,566.68,1.2,3.0,ADLINK Technology,"Thermal Interface Products Pad,Type=XR-HL,Size=12x14x3.0mm,K=1.2W/mK,Color=Black"
+FAIL,7.21,-0.0173,TP-0095,60-11-5791-1671,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1424,0.1252,106.49,385.28,2.6,0.38,Parker Chomerics,Thermal Pad White 17.45mm x 14.28mm Rectangular
+FAIL,0.0,-0.0375,TP-0096,PL-05-3-254,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1627,0.1252,107.31,150.36,3.0,0.5,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 0.5mm Thickness, 3 W/m-K, 25.4x25.4mm, Green"
+FAIL,6.87,-0.0173,TP-0097,60-11-8302-1671,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1425,0.1252,106.49,425.12,2.6,0.38,Parker Chomerics,Thermal Pad White 18.03mm x 12.70mm Rectangular
+PASS,100.0,0.0862,TP-0098,TG-A1250-40-40-0.5,Thermal Pad,ModuleLED_Nano_7050,2.2,0.039,0.1252,102.28,61.68,12.5,0.5,t-Global Technology,Thermal Pad Green 40.00mm x 40.00mm Square
+PASS,100.0,0.0277,TP-0099,PL-05-5-254,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0975,0.1252,104.66,156.58,5.0,0.5,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 0.5mm Thickness, 5 W/m-K, 25.4x25.4mm, Gold"
+FAIL,0.0,-0.0372,TP-0100,PL-05-3-254-H,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1624,0.1252,107.31,157.1,3.0,0.5,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 0.5mm Thickness, 3 W/m-K, 25.4x25.4mm, Hyper Soft"
+PASS,100.0,0.0277,TP-0101,PL-05-5-254-H,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0975,0.1252,104.66,162.8,5.0,0.5,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 0.5mm Thickness, 5 W/m-K, 25.4x25.4mm, Hyper Soft"
+FAIL,0.0,-1.8241,TP-0102,PL-2-1-254,Thermal Pad,ModuleLED_Nano_7050,2.2,1.9492,0.1252,180.08,163.84,1.0,2.0,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 2mm Thickness, 1 W/m-K, 25.4x25.4mm, Grey"
+FAIL,0.0,-0.5238,TP-0103,PL-2-3-254,Thermal Pad,ModuleLED_Nano_7050,2.2,0.6489,0.1252,127.16,175.24,3.0,2.0,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 2mm Thickness, 3 W/m-K, 25.4x25.4mm, Green"
+FAIL,0.0,-0.5255,TP-0104,PL-2-3-254-H,Thermal Pad,ModuleLED_Nano_7050,2.2,0.6507,0.1252,127.12,181.99,3.0,2.0,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 2mm Thickness, 3 W/m-K, 25.4x25.4mm, Hyper Soft"
+FAIL,0.0,-0.0699,TP-0105,PL-1-5-254,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1951,0.1252,108.62,185.1,5.0,1.0,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 5 W/m-K, 25.4x25.4mm, Gold"
+FAIL,98.99,0.0192,TP-0106,SP2000-0.015-00-58,Thermal Pad,ModuleLED_Nano_7050,2.2,0.106,0.1252,105.0,529.55,3.5,0.38,Bergquist,Thermal Pad White 19.05mm x 12.70mm Rectangular
+FAIL,0.0,-1.268,TP-0107,TG-A3500-40-40-5.0,Thermal Pad,ModuleLED_Nano_7050,2.2,1.3932,0.1252,157.42,80.49,3.5,5.0,t-Global Technology,Thermal Pad Yellow 40.00mm x 40.00mm Square Tacky - Both Sides
+FAIL,0.0,-0.1795,TP-0108,TG-AH486-100-100-1.0-0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.3046,0.1252,113.09,15.86,3.2,1.0,t-Global Technology,Thermal Pad Gray 100.00mm x 100.00mm Square
+FAIL,0.0,-0.2652,TP-0109,PL-2-5-254-H,Thermal Pad,ModuleLED_Nano_7050,2.2,0.3904,0.1252,116.57,253.54,5.0,2.0,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 2mm Thickness, 5 W/m-K, 25.4x25.4mm, Hyper Soft"
+FAIL,0.0,-0.0318,TP-0110,TG-A1250-30-30-2.0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1569,0.1252,107.08,182.49,12.5,2.01,t-Global Technology,Thermal Pad Green 30.00mm x 30.00mm Square
+FAIL,0.0,-0.3621,TP-0111,PL-05-1-1016,Thermal Pad,ModuleLED_Nano_7050,2.2,0.4872,0.1252,120.54,16.79,1.0,0.5,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 0.5mm Thickness, 1 W/m-K, 101.6x101.6mm, Grey"
+FAIL,0.0,-0.1089,TP-0112,TG-A1250-25-25-3.0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.2341,0.1252,110.23,279.91,12.5,3.0,t-Global Technology,Thermal Pad Green 25.00mm x 25.00mm Square
+FAIL,0.0,-0.2651,TP-0113,PL-2-5-254,Thermal Pad,ModuleLED_Nano_7050,2.2,0.3903,0.1252,116.57,281.01,5.0,2.0,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 2mm Thickness, 5 W/m-K, 25.4x25.4mm, Gold"
+PASS,100.0,0.0977,TP-0114,TG-A1780-25-25-0.5,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0274,0.1252,101.81,294.36,17.8,0.5,t-Global Technology,Thermal Pad Gray 25.00mm x 25.00mm Square
+FAIL,0.0,-0.5237,TP-0115,PL-1-1.5-76X127-15,Thermal Pad,ModuleLED_Nano_7050,2.2,0.6489,0.1252,127.17,21.88,1.5,1.0,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 1.5 W/mK, 76.2x127mm, Grey"
+PASS,100.0,0.1251,TP-0116,4051100100017,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0,0.1252,100.69,22.41,1800.0,0.04,Würth Elektronik,Thermal Pad 100.00mm x 100.00mm Square Acrylic
+FAIL,79.08,0.0082,TP-0117,TG-A1250-40-40-1.5,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1169,0.1252,105.45,143.21,12.5,1.5,t-Global Technology,Thermal Pad Green 40.00mm x 40.00mm Square
+FAIL,0.0,-0.8483,TP-0118,PL-1-1-1016,Thermal Pad,ModuleLED_Nano_7050,2.2,0.9734,0.1252,140.47,22.42,1.0,1.0,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 1 W/m-K, 101.6x101.6mm, Grey"
+FAIL,0.0,-0.1674,TP-0119,COH-1706-200-05,Thermal Pad,ModuleLED_Nano_7050,2.2,0.2926,0.1252,112.62,5.81,1.7,0.51,Taica North America Corporation,Thermal Pad Gray 200.00mm x 200.00mm Square Tacky - Both Sides
+FAIL,0.0,-1.0943,TP-0120,SoftFlex-B016-20-01-0762-0762,Thermal Pad,ModuleLED_Nano_7050,2.2,1.2194,0.1252,150.32,44.07,1.6,2.0,Aavid,"Thermal Interface Products SoftFlex Pad, 1.6 W/mK Conductivity, 2mm Thick, 1-Side Adhesive, 76.2x76.2mm"
+PASS,100.0,0.0978,TP-0121,TG-A1780-30-30-0.5,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0274,0.1252,101.81,288.41,17.8,0.5,t-Global Technology,Thermal Pad Gray 30.00mm x 30.00mm Square
+PASS,100.0,0.0275,TP-0122,TG-A6200F-100-100-0.5,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0976,0.1252,104.67,28.2,5.0,0.5,t-Global Technology,Thermal Pad Blue 100.00mm x 100.00mm Square Tacky - One Side
+FAIL,98.88,0.0194,TP-0123,SP2000-0.015-00-54,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1058,0.1252,105.01,1349.4,3.5,0.38,Bergquist,Thermal Pad White 19.05mm x 12.70mm Rectangular
+PASS,100.0,0.0277,TP-0124,PL-05-5-1016,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0975,0.1252,104.67,31.79,5.0,0.5,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 0.5mm Thickness, 5 W/m-K, 101.6x101.6mm, Gold"
+FAIL,0.0,-1.1935,TP-0125,GP1500-0.080-02-0404,Thermal Pad,ModuleLED_Nano_7050,2.2,1.3187,0.1252,154.52,33.77,1.5,2.03,Bergquist,Thermal Pad Black 101.60mm x 101.60mm Square Tacky - Both Sides
+FAIL,0.0,-0.0373,TP-0126,PL-05-3-1016-H,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1624,0.1252,107.32,35.09,3.0,0.5,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 0.5mm Thick, 3 W/m-K, 101.6x101.6mm, Hyper Soft"
+FAIL,0.0,-0.8496,TP-0127,PLF-1-1-76X127-40,Thermal Pad,ModuleLED_Nano_7050,2.2,0.9747,0.1252,140.42,38.19,1.0,1.0,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone-Free, 1mm Thickness, 1 W/m-K, 76x127mm, White"
+FAIL,0.0,-0.2003,TP-0128,PL-1-3-76X127-30,Thermal Pad,ModuleLED_Nano_7050,2.2,0.3255,0.1252,113.92,39.27,3.0,1.0,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 3 W/m-K, 76.2x127mm, Blue"
+FAIL,0.0,-0.032,TP-0129,TG-A6200-100-100-1.0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1572,0.1252,107.1,39.0,6.2,1.0,t-Global Technology,Thermal Pad Blue 100.00mm x 100.00mm Square Tacky - Both Sides
+PASS,100.0,0.0978,TP-0130,TG-A1780-40-40-0.5,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0274,0.1252,101.81,247.32,17.8,0.5,t-Global Technology,Thermal Pad Gray 40.00mm x 40.00mm Square
+FAIL,0.0,-0.2062,TP-0131,GP1500-0.020-02-0404,Thermal Pad,ModuleLED_Nano_7050,2.2,0.3314,0.1252,114.19,40.18,1.5,0.51,Bergquist,Thermal Pad Black 101.60mm x 101.60mm Square Tacky - Both Sides
+FAIL,0.0,-0.2002,TP-0132,PL-1-3-1016-H,Thermal Pad,ModuleLED_Nano_7050,2.2,0.3253,0.1252,113.92,41.09,3.0,1.0,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 3 W/m-K, 101.6x101.6mm, Hyper Soft"
+FAIL,0.0,-1.8242,TP-0133,PL-2-1-1016,Thermal Pad,ModuleLED_Nano_7050,2.2,1.9494,0.1252,180.03,41.35,1.0,2.0,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 2mm Thickness, 1 W/m-K, 101.6x101.6mm, Grey"
+PASS,100.0,0.124,TP-0134,QB0603A25WYT,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0012,0.1252,100.74,370632.22,50.0,0.06,KYOCERA AVX,Thermal Pad 1.52mm x 0.76mm Rectangular
+PASS,100.0,0.0277,TP-0135,PL-05-5-1016-H,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0974,0.1252,104.66,43.52,5.0,0.5,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 0.5mm Thick, 5 W/m-K, 101.6x101.6mm, Hyper Soft"
+PASS,100.0,0.103,TP-0136,A18197-05,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0221,0.1252,101.6,8.71,5.3,0.12,Laird Technologies - Thermal Materials,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides
+FAIL,0.0,-0.0352,TP-0137,69-13-42348-T412,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1603,0.1252,107.21,615.67,1.4,0.23,Parker Chomerics,Thermal Pad Gray 28.00mm x 28.00mm Square Adhesive - Both Sides
+PASS,100.0,0.1188,TP-0138,T62-310-310-0.13,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0063,0.1252,100.95,5.25,20.0,0.13,t-Global Technology,Thermal Pad Black 310.00mm x 310.00mm Square
+PASS,100.0,0.0884,TP-0139,A18197-08,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0368,0.1252,102.19,9.86,5.3,0.2,Laird Technologies - Thermal Materials,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides
+PASS,100.0,0.0464,TP-0140,TG-A6200-150-150-0.5,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0787,0.1252,103.9,23.74,6.2,0.5,t-Global Technology,Thermal Pad Blue 150.00mm x 150.00mm Square Tacky - Both Sides
+PASS,100.0,0.0792,TP-0141,A18197-10,Thermal Pad,ModuleLED_Nano_7050,2.2,0.046,0.1252,102.56,10.66,5.3,0.25,Laird Technologies - Thermal Materials,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides
+FAIL,0.0,-0.8639,TP-0142,A17916-08,Thermal Pad,ModuleLED_Nano_7050,2.2,0.989,0.1252,141.02,10.67,2.0,2.03,Laird Technologies - Thermal Materials,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides
+FAIL,0.0,-0.033,TP-0143,BP100-0.005-00-1112,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1582,0.1252,107.13,6.65,0.8,0.13,Bergquist,Thermal Pad White 304.80mm x 279.40mm Rectangular Adhesive - Both Sides
+FAIL,0.0,-0.5251,TP-0144,PL-2-3-1016-H,Thermal Pad,ModuleLED_Nano_7050,2.2,0.6503,0.1252,127.18,57.1,3.0,2.0,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 2mm Thickness, 3 W/m-K, 101.6x101.6mm, Hyper Soft"
+PASS,100.0,0.1148,TP-0145,T62-1-310-310-0.16,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0104,0.1252,101.12,6.15,15.0,0.16,t-Global Technology,Thermal Pad Black 310.00mm x 310.00mm Square Adhesive - One Side
+FAIL,0.0,-0.0698,TP-0146,PL-1-5-76X127-60,Thermal Pad,ModuleLED_Nano_7050,2.2,0.195,0.1252,108.63,65.47,5.0,1.0,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 5 W/m-K, 76.2x127mm, Brown"
+FAIL,0.0,-0.5378,TP-0147,GP1500-0.040-02-0404,Thermal Pad,ModuleLED_Nano_7050,2.2,0.6629,0.1252,127.77,66.2,1.5,1.02,Bergquist,Thermal Pad Black 101.60mm x 101.60mm Square Tacky - Both Sides
+FAIL,0.0,-0.2,TP-0148,PLF-1-3-76X127-70,Thermal Pad,ModuleLED_Nano_7050,2.2,0.3251,0.1252,113.92,71.04,3.0,1.0,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone-Free, 1mm Thickness, 3 W/m-K, 76x127mm, White"
+FAIL,0.0,-0.0375,TP-0149,GT10D-300-300-0.25-1A,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1627,0.1252,107.31,7.83,1.5,0.25,t-Global Technology,Thermal Pad Pink 300.00mm x 300.00mm Square Adhesive - One Side
+FAIL,0.0,-0.0698,TP-0150,SF400-505005,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1949,0.1252,108.63,289.54,2.5,0.5,Same Sky (Formerly CUI Devices),Thermal Pad Gray 50.00mm x 50.00mm Square Tacky - Both Sides
+PASS,100.0,0.0497,TP-0151,A18197-16,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0754,0.1252,103.77,14.0,5.3,0.41,Laird Technologies - Thermal Materials,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides
+FAIL,0.0,-0.3712,TP-0152,GPVOUS-0.020-01-0816,Thermal Pad,ModuleLED_Nano_7050,2.2,0.4964,0.1252,120.98,8.95,1.0,0.51,Bergquist,Thermal Pad Pink 406.40mm x 203.20mm Rectangular Tacky - One Side
+FAIL,0.0,-0.7029,TP-0153,A17733-04,Thermal Pad,ModuleLED_Nano_7050,2.2,0.8281,0.1252,134.42,14.33,1.2,1.02,Laird Technologies - Thermal Materials,Thermal Pad Yellow 228.60mm x 228.60mm Square Adhesive - One Side
+FAIL,0.0,-0.0371,TP-0154,2191342,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1623,0.1252,107.32,8.43,0.9,0.15,Bergquist,Thermal Pad Gray 304.80mm x 292.10mm Rectangular
+PASS,100.0,0.0862,TP-0155,TG-A1250-125-125-0.5,Thermal Pad,ModuleLED_Nano_7050,2.2,0.039,0.1252,102.28,48.51,12.5,0.5,t-Global Technology,Thermal Pad Green 125.00mm x 125.00mm Square
+PASS,100.0,0.0731,TP-0156,A18172-16,Thermal Pad,ModuleLED_Nano_7050,2.2,0.052,0.1252,102.81,14.75,7.5,0.4,Laird Technologies - Thermal Materials,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides
+FAIL,0.0,-0.1189,TP-0157,69-12-42355-1674,Thermal Pad,ModuleLED_Nano_7050,2.2,0.2441,0.1252,110.63,18.99,1.0,0.25,Parker Chomerics,Thermal Pad Blue 203.20mm x 203.20mm Square Adhesive - One Side
+FAIL,0.0,-0.2672,TP-0158,TG-A6200-100-100-2.5,Thermal Pad,ModuleLED_Nano_7050,2.2,0.3923,0.1252,116.68,78.67,6.2,2.5,t-Global Technology,Thermal Pad Blue 100.00mm x 100.00mm Square Tacky - Both Sides
+FAIL,0.0,-0.0375,TP-0159,PL-1-6-76X127-60,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1626,0.1252,107.33,83.78,6.0,1.0,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 6 W/mK, 76.2x127mm, Grey"
+FAIL,0.0,-0.5372,TP-0160,GP1500-0.040-02-0816,Thermal Pad,ModuleLED_Nano_7050,2.2,0.6623,0.1252,127.61,9.85,1.5,1.02,Bergquist,Thermal Pad Black 406.40mm x 203.20mm Rectangular Tacky - Both Sides
+FAIL,0.0,-0.8693,TP-0161,GPVOUS-0.040-01-0816,Thermal Pad,ModuleLED_Nano_7050,2.2,0.9945,0.1252,141.13,10.0,1.0,1.02,Bergquist,Thermal Pad Pink 406.40mm x 203.20mm Rectangular Tacky - One Side
+PASS,100.0,0.1096,TP-0162,A18172-05,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0156,0.1252,101.33,16.03,7.5,0.12,Laird Technologies - Thermal Materials,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides
+FAIL,0.0,-0.0321,TP-0163,TG-A6200-150-150-1.0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1572,0.1252,107.11,37.27,6.2,1.0,t-Global Technology,Thermal Pad Blue 150.00mm x 150.00mm Square Tacky - Both Sides
+FAIL,0.0,-0.0405,TP-0164,A15993-00,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1656,0.1252,107.45,16.3,3.0,0.51,Laird Technologies - Thermal Materials,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides
+PASS,100.0,0.0927,TP-0165,A18172-10,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0325,0.1252,102.01,17.04,7.5,0.25,Laird Technologies - Thermal Materials,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides
+FAIL,0.0,-0.0699,TP-0166,PL-1-5-1016-H,Thermal Pad,ModuleLED_Nano_7050,2.2,0.195,0.1252,108.65,87.98,5.0,1.0,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 5 W/m-K, 101.6x101.6mm, Hyper Soft"
+PASS,100.0,0.0472,TP-0167,TG-A1250-100-100-1.0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.078,0.1252,103.87,92.89,12.5,1.0,t-Global Technology,Thermal Pad Green 100.00mm x 100.00mm Square
+FAIL,0.0,-0.0375,TP-0168,PLX-1-6-76X127-48,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1626,0.1252,107.31,97.73,6.0,1.0,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 6 W/mK, 76x127mm, Grey"
+FAIL,0.0,-0.2165,TP-0169,BP100-0.011-00-1010,Thermal Pad,ModuleLED_Nano_7050,2.2,0.3416,0.1252,114.59,14.71,0.8,0.28,Bergquist,Thermal Pad White 254.00mm x 254.00mm Square Adhesive - Both Sides
+FAIL,0.0,-0.0696,TP-0170,PL-1-5-1016,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1948,0.1252,108.62,94.2,5.0,1.0,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 5 W/m-K, 101.6x101.6mm, Gold"
+FAIL,0.0,-0.0673,TP-0171,PL-1-5-1016-H,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1925,0.1252,108.57,94.23,5.0,0.99,Wakefield Thermal Solutions,Thermal Pad Gold 101.60mm x 101.60mm Square Tacky - One Side
+FAIL,0.0,-0.2062,TP-0172,GP1500R-0.020-02-0816,Thermal Pad,ModuleLED_Nano_7050,2.2,0.3313,0.1252,114.18,12.05,1.5,0.51,Bergquist,Thermal Pad Black 406.40mm x 203.20mm Rectangular Tacky - Both Sides
+PASS,100.0,0.1251,TP-0173,4051210297017,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0,0.1252,100.69,15.99,1800.0,0.04,Würth Elektronik,Thermal Pad 297.00mm x 210.00mm Rectangular Acrylic
+FAIL,0.0,-0.1185,TP-0174,BP100-0.008-00-1010,Thermal Pad,ModuleLED_Nano_7050,2.2,0.2437,0.1252,110.61,15.64,0.8,0.2,Bergquist,Thermal Pad White 254.00mm x 254.00mm Square Adhesive - Both Sides
+FAIL,0.0,-1.3545,TP-0175,2191191,Thermal Pad,ModuleLED_Nano_7050,2.2,1.4797,0.1252,161.16,12.56,1.0,1.52,Bergquist,Thermal Pad Pink 406.40mm x 203.20mm Rectangular Tacky - One Side
+FAIL,0.0,-0.0348,TP-0176,69-13-42350-T412,Thermal Pad,ModuleLED_Nano_7050,2.2,0.16,0.1252,107.21,45.12,1.4,0.23,Parker Chomerics,Thermal Pad Gray 152.40mm x 152.40mm Square Adhesive - Both Sides
+FAIL,0.0,-0.0528,TP-0177,A14556-01,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1779,0.1252,107.93,20.11,2.8,0.51,Laird Technologies - Thermal Materials,Thermal Pad Blue 228.60mm x 228.60mm Square Tacky - Both Sides
+PASS,100.0,0.0259,TP-0178,A17690-02,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0993,0.1252,104.75,20.66,5.0,0.51,Laird Technologies - Thermal Materials,Thermal Pad Pink 228.60mm x 228.60mm Square Tacky - One Side
+FAIL,11.7,-0.014,TP-0179,PLX-1-7-76X127-68,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1392,0.1252,106.38,112.15,7.0,1.0,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 7 W/mK, 76x127mm, Grey"
+FAIL,89.69,0.0126,TP-0180,SPK10-0.006-00-11.512,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1126,0.1252,105.28,12.48,1.3,0.15,Bergquist,Thermal Pad Beige 304.80mm x 292.10mm Rectangular
+PASS,100.0,0.0256,TP-0181,A10464-07,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0996,0.1252,104.76,4.17,5.0,0.51,Laird Technologies - Thermal Materials,Thermal Pad Gray 609.60mm x 457.20mm Rectangular
+FAIL,0.0,-0.3132,TP-0182,COH-4065LVC-200-10,Thermal Pad,ModuleLED_Nano_7050,2.2,0.4384,0.1252,118.55,30.3,2.2,0.99,Taica North America Corporation,Thermal Pad Reddish Brown 200.00mm x 200.00mm Square Tacky - Both Sides
+FAIL,0.0,-1.1956,TP-0183,GP1500-0.080-02-0816,Thermal Pad,ModuleLED_Nano_7050,2.2,1.3207,0.1252,154.51,14.69,1.5,2.03,Bergquist,Thermal Pad Black 406.40mm x 203.20mm Rectangular Tacky - Both Sides
+FAIL,0.0,-0.5244,TP-0184,PLX-1-1.5-210X310-40,Thermal Pad,ModuleLED_Nano_7050,2.2,0.6495,0.1252,127.12,18.75,1.5,1.0,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 1.5 W/mK, 210x310mm, White"
+FAIL,0.0,-0.0295,TP-0185,TG-A486G-150-150-1.0-1A,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1547,0.1252,106.99,55.51,6.3,1.0,t-Global Technology,Thermal Pad Gray 150.00mm x 150.00mm Square Adhesive - One Side
+FAIL,10.41,-0.015,TP-0186,SP900S-0.009-AC-1212,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1402,0.1252,106.41,13.65,1.6,0.23,Bergquist,Thermal Pad Pink 304.80mm x 304.80mm Square Adhesive - One Side
+FAIL,1.5,-0.023,TP-0187,A17653-03,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1481,0.1252,106.73,25.85,5.0,0.76,Laird Technologies - Thermal Materials,Thermal Pad Pink 228.60mm x 228.60mm Square Tacky - Both Sides
+FAIL,0.0,-0.362,TP-0188,PLX-1-2-210X310-80,Thermal Pad,ModuleLED_Nano_7050,2.2,0.4872,0.1252,120.52,21.0,2.0,1.0,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 2 W/mK, 210x310mm, Grey"
+FAIL,63.8,0.0032,TP-0189,PL-1-8-76X127-50,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1219,0.1252,105.67,142.3,8.0,1.0,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 8 W/mK, 76.2x127mm, Grey"
+FAIL,0.0,-0.2646,TP-0190,PL-2-5-1016-H,Thermal Pad,ModuleLED_Nano_7050,2.2,0.3897,0.1252,116.55,137.65,5.0,2.0,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 2mm Thickness, 5 W/m-K, 101.6x101.6mm, Hyper Soft"
+FAIL,90.16,0.0127,TP-0191,2165804,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1125,0.1252,105.27,16.64,1.3,0.15,Bergquist,Thermal Pad Beige 304.80mm x 292.10mm Rectangular Adhesive - One Side
+FAIL,11.99,-0.014,TP-0192,5549S-05,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1392,0.1252,106.36,45.7,3.5,0.5,3M,Thermal Pad Gray 210.00mm x 155.00mm Rectangular Tacky - One Side
+FAIL,0.0,-0.0404,TP-0193,61-02-0909-G579,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1656,0.1252,107.44,28.89,3.0,0.51,Parker Chomerics,Thermal Pad Pink 228.60mm x 228.60mm Square
+PASS,100.0,0.0965,TP-0194,A18330-04,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0287,0.1252,101.86,158.24,34.0,1.0,Laird Technologies - Thermal Materials,Thermal Pad Gray 127.00mm x 76.00mm Rectangular
+FAIL,64.26,0.0034,TP-0195,PLX-1-8-76x127-40,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1218,0.1252,105.66,163.37,8.0,1.0,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 8 W/mK, 76x127mm, Grey"
+FAIL,0.0,-0.3648,TP-0196,TG-APC94-150-150-2.0-0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.49,0.1252,120.63,71.08,4.0,2.01,t-Global Technology,Thermal Pad Red 150.00mm x 150.00mm Square
+FAIL,0.0,-3.9977,TP-0197,A15340-01,Thermal Pad,ModuleLED_Nano_7050,2.2,4.1228,0.1252,268.63,31.27,1.2,5.08,Laird Technologies - Thermal Materials,Thermal Pad Green 228.60mm x 228.60mm Square
+FAIL,93.27,0.0144,TP-0198,A10832-02,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1108,0.1252,105.2,31.86,2.2,0.25,Laird Technologies - Thermal Materials,Thermal Pad Yellow 228.60mm x 228.60mm Square Tacky - Both Sides
+FAIL,0.0,-1.9387,TP-0199,GP1500-0.125-02-0816,Thermal Pad,ModuleLED_Nano_7050,2.2,2.0638,0.1252,184.72,20.41,1.5,3.18,Bergquist,Thermal Pad Black 406.40mm x 203.20mm Rectangular Tacky - Both Sides
+PASS,100.0,0.0259,TP-0200,A10464-10,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0993,0.1252,104.74,6.06,5.0,0.51,Laird Technologies - Thermal Materials,Thermal Pad Gray 609.60mm x 457.20mm Rectangular Adhesive - One Side
+FAIL,0.0,-1.8331,TP-0201,5583S 210 MM X 300 MM X 2.0 MM,Thermal Pad,ModuleLED_Nano_7050,2.2,1.9582,0.1252,180.4,27.48,1.0,2.01,3M,Thermal Pad White 300.00mm x 210.00mm Rectangular Tacky - One Side
+PASS,100.0,0.0764,TP-0202,A18213-02,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0488,0.1252,102.68,33.08,10.0,0.5,Laird Technologies - Thermal Materials,Thermal Pad Gray 229.00mm x 229.00mm Square
+PASS,100.0,0.0579,TP-0203,TG-A1450-100-100-1.0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0672,0.1252,103.43,175.38,14.5,1.0,t-Global Technology,Thermal Pad Red 100.00mm x 100.00mm Square
+FAIL,0.0,-0.0737,TP-0204,A17653-04,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1989,0.1252,108.8,33.8,5.0,1.02,Laird Technologies - Thermal Materials,Thermal Pad Pink 228.60mm x 228.60mm Square Tacky - Both Sides
+FAIL,0.0,-0.0318,TP-0205,TG-A1250-100-100-2.0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.157,0.1252,107.08,176.71,12.5,2.01,t-Global Technology,Thermal Pad Green 100.00mm x 100.00mm Square
+PASS,100.0,0.0846,TP-0206,A10092-01,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0406,0.1252,102.35,42.98,6.0,0.25,Laird Technologies - Thermal Materials,Thermal Pad Pink 203.20mm x 203.20mm Square
+PASS,100.0,0.1127,TP-0207,TGP 40000SF-0.020-00-0406,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0124,0.1252,101.2,74202.27,40.0,0.51,Bergquist Company,"Thermal Interface Products GAP PAD, Sil-Free, 40W/m-K, 4x6"" Sheet, 0.020"" Thickness, Thermexit, IDH 2972783"
+FAIL,0.0,-4.0063,TP-0208,A15340-03,Thermal Pad,ModuleLED_Nano_7050,2.2,4.1315,0.1252,268.68,34.17,1.2,5.08,Laird Technologies - Thermal Materials,Thermal Pad Green 228.60mm x 228.60mm Square Tacky - One Side
+FAIL,0.0,-0.0522,TP-0209,A16367-02,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1774,0.1252,107.92,36.57,2.8,0.51,Laird Technologies - Thermal Materials,Thermal Pad Pink 228.60mm x 215.90mm Rectangular Tacky - One Side
+FAIL,0.0,-0.0717,TP-0210,5519 210 MM X 155 MM X 1.0 MM,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1968,0.1252,108.73,56.45,4.9,0.99,3M,Thermal Pad Gray 210.00mm x 155.00mm Rectangular Tacky - Both Sides
+FAIL,0.0,-0.4266,TP-0211,GP1000SF-0.020-02-0816,Thermal Pad,ModuleLED_Nano_7050,2.2,0.5518,0.1252,123.19,22.44,0.9,0.51,Bergquist,Thermal Pad Green 406.40mm x 203.20mm Rectangular Tacky - Both Sides
+PASS,100.0,0.0952,TP-0212,TG-A1660-125-125-0.5,Thermal Pad,ModuleLED_Nano_7050,2.2,0.03,0.1252,101.91,121.49,16.6,0.51,t-Global Technology,Thermal Pad Gray 125.00mm x 125.00mm Square
+FAIL,0.0,-0.1855,TP-0213,TG-A486G-150-150-2.0-1A,Thermal Pad,ModuleLED_Nano_7050,2.2,0.3107,0.1252,113.32,84.71,6.3,2.01,t-Global Technology,Thermal Pad Gray 150.00mm x 150.00mm Square Adhesive - One Side
+FAIL,0.0,-0.0737,TP-0214,A17690-04,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1989,0.1252,108.82,36.98,5.0,1.02,Laird Technologies - Thermal Materials,Thermal Pad Pink 228.60mm x 228.60mm Square Tacky - One Side
+FAIL,0.0,-0.0405,TP-0215,62-02-0909-A579,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1657,0.1252,107.45,37.77,3.0,0.51,Parker Chomerics,Thermal Pad Pink 228.60mm x 228.60mm Square Adhesive - One Side
+PASS,100.0,0.0755,TP-0216,A18238-02,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0497,0.1252,102.72,38.05,10.0,0.51,Laird Technologies - Thermal Materials,Thermal Pad Gray 229.00mm x 229.00mm Square Tacky - One Side
+PASS,100.0,0.0471,TP-0217,TG-A1250-150-150-1.0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0781,0.1252,103.87,88.75,12.5,1.0,t-Global Technology,Thermal Pad Green 150.00mm x 150.00mm Square
+PASS,100.0,0.0277,TP-0218,PL-1-10-76X127-55,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0975,0.1252,104.67,207.32,10.0,1.0,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 10 W/mK, 76.2x127mm, Grey"
+FAIL,0.0,-2.3492,TP-0219,GPVOUS-0.100-01-0816,Thermal Pad,ModuleLED_Nano_7050,2.2,2.4744,0.1252,201.43,24.38,1.0,2.54,Bergquist,Thermal Pad Pink 406.40mm x 203.20mm Rectangular Tacky - One Side
+FAIL,0.0,-0.186,TP-0220,5516-10,Thermal Pad,ModuleLED_Nano_7050,2.2,0.3112,0.1252,113.36,27.39,3.1,0.99,3M,Thermal Pad Gray 320.00mm x 230.00mm Rectangular Tacky - Both Sides
+FAIL,0.0,-0.1862,TP-0221,COH-3114LVC-200-10,Thermal Pad,ModuleLED_Nano_7050,2.2,0.3114,0.1252,113.35,50.91,3.1,0.99,Taica North America Corporation,Thermal Pad Gray 200.00mm x 200.00mm Square Tacky - Both Sides
+FAIL,0.0,-0.0404,TP-0222,GPHC3.0-0.020-02-0816,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1656,0.1252,107.43,25.23,3.0,0.51,Bergquist,Thermal Pad Blue 406.40mm x 203.20mm Rectangular Tacky - Both Sides
+FAIL,0.0,-0.7658,TP-0223,COH-4065LVC-200-20,Thermal Pad,ModuleLED_Nano_7050,2.2,0.8909,0.1252,136.95,53.13,2.2,2.01,Taica North America Corporation,Thermal Pad Reddish Brown 200.00mm x 200.00mm Square Tacky - Both Sides
+PASS,100.0,0.0258,TP-0224,GP5000S35-0.020-02-0816,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0994,0.1252,104.74,25.77,5.0,0.51,Bergquist,Thermal Pad Green 406.40mm x 203.20mm Rectangular Tacky - Both Sides
+FAIL,0.0,-0.2061,TP-0225,A12618-01,Thermal Pad,ModuleLED_Nano_7050,2.2,0.3313,0.1252,114.19,41.43,3.0,1.02,Laird Technologies - Thermal Materials,Thermal Pad Blue-Violet 228.60mm x 228.60mm Square Tacky - Both Sides
+FAIL,0.0,-0.0699,TP-0226,TG-A1250-100-100-2.5,Thermal Pad,ModuleLED_Nano_7050,2.2,0.195,0.1252,108.64,217.59,12.5,2.5,t-Global Technology,Thermal Pad Green 100.00mm x 100.00mm Square
+FAIL,0.0,-0.2061,TP-0227,61-04-0909-G579,Thermal Pad,ModuleLED_Nano_7050,2.2,0.3312,0.1252,114.2,42.31,3.0,1.02,Parker Chomerics,Thermal Pad Pink 228.60mm x 228.60mm Square
+FAIL,0.0,-0.8697,TP-0228,61-04-0909-HCS10G,Thermal Pad,ModuleLED_Nano_7050,2.2,0.9948,0.1252,141.22,42.35,1.0,1.02,Parker Chomerics,Thermal Pad Orange 228.60mm x 228.60mm Square
+FAIL,0.0,-0.2064,TP-0229,A14412-01,Thermal Pad,ModuleLED_Nano_7050,2.2,0.3316,0.1252,114.17,42.55,3.0,1.02,Laird Technologies - Thermal Materials,Thermal Pad Blue-Violet 228.60mm x 228.60mm Square Tacky - One Side
+FAIL,0.0,-2.9729,TP-0230,2191193,Thermal Pad,ModuleLED_Nano_7050,2.2,3.098,0.1252,226.89,27.18,1.0,3.18,Bergquist,Thermal Pad Pink 406.40mm x 203.20mm Rectangular Tacky - One Side
+PASS,100.0,0.1127,TP-0231,TGP40000SF-0.020-01-0406-NA,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0124,0.1252,101.2,93881.76,40.0,0.51,Bergquist Company,"Thermal Interface Products GAP PAD, Sil-Free, 40W/m-K, 4 x 6"" Sheet, Tacky Pad, 0.020"" Thickness, Thermexit"
+PASS,100.0,0.0465,TP-0232,TG-A6200-310-310-0.5,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0786,0.1252,103.9,23.46,6.2,0.5,t-Global Technology,Thermal Pad Blue 310.00mm x 310.00mm Square Tacky - Both Sides
+FAIL,0.0,-0.1998,TP-0233,PLX-1-3-210X310-30,Thermal Pad,ModuleLED_Nano_7050,2.2,0.3249,0.1252,113.9,35.0,3.0,1.0,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 3 W/m-K, 210x310mm, Blue"
+PASS,100.0,0.0664,TP-0234,TG-A1660-100-100-1.0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0588,0.1252,103.08,240.34,16.6,1.0,t-Global Technology,Thermal Pad Gray 100.00mm x 100.00mm Square
+PASS,100.0,0.0423,TP-0235,A10080-01,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0829,0.1252,104.07,58.38,6.0,0.51,Laird Technologies - Thermal Materials,Thermal Pad Blue 203.20mm x 203.20mm Square
+PASS,100.0,0.0439,TP-0236,PL-1-12-76X127-75,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0813,0.1252,104.0,255.64,12.0,1.0,Wakefield Thermal Solutions,Thermal Pad Gray 127.00mm x 76.20mm Rectangular Tacky - One Side
+FAIL,0.0,-0.2062,TP-0237,62-04-0909-A579,Thermal Pad,ModuleLED_Nano_7050,2.2,0.3314,0.1252,114.22,48.16,3.0,1.02,Parker Chomerics,Thermal Pad Pink 228.60mm x 228.60mm Square Adhesive - One Side
+FAIL,0.0,-0.0916,TP-0238,TG-A4500-310-310-1.0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.2168,0.1252,109.52,26.2,4.5,1.0,t-Global Technology,Thermal Pad Purple 310.00mm x 310.00mm Square Tacky - Both Sides
+FAIL,0.0,-0.2747,TP-0239,5519 210 MM X 155 MM X 2.0 MM,Thermal Pad,ModuleLED_Nano_7050,2.2,0.3998,0.1252,116.97,78.16,4.9,2.01,3M,Thermal Pad Gray 210.00mm x 155.00mm Rectangular Tacky - Both Sides
+FAIL,0.0,-0.0404,TP-0240,A10538-17,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1656,0.1252,107.44,48.86,3.0,0.51,Laird Technologies - Thermal Materials,Thermal Pad White 228.60mm x 228.60mm Square Tacky - Both Sides
+FAIL,0.0,-0.1089,TP-0241,TG-A1250-100-100-3.0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.234,0.1252,110.22,258.03,12.5,3.0,t-Global Technology,Thermal Pad Green 100.00mm x 100.00mm Square
+PASS,100.0,0.0258,TP-0242,GPHC5.0-0.020-02-0816,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0994,0.1252,104.74,32.86,5.0,0.51,Bergquist,Thermal Pad Gray 406.40mm x 203.20mm Rectangular Tacky - Both Sides
+FAIL,0.0,-0.1712,TP-0243,A17690-06,Thermal Pad,ModuleLED_Nano_7050,2.2,0.2963,0.1252,112.77,53.1,5.0,1.52,Laird Technologies - Thermal Materials,Thermal Pad Pink 228.60mm x 228.60mm Square Tacky - One Side
+FAIL,0.0,-0.2876,TP-0244,A12619-01,Thermal Pad,ModuleLED_Nano_7050,2.2,0.4127,0.1252,117.51,54.66,3.0,1.27,Laird Technologies - Thermal Materials,Thermal Pad Blue-Violet 228.60mm x 228.60mm Square Tacky - Both Sides
+FAIL,79.55,0.0082,TP-0245,TG-A1250-150-150-1.5,Thermal Pad,ModuleLED_Nano_7050,2.2,0.117,0.1252,105.45,129.2,12.5,1.5,t-Global Technology,Thermal Pad Green 150.00mm x 150.00mm Square
+FAIL,0.0,-0.2931,TP-0246,5549S 210 MM X 155MM X 1.5MM,Thermal Pad,ModuleLED_Nano_7050,2.2,0.4183,0.1252,117.73,89.69,3.5,1.5,3M,Thermal Pad Gray 210.00mm x 155.00mm Rectangular Tacky - One Side
+FAIL,0.0,-0.6995,TP-0247,A16104-10,Thermal Pad,ModuleLED_Nano_7050,2.2,0.8246,0.1252,134.33,55.94,3.0,2.54,Laird Technologies - Thermal Materials,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides
+FAIL,0.0,-0.2219,TP-0248,A17653-07,Thermal Pad,ModuleLED_Nano_7050,2.2,0.3471,0.1252,114.83,56.36,5.0,1.78,Laird Technologies - Thermal Materials,Thermal Pad Pink 228.60mm x 228.60mm Square Tacky - Both Sides
+PASS,100.0,0.0439,TP-0249,PLX-1-12-76X127-58,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0813,0.1252,104.01,310.93,12.0,1.0,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 12 W/mK, 76x127mm, Grey"
+FAIL,64.55,0.0034,TP-0250,PLF-1-8-76X127-70,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1218,0.1252,105.66,311.81,8.0,1.0,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone-Free, 1mm Thickness, 8 W/mK, 76.2x127mm, Grey"
+FAIL,7.58,-0.0168,TP-0251,TGP7000ULM-0.040-02-0808,Thermal Pad,ModuleLED_Nano_7050,2.2,0.142,0.1252,106.46,74.44,7.0,1.02,Bergquist Company,"Thermal Interface Products GAP PAD, 7W/m-K, 8"" x 8"" Sheet, 0.040"" Thickness, TGP7000ULM, IDH 2261480"
+PASS,100.0,0.0981,TP-0252,TG-A1780-125-125-0.5,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0271,0.1252,101.8,198.9,18.0,0.5,t-Global Technology,Thermal Pad Gray 125.00mm x 125.00mm Square
+PASS,100.0,0.0862,TP-0253,TG-A1250-250-250-0.5,Thermal Pad,ModuleLED_Nano_7050,2.2,0.039,0.1252,102.28,49.93,12.5,0.5,t-Global Technology,Thermal Pad Green 250.00mm x 250.00mm Square
+FAIL,0.0,-0.3689,TP-0254,A12620-34,Thermal Pad,ModuleLED_Nano_7050,2.2,0.494,0.1252,120.83,59.93,3.0,1.52,Laird Technologies - Thermal Materials,Thermal Pad Blue-Violet 228.60mm x 228.60mm Square Tacky - One Side
+FAIL,0.0,-0.0404,TP-0255,A17883-04,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1655,0.1252,107.43,61.12,6.0,1.02,Laird Technologies - Thermal Materials,Thermal Pad Teal 228.60mm x 228.60mm Square
+PASS,100.0,0.0541,TP-0256,TGP7000ULM-0.020-02-0808,Thermal Pad,ModuleLED_Nano_7050,2.2,0.071,0.1252,103.59,81.03,7.0,0.51,Bergquist Company,"Thermal Interface Products GAP PAD, 7W/m-K, 8"" x 8"" Sheet, 0.020"" Thickness, TGP7000ULM, IDH 2563017"
+FAIL,20.74,-0.0098,TP-0257,TG-A1450-100-100-2.0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.135,0.1252,106.21,335.9,14.5,2.01,t-Global Technology,Thermal Pad Red 100.00mm x 100.00mm Square
+FAIL,0.0,-0.1711,TP-0258,GPHC5.0-0.060-02-0816,Thermal Pad,ModuleLED_Nano_7050,2.2,0.2962,0.1252,112.76,42.47,5.0,1.52,Bergquist,Thermal Pad Gray 406.40mm x 203.20mm Rectangular Tacky - Both Sides
+FAIL,0.0,-0.0319,TP-0259,TG-A6200-310-310-1.0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1571,0.1252,107.1,36.84,6.2,1.0,t-Global Technology,Thermal Pad Blue 310.00mm x 310.00mm Square Tacky - Both Sides
+PASS,100.0,0.0277,TP-0260,A18213-04,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0975,0.1252,104.67,68.55,10.0,1.0,Laird Technologies - Thermal Materials,Thermal Pad Gray 229.00mm x 229.00mm Square
+PASS,100.0,0.1096,TP-0261,A18171-05,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0156,0.1252,101.33,17.39,7.5,0.12,Laird Technologies - Thermal Materials,Thermal Pad Gray 457.20mm x 457.20mm Square Tacky - Both Sides
+FAIL,0.0,-0.3685,TP-0262,61-06-0909-G579,Thermal Pad,ModuleLED_Nano_7050,2.2,0.4936,0.1252,120.82,70.94,3.0,1.52,Parker Chomerics,Thermal Pad Pink 228.60mm x 228.60mm Square
+PASS,100.0,0.0991,TP-0263,A18171-08,Thermal Pad,ModuleLED_Nano_7050,2.2,0.026,0.1252,101.75,17.99,7.5,0.2,Laird Technologies - Thermal Materials,Thermal Pad Gray 457.20mm x 457.20mm Square Tacky - Both Sides
+FAIL,0.0,-0.0316,TP-0264,TG-A1250-150-150-2.0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1567,0.1252,107.08,168.82,12.5,2.01,t-Global Technology,Thermal Pad Green 150.00mm x 150.00mm Square
+FAIL,0.0,-0.0699,TP-0265,PLX-1-5-210X310-40,Thermal Pad,ModuleLED_Nano_7050,2.2,0.195,0.1252,108.65,58.8,5.0,1.0,Wakefield Thermal,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 5 W/m-K, 210x310mm, Grey"
+FAIL,0.0,-0.1219,TP-0266,61-06-1015-PAD60,Thermal Pad,ModuleLED_Nano_7050,2.2,0.2471,0.1252,110.73,40.12,6.0,1.52,Parker Chomerics,Thermal Pad Green 381.00mm x 254.00mm Rectangular
+FAIL,0.0,-0.091,TP-0267,COH-4000LVC-400-05,Thermal Pad,ModuleLED_Nano_7050,2.2,0.2162,0.1252,109.49,24.51,2.3,0.51,Taica North America Corporation,Thermal Pad Gray 400.00mm x 400.00mm Square Tacky - Both Sides
+FAIL,0.0,-0.1217,TP-0268,A17883-06,Thermal Pad,ModuleLED_Nano_7050,2.2,0.2469,0.1252,110.74,75.74,6.0,1.52,Laird Technologies - Thermal Materials,Thermal Pad Teal 228.60mm x 228.60mm Square
+FAIL,0.0,-0.3689,TP-0269,62-06-0909-A579,Thermal Pad,ModuleLED_Nano_7050,2.2,0.494,0.1252,120.77,77.26,3.0,1.52,Parker Chomerics,Thermal Pad Pink 228.60mm x 228.60mm Square Adhesive - One Side
+FAIL,0.0,-0.0557,TP-0270,A11809-02,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1808,0.1252,108.07,19.41,0.7,0.13,Laird Technologies - Thermal Materials,Thermal Pad Yellow 457.20mm x 457.20mm Square Tacky - Both Sides
+PASS,100.0,0.0927,TP-0271,A18171-10,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0325,0.1252,102.02,19.59,7.5,0.25,Laird Technologies - Thermal Materials,Thermal Pad Gray 457.20mm x 457.20mm Square Tacky - Both Sides
+FAIL,0.0,-0.2067,TP-0272,A10233-30,Thermal Pad,ModuleLED_Nano_7050,2.2,0.3319,0.1252,114.16,81.29,3.0,1.02,Laird Technologies - Thermal Materials,Thermal Pad White 228.60mm x 228.60mm Square Tacky - Both Sides
+FAIL,0.0,-0.4241,TP-0273,A17156-06,Thermal Pad,ModuleLED_Nano_7050,2.2,0.5492,0.1252,123.03,21.01,2.7,1.52,Laird Technologies - Thermal Materials,Thermal Pad Pink 457.20mm x 457.20mm Square Tacky - Both Sides
+FAIL,0.0,-0.5331,TP-0274,61-08-0909-G579,Thermal Pad,ModuleLED_Nano_7050,2.2,0.6583,0.1252,127.5,85.5,3.0,2.03,Parker Chomerics,Thermal Pad Pink 228.60mm x 228.60mm Square
+FAIL,0.0,-0.0405,TP-0275,TGP6000ULM-0.040-12-0816,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1657,0.1252,107.45,54.22,6.0,1.02,Bergquist Company,"Thermal Interface Products GAP PAD, 6W/m-K, 8"" x 16"" Sheet, 0.040"" Thickness, TGP6000ULM, IDH 2195666"
+PASS,100.0,0.0732,TP-0276,A18171-16,Thermal Pad,ModuleLED_Nano_7050,2.2,0.052,0.1252,102.81,21.48,7.5,0.4,Laird Technologies - Thermal Materials,Thermal Pad Gray 457.20mm x 457.20mm Square Tacky - Both Sides
+FAIL,70.82,0.0053,TP-0277,61-04-1015-PAD80G,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1198,0.1252,105.57,48.56,8.3,1.02,Parker Chomerics,Thermal Pad Dark Gray 381.00mm x 254.00mm Rectangular
+FAIL,0.0,-0.205,TP-0278,61-08-1015-PAD60,Thermal Pad,ModuleLED_Nano_7050,2.2,0.3302,0.1252,114.17,49.62,6.0,2.03,Parker Chomerics,Thermal Pad Green 381.00mm x 254.00mm Rectangular
+FAIL,0.0,-0.6992,TP-0279,A12624-01,Thermal Pad,ModuleLED_Nano_7050,2.2,0.8244,0.1252,134.27,92.08,3.0,2.54,Laird Technologies - Thermal Materials,Thermal Pad Blue-Violet 228.60mm x 228.60mm Square Tacky - Both Sides
+FAIL,3.01,-0.0211,TP-0280,A18213-06,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1462,0.1252,106.66,91.8,10.0,1.5,Laird Technologies - Thermal Materials,Thermal Pad Gray 229.00mm x 229.00mm Square
+FAIL,0.0,-0.0407,TP-0281,A12616-08,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1658,0.1252,107.45,23.67,3.0,0.51,Laird Technologies - Thermal Materials,Thermal Pad Blue-Violet 457.20mm x 457.20mm Square Tacky - Both Sides
+FAIL,92.75,0.0144,TP-0282,A10832-09,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1108,0.1252,105.21,23.79,2.2,0.25,Laird Technologies - Thermal Materials,Thermal Pad Yellow 457.20mm x 457.20mm Square Tacky - Both Sides
+FAIL,0.0,-0.1225,TP-0283,A15896-05,Thermal Pad,ModuleLED_Nano_7050,2.2,0.2477,0.1252,110.82,96.88,5.0,1.27,Laird Technologies - Thermal Materials,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides
+PASS,100.0,0.061,TP-0284,A15726-00,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0641,0.1252,103.31,24.32,3.8,0.25,Laird Technologies - Thermal Materials,Thermal Pad Gray 457.20mm x 457.20mm Square Tacky - Both Sides
+PASS,100.0,0.0915,TP-0285,TG-A1450-250-250-0.5,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0337,0.1252,102.06,82.36,14.5,0.5,t-Global Technology,Thermal Pad Red 250.00mm x 250.00mm Square
+FAIL,0.0,-0.0865,TP-0286,TGP7000ULM-0.060-02-0808,Thermal Pad,ModuleLED_Nano_7050,2.2,0.2117,0.1252,109.33,125.02,7.0,1.52,Bergquist Company,"Thermal Interface Products GAP PAD, 7W/m-K, 8"" x 8"" Sheet, 0.060"" Thickness, TGP7000ULM, IDH 2474875"
+FAIL,26.62,-0.0074,TP-0287,A17752-04,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1326,0.1252,106.1,98.92,7.5,1.02,Laird Technologies - Thermal Materials,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides
+FAIL,81.42,0.009,TP-0288,61-10-0808-T500,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1162,0.1252,105.43,126.07,2.1,0.25,Parker Chomerics,Thermal Pad Green 203.20mm x 203.20mm Square
+FAIL,0.0,-0.0532,TP-0289,61-06-1015-PAD80G,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1784,0.1252,107.95,53.86,8.3,1.52,Parker Chomerics,Thermal Pad Dark Gray 381.00mm x 254.00mm Rectangular
+FAIL,0.0,-0.7001,TP-0290,62-10-0909-A579,Thermal Pad,ModuleLED_Nano_7050,2.2,0.8253,0.1252,134.34,101.5,3.0,2.54,Parker Chomerics,Thermal Pad Pink 228.60mm x 228.60mm Square Adhesive - One Side
+FAIL,57.26,0.0016,TP-0291,SPA2000-0.015-00-1012-NA,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1236,0.1252,105.72,68.87,3.0,0.38,Bergquist,Thermal Pad White 304.80mm x 254.00mm Rectangular
+FAIL,26.56,-0.0074,TP-0292,A18444-04,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1326,0.1252,106.1,102.3,7.5,1.02,Laird Technologies - Thermal Materials,Thermal Pad Gray 228.60mm x 228.60mm Square
+FAIL,0.0,-0.9077,TP-0293,GPHC3.0-0.125-02-0816,Thermal Pad,ModuleLED_Nano_7050,2.2,1.0329,0.1252,142.77,64.91,3.0,3.18,Bergquist,Thermal Pad Blue 406.40mm x 203.20mm Rectangular Tacky - Both Sides
+PASS,100.0,0.0359,TP-0294,62-03-1015-PAD80A,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0893,0.1252,104.33,57.11,8.3,0.76,Parker Chomerics,Thermal Pad Dark Gray 381.00mm x 254.00mm Rectangular Adhesive - One Side
+FAIL,0.0,-0.2287,TP-0295,GPTGP7000ULM-0.100-02-0808,Thermal Pad,ModuleLED_Nano_7050,2.2,0.3539,0.1252,115.1,133.96,7.0,2.54,Bergquist,Thermal Pad Gray 203.20mm x 203.20mm Square Tacky - Both Sides
+FAIL,0.0,-0.6994,TP-0296,61-10-0909-G579,Thermal Pad,ModuleLED_Nano_7050,2.2,0.8245,0.1252,134.3,106.46,3.0,2.54,Parker Chomerics,Thermal Pad Pink 228.60mm x 228.60mm Square
+FAIL,71.18,0.0054,TP-0297,62-04-1015-PAD80A,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1198,0.1252,105.58,57.89,8.3,1.02,Parker Chomerics,Thermal Pad Dark Gray 381.00mm x 254.00mm Rectangular Adhesive - One Side
+PASS,100.0,0.1003,TP-0298,TGP 40000SF-0.040-00-0606,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0249,0.1252,101.71,158978.32,40.0,1.02,Bergquist Company,"Thermal Interface Products GAP PAD, Sil-Free, 40W/m-K, 6x6"" Sheet, 0.040"" Thickness, Thermexit, IDH 2972782"
+FAIL,0.0,-0.3687,TP-0299,A10235-31,Thermal Pad,ModuleLED_Nano_7050,2.2,0.4939,0.1252,120.81,111.51,3.0,1.52,Laird Technologies - Thermal Materials,Thermal Pad White 228.60mm x 228.60mm Square Tacky - Both Sides
+PASS,100.0,0.0424,TP-0300,TGP12000ULM-0.040-00-0808,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0828,0.1252,104.07,142.53,12.0,1.02,Bergquist Company,"Thermal Interface Products GAP PAD, 12W/m-K, Ultra-Low Modulus, 8""x8"" Sheet, 0.040"" Thickness, TGP12000ULM"
+PASS,100.0,0.0764,TP-0301,A18500-01,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0487,0.1252,102.68,31.82,5.0,0.25,Laird Technologies - Thermal Materials,Thermal Pad White 431.80mm x 431.80mm Rectangular
+FAIL,0.0,-0.0669,TP-0302,A18213-08,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1921,0.1252,108.52,114.73,10.2,2.01,Laird Technologies - Thermal Materials,Thermal Pad Gray 229.00mm x 229.00mm Square
+FAIL,0.0,-0.9073,TP-0303,GP3000S30-0.125-02-0816,Thermal Pad,ModuleLED_Nano_7050,2.2,1.0325,0.1252,142.72,73.13,3.0,3.18,Bergquist,Thermal Pad Blue 406.40mm x 203.20mm Rectangular Tacky - Both Sides
+FAIL,0.0,-0.0373,TP-0304,A17752-05,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1625,0.1252,107.32,115.75,7.5,1.25,Laird Technologies - Thermal Materials,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides
+FAIL,0.0,-0.3703,TP-0305,GPHC5.0-0.100-02-0816,Thermal Pad,ModuleLED_Nano_7050,2.2,0.4954,0.1252,120.84,73.31,5.0,2.54,Bergquist,Thermal Pad Gray 406.40mm x 203.20mm Rectangular Tacky - Both Sides
+FAIL,0.0,-0.1216,TP-0306,TGP6000ULM-0.060-12-0816,Thermal Pad,ModuleLED_Nano_7050,2.2,0.2468,0.1252,110.78,75.23,6.0,1.52,Bergquist Company,"Thermal Interface Products GAP PAD, 6W/m-K, 8"" x 16"" Sheet, 0.060"" Thickness, TGP6000ULM, IDH 2195667"
+FAIL,0.0,-0.1576,TP-0307,TGP7000ULM-0.080-02-0808,Thermal Pad,ModuleLED_Nano_7050,2.2,0.2828,0.1252,112.22,152.13,7.0,2.03,Bergquist Company,"Thermal Interface Products GAP PAD, 7W/m-K, 8"" x 8"" Sheet, 0.080"" Thickness, TGP7000ULM, IDH 2474885"
+PASS,100.0,0.1003,TP-0308,TGP40000SF-0.040-01-0606-NA,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0248,0.1252,101.71,174885.44,40.0,1.02,Bergquist Company,"Thermal Interface Products GAP PAD, Sil-Free, 40W/m-K, 6 x 6"" Sheet, Tacky Pad, 0.040"" Thickness, Thermexit"
+FAIL,0.0,-0.0737,TP-0309,A17536-04,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1988,0.1252,108.76,31.26,5.0,1.02,Laird Technologies - Thermal Materials,Thermal Pad Pink 457.20mm x 457.20mm Square Tacky - Both Sides
+FAIL,0.0,-0.5183,TP-0310,A17690-13,Thermal Pad,ModuleLED_Nano_7050,2.2,0.6435,0.1252,126.89,125.05,5.0,3.3,Laird Technologies - Thermal Materials,Thermal Pad Pink 228.60mm x 228.60mm Square Tacky - One Side
+PASS,100.0,0.0819,TP-0311,TG-A1780-150-150-0.8,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0433,0.1252,102.46,297.55,17.8,0.79,t-Global Technology,Thermal Pad Gray 150.00mm x 150.00mm Square
+FAIL,6.65,-0.0174,TP-0312,61-15-0808-1671,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1425,0.1252,106.5,163.25,2.6,0.38,Parker Chomerics,Thermal Pad White 203.20mm x 203.20mm Square
+FAIL,0.0,-0.1219,TP-0313,A12617-25,Thermal Pad,ModuleLED_Nano_7050,2.2,0.247,0.1252,110.76,32.91,3.0,0.76,Laird Technologies - Thermal Materials,Thermal Pad Blue-Violet 457.20mm x 457.20mm Square Tacky - Both Sides
+PASS,100.0,0.0513,TP-0314,SuperThermal-B132-10-02-1500-1500,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0738,0.1252,103.7,306.64,13.2,1.0,Aavid,"Thermal Interface Products SuperThermal Pad, 13.2 W/mK Conductivity, 1mm Thick, 2-Side Adhesive, 150x150mm"
+FAIL,0.0,-0.0698,TP-0315,A17752-06,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1949,0.1252,108.62,132.45,7.5,1.5,Laird Technologies - Thermal Materials,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides
+FAIL,6.88,-0.0173,TP-0316,62-15-0808-1671,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1424,0.1252,106.5,168.39,2.6,0.38,Parker Chomerics,Thermal Pad White 203.20mm x 203.20mm Square
+PASS,100.0,0.0958,TP-0317,TG-A1660-250-250-0.5,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0293,0.1252,101.89,112.34,16.6,0.5,t-Global Technology,Thermal Pad Gray 250.00mm x 250.00mm Square
+PASS,100.0,0.0881,TP-0318,TGP 40000SF-0.060-00-0606,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0371,0.1252,102.2,195875.18,40.0,1.52,Bergquist Company,"Thermal Interface Products GAP PAD, Sil-Free, 40W/m-K, 6x6"" Sheet, 0.060"" Thickness, Thermexit, IDH 2972780"
+FAIL,57.61,0.0015,TP-0319,TGP12000ULM-0.060-00-0808,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1236,0.1252,105.72,175.62,12.0,1.52,Bergquist Company,"Thermal Interface Products GAP PAD, 12W/m-K, Ultra-Low Modulus, 8""x8"" Sheet, 0.060"" Thickness, TGP12000ULM"
+FAIL,0.0,-0.5335,TP-0320,A10237-21,Thermal Pad,ModuleLED_Nano_7050,2.2,0.6587,0.1252,127.52,142.96,3.0,2.03,Laird Technologies - Thermal Materials,Thermal Pad White 228.60mm x 228.60mm Square Tacky - Both Sides
+FAIL,0.0,-0.1134,TP-0321,61-08-1015-PAD80G,Thermal Pad,ModuleLED_Nano_7050,2.2,0.2386,0.1252,110.4,78.1,8.3,2.03,Parker Chomerics,Thermal Pad Dark Gray 381.00mm x 254.00mm Rectangular
+PASS,100.0,0.0423,TP-0322,2722287,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0829,0.1252,104.07,186.02,12.0,1.02,Bergquist Company,"Thermal Interface Products GAP PAD, 12 W/m-K, Ultra-Low Modulus, 8"" x 8"" Sheet, 0.040"" Thickness"
+PASS,100.0,0.0881,TP-0323,TGP40000SF-0.060-01-0606-NA,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0371,0.1252,102.2,215470.9,40.0,1.52,Bergquist Company,"Thermal Interface Products GAP PAD, Sil-Free, 40W/m-K, 6 x 6"" Sheet, Tacky Pad, 0.060"" Thickness, Thermexit"
+FAIL,0.0,-0.2283,TP-0324,GP7000ULM-0.100-02-0808,Thermal Pad,ModuleLED_Nano_7050,2.2,0.3535,0.1252,115.11,190.29,7.0,2.54,Bergquist Company,"Thermal Interface Products GAP PAD, Silicone Thermal Interface, 7 W/m-K Thermal Conductivity, Ultra-Low Modulus, 8"" x 8"" Sheet, 0.100"" Thickness, GAP PAD TGP 7000ULM Series, IDH 2474876"
+FAIL,0.0,-0.101,TP-0325,A10833-06,Thermal Pad,ModuleLED_Nano_7050,2.2,0.2261,0.1252,109.88,38.32,2.2,0.51,Laird Technologies - Thermal Materials,Thermal Pad Yellow 457.20mm x 457.20mm Square Tacky - Both Sides
+FAIL,7.94,-0.0167,TP-0326,SP2000-0.020-00-1212,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1419,0.1252,106.46,87.36,3.5,0.51,Bergquist,Thermal Pad White 304.80mm x 304.80mm Square
+PASS,100.0,0.0472,TP-0327,TG-A1250-310-310-1.0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0779,0.1252,103.88,85.56,12.5,1.0,t-Global Technology,Thermal Pad Green 310.00mm x 310.00mm Square
+PASS,100.0,0.0704,TP-0328,TG-A1780-150-150-1.0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0547,0.1252,102.92,366.04,17.8,1.0,t-Global Technology,Thermal Pad Gray 150.00mm x 150.00mm Square
+PASS,100.0,0.0258,TP-0329,TGP10000ULM-0.040-02-0808,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0994,0.1252,104.74,200.96,10.0,1.02,Bergquist Company,"Thermal Interface Products GAP PAD, 10W/m-K, 8"" x 8"" Sheet, 0.040"" Thickness, TGP10000ULM, IDH 2591008"
+PASS,100.0,0.0758,TP-0330,TGP 40000SF-0.080-00-0606,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0493,0.1252,102.71,232994.75,40.0,2.03,Bergquist Company,"Thermal Interface Products GAP PAD, Sil-Free, 40W/m-K, 6x6"" Sheet, 0.080"" Thickness, Thermexit, IDH 2972781"
+FAIL,0.0,-0.1362,TP-0331,A17752-08,Thermal Pad,ModuleLED_Nano_7050,2.2,0.2614,0.1252,111.33,165.49,7.5,2.01,Laird Technologies - Thermal Materials,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides
+FAIL,0.0,-0.0399,TP-0332,TGP12000ULM-0.080-00-0808,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1651,0.1252,107.42,213.63,12.0,2.03,Bergquist Company,"Thermal Interface Products GAP PAD, 12W/m-K, Ultra-Low Modulus, 8""x8"" Sheet, 0.080"" Thickness, TGP12000ULM"
+PASS,100.0,0.0756,TP-0333,TGP40000SF-0.080-01-0606-NA,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0495,0.1252,102.71,253603.4,40.0,2.03,Bergquist Company,"Thermal Interface Products GAP PAD, Sil-Free, 40W/m-K, 6 x 6"" Sheet, Tacky Pad, 0.080"" Thickness, Thermexit"
+FAIL,0.0,-0.1134,TP-0334,62-08-1015-PAD80A,Thermal Pad,ModuleLED_Nano_7050,2.2,0.2386,0.1252,110.4,94.84,8.3,2.03,Parker Chomerics,Thermal Pad Dark Gray 381.00mm x 254.00mm Rectangular Adhesive - One Side
+FAIL,0.0,-0.1185,TP-0335,A18213-10,Thermal Pad,ModuleLED_Nano_7050,2.2,0.2437,0.1252,110.61,179.49,10.0,2.5,Laird Technologies - Thermal Materials,Thermal Pad Gray 229.00mm x 229.00mm Square
+FAIL,57.28,0.0016,TP-0336,2722288,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1235,0.1252,105.71,228.07,12.0,1.52,Bergquist Company,"Thermal Interface Products GAP PAD, 12 W/m-K, Ultra-Low Modulus, 8"" x 8"" Sheet, 0.060"" Thickness"
+FAIL,0.0,-0.3179,TP-0337,TGP7000ULM-0.125-02-0808,Thermal Pad,ModuleLED_Nano_7050,2.2,0.443,0.1252,118.74,233.28,7.0,3.18,Bergquist Company,"Thermal Interface Products GAP PAD, 7W/m-K, 8"" x 8"" Sheet, 0.125"" Thickness, TGP7000ULM, IDH 2474886"
+FAIL,0.0,-0.2063,TP-0338,GP3004SF-0.040-01-0918,Thermal Pad,ModuleLED_Nano_7050,2.2,0.3314,0.1252,114.18,98.35,3.0,1.02,Bergquist,Thermal Pad Gray 457.20mm x 228.60mm Rectangular Tacky - One Side
+PASS,100.0,0.0632,TP-0339,TGP 40000SF-0.100-00-0606,Thermal Pad,ModuleLED_Nano_7050,2.2,0.062,0.1252,103.21,287601.3,40.0,2.54,Bergquist Company,"Thermal Interface Products GAP PAD, Sil-Free, 40W/m-K, 6x6"" Sheet, 0.100"" Thickness, Thermexit, IDH 2964639"
+FAIL,0.0,-1.5248,TP-0340,A14428-01,Thermal Pad,ModuleLED_Nano_7050,2.2,1.65,0.1252,168.02,201.4,3.0,5.08,Laird Technologies - Thermal Materials,Thermal Pad Blue-Violet 228.60mm x 228.60mm Square Tacky - One Side
+FAIL,0.0,-0.2046,TP-0341,TGP6000ULM-0.080-12-0816,Thermal Pad,ModuleLED_Nano_7050,2.2,0.3298,0.1252,114.13,128.08,6.0,2.03,Bergquist Company,"Thermal Interface Products GAP PAD, 6W/m-K, 8"" x 16"" Sheet, 0.080"" Thickness, TGP6000ULM, IDH 2195669"
+FAIL,1.63,-0.023,TP-0342,TGP10000ULM-0.060-02-0808,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1481,0.1252,106.74,257.41,10.0,1.52,Bergquist Company,"Thermal Interface Products GAP PAD, 10W/m-K, 8"" x 8"" Sheet, 0.060"" Thickness, TGP10000ULM, IDH 2591009"
+PASS,100.0,0.0601,TP-0343,TGP40000SF-0.100-01-0606-NA,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0651,0.1252,103.34,316349.34,40.0,2.67,Bergquist Company,"Thermal Interface Products GAP PAD, Sil-Free, 40W/m-K, 6 x 6"" Sheet, Tacky Pad, 0.105"" Thickness, Thermexit"
+FAIL,0.0,-0.0398,TP-0344,2722289,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1649,0.1252,107.42,278.43,12.0,2.03,Bergquist Company,"Thermal Interface Products GAP PAD, 12 W/m-K, Ultra-Low Modulus, 8"" x 8"" Sheet, 0.080"" Thickness"
+PASS,100.0,0.0981,TP-0345,TG-A1780-250-250-0.5,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0271,0.1252,101.8,183.97,18.0,0.5,t-Global Technology,Thermal Pad Gray 250.00mm x 250.00mm Square
+PASS,100.0,0.043,TP-0346,TG-A1780-150-150-1.5,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0821,0.1252,104.04,533.9,17.8,1.5,t-Global Technology,Thermal Pad Gray 150.00mm x 150.00mm Square
+FAIL,0.0,-0.3913,TP-0347,2214846,Thermal Pad,ModuleLED_Nano_7050,2.2,0.5164,0.1252,121.73,147.17,6.0,3.18,Bergquist,Thermal Pad Gray 406.40mm x 203.20mm Rectangular Tacky - Both Sides
+PASS,100.0,0.0477,TP-0348,TGP 40000SF-0.125-00-0606,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0775,0.1252,103.86,344818.63,40.0,3.18,Bergquist Company,"Thermal Interface Products GAP PAD, Sil-Free, 40W/m-K, 6x6"" Sheet, 0.125"" Thickness, Thermexit, IDH 2964638"
+FAIL,0.0,-0.1967,TP-0349,TGF30SF-07870787-039,Thermal Pad,ModuleLED_Nano_7050,2.2,0.3218,0.1252,113.81,318.13,3.0,0.99,Leader Tech Inc.,Thermal Pad Gray 199.90mm x 199.90mm Square Tacky - Both Sides
+FAIL,0.0,-0.2872,TP-0350,TGP6000ULM-0.100-12-0816,Thermal Pad,ModuleLED_Nano_7050,2.2,0.4124,0.1252,117.48,157.23,6.0,2.54,Bergquist Company,"Thermal Interface Products GAP PAD, 6W/m-K, 8"" x 16"" Sheet, 0.100"" Thickness, TGP6000ULM, IDH 2196912"
+FAIL,0.0,-0.0728,TP-0351,TGP10000ULM-0.080-02-0808,Thermal Pad,ModuleLED_Nano_7050,2.2,0.198,0.1252,108.75,315.96,10.0,2.03,Bergquist Company,"Thermal Interface Products GAP PAD, 10W/m-K, 8"" x 8"" Sheet, 0.080"" Thickness, TGP10000ULM, IDH 2591010"
+PASS,100.0,0.0476,TP-0352,TGP40000SF-0.125-01-0606-NA,Thermal Pad,ModuleLED_Nano_7050,2.2,0.0775,0.1252,103.85,379290.26,40.0,3.18,Bergquist Company,"Thermal Interface Products GAP PAD, Sil-Free, 40W/m-K, 6 x 6"" Sheet, Tacky Pad, 0.125"" Thickness, Thermexit"
+FAIL,0.0,-0.0814,TP-0353,2722290,Thermal Pad,ModuleLED_Nano_7050,2.2,0.2066,0.1252,109.1,342.0,12.0,2.54,Bergquist Company,"Thermal Interface Products GAP PAD, 12 W/m-K, Ultra-Low Modulus, 8"" x 8"" Sheet, 0.100"" Thickness"
+FAIL,0.0,-0.0316,TP-0354,TG-A1250-310-310-2.0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1567,0.1252,107.08,162.72,12.5,2.01,t-Global Technology,Thermal Pad Green 310.00mm x 310.00mm Square
+FAIL,94.01,0.0149,TP-0355,TG-A1780-150-150-2.0,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1102,0.1252,105.18,698.59,17.8,2.01,t-Global Technology,Thermal Pad Gray 150.00mm x 150.00mm Square
+FAIL,0.0,-0.3923,TP-0356,TGP6000ULM-0.125-12-0816,Thermal Pad,ModuleLED_Nano_7050,2.2,0.5174,0.1252,121.78,200.59,6.0,3.18,Bergquist Company,"Thermal Interface Products GAP PAD, 6W/m-K, 8"" x 16"" Sheet, 0.125"" Thickness, TGP6000ULM, IDH 2214846"
+FAIL,0.0,-0.1225,TP-0357,2722291,Thermal Pad,ModuleLED_Nano_7050,2.2,0.2477,0.1252,110.76,435.61,12.0,3.05,Bergquist Company,"Thermal Interface Products GAP PAD, 12 W/m-K, Ultra-Low Modulus, 8"" x 8"" Sheet, 0.120"" Thickness"
+FAIL,0.0,-0.0812,TP-0358,TGP12000ULM-0.100-00-0808,Thermal Pad,ModuleLED_Nano_7050,2.2,0.2064,0.1252,109.08,442.31,12.0,2.54,Bergquist Company,"Thermal Interface Products GAP PAD, 12W/m-K, Ultra-Low Modulus, 8""x8"" Sheet, 0.100"" Thickness, TGP12000ULM"
+FAIL,0.0,-0.1335,TP-0359,TGP12000ULM-0.125-00-0808,Thermal Pad,ModuleLED_Nano_7050,2.2,0.2586,0.1252,111.23,453.59,12.0,3.18,Bergquist Company,"Thermal Interface Products GAP PAD, 12W/m-K, Ultra-Low Modulus, 8""x8"" Sheet, 0.125"" Thickness, TGP12000ULM"
+FAIL,27.25,-0.0074,TP-0360,A17751-04,Thermal Pad,ModuleLED_Nano_7050,2.2,0.1325,0.1252,106.09,91.47,7.5,1.02,Laird Technologies - Thermal Materials,Thermal Pad Gray 457.20mm x 457.20mm Square Tacky - Both Sides
+FAIL,0.0,-0.1639,TP-0361,2722292,Thermal Pad,ModuleLED_Nano_7050,2.2,0.289,0.1252,112.47,471.75,12.0,3.56,Bergquist Company,"Thermal Interface Products GAP PAD, 12 W/m-K, Ultra-Low Modulus, 8"" x 8"" Sheet, 0.140"" Thickness"
+FAIL,0.0,-0.1223,TP-0362,TGP10000ULM-0.100-02-0808,Thermal Pad,ModuleLED_Nano_7050,2.2,0.2474,0.1252,110.76,478.76,10.0,2.54,Bergquist Company,"Thermal Interface Products GAP PAD, 10W/m-K, 8"" x 8"" Sheet, 0.100"" Thickness, TGP10000ULM, IDH 2599712"
+FAIL,0.0,-0.1848,TP-0363,TGP10000ULM-0.125-02-0808,Thermal Pad,ModuleLED_Nano_7050,2.2,0.31,0.1252,113.33,527.01,10.0,3.18,Bergquist Company,"Thermal Interface Products GAP PAD, 10W/m-K, 8"" x 8"" Sheet, 0.125"" Thickness, TGP10000ULM, IDH 2599713"
+FAIL,0.0,-0.2043,TP-0364,2722293,Thermal Pad,ModuleLED_Nano_7050,2.2,0.3294,0.1252,114.1,539.28,12.0,4.06,Bergquist Company,"Thermal Interface Products GAP PAD, 12 W/m-K, Ultra-Low Modulus, 8"" x 8"" Sheet, 0.160"" Thickness"
