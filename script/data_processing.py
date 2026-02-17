@@ -192,6 +192,10 @@ def clean_raw_data(df):
         return w, l
 
     mask_tp = df['type'].isin(['Thermal Pad'])
+    
+    df['width_mm'] = df['width_mm'].astype(object)
+    df['length_mm'] = df['length_mm'].astype(object)
+    
     res = df.loc[mask_tp].apply(process_row, axis=1, result_type='expand')   
 
     if not res.empty:
@@ -325,7 +329,7 @@ def clean_raw_data(df):
 
     # drop rows with NaN value in thermal_conductivity_wmk ccolumns
     df = df.dropna(subset=['thermal_conductivity_wmk'])
-    df.to_csv("cleanned_data.csv", index=False)
+    df.to_csv("data/processed/cleanned_data.csv", index=False)
     type_counts = df["type"].value_counts()
     print(type_counts)
 
@@ -419,6 +423,6 @@ if __name__ == "__main__":
     if os.path.exists(config_path):
         config = load_config(config_path)
         cost_df = feature_calculation(clean_df, config)
-        cost_df.to_csv("cost_data.csv", index=False)
+        cost_df.to_csv("data/processed/cost_data.csv", index=False)
     else:
         print(f"Can't find config file at {config_path}")
