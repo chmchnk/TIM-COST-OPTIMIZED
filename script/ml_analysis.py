@@ -48,7 +48,7 @@ def run_ml_analysis():
 
     if not dfs:
         print("Error: No simulation results found. Please run simulation.py first.")
-        return
+        return None
 
     df_all = pd.concat(dfs, ignore_index=True)
     print(f"Total Data Points: {len(df_all)}")
@@ -125,6 +125,8 @@ def run_ml_analysis():
     # Show Summary
     print("\n=== Recommendation Summary ===")
     print(df_all['recommendation_group'].value_counts())
+    
+    return df_final
 
 if __name__ == "__main__":
     run_ml_analysis()

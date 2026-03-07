@@ -1,577 +1,577 @@
 tim_id,type,manufacturer,mpn,description,thermal_conductivity_wmk,thickness_mm,width_mm,length_mm,price_thb,weight_g
-,Grease,SparkFun Electronics,09599,Thermal Silicone Compound 5 gram Syringe,1.17,,,,102.7,5.0
-,Grease,Chip Quik Inc.,TC3-1G,Thermal Silicone Compound 1 gram Syringe,8.5,,,,193.38,1.0
-,Grease,MG Chemicals,8615,Thermal Non-Silicone Grease 3.5 gram Syringe,3.0,,,,212.55,3.5
-,Grease,StarTech.com,SILVGREASE1,Thermal Silicone Compound 1.5 gram Syringe,1.93,,,,264.55,1.5
-,Grease,Chip Quik Inc.,TC1-10G,Thermal Silicone Compound 10 gram Syringe,0.67,,,,290.88,10.0
-,Grease,StarTech.com,HEATGREASE20,Thermal Silicone Compound 20 gram Tube,1.07,,,,301.93,20.0
-,Grease,MG Chemicals,8610-60G,Thermal Non-Silicone Compound 2 oz Tube,0.77,,,,371.93,56.7
-,Grease,Chip Quik,TC4-1G,Thermal Interface Products Heat Sink Thermal Compound - Deep-Space Liquid Metal 79 W/mK 1g/1cc Syringe,79.0,,,,377.98,1.0
-,Grease,Chip Quik Inc.,TC4-1G,"Thermal Thermal Compound, Liquid Metal 1 gram Syringe",79.0,,,,391.95,1.0
-,Grease,Chip Quik Inc.,TC1-20G,Thermal Silicone Compound 20 gram Syringe,0.67,,,,420.88,20.0
-,Grease,"Boyd Laconia, LLC",250G,Thermal Silicone Compound 2 oz Tube,0.76,,,,441.03,56.7
-,Grease,t-Global Technology,TG-N909-30,Thermal Non-Silicone Grease 30 gram Container,9.0,,,,481.65,30.0
-,Grease,Chip Quik Inc.,TC3-3.5G,Thermal Silicone Compound 3.5 gram Syringe,8.5,,,,485.88,3.5
-,Grease,Chemtronics,CW7270,Thermal Non-Silicone Grease 7 gram Syringe,0.71,,,,504.32,7.0
-,Grease,Parker Chomerics,65-00-GREASE15-0010,Thermal Silicone Grease 10cc Syringe,1.5,,,,552.5,25.0
-,Grease,Chip Quik,TC4-2G,Thermal Interface Products Heat Sink Thermal Compound - Deep-Space Liquid Metal 79 W/mK 2g/1cc Syringe,79.0,,,,568.1,2.0
-,Grease,Chip Quik Inc.,TC4-2G,"Thermal Thermal Compound, Liquid Metal 2 gram Syringe",79.0,,,,575.9,2.0
-,Grease,Parker Chomerics,65-00-GREASE30-0010,Thermal Silicone Grease 10cc Syringe,3.0,,,,581.1,25.0
-,Grease,Parker Chomerics,65-00-GREASE50-0010,Thermal Silicone Grease 10cc Jar,5.0,,,,610.03,25.0
-,Grease,Parker Chomerics,65-00-GREASE70-0010,Thermal Silicone Grease 10cc Syringe,7.0,,,,627.25,25.0
-,Grease,Parker Chomerics,65-00-CIP60-0045,"Thermal Silicone Compound, 2 Part 50cc Cartridge",6.0,,,,673.4,125.0
-,Grease,Chip Quik Inc.,TC2-10G,Thermal Silicone Compound 10 gram Syringe,4.3,,,,713.38,10.0
-,Grease,Chemtronics,CW7250,Thermal Non-Silicone Grease 3.4 gram Syringe,1.85,,,,729.95,3.4
-,Grease,Chip Quik Inc.,TC4-5G,"Thermal Thermal Compound, Liquid Metal 5 gram Syringe",79.0,,,,756.28,5.0
-,Grease,Chip Quik,TC4-5G,Thermal Interface Products Heat Sink Thermal Compound - Deep-Space Liquid Metal 79 W/mK 5g/1cc Syringe,79.0,,,,758.23,5.0
-,Grease,MG Chemicals,8617-85ML,Thermal Non-Silicone Grease 85 ml Tube,1.0,,,,819.87,212.5
-,Grease,Bergquist,GF1000-00-15-50CC,"Thermal Liquid Gap Filler, 2 Part 50cc Cartridge",1.0,,,,826.48,125.0
-,Grease,"Shiu Li Technology Co., Ltd.",X-PUTTY-100,Thermal Silicone Putty 100 gram Cartridge,3.0,,,,912.93,100.0
-,Grease,MG Chemicals,8327GF25-50CC,Thermal Silicone Gap Filler 50 ml Cartridges,2.5,,,,949.11,125.0
-,Grease,Parker Chomerics,65-00-GEL37-0010,Thermal Silicone Gel 10cc Syringe,3.7,,,,956.15,25.0
-,Grease,"Shiu Li Technology Co., Ltd.",PK223DM-110,"Thermal Liquid Gap Filler, 2 Part 110 gram Cartridge",2.0,,,,1008.15,110.0
-,Grease,StarTech.com,SILV5-THERMAL-PASTE,Thermal Silicone Compound 1.5 gram Syringe,3.2,,,,1018.08,1.5
-,Grease,Parker Chomerics,65-00-GEL35VT-0010,Thermal Silicone Gel 10cc Syringe,3.5,,,,1045.85,25.0
-,Grease,Chip Quik,TC4-10G,Thermal Interface Products Heat Sink Thermal Compound - Deep-Space Liquid Metal 79 W/mK 10g/3cc Syringe,79.0,,,,1075.1,10.0
-,Grease,Chip Quik Inc.,TC4-10G,"Thermal Thermal Compound, Liquid Metal 10 gram Syringe",79.0,,,,1110.2,10.0
-,Grease,Chemtronics,CT40-5,Thermal Silicone Compound 5 oz Tube,0.63,,,,1118.33,141.8
-,Grease,Bergquist Company,GF4500CVO-00-240-50CC,"Thermal Interface Products Liquid Gap-Filling Material, 2-Part, 4.5W/m-K, 50ml Cartridge, TGF4500CVO",4.5,,,,1121.9,125.0
-,Grease,Bergquist,GF1500-00-60-50CC,"Thermal Liquid Gap Filler, 2 Part 50cc Cartridge",1.8,,,,1129.05,125.0
-,Grease,"Shiu Li Technology Co., Ltd.",S-PUTTY-100,Thermal Silicone Putty 100 gram Cartridge,3.5,,,,1218.43,100.0
-,Grease,"Shiu Li Technology Co., Ltd.",N-PUTTY-100,Thermal Non-Silicone Putty 100 gram Cartridge,3.5,,,,1222.0,100.0
-,Grease,Chip Quik Inc.,TC3-10G,Thermal Silicone Compound 5cc Syringe,8.5,,,,1233.38,12.5
-,Grease,Parker Chomerics,65-00-GEL20-0010,Thermal Gel Gap Filler 10cc Syringe,2.4,,,,1274.33,25.0
-,Grease,"Shiu Li Technology Co., Ltd.",H-PUTTY-100,Thermal Silicone Putty 100 gram Cartridge,3.5,,,,1283.1,100.0
-,Grease,Wakefield Thermal Solutions,127-6-10,Thermal Non-Silicone Grease 10cc Syringe,6.0,,,,1299.68,25.0
-,Grease,Wakefield Thermal,127-6-10,"Thermal Interface Products Thermal Grease, High Performance, Non-Silicone, 6 W/m-K, 10cc Syringe",6.0,,,,1325.68,25.0
-,Grease,Chip Quik Inc.,TC2-20G,Thermal Silicone Compound 20 gram Syringe,4.3,,,,1330.88,20.0
-,Grease,Parker Chomerics,65-02-GREASE15-0030,Thermal Silicone Grease 30cc Cartridge,1.5,,,,1404.98,75.0
-,Grease,Parker Chomerics,65-02-GEL35VT-0030,Thermal Silicone Gel 30cc Syringe,3.5,,,,1428.05,75.0
-,Grease,Parker Chomerics,65-00-GEL50TBL-0010,Thermal Silicone Gel 10cc Syringe,5.0,,,,1436.5,25.0
-,Grease,MG Chemicals,8327GF41-50CC,Thermal Silicone Gap Filler 50 ml Cartridges,4.1,,,,1451.23,125.0
-,Grease,Parker Chomerics,65-02-GREASE30-0030,Thermal Silicone Grease 30cc Cartridge,3.0,,,,1478.43,75.0
-,Grease,MG Chemicals,8463-7G,Thermal Silicone Grease 7 gram Syringe,0.46,,,,1519.05,7.0
-,Grease,European Thermodynamics Ltd,GCS-NSP15-100ML,Thermal Non-Silicone Putty 100 ml Syringe,1.5,,,,1533.35,250.0
-,Grease,Parker Chomerics,65-02-GREASE50-0030,Thermal Silicone Grease 30cc Cartridge,5.0,,,,1551.88,75.0
-,Grease,Bergquist Company,TGF3000SF-00-1500-50CC,"Thermal Interface Products Gap Filler, 2-Part, Sil-Free, Room Temp Cure, 3W/mK, 50ml Cartridge, TGF3000SF",3.0,,,,1583.4,125.0
-,Grease,Parker Chomerics,65-02-GREASE70-0030,Thermal Silicone Grease 30cc Cartridge,7.0,,,,1595.43,75.0
-,Grease,Chip Quik Inc.,TC1-200G,Thermal Silicone Compound 200 gram Jar,0.67,,,,1623.38,200.0
-,Grease,t-Global Technology,TG-N8000-30,Thermal Non-Silicone Putty 30 gram Jar,8.0,,,,1631.5,30.0
-,Grease,"Shiu Li Technology Co., Ltd.",G3380NA-120,Thermal Non-Silicone Grease 120 gram Cartridge,1.3,,,,1649.7,120.0
-,Grease,Bergquist,GF3500S35-07-60-50CC,"Thermal Liquid Gap Filler, 2 Part 50cc Cartridge",3.6,,,,1674.4,125.0
-,Grease,t-Global Technology,TG4040-D-30CC,Thermal Silicone Putty 30cc Syringe,3.0,,,,1722.83,75.0
-,Grease,"Shiu Li Technology Co., Ltd.",S-PUTTY2-100,Thermal Silicone Putty 100 gram Cartridge,6.0,,,,1741.35,100.0
-,Grease,Bergquist,GF3500S35-00-60-50CC,"Thermal Liquid Gap Filler, 2 Part 50cc Cartridge",3.6,,,,1753.7,125.0
-,Grease,Parker Chomerics,65-00-GEL75VT-0010,Thermal Silicone Gel 10cc Syringe,7.5,,,,1754.68,25.0
-,Grease,Parker Chomerics,65-02-GEL50TBL-0030,Thermal Silicone Gel 30cc Syringe,5.0,,,,1759.88,75.0
-,Grease,Wakefield Thermal,GL-20-10,"Thermal Interface Products ulTIMiFlux Gel, 10cc Syringe, Pink, 20g/m Flow Rate, 0.004"", 3.5w/mK",3.5,,,,1770.6,25.0
-,Grease,t-Global Technology,TG-N4000-30CC,Thermal Non-Silicone Putty 30cc Syringe,4.0,,,,1779.05,75.0
-,Grease,Laird Technologies - Thermal Materials,A18835-01,Thermal Liquid Gap Filler 50cc Cartridge,5.4,,,,1783.93,125.0
-,Grease,Chip Quik Inc.,TC4-20G,"Thermal Thermal Compound, Liquid Metal 20 gram Syringe",79.0,,,,1799.2,20.0
-,Grease,Parker Chomerics,65-02-GEL50VT-0030,Thermal Silicone Gel 30cc Syringe,5.2,,,,1807.65,75.0
-,Grease,MG Chemicals,8327GL6-30ML,Thermal Non-Silicone Gel 30 ml Cartridge,6.0,,,,1827.48,75.0
-,Grease,"Shiu Li Technology Co., Ltd.",H-PUTTY2-100,Thermal Silicone Putty 100 gram Cartridge,6.0,,,,1833.0,100.0
-,Grease,Chip Quik,TC4-20G,Thermal Interface Products Heat Sink Thermal Compound - Deep-Space Liquid Metal 79 W/mK 20g/3cc Syringe,79.0,,,,1847.63,20.0
-,Grease,Parker Chomerics,65-02-GEL20-0030,Thermal Gel Gap Filler 30cc Cartridge,2.4,,,,1851.53,75.0
-,Grease,"Shiu Li Technology Co., Ltd.",X-PUTTY-100-KIT,Thermal Silicone Putty 100 gram Cartridge,3.0,,,,1936.35,100.0
-,Grease,Laird Technologies - Thermal Materials,A17170-01,Thermal Silicone Compound 75cc Cartridge,3.7,,,,1939.93,187.5
-,Grease,Parker Chomerics,65-00-GEL75-0010,Thermal Silicone Gel 10cc Syringe,7.5,,,,1982.83,25.0
-,Grease,"Shiu Li Technology Co., Ltd.",G3380D-100,Thermal Silicone Grease 100 gram Cartridge,6.0,,,,2072.7,100.0
-,Grease,"Shiu Li Technology Co., Ltd.",EPDM20-135,"Thermal Liquid Gap Filler, 2 Part 50 ml Cartridges",2.2,,,,2077.4,125.0
-,Grease,"Shiu Li Technology Co., Ltd.",N-PUTTY2-100,Thermal Non-Silicone Putty 100 gram Cartridge,5.0,,,,2138.5,100.0
-,Grease,Chemtronics,CW7100,Thermal Silicone Grease 6.5 gram Syringe,5.6,,,,2210.65,6.5
-,Grease,"Shiu Li Technology Co., Ltd.",PK223DM-110-KIT,"Thermal Liquid Gap Filler, 2 Part 110 gram Cartridge",2.0,,,,2218.13,110.0
-,Grease,European Thermodynamics Ltd,GCS-018-GS-WE-1KG,Thermal Silicone Grease 1 kg Container,1.8,,,,2227.23,1000.0
-,Grease,Wakefield Thermal,GL-08-10,"Thermal Interface Products ulTIMiFlux Gel, 10cc Syringe, Yellow, 8g/m Flow Rate, 0.015"", 2.4w/mK",2.4,,,,2231.78,25.0
-,Grease,"Shiu Li Technology Co., Ltd.",S-PUTTY-100-KIT,Thermal Silicone Putty 100 gram Cartridge,3.5,,,,2241.85,100.0
-,Grease,"Shiu Li Technology Co., Ltd.",N-PUTTY-100-KIT,Thermal Non-Silicone Putty 100 gram Cartridge,3.5,,,,2245.43,100.0
-,Grease,"Shiu Li Technology Co., Ltd.",PK404DM-150,"Thermal Liquid Gap Filler, 2 Part 150 gram Cartridge",3.6,,,,2291.25,150.0
-,Grease,"Shiu Li Technology Co., Ltd.",H-PUTTY-100-KIT,Thermal Silicone Putty 100 gram Cartridge,3.5,,,,2306.85,100.0
-,Grease,Parker Chomerics,65-02-GEL75VT-0030,Thermal Silicone Gel 30cc Cartridge,7.5,,,,2346.83,75.0
-,Grease,"Shiu Li Technology Co., Ltd.",G3380NC-100,Thermal Non-Silicone Grease 100 gram Cartridge,4.5,,,,2352.35,100.0
-,Grease,Parker Chomerics,65-00-CIP60-0200,"Thermal Silicone Compound, 2 Part 200cc Cartridge",6.0,,,,2445.3,500.0
-,Grease,MG Chemicals,8617-1P,Thermal Non-Silicone Grease 473 ml Jar,1.0,,,,2477.8,1182.5
-,Grease,Bergquist,2456616,"Thermal Liquid Gap Filler, 2 Part 50cc Cartridge",3.5,,,,2515.08,125.0
-,Grease,"Shiu Li Technology Co., Ltd.",SH-PUTTY3-100,Thermal Silicone Putty 100 gram Cartridge,8.0,,,,2600.0,100.0
-,Grease,Parker Chomerics,65-02-GEL75-0030,Thermal Silicone Gel 30cc Syringe,7.5,,,,2652.33,75.0
-,Grease,Laird Technologies - Thermal Materials,A16872-02,Thermal Liquid Gap Filler 75cc Cartridge,2.3,,,,2723.18,187.5
-,Grease,MG Chemicals,8327GL3-180ML,Thermal Non-Silicone Gel 180 ml Cartridge,3.5,,,,2755.68,450.0
-,Grease,"Shiu Li Technology Co., Ltd.",S-PUTTY2-100-KIT,Thermal Silicone Putty 100 gram Cartridge,6.0,,,,2765.1,100.0
-,Grease,"Shiu Li Technology Co., Ltd.",H-PUTTY2-100-KIT,Thermal Silicone Putty 100 gram Cartridge,6.0,,,,2856.43,100.0
-,Grease,"Shiu Li Technology Co., Ltd.",G3380NA-120-KIT,Thermal Non-Silicone Grease 120 gram Cartridge,1.3,,,,2859.68,120.0
-,Grease,"Shiu Li Technology Co., Ltd.",EPDM30-135,"Thermal Liquid Gap Filler, 2 Part 50 ml Cartridges",3.0,,,,2993.9,125.0
-,Grease,Bergquist Company,LF2000-00-00-30CC,"Thermal Interface Products 1-Part, Liquid Formable Material, 30CC Cartridge, 2 W/m-K, Liqui-Form",2.0,,,,3041.03,75.0
-,Grease,t-Global Technology,TG-N4000-55CC,Thermal Non-Silicone Putty 55cc Syringe,4.0,,,,3043.95,137.5
-,Grease,Laird Technologies - Thermal Materials,A17170-02,Thermal Silicone Compound 180cc Cartridge,3.7,,,,3057.28,450.0
-,Grease,t-Global Technology,TG-A7000-55CC,Thermal Silicone Putty 50cc Syringe,7.0,,,,3062.8,125.0
-,Grease,European Thermodynamics Ltd,GCS-NSP30-100ML,Thermal Non-Silicone Putty 100 ml Syringe,3.0,,,,3065.73,250.0
-,Grease,t-Global Technology,TG-N8000-30CC,Thermal Non-Silicone Putty 30cc Syringe,8.0,,,,3084.9,75.0
-,Grease,"Shiu Li Technology Co., Ltd.",N-PUTTY2-100-KIT,Thermal Non-Silicone Putty 100 gram Cartridge,5.0,,,,3161.93,100.0
-,Grease,Chip Quik Inc.,TC2-50G,Thermal Silicone Compound 50 gram Jar,4.3,,,,3248.38,50.0
-,Grease,MG Chemicals,8618-85ML,Thermal Non-Silicone Grease 85 ml Syringe,6.0,,,,3260.4,212.5
-,Grease,"Shiu Li Technology Co., Ltd.",EPDM20-135-KIT,"Thermal Liquid Gap Filler, 2 Part 50 ml Cartridges",2.2,,,,3287.38,125.0
-,Grease,European Thermodynamics Ltd,GCS-NSP75 - 50ML,Thermal Non-Silicone Putty 50 ml Syringe,7.5,,,,3313.7,125.0
-,Grease,"Shiu Li Technology Co., Ltd.",G3380D-100-KIT,Thermal Silicone Grease 100 gram Cartridge,6.0,,,,3348.15,100.0
-,Grease,Bergquist,2292097,"Thermal Silicone Compound, 2 Part 50cc Cartridge",3.5,,,,3455.96,125.0
-,Grease,"Shiu Li Technology Co., Ltd.",PK404DM-150-KIT,"Thermal Liquid Gap Filler, 2 Part 150 gram Cartridge",3.6,,,,3500.9,150.0
-,Grease,"Shiu Li Technology Co., Ltd.",S-PUTTY5-100,Thermal Silicone Putty 30cc Tube,10.0,,,,3534.38,75.0
-,Grease,"Shiu Li Technology Co., Ltd.",G3380NC-100-KIT,Thermal Non-Silicone Grease 100 gram Cartridge,4.5,,,,3562.0,100.0
-,Grease,"Shiu Li Technology Co., Ltd.",D2000-140,"Thermal Silicone Grease, 2 Part 140 gram Cartridge",2.0,,,,3635.45,140.0
-,Grease,"Shiu Li Technology Co., Ltd.",SH-PUTTY3-100-KIT,Thermal Silicone Putty 100 gram Cartridge,8.0,,,,3688.75,100.0
-,Grease,Bergquist,2167388,"Thermal Silicone Compound, 2 Part 50cc Cartridge",3.5,,,,3805.19,125.0
-,Grease,Laird Technologies - Thermal Materials,A17262-01,Thermal Silicone Gap Filler 50cc Cartridge,6.4,,,,3810.3,125.0
-,Grease,t-Global Technology,TG-N8000-55CC,Thermal Non-Silicone Putty 55cc Syringe,8.0,,,,3978.0,137.5
-,Grease,"Shiu Li Technology Co., Ltd.",PK605DM-160,"Thermal Liquid Gap Filler, 2 Part 160 gram Cartridge",5.0,,,,4154.8,160.0
-,Grease,Bergquist,2179547,"Thermal Silicone Compound, 2 Part 50cc Cartridge",3.5,,,,4180.53,125.0
-,Grease,"Shiu Li Technology Co., Ltd.",EPDM30-135-KIT,"Thermal Liquid Gap Filler, 2 Part 50 ml Cartridges",3.0,,,,4203.88,125.0
-,Grease,"Shiu Li Technology Co., Ltd.",S-PUTTY5-100-KIT,Thermal Silicone Putty 30cc Tube,10.0,,,,4216.88,75.0
-,Grease,Laird Technologies - Thermal Materials,A16872-03,Thermal Liquid Gap Filler 180cc Cartridge,2.3,,,,4261.4,450.0
-,Grease,Parker Chomerics,65-00-GREASE15-0160,Thermal Silicone Grease 160cc Container,1.5,,,,4322.5,400.0
-,Grease,"Shiu Li Technology Co., Ltd.",TT3000-150,Thermal Silicone Grease 150 gram Cartridge,6.0,,,,4353.38,150.0
-,Grease,Taica,DP-100,"Thermal Interface Products Thermal Conductive GEL, 6.5W/mK, 5.0kV/mm, 30ml Syringe, Lamda Gel DP",6.5,,,,4419.35,75.0
-,Grease,Bergquist Company,LF3500-00-00-30CC,"Thermal Interface Products 1-Part, Liquid Formable Material, 30CC Cartridge, 3.5 W/m-K, Liqui-Form",3.5,,,,4472.65,75.0
-,Grease,Wakefield Thermal Solutions,127-12-10,Thermal Non-Silicone Grease 1 gram Syringe,12.0,,,,4517.18,1.0
-,Grease,Wakefield Thermal,127-12-10,"Thermal Interface Products Thermal Grease, Extreme Performance, Non-Silicone, 12 W/m-K, 10cc Syringe",12.0,,,,4517.18,25.0
-,Grease,Parker Chomerics,65-00-GREASE30-0160,Thermal Silicone Grease 160cc Container,3.0,,,,4549.03,400.0
-,Grease,Wakefield Thermal Solutions,127-20-10,Thermal Non-Silicone Grease 1 gram Syringe,20.0,,,,4708.28,1.0
-,Grease,Wakefield Thermal,127-20-10,"Thermal Interface Products Thermal Grease, Extreme Performance, Non-Silicone, 20 W/m-K, 10cc Syringe",20.0,,,,4708.28,25.0
-,Grease,Parker Chomerics,65-00-GREASE50-0160,Thermal Silicone Grease 160cc Container,5.0,,,,4774.25,400.0
-,Grease,Laird Technologies,A14855-02,Thermal Interface Products Tgrease 1500 1kg 1.2 W/mK,1.2,,,,4779.78,1000.0
-,Grease,Laird Technologies - Thermal Materials,A18560-09,Thermal Liquid Gap Filler 30cc Cartridge,9.1,,,,4789.2,75.0
-,Grease,Laird Technologies - Thermal Materials,A18835-02,Thermal Liquid Gap Filler 200cc Cartridge,5.4,,,,4816.83,500.0
-,Grease,"Shiu Li Technology Co., Ltd.",D2000-140-KIT,"Thermal Silicone Grease, 2 Part 140 gram Cartridge",2.0,,,,4845.43,140.0
-,Grease,Parker Chomerics,65-00-GREASE70-0160,Thermal Silicone Grease 160cc Container,7.0,,,,4909.45,400.0
-,Grease,Laird Technologies - Thermal Materials,A10548-5,Thermal Silicone Putty 100cc Jar,3.0,,,,5112.25,250.0
-,Grease,Bergquist Company,TLF6000HG-00-00-150CC,"Thermal Interface Products Conductive, 1-Part, Liquid Formable, 180ml Cartridge, 6 W/m-K, Liqui-Form",6.0,,,,5204.55,450.0
-,Grease,Parker Chomerics,65-01-GEL37-0180,Thermal Silicone Gel 180cc Syringe,3.7,,,,5235.43,450.0
-,Grease,Bergquist Company,TGF3000SF-00-1500-200CC,"Thermal Interface Products Gap Filler, 2-Part, Sil-Free, Room Temp Cure, 3W/mK, 200ml Cartridge, TGF3000SF",3.0,,,,5239.98,500.0
-,Grease,"Shiu Li Technology Co., Ltd.",PK605DM-160-KIT,"Thermal Liquid Gap Filler, 2 Part 160 gram Cartridge",5.0,,,,5364.45,160.0
-,Grease,Bergquist Company,GF4500CVO-00-240-200CC,"Thermal Interface Products Liquid Gap-Filling Material, 2-Part, 4.5W/m-K, 200ml Cartridge, TGF4500CVO",4.5,,,,5424.58,500.0
-,Grease,Bergquist,2624519,Thermal Silicone Gel 150cc Cartridge,6.0,,,,5516.23,375.0
-,Grease,Bergquist Company,GF4500CVO-00-240-400CC,"Thermal Interface Products Liquid Gap-Filling Material, 2-Part, 4.5W/m-K, 400ml Cartridge, TGF4500CVO",4.5,,,,5928.0,1000.0
-,Grease,Parker Chomerics,65-02-GEL20-0180,Thermal Gel Gap Filler 180cc Cartridge,2.4,,,,6594.9,450.0
-,Grease,"Shiu Li Technology Co., Ltd.",X-PUTTY-900,Thermal Silicone Putty 900 gram Container,3.0,,,,6682.65,900.0
-,Grease,Laird Technologies - Thermal Materials,A16872-04,Thermal Liquid Gap Filler 360cc Cartridge,2.3,,,,6831.83,900.0
-,Grease,Parker Chomerics,65-02-GEL50VT-0180,Thermal Silicone Gel 180cc Syringe,5.2,,,,7108.73,450.0
-,Grease,"Shiu Li Technology Co., Ltd.",PK700DM-140,"Thermal Liquid Gap Filler, 2 Part 50 ml, 400 ml Cartridges",7.0,,,,7484.75,125.0
-,Grease,Laird Technologies - Thermal Materials,A18578-08,Thermal Liquid Gap Filler 75cc Cartridge,9.1,,,,7582.25,187.5
-,Grease,Parker Chomerics,65-02-GEL75VT-0180,Thermal Silicone Gel 180cc Cartridge,7.5,,,,7977.13,450.0
-,Grease,Laird Technologies - Thermal Materials,A17064-00,Thermal Phase Change Thermal Compound 1 kg Can,1.5,,,,8310.82,1000.0
-,Grease,Laird Technologies - Thermal Materials,A18835-03,Thermal Liquid Gap Filler 400cc Cartridge,5.4,,,,8384.68,1000.0
-,Grease,"Shiu Li Technology Co., Ltd.",PK700DM-140-KIT,"Thermal Liquid Gap Filler, 2 Part 50 ml, 400 ml Cartridges",7.0,,,,8694.4,125.0
-,Grease,European Thermodynamics Ltd,GCS-040-GNS-1KG,Thermal Non-Silicone Grease 1 kg Container,4.0,,,,8798.08,1000.0
-,Grease,Bergquist,GF3500S35-00-60-400CC,"Thermal Liquid Gap Filler, 2 Part 400cc Cartridge",3.6,,,,8861.13,1000.0
-,Grease,t-Global Technology,TG4040-D-1000,Thermal Silicone Putty 1 kg Container,3.0,,,,9373.33,1000.0
-,Grease,"Shiu Li Technology Co., Ltd.",S-PUTTY-950,Thermal Silicone Putty 950 gram Container,3.5,,,,9737.65,950.0
-,Grease,"Shiu Li Technology Co., Ltd.",H-PUTTY-950,Thermal Silicone Putty 950 gram Container,3.5,,,,10272.6,950.0
-,Grease,Bergquist Company,TGF3000SF-00-1500-400CC,"Thermal Interface Products Gap Filler, 2-Part, Sil-Free, Room Temp Cure, 3W/mK, 400ml Cartridge, TGF3000SF",3.0,,,,10324.6,1000.0
-,Grease,Bergquist,2761872,"Thermal Liquid Gap Filler, 2 Part 400cc Cartridge",3.0,,,,10337.6,1000.0
-,Grease,Laird Technologies,A14259-01,Thermal Interface Products Tgrease 2500 1kg 3.8W/mK Sil Free,3.8,,,,10396.75,1000.0
-,Grease,Parker Chomerics,65-00-GEL20-0300,Thermal Gel Gap Filler 300cc Cartridge,2.4,,,,10526.1,750.0
-,Grease,Bergquist Company,TLF10000L150CC,"Thermal Interface Products Thermally Conductive Gel Interface Material, 10 W/m-K, 150ml Cartridge",10.0,,,,11175.13,375.0
-,Grease,Parker Chomerics,65-00-GEL50VT-0300,Thermal Silicone Gel 300cc Syringe,5.2,,,,11792.3,750.0
-,Grease,t-Global Technology,TG-N4000-330CC,Thermal Non-Silicone Putty 330cc Syringe,4.0,,,,12160.85,825.0
-,Grease,t-Global Technology,TG-N4000-1000,Thermal Non-Silicone Putty 1 kg Jar,4.0,,,,12160.85,1000.0
-,Grease,t-Global Technology,TG6060-D-1000,Thermal Silicone Putty 1 kg Container,6.3,,,,13010.08,1000.0
-,Grease,t-Global Technology,TG-N909-1000,Thermal Non-Silicone Grease 1 kg Container,9.0,,,,13106.28,1000.0
-,Grease,t-Global Technology,TG-A7000-1000,Thermal Silicone Putty 1 kg Container,7.0,,,,13479.7,1000.0
-,Grease,t-Global Technology,TG-A7000-330CC,Thermal Silicone Putty 330cc Syringe,7.0,,,,13480.03,825.0
-,Grease,"Shiu Li Technology Co., Ltd.",S-PUTTY2-985,Thermal Silicone Putty 985 gram Container,6.0,,,,13938.6,985.0
-,Grease,Bergquist Company,TGF 2900LVO-00-400CC,"Thermal Interface Products Gap Filler, 2-Part, 2.9 W/m-K, Silicone, 400CC Cartridge, IDH 2859942",2.9,,,,14193.4,1000.0
-,Grease,"Shiu Li Technology Co., Ltd.",H-PUTTY2-1000,Thermal Silicone Putty 1 kg Container,6.0,,,,14664.0,1000.0
-,Grease,t-Global Technology,TG-N8000-330CC,Thermal Non-Silicone Putty 330cc Syringe,8.0,,,,15291.9,825.0
-,Grease,t-Global Technology,TG-N8000-1000,Thermal Non-Silicone Putty 1 kg Jar,8.0,,,,15291.9,1000.0
-,Grease,Laird Technologies - Thermal Materials,A18578-02,Thermal Liquid Gap Filler 180cc Cartridge,9.1,,,,16599.05,450.0
-,Grease,Bergquist Company,TGF3000SF-00-1500-1200CC,"Thermal Interface Products Gap Filler, 2-Part, Sil-Free, Room Temp Cure, 3W/mK, 1200ml Cartridge, TGF3000SF",3.0,,,,21012.88,3000.0
-,Grease,Laird Technologies,A14855-01,Thermal Interface Products Tgrease 1500 7kg can 1.2 W/mK,1.2,,,,21990.48,7000.0
-,Grease,Bergquist Company,GF4500CVO-00-240-1200CC,"Thermal Interface Products Liquid Gap-Filling Material, 2-Part, 4.5W/m-K, 1200ml Cartridge, TGF4500CVO",4.5,,,,28076.43,3000.0
-,Grease,Bergquist Company,TLF6000HG-00-00-0.7G,"Thermal Interface Products Conductive, 1-Part, Liquid Formable, 1 Gallon Pail, 6 W/m-K, Liqui-Form",6.0,,,,54209.03,1.0
-,Grease,Bergquist Company,2580287,"Thermal Interface Products Conductive, 1-Part, Liquid Formable, 1 Gallon, 6.0 W/m-K, Liqui-Form TLF 6000HG",6.0,,,,91340.28,1.0
-,Grease,Bergquist Company,2956733,"Thermal Interface Products Liquid Gap-Filling Material, 2-Part, 4.5W/m-K, 5 Gallon Hobbock/Pail, TGF4500CVO",4.5,,,,215478.25,5.0
-,Grease,Bergquist Company,GF4500CVO-00-240-6G,"Thermal Interface Products Liquid Gap-Filling Material, 2-Part, 4.5W/m-K, 6 Gallon Pail Kit, TGF4500CVO",4.5,,,,215478.25,6.0
-,Grease,Bergquist Company,LF3500-00-00-4.33G,"Thermal Interface Products 1-Part, Liquid Formable Material, 4.33 Gallon Pail, 3.5 W/m-K, Liqui-Form",3.5,,,,249788.18,4.3
-,Other,MG Chemicals,9460TC-3ML,Thermal Epoxy Adhesive 3 ml Syringe,0.8,,,,832.98,7.5
-,Other,MG Chemicals,8329TCS-6ML,"Thermal Epoxy, 2 Part 6 ml Syringe",1.4,,,,1144.65,15.0
-,Other,MG Chemicals,8349TFM-25ML,"Thermal Epoxy, 2 Part 25 ml Syringe",0.9,,,,1604.53,62.5
-,Other,MG Chemicals,8329TFS-25ML,"Thermal Epoxy, 2 Part 25 ml Syringe",1.2,,,,1625.98,62.5
-,Other,MG Chemicals,8349TFM-50ML,"Thermal Epoxy, 2 Part 50 ml Cartridges",0.9,,,,2301.98,125.0
-,Other,MG Chemicals,8329TFS-50ML,"Thermal Epoxy, 2 Part 45 ml Cartridge",1.2,,,,2318.88,112.5
-,Other,MG Chemicals,8329TCS-50ML,"Thermal Epoxy, 2 Part 50 ml Jar",1.4,,,,2411.83,125.0
-,Other,MG Chemicals,8349TFM-45ML,"Thermal Epoxy, 2 Part 45 ml Jar",0.9,,,,2856.43,112.5
-,Other,LeaderTech,TGF35-07870787-020,Thermal Interface Products 3.5W/m-K 200*200*0.5 TGF35 Green,3.5,,,,3344.25,35.0
-,Other,LeaderTech,TGF35-07870787-039,Thermal Interface Products 3.5W/m-K 200*200*1 TGF35 Green,3.5,,,,3344.25,35.0
-,Other,Bergquist,2193454,"Thermal Epoxy, 2 Part 50cc Cartridge",1.8,,,,3893.87,125.0
-,Other,"Shiu Li Technology Co., Ltd.",EP770-1100,"Thermal Epoxy, 2 Part 1 kg Can",2.5,,,,3971.5,1000.0
-,Other,MG Chemicals,8329TCM-200ML,"Thermal Epoxy, 2 Part 200 ml Jar",1.4,,,,4215.09,500.0
-,Other,MG Chemicals,8329TCS-200ML,"Thermal Epoxy, 2 Part 200 ml Jar",1.4,,,,4215.09,500.0
-,Other,Bergquist,2194122,"Thermal Epoxy, 2 Part 50cc Cartridge",1.8,,,,4322.61,125.0
-,Other,LOCTITE,1188099,"Thermal Epoxy, 2 Part (Order Catalyst Separately) 3 lb Container",1.34,,,,5036.53,1360.8
-,Other,LeaderTech,TGF60-07870787-039,Thermal Interface Products 6W/m-K 200*200*1 TGF60 Gray,6.0,,,,7270.9,60.0
-,Other,LOCTITE,1188134,"Thermal Epoxy, 2 Part (Order Catalyst Separately) 3 lb Container",2.78,,,,7377.83,1360.8
-,Other,LeaderTech,TGF60-07870787-020,Thermal Interface Products 6W/m-K 200*200*0.5 TGF60 Gray,6.0,,,,10070.13,60.0
-,Other,LOCTITE,1188135,"Thermal Epoxy, 2 Part (Order Catalyst Separately) 20 lb Container",2.78,,,,14655.55,9072.0
-,Other,Bergquist Company,TGF3000SF-00-1500-7GAL,"Thermal Interface Products Gap Filler, 2-Part, Sil-Free, Room Temp Cure, 3W/mK, 7 Gallon Pail, TGF3000SF",3.0,,,,305250.4,7.0
-,Thermal Pad,t-Global Technology,TG-A1250-5-5-1.0,Thermal Pad Green 5.00mm x 5.00mm Square,12.5,1.0,5.0,5.0,3.25,
-,Thermal Pad,t-Global Technology,TG-A2200-5-5-2.0,Thermal Pad Gray 5.00mm x 5.00mm Square Tacky - One Side,2.2,2.01,5.0,5.0,3.25,
-,Thermal Pad,t-Global Technology,TG-A6200-7.2-6.3-1.0,Thermal Pad Blue 7.20mm x 6.30mm Rectangular Tacky - Both Sides,6.2,1.0,7.2,6.3,3.25,
-,Thermal Pad,t-Global Technology,TG-A2200-10-10-1.0,Thermal Pad Gray 10.00mm x 10.00mm Square Tacky - One Side,2.2,1.0,10.0,10.0,3.25,
-,Thermal Pad,t-Global Technology,TG-A4500-10-10-0.5,Thermal Pad Purple 10.00mm x 10.00mm Square Tacky - Both Sides,4.5,0.5,10.0,10.0,3.25,
-,Thermal Pad,t-Global Technology,TG-A6200-5-5-1.0,Thermal Pad Blue 5.00mm x 5.00mm Square Tacky - Both Sides,6.2,1.0,5.0,5.0,3.25,
-,Thermal Pad,t-Global Technology,TG-A2200-10-10-1.5,Thermal Pad Gray 10.00mm x 10.00mm Square Tacky - One Side,2.2,1.5,10.0,10.0,3.58,
-,Thermal Pad,t-Global Technology,TG-A6200-10-10-0.5,Thermal Pad Blue 10.00mm x 10.00mm Square Tacky - Both Sides,6.2,0.5,10.0,10.0,3.9,
-,Thermal Pad,t-Global Technology,TG-A2200-10-10-2.0,Thermal Pad Gray 10.00mm x 10.00mm Square Tacky - One Side,2.2,2.01,10.0,10.0,4.23,
-,Thermal Pad,t-Global Technology,TG-ALC-15-15-0.2-0,Thermal Pad Green 15.00mm x 15.00mm Square Tacky - Both Sides,4.2,0.2,15.0,15.0,4.23,
-,Thermal Pad,t-Global Technology,TG-A3500-10-10-2.0,Thermal Pad Yellow 10.00mm x 10.00mm Square Tacky - Both Sides,3.5,2.01,10.0,10.0,4.23,
-,Thermal Pad,Bergquist,SPK4-0.006-00-58,Thermal Pad Gray 19.05mm x 12.70mm Rectangular,0.9,0.15,19.05,12.7,4.55,
-,Thermal Pad,t-Global Technology,T62-1-15-15-0.16,Thermal Pad Black 15.00mm x 15.00mm Square Adhesive - One Side,15.0,0.16,15.0,15.0,4.55,
-,Thermal Pad,t-Global Technology,DC0011/08-TG-A373F-0.25-2A,Thermal Pad Yellow 19.05mm x 12.70mm Rectangular Adhesive - Both Sides,1.4,0.25,19.05,12.7,4.88,
-,Thermal Pad,Bergquist,Q3-0.005-00-104,Thermal Pad Black 25.40mm x 19.05mm Rectangular,2.0,0.13,25.4,19.05,5.2,
-,Thermal Pad,t-Global Technology,TG-A6200-10-5-2.0,Thermal Pad Blue 10.00mm x 5.00mm Rectangular Tacky - Both Sides,6.2,2.01,10.0,5.0,5.2,
-,Thermal Pad,Bergquist,Q3-0.005-00-51,Thermal Pad Black 17.45mm x 14.27mm Rectangular,2.0,0.13,17.45,14.27,5.53,
-,Thermal Pad,t-Global Technology,TG-A3500-10-10-3.0,Thermal Pad Yellow 10.00mm x 10.00mm Square Tacky - Both Sides,3.5,3.0,10.0,10.0,5.85,
-,Thermal Pad,t-Global Technology,TG-A6200-10-10-1.0,Thermal Pad Blue 10.00mm x 10.00mm Square Tacky - Both Sides,6.2,1.0,10.0,10.0,5.85,
-,Thermal Pad,Bergquist,SP600-90,Thermal Pad Green 21.84mm x 18.80mm Rectangular,1.0,0.23,21.84,18.8,6.5,
-,Thermal Pad,t-Global Technology,TG-A1250-10-10-0.5,Thermal Pad Green 10.00mm x 10.00mm Square,12.5,0.5,10.0,10.0,6.5,
-,Thermal Pad,t-Global Technology,TG-A2200-15-15-1.0,Thermal Pad Gray 15.00mm x 15.00mm Square Tacky - One Side,2.2,1.0,15.0,15.0,6.5,
-,Thermal Pad,t-Global Technology,TG-A4500-10-10-2.0,Thermal Pad Purple 10.00mm x 10.00mm Square Tacky - Both Sides,4.5,2.01,10.0,10.0,6.5,
-,Thermal Pad,Bergquist,SP400-0.009-00-58,Thermal Pad Gray 19.05mm x 12.70mm Rectangular,0.9,0.23,19.05,12.7,6.83,
-,Thermal Pad,Bergquist,SP400-0.009-00-54,Thermal Pad Gray 19.05mm x 12.70mm Rectangular,0.9,0.23,19.05,12.7,6.83,
-,Thermal Pad,Bergquist,SP400-0.007-00-54,Thermal Pad Gray 19.05mm x 12.70mm Rectangular,0.9,0.18,19.05,12.7,7.15,
-,Thermal Pad,t-Global Technology,TG-A6200-11-11-1.0,Thermal Pad Blue 11.00mm x 11.00mm Square Tacky - Both Sides,6.2,1.0,11.0,11.0,7.15,
-,Thermal Pad,t-Global Technology,TG-A3500-10-10-4.0,Thermal Pad Yellow 10.00mm x 10.00mm Square Tacky - Both Sides,3.5,3.99,10.0,10.0,7.15,
-,Thermal Pad,t-Global Technology,LI98-28-28-0.25,Thermal Pad White 28.00mm x 28.00mm Square Adhesive - Both Sides,1.0,0.25,28.0,28.0,7.15,
-,Thermal Pad,t-Global Technology,TG-T1000-10-10-0.25-5PT,Thermal Pad White 10.00mm x 10.00mm Square Adhesive - Both Sides,1.0,0.25,10.0,10.0,7.15,
-,Thermal Pad,Bergquist,SP400-0.007-AC-54,Thermal Pad Gray 19.05mm x 12.70mm Rectangular Adhesive - One Side,0.9,0.18,19.05,12.7,7.48,
-,Thermal Pad,t-Global Technology,TG-A9000-10-10-1.0,Thermal Pad Pink 10.00mm x 10.00mm Square,9.0,1.0,10.0,10.0,7.48,
-,Thermal Pad,Bergquist,SP400-0.007-00-104,Thermal Pad Gray 25.40mm x 19.05mm Rectangular,0.9,0.18,25.4,19.05,8.13,
-,Thermal Pad,t-Global Technology,T62-30-30-0.13,Thermal Pad Black 30.00mm x 30.00mm Square,20.0,0.13,30.0,30.0,8.13,
-,Thermal Pad,t-Global Technology,TG-A6200-15-15-0.5,Thermal Pad Blue 15.00mm x 15.00mm Square Tacky - Both Sides,6.2,0.5,15.0,15.0,8.13,
-,Thermal Pad,t-Global Technology,TG-A3500-10-10-5.0,Thermal Pad Yellow 10.00mm x 10.00mm Square Tacky - Both Sides,3.5,5.0,10.0,10.0,8.45,
-,Thermal Pad,Bergquist,SP400-0.009-00-90,Thermal Pad Gray 21.84mm x 18.80mm Rectangular,0.9,0.23,21.84,18.8,8.78,
-,Thermal Pad,t-Global Technology,TG-A6200-10-10-1.5,Thermal Pad Blue 10.00mm x 10.00mm Square Tacky - Both Sides,6.2,1.5,10.0,10.0,8.78,
-,Thermal Pad,Bergquist,SP900S-0.009-AC-54,Thermal Pad Pink 19.05mm x 12.70mm Rectangular Adhesive - One Side,1.6,0.23,19.05,12.7,9.43,
-,Thermal Pad,Bergquist,SP900S-0.009-00-54,Thermal Pad Pink 19.05mm x 12.70mm Rectangular,1.6,0.23,19.05,12.7,9.43,
-,Thermal Pad,Bergquist,SP400-0.009-00-51,Thermal Pad Gray 17.45mm x 14.27mm Rectangular,0.9,0.23,17.45,14.27,9.75,
-,Thermal Pad,t-Global Technology,TG-A1250-10-10-1.0,Thermal Pad Green 10.00mm x 10.00mm Square,12.5,1.0,10.0,10.0,10.4,
-,Thermal Pad,Bergquist,HF115AC-0.0055-AC-54,Thermal Pad Gray 19.05mm x 12.70mm Rectangular Adhesive - One Side,0.8,0.14,19.05,12.7,10.73,
-,Thermal Pad,Bergquist,1009-54,Thermal Pad Pink 19.05mm x 12.70mm Rectangular,1.2,0.23,19.05,12.7,10.73,
-,Thermal Pad,Bergquist,SPK10-0.006-00-54,Thermal Pad Beige 19.05mm x 12.70mm Rectangular,1.3,0.15,19.05,12.7,11.38,
-,Thermal Pad,Bergquist,SP900S-0.009-00-90,Thermal Pad Pink 21.84mm x 18.80mm Rectangular,1.6,0.23,21.84,18.8,11.38,
-,Thermal Pad,Bergquist,SP900S-0.009-00-104,Thermal Pad Pink 25.40mm x 19.05mm Rectangular,1.6,0.23,25.4,19.05,11.7,
-,Thermal Pad,Bergquist,SP900S-0.009-AC-58,Thermal Pad Pink 19.05mm x 12.70mm Rectangular Adhesive - One Side,1.6,0.23,19.05,12.7,12.35,
-,Thermal Pad,Bergquist,2188938,"Thermal Pad Gray, Green 25.02mm x 11.00mm Round",0.9,0.3,25.02,11.0,13.98,
-,Thermal Pad,t-Global Technology,TG-A1250-15-15-0.5,Thermal Pad Green 15.00mm x 15.00mm Square,12.5,0.5,15.0,15.0,14.3,
-,Thermal Pad,t-Global Technology,CP23-TO220-21.5-11.4-5.8-0.45,Thermal Pad Gray 21.50mm x 11.40mm x 5.80mm Rectangular,1.9,0.45,21.5,11.4,15.6,
-,Thermal Pad,Vishay Dale Thin Film,THJP0603AST1,Thermal Pad 1.55mm x 0.84mm Rectangular,70.0,0.76,1.55,0.84,17.55,
-,Thermal Pad,"Boyd Laconia, LLC",53-77-9G,"Thermal Pad Gray, Green 18.42mm x 13.21mm Rectangular",0.9,0.15,18.42,13.21,18.85,
-,Thermal Pad,t-Global Technology,CP33-TO247-28.5-17.5-5.8-0.45,Thermal Pad Gray 28.50mm x 17.50mm x 5.80mm Rectangular,1.9,0.45,28.5,17.5,20.8,
-,Thermal Pad,Bergquist,SPK10-0.006-00-58,Thermal Pad Beige 19.05mm x 12.70mm Rectangular,1.3,0.15,19.05,12.7,21.78,
-,Thermal Pad,Bergquist,Q3-0.005-00-54,Thermal Pad Black 19.05mm x 12.70mm Rectangular,2.0,0.13,19.05,12.7,22.1,
-,Thermal Pad,Bergquist,SPT400-12-13.5-25,"Thermal Pad Gray, Green 25.02mm x 13.50mm Round",0.9,0.3,25.02,13.5,22.75,
-,Thermal Pad,t-Global Technology,TG-A1250-15-15-1.0,Thermal Pad Green 15.00mm x 15.00mm Square,12.5,1.0,15.0,15.0,22.75,
-,Thermal Pad,Parker Chomerics,60-11-8302-1674,Thermal Pad Blue 18.03mm x 12.70mm Rectangular,1.0,0.25,18.03,12.7,23.08,
-,Thermal Pad,Bergquist,SPK10-0.006-00-90,Thermal Pad Beige 21.84mm x 18.80mm Rectangular,1.3,0.15,21.84,18.8,23.4,
-,Thermal Pad,Wakefield Thermal Solutions,175-6-220P,Thermal Pad Gray 18.00mm x 12.70mm Rectangular,0.5,0.15,18.0,12.7,23.73,
-,Thermal Pad,Bergquist,SPK10-0.006-00-104,Thermal Pad Beige 25.40mm x 19.05mm Rectangular,1.3,0.15,25.4,19.05,24.38,
-,Thermal Pad,"Boyd Laconia, LLC",53-77-4G,"Thermal Pad Gray, Green 19.05mm x 12.70mm Rectangular",0.9,0.15,19.05,12.7,25.35,
-,Thermal Pad,Vishay Dale Thin Film,THJP0612AST1,Thermal Pad 1.06mm x 3.20mm Rectangular,259.0,0.76,1.06,3.2,26.0,
-,Thermal Pad,Bergquist,HF115AC-0.0055-AC-90,Thermal Pad Gray 21.84mm x 18.79mm Rectangular Adhesive - One Side,0.8,0.14,21.84,18.79,26.33,
-,Thermal Pad,"Boyd Laconia, LLC",53-77-4ACG,"Thermal Pad Gray, Green 19.05mm x 12.70mm Rectangular Adhesive - One Side",0.9,0.15,19.05,12.7,27.3,
-,Thermal Pad,Wakefield Thermal Solutions,173-7-240A,Thermal Pad Gray 19.10mm x 12.70mm Rectangular Adhesive - One Side,1.2,0.18,19.1,12.7,29.58,
-,Thermal Pad,t-Global Technology,TG-APC93-20-20-2.0-0,Thermal Pad Gray 20.00mm x 20.00mm Square,2.0,2.01,20.0,20.0,31.53,
-,Thermal Pad,t-Global Technology,TG-A3500-25-25-3.0,Thermal Pad Yellow 25.00mm x 25.00mm Square Tacky - Both Sides,3.5,3.0,25.0,25.0,33.48,
-,Thermal Pad,"Boyd Laconia, LLC",53-77-9ACG,"Thermal Pad Gray, Green 18.42mm x 13.21mm Rectangular Adhesive - One Side",0.9,0.15,18.42,13.21,33.8,
-,Thermal Pad,t-Global Technology,TG-A6200-20-20-2.0,Thermal Pad Blue 20.00mm x 20.00mm Square Tacky - Both Sides,6.2,2.01,20.0,20.0,39.33,
-,Thermal Pad,Bergquist,SP600-104,Thermal Pad Green 25.40mm x 19.05mm Rectangular,1.0,0.23,25.4,19.05,42.25,
-,Thermal Pad,t-Global Technology,TG-A1250-15-15-2.0,Thermal Pad Green 15.00mm x 15.00mm Square,12.5,2.01,15.0,15.0,43.23,
-,Thermal Pad,Bergquist,SP2000-0.015-00-104,Thermal Pad White 25.40mm x 19.05mm Rectangular,3.5,0.38,25.4,19.05,47.45,
-,Thermal Pad,t-Global Technology,TG-AH486-21-15-13.0-1A,Thermal Pad Gray 21.00mm x 15.00mm Rectangular Adhesive - One Side,3.2,13.0,21.0,15.0,49.46,
-,Thermal Pad,KYOCERA AVX,QB0603B25WYT,Thermal Pad 1.52mm x 0.76mm Rectangular,50.0,0.06,1.52,0.76,51.35,
-,Thermal Pad,t-Global Technology,TG-A1250-30-30-0.5,Thermal Pad Green 30.00mm x 30.00mm Square,12.5,0.5,30.0,30.0,52.65,
-,Thermal Pad,Vishay Dale Thin Film,THJP1225AST1,Thermal Pad 3.20mm x 6.40mm Rectangular,259.0,0.76,3.2,6.4,59.48,
-,Thermal Pad,t-Global Technology,TG-AH486-35-10-7.0-0,Thermal Pad Gray 35.00mm x 10.00mm Rectangular,3.2,7.01,35.0,10.0,62.73,
-,Thermal Pad,Sensata-Crydom,HSP-2,Thermal Pad Black 57.15mm x 44.45mm Rectangular Adhesive - One Side,2.0,0.13,57.15,44.45,65.98,
-,Thermal Pad,t-Global Technology,TG-A486G-20-20-2.5-0,Thermal Pad Gray 20.00mm x 20.00mm Square Tacky - Both Sides,6.3,2.5,20.0,20.0,65.98,
-,Thermal Pad,Würth Elektronik,407150015050,Thermal Pad Black 15.00mm x 15.00mm Square Adhesive - Both Sides,400.0,5.0,15.0,15.0,71.18,
-,Thermal Pad,Würth Elektronik,407150015030,Thermal Pad Black 15.00mm x 15.00mm Square Adhesive - Both Sides,400.0,3.0,15.0,15.0,71.18,
-,Thermal Pad,t-Global Technology,TG-AH486-45-25-6.0-0,Thermal Pad Gray 45.00mm x 25.00mm Rectangular,3.2,5.99,45.0,25.0,79.63,
-,Thermal Pad,Würth Elektronik,407150015200,Thermal Pad Black 15.00mm x 15.00mm Square Adhesive - Both Sides,400.0,19.99,15.0,15.0,80.28,
-,Thermal Pad,KYOCERA AVX,QB0805A40WYT,Thermal Pad 2.03mm x 1.27mm Rectangular,100.0,1.02,2.03,1.27,80.93,
-,Thermal Pad,KYOCERA AVX,QB0805B40WYT,Thermal Pad 2.03mm x 1.27mm Rectangular,100.0,1.02,2.03,1.27,80.93,
-,Thermal Pad,t-Global Technology,TG-AH486-25-25-9.0-0,Thermal Pad Gray 25.00mm x 25.00mm Square,3.2,8.99,25.0,25.0,82.23,
-,Thermal Pad,Würth Elektronik,407150045015,Thermal Pad Black 45.00mm x 15.00mm Rectangular Adhesive - Both Sides,400.0,1.5,45.0,15.0,83.53,
-,Thermal Pad,ADLINK Technology,EAPUS SARCON GR-HM 10.8X10.8X0.5MM,"Thermal Interface Products Pad,Type=GR-Hm,Size=10.8x10.8x0.5mm,K=6W/mK,Color=Reddish Gray",6.0,0.5,10.8,10.8,92.5,
-,Thermal Pad,ADLINK Technology,EAPUS SARCON XR-Hl 16.5X7.5X2.0MM,"Thermal Interface Products Pad,Type=XR-HL,Size=16.5x7.5x2.0mm,K=1.2W/mK,Color=Black",1.2,2.0,16.5,7.5,92.5,
-,Thermal Pad,ADLINK Technology,EAPUS SARCON XR-Hl 20X10X2.5MM,"Thermal Interface Products Pad,Type=XR-HL,Size=20x10x2.5mm,K=1.2W/mK,Color=Black",1.2,2.5,20.0,10.0,92.5,
-,Thermal Pad,ADLINK Technology,EAPUS SARCON XR-Hl 35X11X2.5MM,"Thermal Interface Products Pad,Type=XR-HL,Size=35x11x2.5mm,K=1.2W/mK,Color=Black",1.2,2.5,35.0,11.0,92.5,
-,Thermal Pad,ADLINK Technology,EAPUS SARCON XR-Hl 12X14X3.0MM,"Thermal Interface Products Pad,Type=XR-HL,Size=12x14x3.0mm,K=1.2W/mK,Color=Black",1.2,3.0,12.0,14.0,92.5,
-,Thermal Pad,Parker Chomerics,60-11-5791-1671,Thermal Pad White 17.45mm x 14.28mm Rectangular,2.6,0.38,17.45,14.28,93.28,
-,Thermal Pad,Wakefield Thermal,PL-05-3-254,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 0.5mm Thickness, 3 W/m-K, 25.4x25.4mm, Green",3.0,0.5,25.4,25.4,94.25,
-,Thermal Pad,Parker Chomerics,60-11-8302-1671,Thermal Pad White 18.03mm x 12.70mm Rectangular,2.6,0.38,18.03,12.7,94.58,
-,Thermal Pad,t-Global Technology,TG-A1250-40-40-0.5,Thermal Pad Green 40.00mm x 40.00mm Square,12.5,0.5,40.0,40.0,95.88,
-,Thermal Pad,Wakefield Thermal,PL-05-5-254,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 0.5mm Thickness, 5 W/m-K, 25.4x25.4mm, Gold",5.0,0.5,25.4,25.4,98.15,
-,Thermal Pad,Wakefield Thermal,PL-05-3-254-H,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 0.5mm Thickness, 3 W/m-K, 25.4x25.4mm, Hyper Soft",3.0,0.5,25.4,25.4,98.48,
-,Thermal Pad,Wakefield Thermal,PL-05-5-254-H,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 0.5mm Thickness, 5 W/m-K, 25.4x25.4mm, Hyper Soft",5.0,0.5,25.4,25.4,102.05,
-,Thermal Pad,Wakefield Thermal,PL-2-1-254,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 2mm Thickness, 1 W/m-K, 25.4x25.4mm, Grey",1.0,2.0,25.4,25.4,102.7,
-,Thermal Pad,Wakefield Thermal,PL-2-3-254,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 2mm Thickness, 3 W/m-K, 25.4x25.4mm, Green",3.0,2.0,25.4,25.4,109.85,
-,Thermal Pad,Wakefield Thermal,PL-2-3-254-H,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 2mm Thickness, 3 W/m-K, 25.4x25.4mm, Hyper Soft",3.0,2.0,25.4,25.4,114.08,
-,Thermal Pad,Wakefield Thermal,PL-1-5-254,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 5 W/m-K, 25.4x25.4mm, Gold",5.0,1.0,25.4,25.4,116.03,
-,Thermal Pad,Bergquist,SP2000-0.015-00-58,Thermal Pad White 19.05mm x 12.70mm Rectangular,3.5,0.38,19.05,12.7,124.48,
-,Thermal Pad,t-Global Technology,TG-A3500-40-40-5.0,Thermal Pad Yellow 40.00mm x 40.00mm Square Tacky - Both Sides,3.5,5.0,40.0,40.0,125.13,
-,Thermal Pad,t-Global Technology,TG-AH486-100-100-1.0-0,Thermal Pad Gray 100.00mm x 100.00mm Square,3.2,1.0,100.0,100.0,154.05,
-,Thermal Pad,Wakefield Thermal,PL-2-5-254-H,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 2mm Thickness, 5 W/m-K, 25.4x25.4mm, Hyper Soft",5.0,2.0,25.4,25.4,158.93,
-,Thermal Pad,t-Global Technology,TG-A1250-30-30-2.0,Thermal Pad Green 30.00mm x 30.00mm Square,12.5,2.01,30.0,30.0,159.58,
-,Thermal Pad,Wakefield Thermal,PL-05-1-1016,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 0.5mm Thickness, 1 W/m-K, 101.6x101.6mm, Grey",1.0,0.5,101.6,101.6,168.35,
-,Thermal Pad,t-Global Technology,TG-A1250-25-25-3.0,Thermal Pad Green 25.00mm x 25.00mm Square,12.5,3.0,25.0,25.0,169.98,
-,Thermal Pad,Wakefield Thermal,PL-2-5-254,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 2mm Thickness, 5 W/m-K, 25.4x25.4mm, Gold",5.0,2.0,25.4,25.4,176.15,
-,Thermal Pad,t-Global Technology,TG-A1780-25-25-0.5,Thermal Pad Gray 25.00mm x 25.00mm Square,17.8,0.5,25.0,25.0,178.75,
-,Thermal Pad,Wakefield Thermal,PL-1-1.5-76X127-15,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 1.5 W/mK, 76.2x127mm, Grey",1.5,1.0,76.2,127.0,205.73,
-,Thermal Pad,Würth Elektronik,4051100100017,Thermal Pad 100.00mm x 100.00mm Square Acrylic,1800.0,0.04,100.0,100.0,217.75,
-,Thermal Pad,t-Global Technology,TG-A1250-40-40-1.5,Thermal Pad Green 40.00mm x 40.00mm Square,12.5,1.5,40.0,40.0,222.63,
-,Thermal Pad,Wakefield Thermal,PL-1-1-1016,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 1 W/m-K, 101.6x101.6mm, Grey",1.0,1.0,101.6,101.6,224.9,
-,Thermal Pad,Taica North America Corporation,COH-1706-200-05,Thermal Pad Gray 200.00mm x 200.00mm Square Tacky - Both Sides,1.7,0.51,200.0,200.0,225.88,
-,Thermal Pad,Aavid,SoftFlex-B016-20-01-0762-0762,"Thermal Interface Products SoftFlex Pad, 1.6 W/mK Conductivity, 2mm Thick, 1-Side Adhesive, 76.2x76.2mm",1.6,2.0,76.2,76.2,248.63,
-,Thermal Pad,t-Global Technology,TG-A1780-30-30-0.5,Thermal Pad Gray 30.00mm x 30.00mm Square,17.8,0.5,30.0,30.0,252.2,
-,Thermal Pad,t-Global Technology,TG-A6200F-100-100-0.5,Thermal Pad Blue 100.00mm x 100.00mm Square Tacky - One Side,5.0,0.5,100.0,100.0,273.98,
-,Thermal Pad,Bergquist,SP2000-0.015-00-54,Thermal Pad White 19.05mm x 12.70mm Rectangular,3.5,0.38,19.05,12.7,317.2,
-,Thermal Pad,Wakefield Thermal,PL-05-5-1016,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 0.5mm Thickness, 5 W/m-K, 101.6x101.6mm, Gold",5.0,0.5,101.6,101.6,318.83,
-,Thermal Pad,Bergquist,GP1500-0.080-02-0404,Thermal Pad Black 101.60mm x 101.60mm Square Tacky - Both Sides,1.5,2.03,101.6,101.6,338.65,
-,Thermal Pad,Wakefield Thermal,PL-05-3-1016-H,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 0.5mm Thick, 3 W/m-K, 101.6x101.6mm, Hyper Soft",3.0,0.5,101.6,101.6,351.98,
-,Thermal Pad,Wakefield Thermal,PLF-1-1-76X127-40,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone-Free, 1mm Thickness, 1 W/m-K, 76x127mm, White",1.0,1.0,76.0,127.0,358.15,
-,Thermal Pad,Wakefield Thermal,PL-1-3-76X127-30,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 3 W/m-K, 76.2x127mm, Blue",3.0,1.0,76.2,127.0,369.2,
-,Thermal Pad,t-Global Technology,TG-A6200-100-100-1.0,Thermal Pad Blue 100.00mm x 100.00mm Square Tacky - Both Sides,6.2,1.0,100.0,100.0,378.95,
-,Thermal Pad,t-Global Technology,TG-A1780-40-40-0.5,Thermal Pad Gray 40.00mm x 40.00mm Square,17.8,0.5,40.0,40.0,384.48,
-,Thermal Pad,Bergquist,GP1500-0.020-02-0404,Thermal Pad Black 101.60mm x 101.60mm Square Tacky - Both Sides,1.5,0.51,101.6,101.6,403.0,
-,Thermal Pad,Wakefield Thermal,PL-1-3-1016-H,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 3 W/m-K, 101.6x101.6mm, Hyper Soft",3.0,1.0,101.6,101.6,412.1,
-,Thermal Pad,Wakefield Thermal,PL-2-1-1016,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 2mm Thickness, 1 W/m-K, 101.6x101.6mm, Grey",1.0,2.0,101.6,101.6,414.7,
-,Thermal Pad,KYOCERA AVX,QB0603A25WYT,Thermal Pad 1.52mm x 0.76mm Rectangular,50.0,0.06,1.52,0.76,416.0,
-,Thermal Pad,Wakefield Thermal,PL-05-5-1016-H,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 0.5mm Thick, 5 W/m-K, 101.6x101.6mm, Hyper Soft",5.0,0.5,101.6,101.6,436.48,
-,Thermal Pad,Laird Technologies - Thermal Materials,A18197-05,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides,5.3,0.12,228.6,228.6,442.33,
-,Thermal Pad,Parker Chomerics,69-13-42348-T412,Thermal Pad Gray 28.00mm x 28.00mm Square Adhesive - Both Sides,1.4,0.23,28.0,28.0,468.98,
-,Thermal Pad,t-Global Technology,T62-310-310-0.13,Thermal Pad Black 310.00mm x 310.00mm Square,20.0,0.13,310.0,310.0,489.78,
-,Thermal Pad,Laird Technologies - Thermal Materials,A18197-08,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides,5.3,0.2,228.6,228.6,500.83,
-,Thermal Pad,t-Global Technology,TG-A6200-150-150-0.5,Thermal Pad Blue 150.00mm x 150.00mm Square Tacky - Both Sides,6.2,0.5,150.0,150.0,519.03,
-,Thermal Pad,Laird Technologies - Thermal Materials,A18197-10,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides,5.3,0.25,228.6,228.6,541.13,
-,Thermal Pad,Laird Technologies - Thermal Materials,A17916-08,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides,2.0,2.03,228.6,228.6,541.78,
-,Thermal Pad,Bergquist,BP100-0.005-00-1112,Thermal Pad White 304.80mm x 279.40mm Rectangular Adhesive - Both Sides,0.8,0.13,304.8,279.4,550.55,
-,Thermal Pad,Wakefield Thermal,PL-2-3-1016-H,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 2mm Thickness, 3 W/m-K, 101.6x101.6mm, Hyper Soft",3.0,2.0,101.6,101.6,572.65,
-,Thermal Pad,t-Global Technology,T62-1-310-310-0.16,Thermal Pad Black 310.00mm x 310.00mm Square Adhesive - One Side,15.0,0.16,310.0,310.0,573.95,
-,Thermal Pad,Wakefield Thermal,PL-1-5-76X127-60,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 5 W/m-K, 76.2x127mm, Brown",5.0,1.0,76.2,127.0,615.55,
-,Thermal Pad,Bergquist,GP1500-0.040-02-0404,Thermal Pad Black 101.60mm x 101.60mm Square Tacky - Both Sides,1.5,1.02,101.6,101.6,663.98,
-,Thermal Pad,Wakefield Thermal,PLF-1-3-76X127-70,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone-Free, 1mm Thickness, 3 W/m-K, 76x127mm, White",3.0,1.0,76.0,127.0,666.25,
-,Thermal Pad,t-Global Technology,GT10D-300-300-0.25-1A,Thermal Pad Pink 300.00mm x 300.00mm Square Adhesive - One Side,1.5,0.25,300.0,300.0,684.78,
-,Thermal Pad,Same Sky (Formerly CUI Devices),SF400-505005,Thermal Pad Gray 50.00mm x 50.00mm Square Tacky - Both Sides,2.5,0.5,50.0,50.0,703.3,
-,Thermal Pad,Laird Technologies - Thermal Materials,A18197-16,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides,5.3,0.41,228.6,228.6,710.78,
-,Thermal Pad,Bergquist,GPVOUS-0.020-01-0816,Thermal Pad Pink 406.40mm x 203.20mm Rectangular Tacky - One Side,1.0,0.51,406.4,203.2,718.25,
-,Thermal Pad,Laird Technologies - Thermal Materials,A17733-04,Thermal Pad Yellow 228.60mm x 228.60mm Square Adhesive - One Side,1.2,1.02,228.6,228.6,727.68,
-,Thermal Pad,Bergquist,2191342,Thermal Pad Gray 304.80mm x 292.10mm Rectangular,0.9,0.15,304.8,292.1,728.98,
-,Thermal Pad,t-Global Technology,TG-A1250-125-125-0.5,Thermal Pad Green 125.00mm x 125.00mm Square,12.5,0.5,125.0,125.0,736.45,
-,Thermal Pad,Laird Technologies - Thermal Materials,A18172-16,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides,7.5,0.4,228.6,228.6,749.13,
-,Thermal Pad,Parker Chomerics,69-12-42355-1674,Thermal Pad Blue 203.20mm x 203.20mm Square Adhesive - One Side,1.0,0.25,203.2,203.2,761.8,
-,Thermal Pad,t-Global Technology,TG-A6200-100-100-2.5,Thermal Pad Blue 100.00mm x 100.00mm Square Tacky - Both Sides,6.2,2.5,100.0,100.0,764.4,
-,Thermal Pad,Wakefield Thermal,PL-1-6-76X127-60,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 6 W/mK, 76.2x127mm, Grey",6.0,1.0,76.2,127.0,787.8,
-,Thermal Pad,Bergquist,GP1500-0.040-02-0816,Thermal Pad Black 406.40mm x 203.20mm Rectangular Tacky - Both Sides,1.5,1.02,406.4,203.2,790.08,
-,Thermal Pad,Bergquist,GPVOUS-0.040-01-0816,Thermal Pad Pink 406.40mm x 203.20mm Rectangular Tacky - One Side,1.0,1.02,406.4,203.2,802.1,
-,Thermal Pad,Laird Technologies - Thermal Materials,A18172-05,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides,7.5,0.12,228.6,228.6,814.13,
-,Thermal Pad,t-Global Technology,TG-A6200-150-150-1.0,Thermal Pad Blue 150.00mm x 150.00mm Square Tacky - Both Sides,6.2,1.0,150.0,150.0,814.78,
-,Thermal Pad,Laird Technologies - Thermal Materials,A15993-00,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides,3.0,0.51,228.6,228.6,827.78,
-,Thermal Pad,Laird Technologies - Thermal Materials,A18172-10,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides,7.5,0.25,228.6,228.6,865.15,
-,Thermal Pad,Wakefield Thermal,PL-1-5-1016-H,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 5 W/m-K, 101.6x101.6mm, Hyper Soft",5.0,1.0,101.6,101.6,882.38,
-,Thermal Pad,t-Global Technology,TG-A1250-100-100-1.0,Thermal Pad Green 100.00mm x 100.00mm Square,12.5,1.0,100.0,100.0,902.53,
-,Thermal Pad,Wakefield Thermal,PLX-1-6-76X127-48,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 6 W/mK, 76x127mm, Grey",6.0,1.0,76.0,127.0,916.5,
-,Thermal Pad,Bergquist,BP100-0.011-00-1010,Thermal Pad White 254.00mm x 254.00mm Square Adhesive - Both Sides,0.8,0.28,254.0,254.0,922.35,
-,Thermal Pad,Wakefield Thermal,PL-1-5-1016,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 5 W/m-K, 101.6x101.6mm, Gold",5.0,1.0,101.6,101.6,944.78,
-,Thermal Pad,Wakefield Thermal Solutions,PL-1-5-1016-H,Thermal Pad Gold 101.60mm x 101.60mm Square Tacky - One Side,5.0,0.99,101.6,101.6,945.1,
-,Thermal Pad,Bergquist,GP1500R-0.020-02-0816,Thermal Pad Black 406.40mm x 203.20mm Rectangular Tacky - Both Sides,1.5,0.51,406.4,203.2,966.88,
-,Thermal Pad,Würth Elektronik,4051210297017,Thermal Pad 297.00mm x 210.00mm Rectangular Acrylic,1800.0,0.04,297.0,210.0,968.83,
-,Thermal Pad,Bergquist,BP100-0.008-00-1010,Thermal Pad White 254.00mm x 254.00mm Square Adhesive - Both Sides,0.8,0.2,254.0,254.0,980.53,
-,Thermal Pad,Bergquist,2191191,Thermal Pad Pink 406.40mm x 203.20mm Rectangular Tacky - One Side,1.0,1.52,406.4,203.2,1007.5,
-,Thermal Pad,Parker Chomerics,69-13-42350-T412,Thermal Pad Gray 152.40mm x 152.40mm Square Adhesive - Both Sides,1.4,0.23,152.4,152.4,1018.23,
-,Thermal Pad,Laird Technologies - Thermal Materials,A14556-01,Thermal Pad Blue 228.60mm x 228.60mm Square Tacky - Both Sides,2.8,0.51,228.6,228.6,1021.15,
-,Thermal Pad,Laird Technologies - Thermal Materials,A17690-02,Thermal Pad Pink 228.60mm x 228.60mm Square Tacky - One Side,5.0,0.51,228.6,228.6,1049.1,
-,Thermal Pad,Wakefield Thermal,PLX-1-7-76X127-68,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 7 W/mK, 76x127mm, Grey",7.0,1.0,76.0,127.0,1051.7,
-,Thermal Pad,Bergquist,SPK10-0.006-00-11.512,Thermal Pad Beige 304.80mm x 292.10mm Rectangular,1.3,0.15,304.8,292.1,1079.65,
-,Thermal Pad,Laird Technologies - Thermal Materials,A10464-07,Thermal Pad Gray 609.60mm x 457.20mm Rectangular,5.0,0.51,609.6,457.2,1130.03,
-,Thermal Pad,Taica North America Corporation,COH-4065LVC-200-10,Thermal Pad Reddish Brown 200.00mm x 200.00mm Square Tacky - Both Sides,2.2,0.99,200.0,200.0,1177.47,
-,Thermal Pad,Bergquist,GP1500-0.080-02-0816,Thermal Pad Black 406.40mm x 203.20mm Rectangular Tacky - Both Sides,1.5,2.03,406.4,203.2,1178.45,
-,Thermal Pad,Wakefield Thermal,PLX-1-1.5-210X310-40,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 1.5 W/mK, 210x310mm, White",1.5,1.0,210.0,310.0,1186.25,
-,Thermal Pad,t-Global Technology,TG-A486G-150-150-1.0-1A,Thermal Pad Gray 150.00mm x 150.00mm Square Adhesive - One Side,6.3,1.0,150.0,150.0,1213.55,
-,Thermal Pad,Bergquist,SP900S-0.009-AC-1212,Thermal Pad Pink 304.80mm x 304.80mm Square Adhesive - One Side,1.6,0.23,304.8,304.8,1232.4,
-,Thermal Pad,Laird Technologies - Thermal Materials,A17653-03,Thermal Pad Pink 228.60mm x 228.60mm Square Tacky - Both Sides,5.0,0.76,228.6,228.6,1312.68,
-,Thermal Pad,Wakefield Thermal,PLX-1-2-210X310-80,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 2 W/mK, 210x310mm, Grey",2.0,1.0,210.0,310.0,1328.6,
-,Thermal Pad,Wakefield Thermal,PL-1-8-76X127-50,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 8 W/mK, 76.2x127mm, Grey",8.0,1.0,76.2,127.0,1338.03,
-,Thermal Pad,Wakefield Thermal,PL-2-5-1016-H,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 2mm Thickness, 5 W/m-K, 101.6x101.6mm, Hyper Soft",5.0,2.0,101.6,101.6,1380.6,
-,Thermal Pad,Bergquist,2165804,Thermal Pad Beige 304.80mm x 292.10mm Rectangular Adhesive - One Side,1.3,0.15,304.8,292.1,1439.1,
-,Thermal Pad,3M,5549S-05,Thermal Pad Gray 210.00mm x 155.00mm Rectangular Tacky - One Side,3.5,0.5,210.0,155.0,1445.28,
-,Thermal Pad,Parker Chomerics,61-02-0909-G579,Thermal Pad Pink 228.60mm x 228.60mm Square,3.0,0.51,228.6,228.6,1467.05,
-,Thermal Pad,Laird Technologies - Thermal Materials,A18330-04,Thermal Pad Gray 127.00mm x 76.00mm Rectangular,34.0,1.0,127.0,76.0,1483.95,
-,Thermal Pad,Wakefield Thermal,PLX-1-8-76x127-40,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 8 W/mK, 76x127mm, Grey",8.0,1.0,76.0,127.0,1532.05,
-,Thermal Pad,t-Global Technology,TG-APC94-150-150-2.0-0,Thermal Pad Red 150.00mm x 150.00mm Square,4.0,2.01,150.0,150.0,1553.83,
-,Thermal Pad,Laird Technologies - Thermal Materials,A15340-01,Thermal Pad Green 228.60mm x 228.60mm Square,1.2,5.08,228.6,228.6,1587.95,
-,Thermal Pad,Laird Technologies - Thermal Materials,A10832-02,Thermal Pad Yellow 228.60mm x 228.60mm Square Tacky - Both Sides,2.2,0.25,228.6,228.6,1617.53,
-,Thermal Pad,Bergquist,GP1500-0.125-02-0816,Thermal Pad Black 406.40mm x 203.20mm Rectangular Tacky - Both Sides,1.5,3.18,406.4,203.2,1638.0,
-,Thermal Pad,Laird Technologies - Thermal Materials,A10464-10,Thermal Pad Gray 609.60mm x 457.20mm Rectangular Adhesive - One Side,5.0,0.51,609.6,457.2,1641.9,
-,Thermal Pad,3M,5583S 210 MM X 300 MM X 2.0 MM,Thermal Pad White 300.00mm x 210.00mm Rectangular Tacky - One Side,1.0,2.01,300.0,210.0,1682.2,
-,Thermal Pad,Laird Technologies - Thermal Materials,A18213-02,Thermal Pad Gray 229.00mm x 229.00mm Square,10.0,0.5,229.0,229.0,1685.45,
-,Thermal Pad,t-Global Technology,TG-A1450-100-100-1.0,Thermal Pad Red 100.00mm x 100.00mm Square,14.5,1.0,100.0,100.0,1703.98,
-,Thermal Pad,Laird Technologies - Thermal Materials,A17653-04,Thermal Pad Pink 228.60mm x 228.60mm Square Tacky - Both Sides,5.0,1.02,228.6,228.6,1716.0,
-,Thermal Pad,t-Global Technology,TG-A1250-100-100-2.0,Thermal Pad Green 100.00mm x 100.00mm Square,12.5,2.01,100.0,100.0,1716.98,
-,Thermal Pad,Laird Technologies - Thermal Materials,A10092-01,Thermal Pad Pink 203.20mm x 203.20mm Square,6.0,0.25,203.2,203.2,1724.13,
-,Thermal Pad,Bergquist Company,TGP 40000SF-0.020-00-0406,"Thermal Interface Products GAP PAD, Sil-Free, 40W/m-K, 4x6"" Sheet, 0.020"" Thickness, Thermexit, IDH 2972783",40.0,0.51,4.0,6.0,1730.3,
-,Thermal Pad,Laird Technologies - Thermal Materials,A15340-03,Thermal Pad Green 228.60mm x 228.60mm Square Tacky - One Side,1.2,5.08,228.6,228.6,1735.18,
-,Thermal Pad,Laird Technologies - Thermal Materials,A16367-02,Thermal Pad Pink 228.60mm x 215.90mm Rectangular Tacky - One Side,2.8,0.51,228.6,215.9,1753.7,
-,Thermal Pad,3M,5519 210 MM X 155 MM X 1.0 MM,Thermal Pad Gray 210.00mm x 155.00mm Rectangular Tacky - Both Sides,4.9,0.99,210.0,155.0,1785.23,
-,Thermal Pad,Bergquist,GP1000SF-0.020-02-0816,Thermal Pad Green 406.40mm x 203.20mm Rectangular Tacky - Both Sides,0.9,0.51,406.4,203.2,1800.5,
-,Thermal Pad,t-Global Technology,TG-A1660-125-125-0.5,Thermal Pad Gray 125.00mm x 125.00mm Square,16.6,0.51,125.0,125.0,1844.38,
-,Thermal Pad,t-Global Technology,TG-A486G-150-150-2.0-1A,Thermal Pad Gray 150.00mm x 150.00mm Square Adhesive - One Side,6.3,2.01,150.0,150.0,1851.85,
-,Thermal Pad,Laird Technologies - Thermal Materials,A17690-04,Thermal Pad Pink 228.60mm x 228.60mm Square Tacky - One Side,5.0,1.02,228.6,228.6,1877.53,
-,Thermal Pad,Parker Chomerics,62-02-0909-A579,Thermal Pad Pink 228.60mm x 228.60mm Square Adhesive - One Side,3.0,0.51,228.6,228.6,1917.83,
-,Thermal Pad,Laird Technologies - Thermal Materials,A18238-02,Thermal Pad Gray 229.00mm x 229.00mm Square Tacky - One Side,10.0,0.51,229.0,229.0,1938.95,
-,Thermal Pad,t-Global Technology,TG-A1250-150-150-1.0,Thermal Pad Green 150.00mm x 150.00mm Square,12.5,1.0,150.0,150.0,1940.25,
-,Thermal Pad,Wakefield Thermal,PL-1-10-76X127-55,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 10 W/mK, 76.2x127mm, Grey",10.0,1.0,76.2,127.0,1949.35,
-,Thermal Pad,Bergquist,GPVOUS-0.100-01-0816,Thermal Pad Pink 406.40mm x 203.20mm Rectangular Tacky - One Side,1.0,2.54,406.4,203.2,1955.85,
-,Thermal Pad,3M,5516-10,Thermal Pad Gray 320.00mm x 230.00mm Rectangular Tacky - Both Sides,3.1,0.99,320.0,230.0,1958.78,
-,Thermal Pad,Taica North America Corporation,COH-3114LVC-200-10,Thermal Pad Gray 200.00mm x 200.00mm Square Tacky - Both Sides,3.1,0.99,200.0,200.0,1978.6,
-,Thermal Pad,Bergquist,GPHC3.0-0.020-02-0816,Thermal Pad Blue 406.40mm x 203.20mm Rectangular Tacky - Both Sides,3.0,0.51,406.4,203.2,2024.43,
-,Thermal Pad,Taica North America Corporation,COH-4065LVC-200-20,Thermal Pad Reddish Brown 200.00mm x 200.00mm Square Tacky - Both Sides,2.2,2.01,200.0,200.0,2065.05,
-,Thermal Pad,Bergquist,GP5000S35-0.020-02-0816,Thermal Pad Green 406.40mm x 203.20mm Rectangular Tacky - Both Sides,5.0,0.51,406.4,203.2,2067.65,
-,Thermal Pad,Laird Technologies - Thermal Materials,A12618-01,Thermal Pad Blue-Violet 228.60mm x 228.60mm Square Tacky - Both Sides,3.0,1.02,228.6,228.6,2103.73,
-,Thermal Pad,t-Global Technology,TG-A1250-100-100-2.5,Thermal Pad Green 100.00mm x 100.00mm Square,12.5,2.5,100.0,100.0,2114.13,
-,Thermal Pad,Parker Chomerics,61-04-0909-G579,Thermal Pad Pink 228.60mm x 228.60mm Square,3.0,1.02,228.6,228.6,2148.25,
-,Thermal Pad,Parker Chomerics,61-04-0909-HCS10G,Thermal Pad Orange 228.60mm x 228.60mm Square,1.0,1.02,228.6,228.6,2150.2,
-,Thermal Pad,Laird Technologies - Thermal Materials,A14412-01,Thermal Pad Blue-Violet 228.60mm x 228.60mm Square Tacky - One Side,3.0,1.02,228.6,228.6,2160.6,
-,Thermal Pad,Bergquist,2191193,Thermal Pad Pink 406.40mm x 203.20mm Rectangular Tacky - One Side,1.0,3.18,406.4,203.2,2181.08,
-,Thermal Pad,Bergquist Company,TGP40000SF-0.020-01-0406-NA,"Thermal Interface Products GAP PAD, Sil-Free, 40W/m-K, 4 x 6"" Sheet, Tacky Pad, 0.020"" Thickness, Thermexit",40.0,0.51,4.0,6.0,2189.2,
-,Thermal Pad,t-Global Technology,TG-A6200-310-310-0.5,Thermal Pad Blue 310.00mm x 310.00mm Square Tacky - Both Sides,6.2,0.5,310.0,310.0,2190.83,
-,Thermal Pad,Wakefield Thermal,PLX-1-3-210X310-30,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 3 W/m-K, 210x310mm, Blue",3.0,1.0,210.0,310.0,2213.58,
-,Thermal Pad,t-Global Technology,TG-A1660-100-100-1.0,Thermal Pad Gray 100.00mm x 100.00mm Square,16.6,1.0,100.0,100.0,2335.13,
-,Thermal Pad,Laird Technologies - Thermal Materials,A10080-01,Thermal Pad Blue 203.20mm x 203.20mm Square,6.0,0.51,203.2,203.2,2341.95,
-,Thermal Pad,Wakefield Thermal Solutions,PL-1-12-76X127-75,Thermal Pad Gray 127.00mm x 76.20mm Rectangular Tacky - One Side,12.0,1.0,127.0,76.2,2403.7,
-,Thermal Pad,Parker Chomerics,62-04-0909-A579,Thermal Pad Pink 228.60mm x 228.60mm Square Adhesive - One Side,3.0,1.02,228.6,228.6,2445.3,
-,Thermal Pad,t-Global Technology,TG-A4500-310-310-1.0,Thermal Pad Purple 310.00mm x 310.00mm Square Tacky - Both Sides,4.5,1.0,310.0,310.0,2446.28,
-,Thermal Pad,3M,5519 210 MM X 155 MM X 2.0 MM,Thermal Pad Gray 210.00mm x 155.00mm Rectangular Tacky - Both Sides,4.9,2.01,210.0,155.0,2471.95,
-,Thermal Pad,Laird Technologies - Thermal Materials,A10538-17,Thermal Pad White 228.60mm x 228.60mm Square Tacky - Both Sides,3.0,0.51,228.6,228.6,2480.73,
-,Thermal Pad,t-Global Technology,TG-A1250-100-100-3.0,Thermal Pad Green 100.00mm x 100.00mm Square,12.5,3.0,100.0,100.0,2507.05,
-,Thermal Pad,Bergquist,GPHC5.0-0.020-02-0816,Thermal Pad Gray 406.40mm x 203.20mm Rectangular Tacky - Both Sides,5.0,0.51,406.4,203.2,2636.73,
-,Thermal Pad,Laird Technologies - Thermal Materials,A17690-06,Thermal Pad Pink 228.60mm x 228.60mm Square Tacky - One Side,5.0,1.52,228.6,228.6,2696.2,
-,Thermal Pad,Laird Technologies - Thermal Materials,A12619-01,Thermal Pad Blue-Violet 228.60mm x 228.60mm Square Tacky - Both Sides,3.0,1.27,228.6,228.6,2775.18,
-,Thermal Pad,t-Global Technology,TG-A1250-150-150-1.5,Thermal Pad Green 150.00mm x 150.00mm Square,12.5,1.5,150.0,150.0,2824.58,
-,Thermal Pad,3M,5549S 210 MM X 155MM X 1.5MM,Thermal Pad Gray 210.00mm x 155.00mm Rectangular Tacky - One Side,3.5,1.5,210.0,155.0,2836.6,
-,Thermal Pad,Laird Technologies - Thermal Materials,A16104-10,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides,3.0,2.54,228.6,228.6,2840.5,
-,Thermal Pad,Laird Technologies - Thermal Materials,A17653-07,Thermal Pad Pink 228.60mm x 228.60mm Square Tacky - Both Sides,5.0,1.78,228.6,228.6,2861.63,
-,Thermal Pad,Wakefield Thermal,PLX-1-12-76X127-58,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 12 W/mK, 76x127mm, Grey",12.0,1.0,76.0,127.0,2915.9,
-,Thermal Pad,Wakefield Thermal,PLF-1-8-76X127-70,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone-Free, 1mm Thickness, 8 W/mK, 76.2x127mm, Grey",8.0,1.0,76.2,127.0,2931.83,
-,Thermal Pad,Bergquist Company,TGP7000ULM-0.040-02-0808,"Thermal Interface Products GAP PAD, 7W/m-K, 8"" x 8"" Sheet, 0.040"" Thickness, TGP7000ULM, IDH 2261480",7.0,1.02,203.2,203.2,2986.43,
-,Thermal Pad,t-Global Technology,TG-A1780-125-125-0.5,Thermal Pad Gray 125.00mm x 125.00mm Square,18.0,0.5,125.0,125.0,3019.58,
-,Thermal Pad,t-Global Technology,TG-A1250-250-250-0.5,Thermal Pad Green 250.00mm x 250.00mm Square,12.5,0.5,250.0,250.0,3031.93,
-,Thermal Pad,Laird Technologies - Thermal Materials,A12620-34,Thermal Pad Blue-Violet 228.60mm x 228.60mm Square Tacky - One Side,3.0,1.52,228.6,228.6,3042.98,
-,Thermal Pad,Laird Technologies - Thermal Materials,A17883-04,Thermal Pad Teal 228.60mm x 228.60mm Square,6.0,1.02,228.6,228.6,3103.1,
-,Thermal Pad,Bergquist Company,TGP7000ULM-0.020-02-0808,"Thermal Interface Products GAP PAD, 7W/m-K, 8"" x 8"" Sheet, 0.020"" Thickness, TGP7000ULM, IDH 2563017",7.0,0.51,203.2,203.2,3250.65,
-,Thermal Pad,t-Global Technology,TG-A1450-100-100-2.0,Thermal Pad Red 100.00mm x 100.00mm Square,14.5,2.01,100.0,100.0,3263.65,
-,Thermal Pad,Bergquist,GPHC5.0-0.060-02-0816,Thermal Pad Gray 406.40mm x 203.20mm Rectangular Tacky - Both Sides,5.0,1.52,406.4,203.2,3407.3,
-,Thermal Pad,t-Global Technology,TG-A6200-310-310-1.0,Thermal Pad Blue 310.00mm x 310.00mm Square Tacky - Both Sides,6.2,1.0,310.0,310.0,3440.13,
-,Thermal Pad,Laird Technologies - Thermal Materials,A18213-04,Thermal Pad Gray 229.00mm x 229.00mm Square,10.0,1.0,229.0,229.0,3492.78,
-,Thermal Pad,Laird Technologies - Thermal Materials,A18171-05,Thermal Pad Gray 457.20mm x 457.20mm Square Tacky - Both Sides,7.5,0.12,457.2,457.2,3532.1,
-,Thermal Pad,Parker Chomerics,61-06-0909-G579,Thermal Pad Pink 228.60mm x 228.60mm Square,3.0,1.52,228.6,228.6,3601.98,
-,Thermal Pad,Laird Technologies - Thermal Materials,A18171-08,Thermal Pad Gray 457.20mm x 457.20mm Square Tacky - Both Sides,7.5,0.2,457.2,457.2,3653.32,
-,Thermal Pad,t-Global Technology,TG-A1250-150-150-2.0,Thermal Pad Green 150.00mm x 150.00mm Square,12.5,2.01,150.0,150.0,3690.7,
-,Thermal Pad,Wakefield Thermal,PLX-1-5-210X310-40,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 5 W/m-K, 210x310mm, Grey",5.0,1.0,210.0,310.0,3718.98,
-,Thermal Pad,Parker Chomerics,61-06-1015-PAD60,Thermal Pad Green 381.00mm x 254.00mm Rectangular,6.0,1.52,381.0,254.0,3772.28,
-,Thermal Pad,Taica North America Corporation,COH-4000LVC-400-05,Thermal Pad Gray 400.00mm x 400.00mm Square Tacky - Both Sides,2.3,0.51,400.0,400.0,3810.63,
-,Thermal Pad,Laird Technologies - Thermal Materials,A17883-06,Thermal Pad Teal 228.60mm x 228.60mm Square,6.0,1.52,228.6,228.6,3845.73,
-,Thermal Pad,Parker Chomerics,62-06-0909-A579,Thermal Pad Pink 228.60mm x 228.60mm Square Adhesive - One Side,3.0,1.52,228.6,228.6,3922.75,
-,Thermal Pad,Laird Technologies - Thermal Materials,A11809-02,Thermal Pad Yellow 457.20mm x 457.20mm Square Tacky - Both Sides,0.7,0.13,457.2,457.2,3941.28,
-,Thermal Pad,Laird Technologies - Thermal Materials,A18171-10,Thermal Pad Gray 457.20mm x 457.20mm Square Tacky - Both Sides,7.5,0.25,457.2,457.2,3978.89,
-,Thermal Pad,Laird Technologies - Thermal Materials,A10233-30,Thermal Pad White 228.60mm x 228.60mm Square Tacky - Both Sides,3.0,1.02,228.6,228.6,4127.5,
-,Thermal Pad,Laird Technologies - Thermal Materials,A17156-06,Thermal Pad Pink 457.20mm x 457.20mm Square Tacky - Both Sides,2.7,1.52,457.2,457.2,4266.28,
-,Thermal Pad,Parker Chomerics,61-08-0909-G579,Thermal Pad Pink 228.60mm x 228.60mm Square,3.0,2.03,228.6,228.6,4341.35,
-,Thermal Pad,Bergquist Company,TGP6000ULM-0.040-12-0816,"Thermal Interface Products GAP PAD, 6W/m-K, 8"" x 16"" Sheet, 0.040"" Thickness, TGP6000ULM, IDH 2195666",6.0,1.02,203.2,406.4,4350.78,
-,Thermal Pad,Laird Technologies - Thermal Materials,A18171-16,Thermal Pad Gray 457.20mm x 457.20mm Square Tacky - Both Sides,7.5,0.4,457.2,457.2,4363.45,
-,Thermal Pad,Parker Chomerics,61-04-1015-PAD80G,Thermal Pad Dark Gray 381.00mm x 254.00mm Rectangular,8.3,1.02,381.0,254.0,4565.93,
-,Thermal Pad,Parker Chomerics,61-08-1015-PAD60,Thermal Pad Green 381.00mm x 254.00mm Rectangular,6.0,2.03,381.0,254.0,4666.03,
-,Thermal Pad,Laird Technologies - Thermal Materials,A12624-01,Thermal Pad Blue-Violet 228.60mm x 228.60mm Square Tacky - Both Sides,3.0,2.54,228.6,228.6,4675.45,
-,Thermal Pad,Laird Technologies - Thermal Materials,A18213-06,Thermal Pad Gray 229.00mm x 229.00mm Square,10.0,1.5,229.0,229.0,4677.4,
-,Thermal Pad,Laird Technologies - Thermal Materials,A12616-08,Thermal Pad Blue-Violet 457.20mm x 457.20mm Square Tacky - Both Sides,3.0,0.51,457.2,457.2,4806.43,
-,Thermal Pad,Laird Technologies - Thermal Materials,A10832-09,Thermal Pad Yellow 457.20mm x 457.20mm Square Tacky - Both Sides,2.2,0.25,457.2,457.2,4831.02,
-,Thermal Pad,Laird Technologies - Thermal Materials,A15896-05,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides,5.0,1.27,228.6,228.6,4918.88,
-,Thermal Pad,Laird Technologies - Thermal Materials,A15726-00,Thermal Pad Gray 457.20mm x 457.20mm Square Tacky - Both Sides,3.8,0.25,457.2,457.2,4940.0,
-,Thermal Pad,t-Global Technology,TG-A1450-250-250-0.5,Thermal Pad Red 250.00mm x 250.00mm Square,14.5,0.5,250.0,250.0,5001.1,
-,Thermal Pad,Bergquist Company,TGP7000ULM-0.060-02-0808,"Thermal Interface Products GAP PAD, 7W/m-K, 8"" x 8"" Sheet, 0.060"" Thickness, TGP7000ULM, IDH 2474875",7.0,1.52,203.2,203.2,5015.73,
-,Thermal Pad,Laird Technologies - Thermal Materials,A17752-04,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides,7.5,1.02,228.6,228.6,5022.55,
-,Thermal Pad,Parker Chomerics,61-10-0808-T500,Thermal Pad Green 203.20mm x 203.20mm Square,2.1,0.25,203.2,203.2,5057.65,
-,Thermal Pad,Parker Chomerics,61-06-1015-PAD80G,Thermal Pad Dark Gray 381.00mm x 254.00mm Rectangular,8.3,1.52,381.0,254.0,5063.83,
-,Thermal Pad,Parker Chomerics,62-10-0909-A579,Thermal Pad Pink 228.60mm x 228.60mm Square Adhesive - One Side,3.0,2.54,228.6,228.6,5153.53,
-,Thermal Pad,Bergquist,SPA2000-0.015-00-1012-NA,Thermal Pad White 304.80mm x 254.00mm Rectangular,3.0,0.38,304.8,254.0,5180.18,
-,Thermal Pad,Laird Technologies - Thermal Materials,A18444-04,Thermal Pad Gray 228.60mm x 228.60mm Square,7.5,1.02,228.6,228.6,5194.48,
-,Thermal Pad,Bergquist,GPHC3.0-0.125-02-0816,Thermal Pad Blue 406.40mm x 203.20mm Rectangular Tacky - Both Sides,3.0,3.18,406.4,203.2,5208.13,
-,Thermal Pad,Parker Chomerics,62-03-1015-PAD80A,Thermal Pad Dark Gray 381.00mm x 254.00mm Rectangular Adhesive - One Side,8.3,0.76,381.0,254.0,5370.3,
-,Thermal Pad,Bergquist,GPTGP7000ULM-0.100-02-0808,Thermal Pad Gray 203.20mm x 203.20mm Square Tacky - Both Sides,7.0,2.54,203.2,203.2,5374.2,
-,Thermal Pad,Parker Chomerics,61-10-0909-G579,Thermal Pad Pink 228.60mm x 228.60mm Square,3.0,2.54,228.6,228.6,5405.4,
-,Thermal Pad,Parker Chomerics,62-04-1015-PAD80A,Thermal Pad Dark Gray 381.00mm x 254.00mm Rectangular Adhesive - One Side,8.3,1.02,381.0,254.0,5442.78,
-,Thermal Pad,Bergquist Company,TGP 40000SF-0.040-00-0606,"Thermal Interface Products GAP PAD, Sil-Free, 40W/m-K, 6x6"" Sheet, 0.040"" Thickness, Thermexit, IDH 2972782",40.0,1.02,6.0,6.0,5560.75,
-,Thermal Pad,Laird Technologies - Thermal Materials,A10235-31,Thermal Pad White 228.60mm x 228.60mm Square Tacky - Both Sides,3.0,1.52,228.6,228.6,5661.83,
-,Thermal Pad,Bergquist Company,TGP12000ULM-0.040-00-0808,"Thermal Interface Products GAP PAD, 12W/m-K, Ultra-Low Modulus, 8""x8"" Sheet, 0.040"" Thickness, TGP12000ULM",12.0,1.02,203.2,203.2,5718.05,
-,Thermal Pad,Laird Technologies - Thermal Materials,A18500-01,Thermal Pad White 431.80mm x 431.80mm Rectangular,5.0,0.25,431.8,431.8,5765.18,
-,Thermal Pad,Laird Technologies - Thermal Materials,A18213-08,Thermal Pad Gray 229.00mm x 229.00mm Square,10.2,2.01,229.0,229.0,5845.78,
-,Thermal Pad,Bergquist,GP3000S30-0.125-02-0816,Thermal Pad Blue 406.40mm x 203.20mm Rectangular Tacky - Both Sides,3.0,3.18,406.4,203.2,5867.55,
-,Thermal Pad,Laird Technologies - Thermal Materials,A17752-05,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides,7.5,1.25,228.6,228.6,5876.98,
-,Thermal Pad,Bergquist,GPHC5.0-0.100-02-0816,Thermal Pad Gray 406.40mm x 203.20mm Rectangular Tacky - Both Sides,5.0,2.54,406.4,203.2,5882.18,
-,Thermal Pad,Bergquist Company,TGP6000ULM-0.060-12-0816,"Thermal Interface Products GAP PAD, 6W/m-K, 8"" x 16"" Sheet, 0.060"" Thickness, TGP6000ULM, IDH 2195667",6.0,1.52,203.2,406.4,6036.23,
-,Thermal Pad,Bergquist Company,TGP7000ULM-0.080-02-0808,"Thermal Interface Products GAP PAD, 7W/m-K, 8"" x 8"" Sheet, 0.080"" Thickness, TGP7000ULM, IDH 2474885",7.0,2.03,203.2,203.2,6103.18,
-,Thermal Pad,Bergquist Company,TGP40000SF-0.040-01-0606-NA,"Thermal Interface Products GAP PAD, Sil-Free, 40W/m-K, 6 x 6"" Sheet, Tacky Pad, 0.040"" Thickness, Thermexit",40.0,1.02,6.0,6.0,6117.15,
-,Thermal Pad,Laird Technologies - Thermal Materials,A17536-04,Thermal Pad Pink 457.20mm x 457.20mm Square Tacky - Both Sides,5.0,1.02,457.2,457.2,6348.23,
-,Thermal Pad,Laird Technologies - Thermal Materials,A17690-13,Thermal Pad Pink 228.60mm x 228.60mm Square Tacky - One Side,5.0,3.3,228.6,228.6,6349.2,
-,Thermal Pad,t-Global Technology,TG-A1780-150-150-0.8,Thermal Pad Gray 150.00mm x 150.00mm Square,17.8,0.79,150.0,150.0,6504.88,
-,Thermal Pad,Parker Chomerics,61-15-0808-1671,Thermal Pad White 203.20mm x 203.20mm Square,2.6,0.38,203.2,203.2,6549.4,
-,Thermal Pad,Laird Technologies - Thermal Materials,A12617-25,Thermal Pad Blue-Violet 457.20mm x 457.20mm Square Tacky - Both Sides,3.0,0.76,457.2,457.2,6683.63,
-,Thermal Pad,Aavid,SuperThermal-B132-10-02-1500-1500,"Thermal Interface Products SuperThermal Pad, 13.2 W/mK Conductivity, 1mm Thick, 2-Side Adhesive, 150x150mm",13.2,1.0,150.0,150.0,6703.45,
-,Thermal Pad,Laird Technologies - Thermal Materials,A17752-06,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides,7.5,1.5,228.6,228.6,6724.9,
-,Thermal Pad,Parker Chomerics,62-15-0808-1671,Thermal Pad White 203.20mm x 203.20mm Square,2.6,0.38,203.2,203.2,6755.45,
-,Thermal Pad,t-Global Technology,TG-A1660-250-250-0.5,Thermal Pad Gray 250.00mm x 250.00mm Square,16.6,0.5,250.0,250.0,6821.75,
-,Thermal Pad,Bergquist Company,TGP 40000SF-0.060-00-0606,"Thermal Interface Products GAP PAD, Sil-Free, 40W/m-K, 6x6"" Sheet, 0.060"" Thickness, Thermexit, IDH 2972780",40.0,1.52,6.0,6.0,6851.33,
-,Thermal Pad,Bergquist Company,TGP12000ULM-0.060-00-0808,"Thermal Interface Products GAP PAD, 12W/m-K, Ultra-Low Modulus, 8""x8"" Sheet, 0.060"" Thickness, TGP12000ULM",12.0,1.52,203.2,203.2,7045.35,
-,Thermal Pad,Laird Technologies - Thermal Materials,A10237-21,Thermal Pad White 228.60mm x 228.60mm Square Tacky - Both Sides,3.0,2.03,228.6,228.6,7258.55,
-,Thermal Pad,Parker Chomerics,61-08-1015-PAD80G,Thermal Pad Dark Gray 381.00mm x 254.00mm Rectangular,8.3,2.03,381.0,254.0,7343.38,
-,Thermal Pad,Bergquist Company,2722287,"Thermal Interface Products GAP PAD, 12 W/m-K, Ultra-Low Modulus, 8"" x 8"" Sheet, 0.040"" Thickness",12.0,1.02,203.2,203.2,7462.65,
-,Thermal Pad,Bergquist Company,TGP40000SF-0.060-01-0606-NA,"Thermal Interface Products GAP PAD, Sil-Free, 40W/m-K, 6 x 6"" Sheet, Tacky Pad, 0.060"" Thickness, Thermexit",40.0,1.52,6.0,6.0,7536.75,
-,Thermal Pad,Bergquist Company,GP7000ULM-0.100-02-0808,"Thermal Interface Products GAP PAD, Silicone Thermal Interface, 7 W/m-K Thermal Conductivity, Ultra-Low Modulus, 8"" x 8"" Sheet, 0.100"" Thickness, GAP PAD TGP 7000ULM Series, IDH 2474876",7.0,2.54,203.2,203.2,7633.93,
-,Thermal Pad,Laird Technologies - Thermal Materials,A10833-06,Thermal Pad Yellow 457.20mm x 457.20mm Square Tacky - Both Sides,2.2,0.51,457.2,457.2,7783.1,
-,Thermal Pad,Bergquist,SP2000-0.020-00-1212,Thermal Pad White 304.80mm x 304.80mm Square,3.5,0.51,304.8,304.8,7885.8,
-,Thermal Pad,t-Global Technology,TG-A1250-310-310-1.0,Thermal Pad Green 310.00mm x 310.00mm Square,12.5,1.0,310.0,310.0,7988.5,
-,Thermal Pad,t-Global Technology,TG-A1780-150-150-1.0,Thermal Pad Gray 150.00mm x 150.00mm Square,17.8,1.0,150.0,150.0,8002.15,
-,Thermal Pad,Bergquist Company,TGP10000ULM-0.040-02-0808,"Thermal Interface Products GAP PAD, 10W/m-K, 8"" x 8"" Sheet, 0.040"" Thickness, TGP10000ULM, IDH 2591008",10.0,1.02,203.2,203.2,8062.28,
-,Thermal Pad,Bergquist Company,TGP 40000SF-0.080-00-0606,"Thermal Interface Products GAP PAD, Sil-Free, 40W/m-K, 6x6"" Sheet, 0.080"" Thickness, Thermexit, IDH 2972781",40.0,2.03,6.0,6.0,8149.7,
-,Thermal Pad,Laird Technologies - Thermal Materials,A17752-08,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides,7.5,2.01,228.6,228.6,8402.55,
-,Thermal Pad,Bergquist Company,TGP12000ULM-0.080-00-0808,"Thermal Interface Products GAP PAD, 12W/m-K, Ultra-Low Modulus, 8""x8"" Sheet, 0.080"" Thickness, TGP12000ULM",12.0,2.03,203.2,203.2,8570.58,
-,Thermal Pad,Bergquist Company,TGP40000SF-0.080-01-0606-NA,"Thermal Interface Products GAP PAD, Sil-Free, 40W/m-K, 6 x 6"" Sheet, Tacky Pad, 0.080"" Thickness, Thermexit",40.0,2.03,6.0,6.0,8870.55,
-,Thermal Pad,Parker Chomerics,62-08-1015-PAD80A,Thermal Pad Dark Gray 381.00mm x 254.00mm Rectangular Adhesive - One Side,8.3,2.03,381.0,254.0,8917.35,
-,Thermal Pad,Laird Technologies - Thermal Materials,A18213-10,Thermal Pad Gray 229.00mm x 229.00mm Square,10.0,2.5,229.0,229.0,9145.5,
-,Thermal Pad,Bergquist Company,2722288,"Thermal Interface Products GAP PAD, 12 W/m-K, Ultra-Low Modulus, 8"" x 8"" Sheet, 0.060"" Thickness",12.0,1.52,203.2,203.2,9149.73,
-,Thermal Pad,Bergquist Company,TGP7000ULM-0.125-02-0808,"Thermal Interface Products GAP PAD, 7W/m-K, 8"" x 8"" Sheet, 0.125"" Thickness, TGP7000ULM, IDH 2474886",7.0,3.18,203.2,203.2,9358.7,
-,Thermal Pad,Bergquist,GP3004SF-0.040-01-0918,Thermal Pad Gray 457.20mm x 228.60mm Rectangular Tacky - One Side,3.0,1.02,457.2,228.6,9987.71,
-,Thermal Pad,Bergquist Company,TGP 40000SF-0.100-00-0606,"Thermal Interface Products GAP PAD, Sil-Free, 40W/m-K, 6x6"" Sheet, 0.100"" Thickness, Thermexit, IDH 2964639",40.0,2.54,6.0,6.0,10059.73,
-,Thermal Pad,Laird Technologies - Thermal Materials,A14428-01,Thermal Pad Blue-Violet 228.60mm x 228.60mm Square Tacky - One Side,3.0,5.08,228.6,228.6,10225.8,
-,Thermal Pad,Bergquist Company,TGP6000ULM-0.080-12-0816,"Thermal Interface Products GAP PAD, 6W/m-K, 8"" x 16"" Sheet, 0.080"" Thickness, TGP6000ULM, IDH 2195669",6.0,2.03,203.2,406.4,10276.83,
-,Thermal Pad,Bergquist Company,TGP10000ULM-0.060-02-0808,"Thermal Interface Products GAP PAD, 10W/m-K, 8"" x 8"" Sheet, 0.060"" Thickness, TGP10000ULM, IDH 2591009",10.0,1.52,203.2,203.2,10326.88,
-,Thermal Pad,Bergquist Company,TGP40000SF-0.100-01-0606-NA,"Thermal Interface Products GAP PAD, Sil-Free, 40W/m-K, 6 x 6"" Sheet, Tacky Pad, 0.105"" Thickness, Thermexit",40.0,2.67,6.0,6.0,11065.28,
-,Thermal Pad,Bergquist Company,2722289,"Thermal Interface Products GAP PAD, 12 W/m-K, Ultra-Low Modulus, 8"" x 8"" Sheet, 0.080"" Thickness",12.0,2.03,203.2,203.2,11169.93,
-,Thermal Pad,t-Global Technology,TG-A1780-250-250-0.5,Thermal Pad Gray 250.00mm x 250.00mm Square,18.0,0.5,250.0,250.0,11171.55,
-,Thermal Pad,t-Global Technology,TG-A1780-150-150-1.5,Thermal Pad Gray 150.00mm x 150.00mm Square,17.8,1.5,150.0,150.0,11671.73,
-,Thermal Pad,Bergquist,2214846,Thermal Pad Gray 406.40mm x 203.20mm Rectangular Tacky - Both Sides,6.0,3.18,406.4,203.2,11808.23,
-,Thermal Pad,Bergquist Company,TGP 40000SF-0.125-00-0606,"Thermal Interface Products GAP PAD, Sil-Free, 40W/m-K, 6x6"" Sheet, 0.125"" Thickness, Thermexit, IDH 2964638",40.0,3.18,6.0,6.0,12061.08,
-,Thermal Pad,Leader Tech Inc.,TGF30SF-07870787-039,Thermal Pad Gray 199.90mm x 199.90mm Square Tacky - Both Sides,3.0,0.99,199.9,199.9,12351.63,
-,Thermal Pad,Bergquist Company,TGP6000ULM-0.100-12-0816,"Thermal Interface Products GAP PAD, 6W/m-K, 8"" x 16"" Sheet, 0.100"" Thickness, TGP6000ULM, IDH 2196912",6.0,2.54,203.2,406.4,12615.85,
-,Thermal Pad,Bergquist Company,TGP10000ULM-0.080-02-0808,"Thermal Interface Products GAP PAD, 10W/m-K, 8"" x 8"" Sheet, 0.080"" Thickness, TGP10000ULM, IDH 2591010",10.0,2.03,203.2,203.2,12675.65,
-,Thermal Pad,Bergquist Company,TGP40000SF-0.125-01-0606-NA,"Thermal Interface Products GAP PAD, Sil-Free, 40W/m-K, 6 x 6"" Sheet, Tacky Pad, 0.125"" Thickness, Thermexit",40.0,3.18,6.0,6.0,13266.83,
-,Thermal Pad,Bergquist Company,2722290,"Thermal Interface Products GAP PAD, 12 W/m-K, Ultra-Low Modulus, 8"" x 8"" Sheet, 0.100"" Thickness",12.0,2.54,203.2,203.2,13720.2,
-,Thermal Pad,t-Global Technology,TG-A1250-310-310-2.0,Thermal Pad Green 310.00mm x 310.00mm Square,12.5,2.01,310.0,310.0,15193.75,
-,Thermal Pad,t-Global Technology,TG-A1780-150-150-2.0,Thermal Pad Gray 150.00mm x 150.00mm Square,17.8,2.01,150.0,150.0,15272.08,
-,Thermal Pad,Bergquist Company,TGP6000ULM-0.125-12-0816,"Thermal Interface Products GAP PAD, 6W/m-K, 8"" x 16"" Sheet, 0.125"" Thickness, TGP6000ULM, IDH 2214846",6.0,3.18,203.2,406.4,16094.98,
-,Thermal Pad,Bergquist Company,2722291,"Thermal Interface Products GAP PAD, 12 W/m-K, Ultra-Low Modulus, 8"" x 8"" Sheet, 0.120"" Thickness",12.0,3.05,203.2,203.2,17475.9,
-,Thermal Pad,Bergquist Company,TGP12000ULM-0.100-00-0808,"Thermal Interface Products GAP PAD, 12W/m-K, Ultra-Low Modulus, 8""x8"" Sheet, 0.100"" Thickness, TGP12000ULM",12.0,2.54,203.2,203.2,17744.68,
-,Thermal Pad,Bergquist Company,TGP12000ULM-0.125-00-0808,"Thermal Interface Products GAP PAD, 12W/m-K, Ultra-Low Modulus, 8""x8"" Sheet, 0.125"" Thickness, TGP12000ULM",12.0,3.18,203.2,203.2,18197.08,
-,Thermal Pad,Laird Technologies - Thermal Materials,A17751-04,Thermal Pad Gray 457.20mm x 457.20mm Square Tacky - Both Sides,7.5,1.02,457.2,457.2,18578.3,
-,Thermal Pad,Bergquist Company,2722292,"Thermal Interface Products GAP PAD, 12 W/m-K, Ultra-Low Modulus, 8"" x 8"" Sheet, 0.140"" Thickness",12.0,3.56,203.2,203.2,18925.73,
-,Thermal Pad,Bergquist Company,TGP10000ULM-0.100-02-0808,"Thermal Interface Products GAP PAD, 10W/m-K, 8"" x 8"" Sheet, 0.100"" Thickness, TGP10000ULM, IDH 2599712",10.0,2.54,203.2,203.2,19206.85,
-,Thermal Pad,Bergquist Company,TGP10000ULM-0.125-02-0808,"Thermal Interface Products GAP PAD, 10W/m-K, 8"" x 8"" Sheet, 0.125"" Thickness, TGP10000ULM, IDH 2599713",10.0,3.18,203.2,203.2,21142.55,
-,Thermal Pad,Bergquist Company,2722293,"Thermal Interface Products GAP PAD, 12 W/m-K, Ultra-Low Modulus, 8"" x 8"" Sheet, 0.160"" Thickness",12.0,4.06,203.2,203.2,21634.93,
+GR-0001,Grease,SparkFun Electronics,09599,Thermal Silicone Compound 5 gram Syringe,1.17,,,,102.7,5.0
+GR-0002,Grease,Chip Quik Inc.,TC3-1G,Thermal Silicone Compound 1 gram Syringe,8.5,,,,193.38,1.0
+GR-0003,Grease,MG Chemicals,8615,Thermal Non-Silicone Grease 3.5 gram Syringe,3.0,,,,212.55,3.5
+GR-0004,Grease,StarTech.com,SILVGREASE1,Thermal Silicone Compound 1.5 gram Syringe,1.93,,,,264.55,1.5
+GR-0005,Grease,Chip Quik Inc.,TC1-10G,Thermal Silicone Compound 10 gram Syringe,0.67,,,,290.88,10.0
+GR-0006,Grease,StarTech.com,HEATGREASE20,Thermal Silicone Compound 20 gram Tube,1.07,,,,301.93,20.0
+GR-0007,Grease,MG Chemicals,8610-60G,Thermal Non-Silicone Compound 2 oz Tube,0.77,,,,371.93,56.7
+GR-0008,Grease,Chip Quik,TC4-1G,Thermal Interface Products Heat Sink Thermal Compound - Deep-Space Liquid Metal 79 W/mK 1g/1cc Syringe,79.0,,,,377.98,1.0
+GR-0009,Grease,Chip Quik Inc.,TC4-1G,"Thermal Thermal Compound, Liquid Metal 1 gram Syringe",79.0,,,,391.95,1.0
+GR-0010,Grease,Chip Quik Inc.,TC1-20G,Thermal Silicone Compound 20 gram Syringe,0.67,,,,420.88,20.0
+GR-0011,Grease,"Boyd Laconia, LLC",250G,Thermal Silicone Compound 2 oz Tube,0.76,,,,441.03,56.7
+GR-0012,Grease,t-Global Technology,TG-N909-30,Thermal Non-Silicone Grease 30 gram Container,9.0,,,,481.65,30.0
+GR-0013,Grease,Chip Quik Inc.,TC3-3.5G,Thermal Silicone Compound 3.5 gram Syringe,8.5,,,,485.88,3.5
+GR-0014,Grease,Chemtronics,CW7270,Thermal Non-Silicone Grease 7 gram Syringe,0.71,,,,504.32,7.0
+GR-0015,Grease,Parker Chomerics,65-00-GREASE15-0010,Thermal Silicone Grease 10cc Syringe,1.5,,,,552.5,25.0
+GR-0016,Grease,Chip Quik,TC4-2G,Thermal Interface Products Heat Sink Thermal Compound - Deep-Space Liquid Metal 79 W/mK 2g/1cc Syringe,79.0,,,,568.1,2.0
+GR-0017,Grease,Chip Quik Inc.,TC4-2G,"Thermal Thermal Compound, Liquid Metal 2 gram Syringe",79.0,,,,575.9,2.0
+GR-0018,Grease,Parker Chomerics,65-00-GREASE30-0010,Thermal Silicone Grease 10cc Syringe,3.0,,,,581.1,25.0
+GR-0019,Grease,Parker Chomerics,65-00-GREASE50-0010,Thermal Silicone Grease 10cc Jar,5.0,,,,610.03,25.0
+GR-0020,Grease,Parker Chomerics,65-00-GREASE70-0010,Thermal Silicone Grease 10cc Syringe,7.0,,,,627.25,25.0
+GR-0021,Grease,Parker Chomerics,65-00-CIP60-0045,"Thermal Silicone Compound, 2 Part 50cc Cartridge",6.0,,,,673.4,125.0
+GR-0022,Grease,Chip Quik Inc.,TC2-10G,Thermal Silicone Compound 10 gram Syringe,4.3,,,,713.38,10.0
+GR-0023,Grease,Chemtronics,CW7250,Thermal Non-Silicone Grease 3.4 gram Syringe,1.85,,,,729.95,3.4
+GR-0024,Grease,Chip Quik Inc.,TC4-5G,"Thermal Thermal Compound, Liquid Metal 5 gram Syringe",79.0,,,,756.28,5.0
+GR-0025,Grease,Chip Quik,TC4-5G,Thermal Interface Products Heat Sink Thermal Compound - Deep-Space Liquid Metal 79 W/mK 5g/1cc Syringe,79.0,,,,758.23,5.0
+GR-0026,Grease,MG Chemicals,8617-85ML,Thermal Non-Silicone Grease 85 ml Tube,1.0,,,,819.87,212.5
+GR-0027,Grease,Bergquist,GF1000-00-15-50CC,"Thermal Liquid Gap Filler, 2 Part 50cc Cartridge",1.0,,,,826.48,125.0
+GR-0028,Grease,"Shiu Li Technology Co., Ltd.",X-PUTTY-100,Thermal Silicone Putty 100 gram Cartridge,3.0,,,,912.93,100.0
+GR-0029,Grease,MG Chemicals,8327GF25-50CC,Thermal Silicone Gap Filler 50 ml Cartridges,2.5,,,,949.11,125.0
+GR-0030,Grease,Parker Chomerics,65-00-GEL37-0010,Thermal Silicone Gel 10cc Syringe,3.7,,,,956.15,25.0
+GR-0031,Grease,"Shiu Li Technology Co., Ltd.",PK223DM-110,"Thermal Liquid Gap Filler, 2 Part 110 gram Cartridge",2.0,,,,1008.15,110.0
+GR-0032,Grease,StarTech.com,SILV5-THERMAL-PASTE,Thermal Silicone Compound 1.5 gram Syringe,3.2,,,,1018.08,1.5
+GR-0033,Grease,Parker Chomerics,65-00-GEL35VT-0010,Thermal Silicone Gel 10cc Syringe,3.5,,,,1045.85,25.0
+GR-0034,Grease,Chip Quik,TC4-10G,Thermal Interface Products Heat Sink Thermal Compound - Deep-Space Liquid Metal 79 W/mK 10g/3cc Syringe,79.0,,,,1075.1,10.0
+GR-0035,Grease,Chip Quik Inc.,TC4-10G,"Thermal Thermal Compound, Liquid Metal 10 gram Syringe",79.0,,,,1110.2,10.0
+GR-0036,Grease,Chemtronics,CT40-5,Thermal Silicone Compound 5 oz Tube,0.63,,,,1118.33,141.8
+GR-0037,Grease,Bergquist Company,GF4500CVO-00-240-50CC,"Thermal Interface Products Liquid Gap-Filling Material, 2-Part, 4.5W/m-K, 50ml Cartridge, TGF4500CVO",4.5,,,,1121.9,125.0
+GR-0038,Grease,Bergquist,GF1500-00-60-50CC,"Thermal Liquid Gap Filler, 2 Part 50cc Cartridge",1.8,,,,1129.05,125.0
+GR-0039,Grease,"Shiu Li Technology Co., Ltd.",S-PUTTY-100,Thermal Silicone Putty 100 gram Cartridge,3.5,,,,1218.43,100.0
+GR-0040,Grease,"Shiu Li Technology Co., Ltd.",N-PUTTY-100,Thermal Non-Silicone Putty 100 gram Cartridge,3.5,,,,1222.0,100.0
+GR-0041,Grease,Chip Quik Inc.,TC3-10G,Thermal Silicone Compound 5cc Syringe,8.5,,,,1233.38,12.5
+GR-0042,Grease,Parker Chomerics,65-00-GEL20-0010,Thermal Gel Gap Filler 10cc Syringe,2.4,,,,1274.33,25.0
+GR-0043,Grease,"Shiu Li Technology Co., Ltd.",H-PUTTY-100,Thermal Silicone Putty 100 gram Cartridge,3.5,,,,1283.1,100.0
+GR-0044,Grease,Wakefield Thermal Solutions,127-6-10,Thermal Non-Silicone Grease 10cc Syringe,6.0,,,,1299.68,25.0
+GR-0045,Grease,Wakefield Thermal,127-6-10,"Thermal Interface Products Thermal Grease, High Performance, Non-Silicone, 6 W/m-K, 10cc Syringe",6.0,,,,1325.68,25.0
+GR-0046,Grease,Chip Quik Inc.,TC2-20G,Thermal Silicone Compound 20 gram Syringe,4.3,,,,1330.88,20.0
+GR-0047,Grease,Parker Chomerics,65-02-GREASE15-0030,Thermal Silicone Grease 30cc Cartridge,1.5,,,,1404.98,75.0
+GR-0048,Grease,Parker Chomerics,65-02-GEL35VT-0030,Thermal Silicone Gel 30cc Syringe,3.5,,,,1428.05,75.0
+GR-0049,Grease,Parker Chomerics,65-00-GEL50TBL-0010,Thermal Silicone Gel 10cc Syringe,5.0,,,,1436.5,25.0
+GR-0050,Grease,MG Chemicals,8327GF41-50CC,Thermal Silicone Gap Filler 50 ml Cartridges,4.1,,,,1451.23,125.0
+GR-0051,Grease,Parker Chomerics,65-02-GREASE30-0030,Thermal Silicone Grease 30cc Cartridge,3.0,,,,1478.43,75.0
+GR-0052,Grease,MG Chemicals,8463-7G,Thermal Silicone Grease 7 gram Syringe,0.46,,,,1519.05,7.0
+GR-0053,Grease,European Thermodynamics Ltd,GCS-NSP15-100ML,Thermal Non-Silicone Putty 100 ml Syringe,1.5,,,,1533.35,250.0
+GR-0054,Grease,Parker Chomerics,65-02-GREASE50-0030,Thermal Silicone Grease 30cc Cartridge,5.0,,,,1551.88,75.0
+GR-0055,Grease,Bergquist Company,TGF3000SF-00-1500-50CC,"Thermal Interface Products Gap Filler, 2-Part, Sil-Free, Room Temp Cure, 3W/mK, 50ml Cartridge, TGF3000SF",3.0,,,,1583.4,125.0
+GR-0056,Grease,Parker Chomerics,65-02-GREASE70-0030,Thermal Silicone Grease 30cc Cartridge,7.0,,,,1595.43,75.0
+GR-0057,Grease,Chip Quik Inc.,TC1-200G,Thermal Silicone Compound 200 gram Jar,0.67,,,,1623.38,200.0
+GR-0058,Grease,t-Global Technology,TG-N8000-30,Thermal Non-Silicone Putty 30 gram Jar,8.0,,,,1631.5,30.0
+GR-0059,Grease,"Shiu Li Technology Co., Ltd.",G3380NA-120,Thermal Non-Silicone Grease 120 gram Cartridge,1.3,,,,1649.7,120.0
+GR-0060,Grease,Bergquist,GF3500S35-07-60-50CC,"Thermal Liquid Gap Filler, 2 Part 50cc Cartridge",3.6,,,,1674.4,125.0
+GR-0061,Grease,t-Global Technology,TG4040-D-30CC,Thermal Silicone Putty 30cc Syringe,3.0,,,,1722.83,75.0
+GR-0062,Grease,"Shiu Li Technology Co., Ltd.",S-PUTTY2-100,Thermal Silicone Putty 100 gram Cartridge,6.0,,,,1741.35,100.0
+GR-0063,Grease,Bergquist,GF3500S35-00-60-50CC,"Thermal Liquid Gap Filler, 2 Part 50cc Cartridge",3.6,,,,1753.7,125.0
+GR-0064,Grease,Parker Chomerics,65-00-GEL75VT-0010,Thermal Silicone Gel 10cc Syringe,7.5,,,,1754.68,25.0
+GR-0065,Grease,Parker Chomerics,65-02-GEL50TBL-0030,Thermal Silicone Gel 30cc Syringe,5.0,,,,1759.88,75.0
+GR-0066,Grease,Wakefield Thermal,GL-20-10,"Thermal Interface Products ulTIMiFlux Gel, 10cc Syringe, Pink, 20g/m Flow Rate, 0.004"", 3.5w/mK",3.5,,,,1770.6,25.0
+GR-0067,Grease,t-Global Technology,TG-N4000-30CC,Thermal Non-Silicone Putty 30cc Syringe,4.0,,,,1779.05,75.0
+GR-0068,Grease,Laird Technologies - Thermal Materials,A18835-01,Thermal Liquid Gap Filler 50cc Cartridge,5.4,,,,1783.93,125.0
+GR-0069,Grease,Chip Quik Inc.,TC4-20G,"Thermal Thermal Compound, Liquid Metal 20 gram Syringe",79.0,,,,1799.2,20.0
+GR-0070,Grease,Parker Chomerics,65-02-GEL50VT-0030,Thermal Silicone Gel 30cc Syringe,5.2,,,,1807.65,75.0
+GR-0071,Grease,MG Chemicals,8327GL6-30ML,Thermal Non-Silicone Gel 30 ml Cartridge,6.0,,,,1827.48,75.0
+GR-0072,Grease,"Shiu Li Technology Co., Ltd.",H-PUTTY2-100,Thermal Silicone Putty 100 gram Cartridge,6.0,,,,1833.0,100.0
+GR-0073,Grease,Chip Quik,TC4-20G,Thermal Interface Products Heat Sink Thermal Compound - Deep-Space Liquid Metal 79 W/mK 20g/3cc Syringe,79.0,,,,1847.63,20.0
+GR-0074,Grease,Parker Chomerics,65-02-GEL20-0030,Thermal Gel Gap Filler 30cc Cartridge,2.4,,,,1851.53,75.0
+GR-0075,Grease,"Shiu Li Technology Co., Ltd.",X-PUTTY-100-KIT,Thermal Silicone Putty 100 gram Cartridge,3.0,,,,1936.35,100.0
+GR-0076,Grease,Laird Technologies - Thermal Materials,A17170-01,Thermal Silicone Compound 75cc Cartridge,3.7,,,,1939.93,187.5
+GR-0077,Grease,Parker Chomerics,65-00-GEL75-0010,Thermal Silicone Gel 10cc Syringe,7.5,,,,1982.83,25.0
+GR-0078,Grease,"Shiu Li Technology Co., Ltd.",G3380D-100,Thermal Silicone Grease 100 gram Cartridge,6.0,,,,2072.7,100.0
+GR-0079,Grease,"Shiu Li Technology Co., Ltd.",EPDM20-135,"Thermal Liquid Gap Filler, 2 Part 50 ml Cartridges",2.2,,,,2077.4,125.0
+GR-0080,Grease,"Shiu Li Technology Co., Ltd.",N-PUTTY2-100,Thermal Non-Silicone Putty 100 gram Cartridge,5.0,,,,2138.5,100.0
+GR-0081,Grease,Chemtronics,CW7100,Thermal Silicone Grease 6.5 gram Syringe,5.6,,,,2210.65,6.5
+GR-0082,Grease,"Shiu Li Technology Co., Ltd.",PK223DM-110-KIT,"Thermal Liquid Gap Filler, 2 Part 110 gram Cartridge",2.0,,,,2218.13,110.0
+GR-0083,Grease,European Thermodynamics Ltd,GCS-018-GS-WE-1KG,Thermal Silicone Grease 1 kg Container,1.8,,,,2227.23,1000.0
+GR-0084,Grease,Wakefield Thermal,GL-08-10,"Thermal Interface Products ulTIMiFlux Gel, 10cc Syringe, Yellow, 8g/m Flow Rate, 0.015"", 2.4w/mK",2.4,,,,2231.78,25.0
+GR-0085,Grease,"Shiu Li Technology Co., Ltd.",S-PUTTY-100-KIT,Thermal Silicone Putty 100 gram Cartridge,3.5,,,,2241.85,100.0
+GR-0086,Grease,"Shiu Li Technology Co., Ltd.",N-PUTTY-100-KIT,Thermal Non-Silicone Putty 100 gram Cartridge,3.5,,,,2245.43,100.0
+GR-0087,Grease,"Shiu Li Technology Co., Ltd.",PK404DM-150,"Thermal Liquid Gap Filler, 2 Part 150 gram Cartridge",3.6,,,,2291.25,150.0
+GR-0088,Grease,"Shiu Li Technology Co., Ltd.",H-PUTTY-100-KIT,Thermal Silicone Putty 100 gram Cartridge,3.5,,,,2306.85,100.0
+GR-0089,Grease,Parker Chomerics,65-02-GEL75VT-0030,Thermal Silicone Gel 30cc Cartridge,7.5,,,,2346.83,75.0
+GR-0090,Grease,"Shiu Li Technology Co., Ltd.",G3380NC-100,Thermal Non-Silicone Grease 100 gram Cartridge,4.5,,,,2352.35,100.0
+GR-0091,Grease,Parker Chomerics,65-00-CIP60-0200,"Thermal Silicone Compound, 2 Part 200cc Cartridge",6.0,,,,2445.3,500.0
+GR-0092,Grease,MG Chemicals,8617-1P,Thermal Non-Silicone Grease 473 ml Jar,1.0,,,,2477.8,1182.5
+GR-0093,Grease,Bergquist,2456616,"Thermal Liquid Gap Filler, 2 Part 50cc Cartridge",3.5,,,,2515.08,125.0
+GR-0094,Grease,"Shiu Li Technology Co., Ltd.",SH-PUTTY3-100,Thermal Silicone Putty 100 gram Cartridge,8.0,,,,2600.0,100.0
+GR-0095,Grease,Parker Chomerics,65-02-GEL75-0030,Thermal Silicone Gel 30cc Syringe,7.5,,,,2652.33,75.0
+GR-0096,Grease,Laird Technologies - Thermal Materials,A16872-02,Thermal Liquid Gap Filler 75cc Cartridge,2.3,,,,2723.18,187.5
+GR-0097,Grease,MG Chemicals,8327GL3-180ML,Thermal Non-Silicone Gel 180 ml Cartridge,3.5,,,,2755.68,450.0
+GR-0098,Grease,"Shiu Li Technology Co., Ltd.",S-PUTTY2-100-KIT,Thermal Silicone Putty 100 gram Cartridge,6.0,,,,2765.1,100.0
+GR-0099,Grease,"Shiu Li Technology Co., Ltd.",H-PUTTY2-100-KIT,Thermal Silicone Putty 100 gram Cartridge,6.0,,,,2856.43,100.0
+GR-0100,Grease,"Shiu Li Technology Co., Ltd.",G3380NA-120-KIT,Thermal Non-Silicone Grease 120 gram Cartridge,1.3,,,,2859.68,120.0
+GR-0101,Grease,"Shiu Li Technology Co., Ltd.",EPDM30-135,"Thermal Liquid Gap Filler, 2 Part 50 ml Cartridges",3.0,,,,2993.9,125.0
+GR-0102,Grease,Bergquist Company,LF2000-00-00-30CC,"Thermal Interface Products 1-Part, Liquid Formable Material, 30CC Cartridge, 2 W/m-K, Liqui-Form",2.0,,,,3041.03,75.0
+GR-0103,Grease,t-Global Technology,TG-N4000-55CC,Thermal Non-Silicone Putty 55cc Syringe,4.0,,,,3043.95,137.5
+GR-0104,Grease,Laird Technologies - Thermal Materials,A17170-02,Thermal Silicone Compound 180cc Cartridge,3.7,,,,3057.28,450.0
+GR-0105,Grease,t-Global Technology,TG-A7000-55CC,Thermal Silicone Putty 50cc Syringe,7.0,,,,3062.8,125.0
+GR-0106,Grease,European Thermodynamics Ltd,GCS-NSP30-100ML,Thermal Non-Silicone Putty 100 ml Syringe,3.0,,,,3065.73,250.0
+GR-0107,Grease,t-Global Technology,TG-N8000-30CC,Thermal Non-Silicone Putty 30cc Syringe,8.0,,,,3084.9,75.0
+GR-0108,Grease,"Shiu Li Technology Co., Ltd.",N-PUTTY2-100-KIT,Thermal Non-Silicone Putty 100 gram Cartridge,5.0,,,,3161.93,100.0
+GR-0109,Grease,Chip Quik Inc.,TC2-50G,Thermal Silicone Compound 50 gram Jar,4.3,,,,3248.38,50.0
+GR-0110,Grease,MG Chemicals,8618-85ML,Thermal Non-Silicone Grease 85 ml Syringe,6.0,,,,3260.4,212.5
+GR-0111,Grease,"Shiu Li Technology Co., Ltd.",EPDM20-135-KIT,"Thermal Liquid Gap Filler, 2 Part 50 ml Cartridges",2.2,,,,3287.38,125.0
+GR-0112,Grease,European Thermodynamics Ltd,GCS-NSP75 - 50ML,Thermal Non-Silicone Putty 50 ml Syringe,7.5,,,,3313.7,125.0
+GR-0113,Grease,"Shiu Li Technology Co., Ltd.",G3380D-100-KIT,Thermal Silicone Grease 100 gram Cartridge,6.0,,,,3348.15,100.0
+GR-0114,Grease,Bergquist,2292097,"Thermal Silicone Compound, 2 Part 50cc Cartridge",3.5,,,,3455.96,125.0
+GR-0115,Grease,"Shiu Li Technology Co., Ltd.",PK404DM-150-KIT,"Thermal Liquid Gap Filler, 2 Part 150 gram Cartridge",3.6,,,,3500.9,150.0
+GR-0116,Grease,"Shiu Li Technology Co., Ltd.",S-PUTTY5-100,Thermal Silicone Putty 30cc Tube,10.0,,,,3534.38,75.0
+GR-0117,Grease,"Shiu Li Technology Co., Ltd.",G3380NC-100-KIT,Thermal Non-Silicone Grease 100 gram Cartridge,4.5,,,,3562.0,100.0
+GR-0118,Grease,"Shiu Li Technology Co., Ltd.",D2000-140,"Thermal Silicone Grease, 2 Part 140 gram Cartridge",2.0,,,,3635.45,140.0
+GR-0119,Grease,"Shiu Li Technology Co., Ltd.",SH-PUTTY3-100-KIT,Thermal Silicone Putty 100 gram Cartridge,8.0,,,,3688.75,100.0
+GR-0120,Grease,Bergquist,2167388,"Thermal Silicone Compound, 2 Part 50cc Cartridge",3.5,,,,3805.19,125.0
+GR-0121,Grease,Laird Technologies - Thermal Materials,A17262-01,Thermal Silicone Gap Filler 50cc Cartridge,6.4,,,,3810.3,125.0
+GR-0122,Grease,t-Global Technology,TG-N8000-55CC,Thermal Non-Silicone Putty 55cc Syringe,8.0,,,,3978.0,137.5
+GR-0123,Grease,"Shiu Li Technology Co., Ltd.",PK605DM-160,"Thermal Liquid Gap Filler, 2 Part 160 gram Cartridge",5.0,,,,4154.8,160.0
+GR-0124,Grease,Bergquist,2179547,"Thermal Silicone Compound, 2 Part 50cc Cartridge",3.5,,,,4180.53,125.0
+GR-0125,Grease,"Shiu Li Technology Co., Ltd.",EPDM30-135-KIT,"Thermal Liquid Gap Filler, 2 Part 50 ml Cartridges",3.0,,,,4203.88,125.0
+GR-0126,Grease,"Shiu Li Technology Co., Ltd.",S-PUTTY5-100-KIT,Thermal Silicone Putty 30cc Tube,10.0,,,,4216.88,75.0
+GR-0127,Grease,Laird Technologies - Thermal Materials,A16872-03,Thermal Liquid Gap Filler 180cc Cartridge,2.3,,,,4261.4,450.0
+GR-0128,Grease,Parker Chomerics,65-00-GREASE15-0160,Thermal Silicone Grease 160cc Container,1.5,,,,4322.5,400.0
+GR-0129,Grease,"Shiu Li Technology Co., Ltd.",TT3000-150,Thermal Silicone Grease 150 gram Cartridge,6.0,,,,4353.38,150.0
+GR-0130,Grease,Taica,DP-100,"Thermal Interface Products Thermal Conductive GEL, 6.5W/mK, 5.0kV/mm, 30ml Syringe, Lamda Gel DP",6.5,,,,4419.35,75.0
+GR-0131,Grease,Bergquist Company,LF3500-00-00-30CC,"Thermal Interface Products 1-Part, Liquid Formable Material, 30CC Cartridge, 3.5 W/m-K, Liqui-Form",3.5,,,,4472.65,75.0
+GR-0132,Grease,Wakefield Thermal Solutions,127-12-10,Thermal Non-Silicone Grease 1 gram Syringe,12.0,,,,4517.18,1.0
+GR-0133,Grease,Wakefield Thermal,127-12-10,"Thermal Interface Products Thermal Grease, Extreme Performance, Non-Silicone, 12 W/m-K, 10cc Syringe",12.0,,,,4517.18,25.0
+GR-0134,Grease,Parker Chomerics,65-00-GREASE30-0160,Thermal Silicone Grease 160cc Container,3.0,,,,4549.03,400.0
+GR-0135,Grease,Wakefield Thermal Solutions,127-20-10,Thermal Non-Silicone Grease 1 gram Syringe,20.0,,,,4708.28,1.0
+GR-0136,Grease,Wakefield Thermal,127-20-10,"Thermal Interface Products Thermal Grease, Extreme Performance, Non-Silicone, 20 W/m-K, 10cc Syringe",20.0,,,,4708.28,25.0
+GR-0137,Grease,Parker Chomerics,65-00-GREASE50-0160,Thermal Silicone Grease 160cc Container,5.0,,,,4774.25,400.0
+GR-0138,Grease,Laird Technologies,A14855-02,Thermal Interface Products Tgrease 1500 1kg 1.2 W/mK,1.2,,,,4779.78,1000.0
+GR-0139,Grease,Laird Technologies - Thermal Materials,A18560-09,Thermal Liquid Gap Filler 30cc Cartridge,9.1,,,,4789.2,75.0
+GR-0140,Grease,Laird Technologies - Thermal Materials,A18835-02,Thermal Liquid Gap Filler 200cc Cartridge,5.4,,,,4816.83,500.0
+GR-0141,Grease,"Shiu Li Technology Co., Ltd.",D2000-140-KIT,"Thermal Silicone Grease, 2 Part 140 gram Cartridge",2.0,,,,4845.43,140.0
+GR-0142,Grease,Parker Chomerics,65-00-GREASE70-0160,Thermal Silicone Grease 160cc Container,7.0,,,,4909.45,400.0
+GR-0143,Grease,Laird Technologies - Thermal Materials,A10548-5,Thermal Silicone Putty 100cc Jar,3.0,,,,5112.25,250.0
+GR-0144,Grease,Bergquist Company,TLF6000HG-00-00-150CC,"Thermal Interface Products Conductive, 1-Part, Liquid Formable, 180ml Cartridge, 6 W/m-K, Liqui-Form",6.0,,,,5204.55,450.0
+GR-0145,Grease,Parker Chomerics,65-01-GEL37-0180,Thermal Silicone Gel 180cc Syringe,3.7,,,,5235.43,450.0
+GR-0146,Grease,Bergquist Company,TGF3000SF-00-1500-200CC,"Thermal Interface Products Gap Filler, 2-Part, Sil-Free, Room Temp Cure, 3W/mK, 200ml Cartridge, TGF3000SF",3.0,,,,5239.98,500.0
+GR-0147,Grease,"Shiu Li Technology Co., Ltd.",PK605DM-160-KIT,"Thermal Liquid Gap Filler, 2 Part 160 gram Cartridge",5.0,,,,5364.45,160.0
+GR-0148,Grease,Bergquist Company,GF4500CVO-00-240-200CC,"Thermal Interface Products Liquid Gap-Filling Material, 2-Part, 4.5W/m-K, 200ml Cartridge, TGF4500CVO",4.5,,,,5424.58,500.0
+GR-0149,Grease,Bergquist,2624519,Thermal Silicone Gel 150cc Cartridge,6.0,,,,5516.23,375.0
+GR-0150,Grease,Bergquist Company,GF4500CVO-00-240-400CC,"Thermal Interface Products Liquid Gap-Filling Material, 2-Part, 4.5W/m-K, 400ml Cartridge, TGF4500CVO",4.5,,,,5928.0,1000.0
+GR-0151,Grease,Parker Chomerics,65-02-GEL20-0180,Thermal Gel Gap Filler 180cc Cartridge,2.4,,,,6594.9,450.0
+GR-0152,Grease,"Shiu Li Technology Co., Ltd.",X-PUTTY-900,Thermal Silicone Putty 900 gram Container,3.0,,,,6682.65,900.0
+GR-0153,Grease,Laird Technologies - Thermal Materials,A16872-04,Thermal Liquid Gap Filler 360cc Cartridge,2.3,,,,6831.83,900.0
+GR-0154,Grease,Parker Chomerics,65-02-GEL50VT-0180,Thermal Silicone Gel 180cc Syringe,5.2,,,,7108.73,450.0
+GR-0155,Grease,"Shiu Li Technology Co., Ltd.",PK700DM-140,"Thermal Liquid Gap Filler, 2 Part 50 ml, 400 ml Cartridges",7.0,,,,7484.75,125.0
+GR-0156,Grease,Laird Technologies - Thermal Materials,A18578-08,Thermal Liquid Gap Filler 75cc Cartridge,9.1,,,,7582.25,187.5
+GR-0157,Grease,Parker Chomerics,65-02-GEL75VT-0180,Thermal Silicone Gel 180cc Cartridge,7.5,,,,7977.13,450.0
+GR-0158,Grease,Laird Technologies - Thermal Materials,A17064-00,Thermal Phase Change Thermal Compound 1 kg Can,1.5,,,,8310.82,1000.0
+GR-0159,Grease,Laird Technologies - Thermal Materials,A18835-03,Thermal Liquid Gap Filler 400cc Cartridge,5.4,,,,8384.68,1000.0
+GR-0160,Grease,"Shiu Li Technology Co., Ltd.",PK700DM-140-KIT,"Thermal Liquid Gap Filler, 2 Part 50 ml, 400 ml Cartridges",7.0,,,,8694.4,125.0
+GR-0161,Grease,European Thermodynamics Ltd,GCS-040-GNS-1KG,Thermal Non-Silicone Grease 1 kg Container,4.0,,,,8798.08,1000.0
+GR-0162,Grease,Bergquist,GF3500S35-00-60-400CC,"Thermal Liquid Gap Filler, 2 Part 400cc Cartridge",3.6,,,,8861.13,1000.0
+GR-0163,Grease,t-Global Technology,TG4040-D-1000,Thermal Silicone Putty 1 kg Container,3.0,,,,9373.33,1000.0
+GR-0164,Grease,"Shiu Li Technology Co., Ltd.",S-PUTTY-950,Thermal Silicone Putty 950 gram Container,3.5,,,,9737.65,950.0
+GR-0165,Grease,"Shiu Li Technology Co., Ltd.",H-PUTTY-950,Thermal Silicone Putty 950 gram Container,3.5,,,,10272.6,950.0
+GR-0166,Grease,Bergquist Company,TGF3000SF-00-1500-400CC,"Thermal Interface Products Gap Filler, 2-Part, Sil-Free, Room Temp Cure, 3W/mK, 400ml Cartridge, TGF3000SF",3.0,,,,10324.6,1000.0
+GR-0167,Grease,Bergquist,2761872,"Thermal Liquid Gap Filler, 2 Part 400cc Cartridge",3.0,,,,10337.6,1000.0
+GR-0168,Grease,Laird Technologies,A14259-01,Thermal Interface Products Tgrease 2500 1kg 3.8W/mK Sil Free,3.8,,,,10396.75,1000.0
+GR-0169,Grease,Parker Chomerics,65-00-GEL20-0300,Thermal Gel Gap Filler 300cc Cartridge,2.4,,,,10526.1,750.0
+GR-0170,Grease,Bergquist Company,TLF10000L150CC,"Thermal Interface Products Thermally Conductive Gel Interface Material, 10 W/m-K, 150ml Cartridge",10.0,,,,11175.13,375.0
+GR-0171,Grease,Parker Chomerics,65-00-GEL50VT-0300,Thermal Silicone Gel 300cc Syringe,5.2,,,,11792.3,750.0
+GR-0172,Grease,t-Global Technology,TG-N4000-330CC,Thermal Non-Silicone Putty 330cc Syringe,4.0,,,,12160.85,825.0
+GR-0173,Grease,t-Global Technology,TG-N4000-1000,Thermal Non-Silicone Putty 1 kg Jar,4.0,,,,12160.85,1000.0
+GR-0174,Grease,t-Global Technology,TG6060-D-1000,Thermal Silicone Putty 1 kg Container,6.3,,,,13010.08,1000.0
+GR-0175,Grease,t-Global Technology,TG-N909-1000,Thermal Non-Silicone Grease 1 kg Container,9.0,,,,13106.28,1000.0
+GR-0176,Grease,t-Global Technology,TG-A7000-1000,Thermal Silicone Putty 1 kg Container,7.0,,,,13479.7,1000.0
+GR-0177,Grease,t-Global Technology,TG-A7000-330CC,Thermal Silicone Putty 330cc Syringe,7.0,,,,13480.03,825.0
+GR-0178,Grease,"Shiu Li Technology Co., Ltd.",S-PUTTY2-985,Thermal Silicone Putty 985 gram Container,6.0,,,,13938.6,985.0
+GR-0179,Grease,Bergquist Company,TGF 2900LVO-00-400CC,"Thermal Interface Products Gap Filler, 2-Part, 2.9 W/m-K, Silicone, 400CC Cartridge, IDH 2859942",2.9,,,,14193.4,1000.0
+GR-0180,Grease,"Shiu Li Technology Co., Ltd.",H-PUTTY2-1000,Thermal Silicone Putty 1 kg Container,6.0,,,,14664.0,1000.0
+GR-0181,Grease,t-Global Technology,TG-N8000-330CC,Thermal Non-Silicone Putty 330cc Syringe,8.0,,,,15291.9,825.0
+GR-0182,Grease,t-Global Technology,TG-N8000-1000,Thermal Non-Silicone Putty 1 kg Jar,8.0,,,,15291.9,1000.0
+GR-0183,Grease,Laird Technologies - Thermal Materials,A18578-02,Thermal Liquid Gap Filler 180cc Cartridge,9.1,,,,16599.05,450.0
+GR-0184,Grease,Bergquist Company,TGF3000SF-00-1500-1200CC,"Thermal Interface Products Gap Filler, 2-Part, Sil-Free, Room Temp Cure, 3W/mK, 1200ml Cartridge, TGF3000SF",3.0,,,,21012.88,3000.0
+GR-0185,Grease,Laird Technologies,A14855-01,Thermal Interface Products Tgrease 1500 7kg can 1.2 W/mK,1.2,,,,21990.48,7000.0
+GR-0186,Grease,Bergquist Company,GF4500CVO-00-240-1200CC,"Thermal Interface Products Liquid Gap-Filling Material, 2-Part, 4.5W/m-K, 1200ml Cartridge, TGF4500CVO",4.5,,,,28076.43,3000.0
+GR-0187,Grease,Bergquist Company,TLF6000HG-00-00-0.7G,"Thermal Interface Products Conductive, 1-Part, Liquid Formable, 1 Gallon Pail, 6 W/m-K, Liqui-Form",6.0,,,,54209.03,1.0
+GR-0188,Grease,Bergquist Company,2580287,"Thermal Interface Products Conductive, 1-Part, Liquid Formable, 1 Gallon, 6.0 W/m-K, Liqui-Form TLF 6000HG",6.0,,,,91340.28,1.0
+GR-0189,Grease,Bergquist Company,2956733,"Thermal Interface Products Liquid Gap-Filling Material, 2-Part, 4.5W/m-K, 5 Gallon Hobbock/Pail, TGF4500CVO",4.5,,,,215478.25,5.0
+GR-0190,Grease,Bergquist Company,GF4500CVO-00-240-6G,"Thermal Interface Products Liquid Gap-Filling Material, 2-Part, 4.5W/m-K, 6 Gallon Pail Kit, TGF4500CVO",4.5,,,,215478.25,6.0
+GR-0191,Grease,Bergquist Company,LF3500-00-00-4.33G,"Thermal Interface Products 1-Part, Liquid Formable Material, 4.33 Gallon Pail, 3.5 W/m-K, Liqui-Form",3.5,,,,249788.18,4.3
+OT-0001,Other,MG Chemicals,9460TC-3ML,Thermal Epoxy Adhesive 3 ml Syringe,0.8,,,,832.98,7.5
+OT-0002,Other,MG Chemicals,8329TCS-6ML,"Thermal Epoxy, 2 Part 6 ml Syringe",1.4,,,,1144.65,15.0
+OT-0003,Other,MG Chemicals,8349TFM-25ML,"Thermal Epoxy, 2 Part 25 ml Syringe",0.9,,,,1604.53,62.5
+OT-0004,Other,MG Chemicals,8329TFS-25ML,"Thermal Epoxy, 2 Part 25 ml Syringe",1.2,,,,1625.98,62.5
+OT-0005,Other,MG Chemicals,8349TFM-50ML,"Thermal Epoxy, 2 Part 50 ml Cartridges",0.9,,,,2301.98,125.0
+OT-0006,Other,MG Chemicals,8329TFS-50ML,"Thermal Epoxy, 2 Part 45 ml Cartridge",1.2,,,,2318.88,112.5
+OT-0007,Other,MG Chemicals,8329TCS-50ML,"Thermal Epoxy, 2 Part 50 ml Jar",1.4,,,,2411.83,125.0
+OT-0008,Other,MG Chemicals,8349TFM-45ML,"Thermal Epoxy, 2 Part 45 ml Jar",0.9,,,,2856.43,112.5
+OT-0009,Other,LeaderTech,TGF35-07870787-020,Thermal Interface Products 3.5W/m-K 200*200*0.5 TGF35 Green,3.5,,,,3344.25,35.0
+OT-0010,Other,LeaderTech,TGF35-07870787-039,Thermal Interface Products 3.5W/m-K 200*200*1 TGF35 Green,3.5,,,,3344.25,35.0
+OT-0011,Other,Bergquist,2193454,"Thermal Epoxy, 2 Part 50cc Cartridge",1.8,,,,3893.87,125.0
+OT-0012,Other,"Shiu Li Technology Co., Ltd.",EP770-1100,"Thermal Epoxy, 2 Part 1 kg Can",2.5,,,,3971.5,1000.0
+OT-0013,Other,MG Chemicals,8329TCM-200ML,"Thermal Epoxy, 2 Part 200 ml Jar",1.4,,,,4215.09,500.0
+OT-0014,Other,MG Chemicals,8329TCS-200ML,"Thermal Epoxy, 2 Part 200 ml Jar",1.4,,,,4215.09,500.0
+OT-0015,Other,Bergquist,2194122,"Thermal Epoxy, 2 Part 50cc Cartridge",1.8,,,,4322.61,125.0
+OT-0016,Other,LOCTITE,1188099,"Thermal Epoxy, 2 Part (Order Catalyst Separately) 3 lb Container",1.34,,,,5036.53,1360.8
+OT-0017,Other,LeaderTech,TGF60-07870787-039,Thermal Interface Products 6W/m-K 200*200*1 TGF60 Gray,6.0,,,,7270.9,60.0
+OT-0018,Other,LOCTITE,1188134,"Thermal Epoxy, 2 Part (Order Catalyst Separately) 3 lb Container",2.78,,,,7377.83,1360.8
+OT-0019,Other,LeaderTech,TGF60-07870787-020,Thermal Interface Products 6W/m-K 200*200*0.5 TGF60 Gray,6.0,,,,10070.13,60.0
+OT-0020,Other,LOCTITE,1188135,"Thermal Epoxy, 2 Part (Order Catalyst Separately) 20 lb Container",2.78,,,,14655.55,9072.0
+OT-0021,Other,Bergquist Company,TGF3000SF-00-1500-7GAL,"Thermal Interface Products Gap Filler, 2-Part, Sil-Free, Room Temp Cure, 3W/mK, 7 Gallon Pail, TGF3000SF",3.0,,,,305250.4,7.0
+TP-0001,Thermal Pad,t-Global Technology,TG-A1250-5-5-1.0,Thermal Pad Green 5.00mm x 5.00mm Square,12.5,1.0,5.0,5.0,3.25,
+TP-0002,Thermal Pad,t-Global Technology,TG-A2200-5-5-2.0,Thermal Pad Gray 5.00mm x 5.00mm Square Tacky - One Side,2.2,2.01,5.0,5.0,3.25,
+TP-0003,Thermal Pad,t-Global Technology,TG-A6200-7.2-6.3-1.0,Thermal Pad Blue 7.20mm x 6.30mm Rectangular Tacky - Both Sides,6.2,1.0,7.2,6.3,3.25,
+TP-0004,Thermal Pad,t-Global Technology,TG-A2200-10-10-1.0,Thermal Pad Gray 10.00mm x 10.00mm Square Tacky - One Side,2.2,1.0,10.0,10.0,3.25,
+TP-0005,Thermal Pad,t-Global Technology,TG-A4500-10-10-0.5,Thermal Pad Purple 10.00mm x 10.00mm Square Tacky - Both Sides,4.5,0.5,10.0,10.0,3.25,
+TP-0006,Thermal Pad,t-Global Technology,TG-A6200-5-5-1.0,Thermal Pad Blue 5.00mm x 5.00mm Square Tacky - Both Sides,6.2,1.0,5.0,5.0,3.25,
+TP-0007,Thermal Pad,t-Global Technology,TG-A2200-10-10-1.5,Thermal Pad Gray 10.00mm x 10.00mm Square Tacky - One Side,2.2,1.5,10.0,10.0,3.58,
+TP-0008,Thermal Pad,t-Global Technology,TG-A6200-10-10-0.5,Thermal Pad Blue 10.00mm x 10.00mm Square Tacky - Both Sides,6.2,0.5,10.0,10.0,3.9,
+TP-0009,Thermal Pad,t-Global Technology,TG-A2200-10-10-2.0,Thermal Pad Gray 10.00mm x 10.00mm Square Tacky - One Side,2.2,2.01,10.0,10.0,4.23,
+TP-0010,Thermal Pad,t-Global Technology,TG-ALC-15-15-0.2-0,Thermal Pad Green 15.00mm x 15.00mm Square Tacky - Both Sides,4.2,0.2,15.0,15.0,4.23,
+TP-0011,Thermal Pad,t-Global Technology,TG-A3500-10-10-2.0,Thermal Pad Yellow 10.00mm x 10.00mm Square Tacky - Both Sides,3.5,2.01,10.0,10.0,4.23,
+TP-0012,Thermal Pad,Bergquist,SPK4-0.006-00-58,Thermal Pad Gray 19.05mm x 12.70mm Rectangular,0.9,0.15,19.05,12.7,4.55,
+TP-0013,Thermal Pad,t-Global Technology,T62-1-15-15-0.16,Thermal Pad Black 15.00mm x 15.00mm Square Adhesive - One Side,15.0,0.16,15.0,15.0,4.55,
+TP-0014,Thermal Pad,t-Global Technology,DC0011/08-TG-A373F-0.25-2A,Thermal Pad Yellow 19.05mm x 12.70mm Rectangular Adhesive - Both Sides,1.4,0.25,19.05,12.7,4.88,
+TP-0015,Thermal Pad,Bergquist,Q3-0.005-00-104,Thermal Pad Black 25.40mm x 19.05mm Rectangular,2.0,0.13,25.4,19.05,5.2,
+TP-0016,Thermal Pad,t-Global Technology,TG-A6200-10-5-2.0,Thermal Pad Blue 10.00mm x 5.00mm Rectangular Tacky - Both Sides,6.2,2.01,10.0,5.0,5.2,
+TP-0017,Thermal Pad,Bergquist,Q3-0.005-00-51,Thermal Pad Black 17.45mm x 14.27mm Rectangular,2.0,0.13,17.45,14.27,5.53,
+TP-0018,Thermal Pad,t-Global Technology,TG-A3500-10-10-3.0,Thermal Pad Yellow 10.00mm x 10.00mm Square Tacky - Both Sides,3.5,3.0,10.0,10.0,5.85,
+TP-0019,Thermal Pad,t-Global Technology,TG-A6200-10-10-1.0,Thermal Pad Blue 10.00mm x 10.00mm Square Tacky - Both Sides,6.2,1.0,10.0,10.0,5.85,
+TP-0020,Thermal Pad,Bergquist,SP600-90,Thermal Pad Green 21.84mm x 18.80mm Rectangular,1.0,0.23,21.84,18.8,6.5,
+TP-0021,Thermal Pad,t-Global Technology,TG-A1250-10-10-0.5,Thermal Pad Green 10.00mm x 10.00mm Square,12.5,0.5,10.0,10.0,6.5,
+TP-0022,Thermal Pad,t-Global Technology,TG-A2200-15-15-1.0,Thermal Pad Gray 15.00mm x 15.00mm Square Tacky - One Side,2.2,1.0,15.0,15.0,6.5,
+TP-0023,Thermal Pad,t-Global Technology,TG-A4500-10-10-2.0,Thermal Pad Purple 10.00mm x 10.00mm Square Tacky - Both Sides,4.5,2.01,10.0,10.0,6.5,
+TP-0024,Thermal Pad,Bergquist,SP400-0.009-00-58,Thermal Pad Gray 19.05mm x 12.70mm Rectangular,0.9,0.23,19.05,12.7,6.83,
+TP-0025,Thermal Pad,Bergquist,SP400-0.009-00-54,Thermal Pad Gray 19.05mm x 12.70mm Rectangular,0.9,0.23,19.05,12.7,6.83,
+TP-0026,Thermal Pad,Bergquist,SP400-0.007-00-54,Thermal Pad Gray 19.05mm x 12.70mm Rectangular,0.9,0.18,19.05,12.7,7.15,
+TP-0027,Thermal Pad,t-Global Technology,TG-A6200-11-11-1.0,Thermal Pad Blue 11.00mm x 11.00mm Square Tacky - Both Sides,6.2,1.0,11.0,11.0,7.15,
+TP-0028,Thermal Pad,t-Global Technology,TG-A3500-10-10-4.0,Thermal Pad Yellow 10.00mm x 10.00mm Square Tacky - Both Sides,3.5,3.99,10.0,10.0,7.15,
+TP-0029,Thermal Pad,t-Global Technology,LI98-28-28-0.25,Thermal Pad White 28.00mm x 28.00mm Square Adhesive - Both Sides,1.0,0.25,28.0,28.0,7.15,
+TP-0030,Thermal Pad,t-Global Technology,TG-T1000-10-10-0.25-5PT,Thermal Pad White 10.00mm x 10.00mm Square Adhesive - Both Sides,1.0,0.25,10.0,10.0,7.15,
+TP-0031,Thermal Pad,Bergquist,SP400-0.007-AC-54,Thermal Pad Gray 19.05mm x 12.70mm Rectangular Adhesive - One Side,0.9,0.18,19.05,12.7,7.48,
+TP-0032,Thermal Pad,t-Global Technology,TG-A9000-10-10-1.0,Thermal Pad Pink 10.00mm x 10.00mm Square,9.0,1.0,10.0,10.0,7.48,
+TP-0033,Thermal Pad,Bergquist,SP400-0.007-00-104,Thermal Pad Gray 25.40mm x 19.05mm Rectangular,0.9,0.18,25.4,19.05,8.13,
+TP-0034,Thermal Pad,t-Global Technology,T62-30-30-0.13,Thermal Pad Black 30.00mm x 30.00mm Square,20.0,0.13,30.0,30.0,8.13,
+TP-0035,Thermal Pad,t-Global Technology,TG-A6200-15-15-0.5,Thermal Pad Blue 15.00mm x 15.00mm Square Tacky - Both Sides,6.2,0.5,15.0,15.0,8.13,
+TP-0036,Thermal Pad,t-Global Technology,TG-A3500-10-10-5.0,Thermal Pad Yellow 10.00mm x 10.00mm Square Tacky - Both Sides,3.5,5.0,10.0,10.0,8.45,
+TP-0037,Thermal Pad,Bergquist,SP400-0.009-00-90,Thermal Pad Gray 21.84mm x 18.80mm Rectangular,0.9,0.23,21.84,18.8,8.78,
+TP-0038,Thermal Pad,t-Global Technology,TG-A6200-10-10-1.5,Thermal Pad Blue 10.00mm x 10.00mm Square Tacky - Both Sides,6.2,1.5,10.0,10.0,8.78,
+TP-0039,Thermal Pad,Bergquist,SP900S-0.009-AC-54,Thermal Pad Pink 19.05mm x 12.70mm Rectangular Adhesive - One Side,1.6,0.23,19.05,12.7,9.43,
+TP-0040,Thermal Pad,Bergquist,SP900S-0.009-00-54,Thermal Pad Pink 19.05mm x 12.70mm Rectangular,1.6,0.23,19.05,12.7,9.43,
+TP-0041,Thermal Pad,Bergquist,SP400-0.009-00-51,Thermal Pad Gray 17.45mm x 14.27mm Rectangular,0.9,0.23,17.45,14.27,9.75,
+TP-0042,Thermal Pad,t-Global Technology,TG-A1250-10-10-1.0,Thermal Pad Green 10.00mm x 10.00mm Square,12.5,1.0,10.0,10.0,10.4,
+TP-0043,Thermal Pad,Bergquist,HF115AC-0.0055-AC-54,Thermal Pad Gray 19.05mm x 12.70mm Rectangular Adhesive - One Side,0.8,0.14,19.05,12.7,10.73,
+TP-0044,Thermal Pad,Bergquist,1009-54,Thermal Pad Pink 19.05mm x 12.70mm Rectangular,1.2,0.23,19.05,12.7,10.73,
+TP-0045,Thermal Pad,Bergquist,SPK10-0.006-00-54,Thermal Pad Beige 19.05mm x 12.70mm Rectangular,1.3,0.15,19.05,12.7,11.38,
+TP-0046,Thermal Pad,Bergquist,SP900S-0.009-00-90,Thermal Pad Pink 21.84mm x 18.80mm Rectangular,1.6,0.23,21.84,18.8,11.38,
+TP-0047,Thermal Pad,Bergquist,SP900S-0.009-00-104,Thermal Pad Pink 25.40mm x 19.05mm Rectangular,1.6,0.23,25.4,19.05,11.7,
+TP-0048,Thermal Pad,Bergquist,SP900S-0.009-AC-58,Thermal Pad Pink 19.05mm x 12.70mm Rectangular Adhesive - One Side,1.6,0.23,19.05,12.7,12.35,
+TP-0049,Thermal Pad,Bergquist,2188938,"Thermal Pad Gray, Green 25.02mm x 11.00mm Round",0.9,0.3,25.02,11.0,13.98,
+TP-0050,Thermal Pad,t-Global Technology,TG-A1250-15-15-0.5,Thermal Pad Green 15.00mm x 15.00mm Square,12.5,0.5,15.0,15.0,14.3,
+TP-0051,Thermal Pad,t-Global Technology,CP23-TO220-21.5-11.4-5.8-0.45,Thermal Pad Gray 21.50mm x 11.40mm x 5.80mm Rectangular,1.9,0.45,21.5,11.4,15.6,
+TP-0052,Thermal Pad,Vishay Dale Thin Film,THJP0603AST1,Thermal Pad 1.55mm x 0.84mm Rectangular,70.0,0.76,1.55,0.84,17.55,
+TP-0053,Thermal Pad,"Boyd Laconia, LLC",53-77-9G,"Thermal Pad Gray, Green 18.42mm x 13.21mm Rectangular",0.9,0.15,18.42,13.21,18.85,
+TP-0054,Thermal Pad,t-Global Technology,CP33-TO247-28.5-17.5-5.8-0.45,Thermal Pad Gray 28.50mm x 17.50mm x 5.80mm Rectangular,1.9,0.45,28.5,17.5,20.8,
+TP-0055,Thermal Pad,Bergquist,SPK10-0.006-00-58,Thermal Pad Beige 19.05mm x 12.70mm Rectangular,1.3,0.15,19.05,12.7,21.78,
+TP-0056,Thermal Pad,Bergquist,Q3-0.005-00-54,Thermal Pad Black 19.05mm x 12.70mm Rectangular,2.0,0.13,19.05,12.7,22.1,
+TP-0057,Thermal Pad,Bergquist,SPT400-12-13.5-25,"Thermal Pad Gray, Green 25.02mm x 13.50mm Round",0.9,0.3,25.02,13.5,22.75,
+TP-0058,Thermal Pad,t-Global Technology,TG-A1250-15-15-1.0,Thermal Pad Green 15.00mm x 15.00mm Square,12.5,1.0,15.0,15.0,22.75,
+TP-0059,Thermal Pad,Parker Chomerics,60-11-8302-1674,Thermal Pad Blue 18.03mm x 12.70mm Rectangular,1.0,0.25,18.03,12.7,23.08,
+TP-0060,Thermal Pad,Bergquist,SPK10-0.006-00-90,Thermal Pad Beige 21.84mm x 18.80mm Rectangular,1.3,0.15,21.84,18.8,23.4,
+TP-0061,Thermal Pad,Wakefield Thermal Solutions,175-6-220P,Thermal Pad Gray 18.00mm x 12.70mm Rectangular,0.5,0.15,18.0,12.7,23.73,
+TP-0062,Thermal Pad,Bergquist,SPK10-0.006-00-104,Thermal Pad Beige 25.40mm x 19.05mm Rectangular,1.3,0.15,25.4,19.05,24.38,
+TP-0063,Thermal Pad,"Boyd Laconia, LLC",53-77-4G,"Thermal Pad Gray, Green 19.05mm x 12.70mm Rectangular",0.9,0.15,19.05,12.7,25.35,
+TP-0064,Thermal Pad,Vishay Dale Thin Film,THJP0612AST1,Thermal Pad 1.06mm x 3.20mm Rectangular,259.0,0.76,1.06,3.2,26.0,
+TP-0065,Thermal Pad,Bergquist,HF115AC-0.0055-AC-90,Thermal Pad Gray 21.84mm x 18.79mm Rectangular Adhesive - One Side,0.8,0.14,21.84,18.79,26.33,
+TP-0066,Thermal Pad,"Boyd Laconia, LLC",53-77-4ACG,"Thermal Pad Gray, Green 19.05mm x 12.70mm Rectangular Adhesive - One Side",0.9,0.15,19.05,12.7,27.3,
+TP-0067,Thermal Pad,Wakefield Thermal Solutions,173-7-240A,Thermal Pad Gray 19.10mm x 12.70mm Rectangular Adhesive - One Side,1.2,0.18,19.1,12.7,29.58,
+TP-0068,Thermal Pad,t-Global Technology,TG-APC93-20-20-2.0-0,Thermal Pad Gray 20.00mm x 20.00mm Square,2.0,2.01,20.0,20.0,31.53,
+TP-0069,Thermal Pad,t-Global Technology,TG-A3500-25-25-3.0,Thermal Pad Yellow 25.00mm x 25.00mm Square Tacky - Both Sides,3.5,3.0,25.0,25.0,33.48,
+TP-0070,Thermal Pad,"Boyd Laconia, LLC",53-77-9ACG,"Thermal Pad Gray, Green 18.42mm x 13.21mm Rectangular Adhesive - One Side",0.9,0.15,18.42,13.21,33.8,
+TP-0071,Thermal Pad,t-Global Technology,TG-A6200-20-20-2.0,Thermal Pad Blue 20.00mm x 20.00mm Square Tacky - Both Sides,6.2,2.01,20.0,20.0,39.33,
+TP-0072,Thermal Pad,Bergquist,SP600-104,Thermal Pad Green 25.40mm x 19.05mm Rectangular,1.0,0.23,25.4,19.05,42.25,
+TP-0073,Thermal Pad,t-Global Technology,TG-A1250-15-15-2.0,Thermal Pad Green 15.00mm x 15.00mm Square,12.5,2.01,15.0,15.0,43.23,
+TP-0074,Thermal Pad,Bergquist,SP2000-0.015-00-104,Thermal Pad White 25.40mm x 19.05mm Rectangular,3.5,0.38,25.4,19.05,47.45,
+TP-0075,Thermal Pad,t-Global Technology,TG-AH486-21-15-13.0-1A,Thermal Pad Gray 21.00mm x 15.00mm Rectangular Adhesive - One Side,3.2,13.0,21.0,15.0,49.46,
+TP-0076,Thermal Pad,KYOCERA AVX,QB0603B25WYT,Thermal Pad 1.52mm x 0.76mm Rectangular,50.0,0.06,1.52,0.76,51.35,
+TP-0077,Thermal Pad,t-Global Technology,TG-A1250-30-30-0.5,Thermal Pad Green 30.00mm x 30.00mm Square,12.5,0.5,30.0,30.0,52.65,
+TP-0078,Thermal Pad,Vishay Dale Thin Film,THJP1225AST1,Thermal Pad 3.20mm x 6.40mm Rectangular,259.0,0.76,3.2,6.4,59.48,
+TP-0079,Thermal Pad,t-Global Technology,TG-AH486-35-10-7.0-0,Thermal Pad Gray 35.00mm x 10.00mm Rectangular,3.2,7.01,35.0,10.0,62.73,
+TP-0080,Thermal Pad,Sensata-Crydom,HSP-2,Thermal Pad Black 57.15mm x 44.45mm Rectangular Adhesive - One Side,2.0,0.13,57.15,44.45,65.98,
+TP-0081,Thermal Pad,t-Global Technology,TG-A486G-20-20-2.5-0,Thermal Pad Gray 20.00mm x 20.00mm Square Tacky - Both Sides,6.3,2.5,20.0,20.0,65.98,
+TP-0082,Thermal Pad,Würth Elektronik,407150015050,Thermal Pad Black 15.00mm x 15.00mm Square Adhesive - Both Sides,400.0,5.0,15.0,15.0,71.18,
+TP-0083,Thermal Pad,Würth Elektronik,407150015030,Thermal Pad Black 15.00mm x 15.00mm Square Adhesive - Both Sides,400.0,3.0,15.0,15.0,71.18,
+TP-0084,Thermal Pad,t-Global Technology,TG-AH486-45-25-6.0-0,Thermal Pad Gray 45.00mm x 25.00mm Rectangular,3.2,5.99,45.0,25.0,79.63,
+TP-0085,Thermal Pad,Würth Elektronik,407150015200,Thermal Pad Black 15.00mm x 15.00mm Square Adhesive - Both Sides,400.0,19.99,15.0,15.0,80.28,
+TP-0086,Thermal Pad,KYOCERA AVX,QB0805A40WYT,Thermal Pad 2.03mm x 1.27mm Rectangular,100.0,1.02,2.03,1.27,80.93,
+TP-0087,Thermal Pad,KYOCERA AVX,QB0805B40WYT,Thermal Pad 2.03mm x 1.27mm Rectangular,100.0,1.02,2.03,1.27,80.93,
+TP-0088,Thermal Pad,t-Global Technology,TG-AH486-25-25-9.0-0,Thermal Pad Gray 25.00mm x 25.00mm Square,3.2,8.99,25.0,25.0,82.23,
+TP-0089,Thermal Pad,Würth Elektronik,407150045015,Thermal Pad Black 45.00mm x 15.00mm Rectangular Adhesive - Both Sides,400.0,1.5,45.0,15.0,83.53,
+TP-0090,Thermal Pad,ADLINK Technology,EAPUS SARCON GR-HM 10.8X10.8X0.5MM,"Thermal Interface Products Pad,Type=GR-Hm,Size=10.8x10.8x0.5mm,K=6W/mK,Color=Reddish Gray",6.0,0.5,10.8,10.8,92.5,
+TP-0091,Thermal Pad,ADLINK Technology,EAPUS SARCON XR-Hl 16.5X7.5X2.0MM,"Thermal Interface Products Pad,Type=XR-HL,Size=16.5x7.5x2.0mm,K=1.2W/mK,Color=Black",1.2,2.0,16.5,7.5,92.5,
+TP-0092,Thermal Pad,ADLINK Technology,EAPUS SARCON XR-Hl 20X10X2.5MM,"Thermal Interface Products Pad,Type=XR-HL,Size=20x10x2.5mm,K=1.2W/mK,Color=Black",1.2,2.5,20.0,10.0,92.5,
+TP-0093,Thermal Pad,ADLINK Technology,EAPUS SARCON XR-Hl 35X11X2.5MM,"Thermal Interface Products Pad,Type=XR-HL,Size=35x11x2.5mm,K=1.2W/mK,Color=Black",1.2,2.5,35.0,11.0,92.5,
+TP-0094,Thermal Pad,ADLINK Technology,EAPUS SARCON XR-Hl 12X14X3.0MM,"Thermal Interface Products Pad,Type=XR-HL,Size=12x14x3.0mm,K=1.2W/mK,Color=Black",1.2,3.0,12.0,14.0,92.5,
+TP-0095,Thermal Pad,Parker Chomerics,60-11-5791-1671,Thermal Pad White 17.45mm x 14.28mm Rectangular,2.6,0.38,17.45,14.28,93.28,
+TP-0096,Thermal Pad,Wakefield Thermal,PL-05-3-254,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 0.5mm Thickness, 3 W/m-K, 25.4x25.4mm, Green",3.0,0.5,25.4,25.4,94.25,
+TP-0097,Thermal Pad,Parker Chomerics,60-11-8302-1671,Thermal Pad White 18.03mm x 12.70mm Rectangular,2.6,0.38,18.03,12.7,94.58,
+TP-0098,Thermal Pad,t-Global Technology,TG-A1250-40-40-0.5,Thermal Pad Green 40.00mm x 40.00mm Square,12.5,0.5,40.0,40.0,95.88,
+TP-0099,Thermal Pad,Wakefield Thermal,PL-05-5-254,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 0.5mm Thickness, 5 W/m-K, 25.4x25.4mm, Gold",5.0,0.5,25.4,25.4,98.15,
+TP-0100,Thermal Pad,Wakefield Thermal,PL-05-3-254-H,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 0.5mm Thickness, 3 W/m-K, 25.4x25.4mm, Hyper Soft",3.0,0.5,25.4,25.4,98.48,
+TP-0101,Thermal Pad,Wakefield Thermal,PL-05-5-254-H,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 0.5mm Thickness, 5 W/m-K, 25.4x25.4mm, Hyper Soft",5.0,0.5,25.4,25.4,102.05,
+TP-0102,Thermal Pad,Wakefield Thermal,PL-2-1-254,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 2mm Thickness, 1 W/m-K, 25.4x25.4mm, Grey",1.0,2.0,25.4,25.4,102.7,
+TP-0103,Thermal Pad,Wakefield Thermal,PL-2-3-254,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 2mm Thickness, 3 W/m-K, 25.4x25.4mm, Green",3.0,2.0,25.4,25.4,109.85,
+TP-0104,Thermal Pad,Wakefield Thermal,PL-2-3-254-H,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 2mm Thickness, 3 W/m-K, 25.4x25.4mm, Hyper Soft",3.0,2.0,25.4,25.4,114.08,
+TP-0105,Thermal Pad,Wakefield Thermal,PL-1-5-254,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 5 W/m-K, 25.4x25.4mm, Gold",5.0,1.0,25.4,25.4,116.03,
+TP-0106,Thermal Pad,Bergquist,SP2000-0.015-00-58,Thermal Pad White 19.05mm x 12.70mm Rectangular,3.5,0.38,19.05,12.7,124.48,
+TP-0107,Thermal Pad,t-Global Technology,TG-A3500-40-40-5.0,Thermal Pad Yellow 40.00mm x 40.00mm Square Tacky - Both Sides,3.5,5.0,40.0,40.0,125.13,
+TP-0108,Thermal Pad,t-Global Technology,TG-AH486-100-100-1.0-0,Thermal Pad Gray 100.00mm x 100.00mm Square,3.2,1.0,100.0,100.0,154.05,
+TP-0109,Thermal Pad,Wakefield Thermal,PL-2-5-254-H,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 2mm Thickness, 5 W/m-K, 25.4x25.4mm, Hyper Soft",5.0,2.0,25.4,25.4,158.93,
+TP-0110,Thermal Pad,t-Global Technology,TG-A1250-30-30-2.0,Thermal Pad Green 30.00mm x 30.00mm Square,12.5,2.01,30.0,30.0,159.58,
+TP-0111,Thermal Pad,Wakefield Thermal,PL-05-1-1016,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 0.5mm Thickness, 1 W/m-K, 101.6x101.6mm, Grey",1.0,0.5,101.6,101.6,168.35,
+TP-0112,Thermal Pad,t-Global Technology,TG-A1250-25-25-3.0,Thermal Pad Green 25.00mm x 25.00mm Square,12.5,3.0,25.0,25.0,169.98,
+TP-0113,Thermal Pad,Wakefield Thermal,PL-2-5-254,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 2mm Thickness, 5 W/m-K, 25.4x25.4mm, Gold",5.0,2.0,25.4,25.4,176.15,
+TP-0114,Thermal Pad,t-Global Technology,TG-A1780-25-25-0.5,Thermal Pad Gray 25.00mm x 25.00mm Square,17.8,0.5,25.0,25.0,178.75,
+TP-0115,Thermal Pad,Wakefield Thermal,PL-1-1.5-76X127-15,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 1.5 W/mK, 76.2x127mm, Grey",1.5,1.0,76.2,127.0,205.73,
+TP-0116,Thermal Pad,Würth Elektronik,4051100100017,Thermal Pad 100.00mm x 100.00mm Square Acrylic,1800.0,0.04,100.0,100.0,217.75,
+TP-0117,Thermal Pad,t-Global Technology,TG-A1250-40-40-1.5,Thermal Pad Green 40.00mm x 40.00mm Square,12.5,1.5,40.0,40.0,222.63,
+TP-0118,Thermal Pad,Wakefield Thermal,PL-1-1-1016,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 1 W/m-K, 101.6x101.6mm, Grey",1.0,1.0,101.6,101.6,224.9,
+TP-0119,Thermal Pad,Taica North America Corporation,COH-1706-200-05,Thermal Pad Gray 200.00mm x 200.00mm Square Tacky - Both Sides,1.7,0.51,200.0,200.0,225.88,
+TP-0120,Thermal Pad,Aavid,SoftFlex-B016-20-01-0762-0762,"Thermal Interface Products SoftFlex Pad, 1.6 W/mK Conductivity, 2mm Thick, 1-Side Adhesive, 76.2x76.2mm",1.6,2.0,76.2,76.2,248.63,
+TP-0121,Thermal Pad,t-Global Technology,TG-A1780-30-30-0.5,Thermal Pad Gray 30.00mm x 30.00mm Square,17.8,0.5,30.0,30.0,252.2,
+TP-0122,Thermal Pad,t-Global Technology,TG-A6200F-100-100-0.5,Thermal Pad Blue 100.00mm x 100.00mm Square Tacky - One Side,5.0,0.5,100.0,100.0,273.98,
+TP-0123,Thermal Pad,Bergquist,SP2000-0.015-00-54,Thermal Pad White 19.05mm x 12.70mm Rectangular,3.5,0.38,19.05,12.7,317.2,
+TP-0124,Thermal Pad,Wakefield Thermal,PL-05-5-1016,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 0.5mm Thickness, 5 W/m-K, 101.6x101.6mm, Gold",5.0,0.5,101.6,101.6,318.83,
+TP-0125,Thermal Pad,Bergquist,GP1500-0.080-02-0404,Thermal Pad Black 101.60mm x 101.60mm Square Tacky - Both Sides,1.5,2.03,101.6,101.6,338.65,
+TP-0126,Thermal Pad,Wakefield Thermal,PL-05-3-1016-H,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 0.5mm Thick, 3 W/m-K, 101.6x101.6mm, Hyper Soft",3.0,0.5,101.6,101.6,351.98,
+TP-0127,Thermal Pad,Wakefield Thermal,PLF-1-1-76X127-40,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone-Free, 1mm Thickness, 1 W/m-K, 76x127mm, White",1.0,1.0,76.0,127.0,358.15,
+TP-0128,Thermal Pad,Wakefield Thermal,PL-1-3-76X127-30,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 3 W/m-K, 76.2x127mm, Blue",3.0,1.0,76.2,127.0,369.2,
+TP-0129,Thermal Pad,t-Global Technology,TG-A6200-100-100-1.0,Thermal Pad Blue 100.00mm x 100.00mm Square Tacky - Both Sides,6.2,1.0,100.0,100.0,378.95,
+TP-0130,Thermal Pad,t-Global Technology,TG-A1780-40-40-0.5,Thermal Pad Gray 40.00mm x 40.00mm Square,17.8,0.5,40.0,40.0,384.48,
+TP-0131,Thermal Pad,Bergquist,GP1500-0.020-02-0404,Thermal Pad Black 101.60mm x 101.60mm Square Tacky - Both Sides,1.5,0.51,101.6,101.6,403.0,
+TP-0132,Thermal Pad,Wakefield Thermal,PL-1-3-1016-H,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 3 W/m-K, 101.6x101.6mm, Hyper Soft",3.0,1.0,101.6,101.6,412.1,
+TP-0133,Thermal Pad,Wakefield Thermal,PL-2-1-1016,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 2mm Thickness, 1 W/m-K, 101.6x101.6mm, Grey",1.0,2.0,101.6,101.6,414.7,
+TP-0134,Thermal Pad,KYOCERA AVX,QB0603A25WYT,Thermal Pad 1.52mm x 0.76mm Rectangular,50.0,0.06,1.52,0.76,416.0,
+TP-0135,Thermal Pad,Wakefield Thermal,PL-05-5-1016-H,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 0.5mm Thick, 5 W/m-K, 101.6x101.6mm, Hyper Soft",5.0,0.5,101.6,101.6,436.48,
+TP-0136,Thermal Pad,Laird Technologies - Thermal Materials,A18197-05,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides,5.3,0.12,228.6,228.6,442.33,
+TP-0137,Thermal Pad,Parker Chomerics,69-13-42348-T412,Thermal Pad Gray 28.00mm x 28.00mm Square Adhesive - Both Sides,1.4,0.23,28.0,28.0,468.98,
+TP-0138,Thermal Pad,t-Global Technology,T62-310-310-0.13,Thermal Pad Black 310.00mm x 310.00mm Square,20.0,0.13,310.0,310.0,489.78,
+TP-0139,Thermal Pad,Laird Technologies - Thermal Materials,A18197-08,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides,5.3,0.2,228.6,228.6,500.83,
+TP-0140,Thermal Pad,t-Global Technology,TG-A6200-150-150-0.5,Thermal Pad Blue 150.00mm x 150.00mm Square Tacky - Both Sides,6.2,0.5,150.0,150.0,519.03,
+TP-0141,Thermal Pad,Laird Technologies - Thermal Materials,A18197-10,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides,5.3,0.25,228.6,228.6,541.13,
+TP-0142,Thermal Pad,Laird Technologies - Thermal Materials,A17916-08,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides,2.0,2.03,228.6,228.6,541.78,
+TP-0143,Thermal Pad,Bergquist,BP100-0.005-00-1112,Thermal Pad White 304.80mm x 279.40mm Rectangular Adhesive - Both Sides,0.8,0.13,304.8,279.4,550.55,
+TP-0144,Thermal Pad,Wakefield Thermal,PL-2-3-1016-H,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 2mm Thickness, 3 W/m-K, 101.6x101.6mm, Hyper Soft",3.0,2.0,101.6,101.6,572.65,
+TP-0145,Thermal Pad,t-Global Technology,T62-1-310-310-0.16,Thermal Pad Black 310.00mm x 310.00mm Square Adhesive - One Side,15.0,0.16,310.0,310.0,573.95,
+TP-0146,Thermal Pad,Wakefield Thermal,PL-1-5-76X127-60,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 5 W/m-K, 76.2x127mm, Brown",5.0,1.0,76.2,127.0,615.55,
+TP-0147,Thermal Pad,Bergquist,GP1500-0.040-02-0404,Thermal Pad Black 101.60mm x 101.60mm Square Tacky - Both Sides,1.5,1.02,101.6,101.6,663.98,
+TP-0148,Thermal Pad,Wakefield Thermal,PLF-1-3-76X127-70,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone-Free, 1mm Thickness, 3 W/m-K, 76x127mm, White",3.0,1.0,76.0,127.0,666.25,
+TP-0149,Thermal Pad,t-Global Technology,GT10D-300-300-0.25-1A,Thermal Pad Pink 300.00mm x 300.00mm Square Adhesive - One Side,1.5,0.25,300.0,300.0,684.78,
+TP-0150,Thermal Pad,Same Sky (Formerly CUI Devices),SF400-505005,Thermal Pad Gray 50.00mm x 50.00mm Square Tacky - Both Sides,2.5,0.5,50.0,50.0,703.3,
+TP-0151,Thermal Pad,Laird Technologies - Thermal Materials,A18197-16,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides,5.3,0.41,228.6,228.6,710.78,
+TP-0152,Thermal Pad,Bergquist,GPVOUS-0.020-01-0816,Thermal Pad Pink 406.40mm x 203.20mm Rectangular Tacky - One Side,1.0,0.51,406.4,203.2,718.25,
+TP-0153,Thermal Pad,Laird Technologies - Thermal Materials,A17733-04,Thermal Pad Yellow 228.60mm x 228.60mm Square Adhesive - One Side,1.2,1.02,228.6,228.6,727.68,
+TP-0154,Thermal Pad,Bergquist,2191342,Thermal Pad Gray 304.80mm x 292.10mm Rectangular,0.9,0.15,304.8,292.1,728.98,
+TP-0155,Thermal Pad,t-Global Technology,TG-A1250-125-125-0.5,Thermal Pad Green 125.00mm x 125.00mm Square,12.5,0.5,125.0,125.0,736.45,
+TP-0156,Thermal Pad,Laird Technologies - Thermal Materials,A18172-16,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides,7.5,0.4,228.6,228.6,749.13,
+TP-0157,Thermal Pad,Parker Chomerics,69-12-42355-1674,Thermal Pad Blue 203.20mm x 203.20mm Square Adhesive - One Side,1.0,0.25,203.2,203.2,761.8,
+TP-0158,Thermal Pad,t-Global Technology,TG-A6200-100-100-2.5,Thermal Pad Blue 100.00mm x 100.00mm Square Tacky - Both Sides,6.2,2.5,100.0,100.0,764.4,
+TP-0159,Thermal Pad,Wakefield Thermal,PL-1-6-76X127-60,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 6 W/mK, 76.2x127mm, Grey",6.0,1.0,76.2,127.0,787.8,
+TP-0160,Thermal Pad,Bergquist,GP1500-0.040-02-0816,Thermal Pad Black 406.40mm x 203.20mm Rectangular Tacky - Both Sides,1.5,1.02,406.4,203.2,790.08,
+TP-0161,Thermal Pad,Bergquist,GPVOUS-0.040-01-0816,Thermal Pad Pink 406.40mm x 203.20mm Rectangular Tacky - One Side,1.0,1.02,406.4,203.2,802.1,
+TP-0162,Thermal Pad,Laird Technologies - Thermal Materials,A18172-05,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides,7.5,0.12,228.6,228.6,814.13,
+TP-0163,Thermal Pad,t-Global Technology,TG-A6200-150-150-1.0,Thermal Pad Blue 150.00mm x 150.00mm Square Tacky - Both Sides,6.2,1.0,150.0,150.0,814.78,
+TP-0164,Thermal Pad,Laird Technologies - Thermal Materials,A15993-00,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides,3.0,0.51,228.6,228.6,827.78,
+TP-0165,Thermal Pad,Laird Technologies - Thermal Materials,A18172-10,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides,7.5,0.25,228.6,228.6,865.15,
+TP-0166,Thermal Pad,Wakefield Thermal,PL-1-5-1016-H,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 5 W/m-K, 101.6x101.6mm, Hyper Soft",5.0,1.0,101.6,101.6,882.38,
+TP-0167,Thermal Pad,t-Global Technology,TG-A1250-100-100-1.0,Thermal Pad Green 100.00mm x 100.00mm Square,12.5,1.0,100.0,100.0,902.53,
+TP-0168,Thermal Pad,Wakefield Thermal,PLX-1-6-76X127-48,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 6 W/mK, 76x127mm, Grey",6.0,1.0,76.0,127.0,916.5,
+TP-0169,Thermal Pad,Bergquist,BP100-0.011-00-1010,Thermal Pad White 254.00mm x 254.00mm Square Adhesive - Both Sides,0.8,0.28,254.0,254.0,922.35,
+TP-0170,Thermal Pad,Wakefield Thermal,PL-1-5-1016,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 5 W/m-K, 101.6x101.6mm, Gold",5.0,1.0,101.6,101.6,944.78,
+TP-0171,Thermal Pad,Wakefield Thermal Solutions,PL-1-5-1016-H,Thermal Pad Gold 101.60mm x 101.60mm Square Tacky - One Side,5.0,0.99,101.6,101.6,945.1,
+TP-0172,Thermal Pad,Bergquist,GP1500R-0.020-02-0816,Thermal Pad Black 406.40mm x 203.20mm Rectangular Tacky - Both Sides,1.5,0.51,406.4,203.2,966.88,
+TP-0173,Thermal Pad,Würth Elektronik,4051210297017,Thermal Pad 297.00mm x 210.00mm Rectangular Acrylic,1800.0,0.04,297.0,210.0,968.83,
+TP-0174,Thermal Pad,Bergquist,BP100-0.008-00-1010,Thermal Pad White 254.00mm x 254.00mm Square Adhesive - Both Sides,0.8,0.2,254.0,254.0,980.53,
+TP-0175,Thermal Pad,Bergquist,2191191,Thermal Pad Pink 406.40mm x 203.20mm Rectangular Tacky - One Side,1.0,1.52,406.4,203.2,1007.5,
+TP-0176,Thermal Pad,Parker Chomerics,69-13-42350-T412,Thermal Pad Gray 152.40mm x 152.40mm Square Adhesive - Both Sides,1.4,0.23,152.4,152.4,1018.23,
+TP-0177,Thermal Pad,Laird Technologies - Thermal Materials,A14556-01,Thermal Pad Blue 228.60mm x 228.60mm Square Tacky - Both Sides,2.8,0.51,228.6,228.6,1021.15,
+TP-0178,Thermal Pad,Laird Technologies - Thermal Materials,A17690-02,Thermal Pad Pink 228.60mm x 228.60mm Square Tacky - One Side,5.0,0.51,228.6,228.6,1049.1,
+TP-0179,Thermal Pad,Wakefield Thermal,PLX-1-7-76X127-68,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 7 W/mK, 76x127mm, Grey",7.0,1.0,76.0,127.0,1051.7,
+TP-0180,Thermal Pad,Bergquist,SPK10-0.006-00-11.512,Thermal Pad Beige 304.80mm x 292.10mm Rectangular,1.3,0.15,304.8,292.1,1079.65,
+TP-0181,Thermal Pad,Laird Technologies - Thermal Materials,A10464-07,Thermal Pad Gray 609.60mm x 457.20mm Rectangular,5.0,0.51,609.6,457.2,1130.03,
+TP-0182,Thermal Pad,Taica North America Corporation,COH-4065LVC-200-10,Thermal Pad Reddish Brown 200.00mm x 200.00mm Square Tacky - Both Sides,2.2,0.99,200.0,200.0,1177.47,
+TP-0183,Thermal Pad,Bergquist,GP1500-0.080-02-0816,Thermal Pad Black 406.40mm x 203.20mm Rectangular Tacky - Both Sides,1.5,2.03,406.4,203.2,1178.45,
+TP-0184,Thermal Pad,Wakefield Thermal,PLX-1-1.5-210X310-40,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 1.5 W/mK, 210x310mm, White",1.5,1.0,210.0,310.0,1186.25,
+TP-0185,Thermal Pad,t-Global Technology,TG-A486G-150-150-1.0-1A,Thermal Pad Gray 150.00mm x 150.00mm Square Adhesive - One Side,6.3,1.0,150.0,150.0,1213.55,
+TP-0186,Thermal Pad,Bergquist,SP900S-0.009-AC-1212,Thermal Pad Pink 304.80mm x 304.80mm Square Adhesive - One Side,1.6,0.23,304.8,304.8,1232.4,
+TP-0187,Thermal Pad,Laird Technologies - Thermal Materials,A17653-03,Thermal Pad Pink 228.60mm x 228.60mm Square Tacky - Both Sides,5.0,0.76,228.6,228.6,1312.68,
+TP-0188,Thermal Pad,Wakefield Thermal,PLX-1-2-210X310-80,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 2 W/mK, 210x310mm, Grey",2.0,1.0,210.0,310.0,1328.6,
+TP-0189,Thermal Pad,Wakefield Thermal,PL-1-8-76X127-50,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 8 W/mK, 76.2x127mm, Grey",8.0,1.0,76.2,127.0,1338.03,
+TP-0190,Thermal Pad,Wakefield Thermal,PL-2-5-1016-H,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 2mm Thickness, 5 W/m-K, 101.6x101.6mm, Hyper Soft",5.0,2.0,101.6,101.6,1380.6,
+TP-0191,Thermal Pad,Bergquist,2165804,Thermal Pad Beige 304.80mm x 292.10mm Rectangular Adhesive - One Side,1.3,0.15,304.8,292.1,1439.1,
+TP-0192,Thermal Pad,3M,5549S-05,Thermal Pad Gray 210.00mm x 155.00mm Rectangular Tacky - One Side,3.5,0.5,210.0,155.0,1445.28,
+TP-0193,Thermal Pad,Parker Chomerics,61-02-0909-G579,Thermal Pad Pink 228.60mm x 228.60mm Square,3.0,0.51,228.6,228.6,1467.05,
+TP-0194,Thermal Pad,Laird Technologies - Thermal Materials,A18330-04,Thermal Pad Gray 127.00mm x 76.00mm Rectangular,34.0,1.0,127.0,76.0,1483.95,
+TP-0195,Thermal Pad,Wakefield Thermal,PLX-1-8-76x127-40,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 8 W/mK, 76x127mm, Grey",8.0,1.0,76.0,127.0,1532.05,
+TP-0196,Thermal Pad,t-Global Technology,TG-APC94-150-150-2.0-0,Thermal Pad Red 150.00mm x 150.00mm Square,4.0,2.01,150.0,150.0,1553.83,
+TP-0197,Thermal Pad,Laird Technologies - Thermal Materials,A15340-01,Thermal Pad Green 228.60mm x 228.60mm Square,1.2,5.08,228.6,228.6,1587.95,
+TP-0198,Thermal Pad,Laird Technologies - Thermal Materials,A10832-02,Thermal Pad Yellow 228.60mm x 228.60mm Square Tacky - Both Sides,2.2,0.25,228.6,228.6,1617.53,
+TP-0199,Thermal Pad,Bergquist,GP1500-0.125-02-0816,Thermal Pad Black 406.40mm x 203.20mm Rectangular Tacky - Both Sides,1.5,3.18,406.4,203.2,1638.0,
+TP-0200,Thermal Pad,Laird Technologies - Thermal Materials,A10464-10,Thermal Pad Gray 609.60mm x 457.20mm Rectangular Adhesive - One Side,5.0,0.51,609.6,457.2,1641.9,
+TP-0201,Thermal Pad,3M,5583S 210 MM X 300 MM X 2.0 MM,Thermal Pad White 300.00mm x 210.00mm Rectangular Tacky - One Side,1.0,2.01,300.0,210.0,1682.2,
+TP-0202,Thermal Pad,Laird Technologies - Thermal Materials,A18213-02,Thermal Pad Gray 229.00mm x 229.00mm Square,10.0,0.5,229.0,229.0,1685.45,
+TP-0203,Thermal Pad,t-Global Technology,TG-A1450-100-100-1.0,Thermal Pad Red 100.00mm x 100.00mm Square,14.5,1.0,100.0,100.0,1703.98,
+TP-0204,Thermal Pad,Laird Technologies - Thermal Materials,A17653-04,Thermal Pad Pink 228.60mm x 228.60mm Square Tacky - Both Sides,5.0,1.02,228.6,228.6,1716.0,
+TP-0205,Thermal Pad,t-Global Technology,TG-A1250-100-100-2.0,Thermal Pad Green 100.00mm x 100.00mm Square,12.5,2.01,100.0,100.0,1716.98,
+TP-0206,Thermal Pad,Laird Technologies - Thermal Materials,A10092-01,Thermal Pad Pink 203.20mm x 203.20mm Square,6.0,0.25,203.2,203.2,1724.13,
+TP-0207,Thermal Pad,Bergquist Company,TGP 40000SF-0.020-00-0406,"Thermal Interface Products GAP PAD, Sil-Free, 40W/m-K, 4x6"" Sheet, 0.020"" Thickness, Thermexit, IDH 2972783",40.0,0.51,4.0,6.0,1730.3,
+TP-0208,Thermal Pad,Laird Technologies - Thermal Materials,A15340-03,Thermal Pad Green 228.60mm x 228.60mm Square Tacky - One Side,1.2,5.08,228.6,228.6,1735.18,
+TP-0209,Thermal Pad,Laird Technologies - Thermal Materials,A16367-02,Thermal Pad Pink 228.60mm x 215.90mm Rectangular Tacky - One Side,2.8,0.51,228.6,215.9,1753.7,
+TP-0210,Thermal Pad,3M,5519 210 MM X 155 MM X 1.0 MM,Thermal Pad Gray 210.00mm x 155.00mm Rectangular Tacky - Both Sides,4.9,0.99,210.0,155.0,1785.23,
+TP-0211,Thermal Pad,Bergquist,GP1000SF-0.020-02-0816,Thermal Pad Green 406.40mm x 203.20mm Rectangular Tacky - Both Sides,0.9,0.51,406.4,203.2,1800.5,
+TP-0212,Thermal Pad,t-Global Technology,TG-A1660-125-125-0.5,Thermal Pad Gray 125.00mm x 125.00mm Square,16.6,0.51,125.0,125.0,1844.38,
+TP-0213,Thermal Pad,t-Global Technology,TG-A486G-150-150-2.0-1A,Thermal Pad Gray 150.00mm x 150.00mm Square Adhesive - One Side,6.3,2.01,150.0,150.0,1851.85,
+TP-0214,Thermal Pad,Laird Technologies - Thermal Materials,A17690-04,Thermal Pad Pink 228.60mm x 228.60mm Square Tacky - One Side,5.0,1.02,228.6,228.6,1877.53,
+TP-0215,Thermal Pad,Parker Chomerics,62-02-0909-A579,Thermal Pad Pink 228.60mm x 228.60mm Square Adhesive - One Side,3.0,0.51,228.6,228.6,1917.83,
+TP-0216,Thermal Pad,Laird Technologies - Thermal Materials,A18238-02,Thermal Pad Gray 229.00mm x 229.00mm Square Tacky - One Side,10.0,0.51,229.0,229.0,1938.95,
+TP-0217,Thermal Pad,t-Global Technology,TG-A1250-150-150-1.0,Thermal Pad Green 150.00mm x 150.00mm Square,12.5,1.0,150.0,150.0,1940.25,
+TP-0218,Thermal Pad,Wakefield Thermal,PL-1-10-76X127-55,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 10 W/mK, 76.2x127mm, Grey",10.0,1.0,76.2,127.0,1949.35,
+TP-0219,Thermal Pad,Bergquist,GPVOUS-0.100-01-0816,Thermal Pad Pink 406.40mm x 203.20mm Rectangular Tacky - One Side,1.0,2.54,406.4,203.2,1955.85,
+TP-0220,Thermal Pad,3M,5516-10,Thermal Pad Gray 320.00mm x 230.00mm Rectangular Tacky - Both Sides,3.1,0.99,320.0,230.0,1958.78,
+TP-0221,Thermal Pad,Taica North America Corporation,COH-3114LVC-200-10,Thermal Pad Gray 200.00mm x 200.00mm Square Tacky - Both Sides,3.1,0.99,200.0,200.0,1978.6,
+TP-0222,Thermal Pad,Bergquist,GPHC3.0-0.020-02-0816,Thermal Pad Blue 406.40mm x 203.20mm Rectangular Tacky - Both Sides,3.0,0.51,406.4,203.2,2024.43,
+TP-0223,Thermal Pad,Taica North America Corporation,COH-4065LVC-200-20,Thermal Pad Reddish Brown 200.00mm x 200.00mm Square Tacky - Both Sides,2.2,2.01,200.0,200.0,2065.05,
+TP-0224,Thermal Pad,Bergquist,GP5000S35-0.020-02-0816,Thermal Pad Green 406.40mm x 203.20mm Rectangular Tacky - Both Sides,5.0,0.51,406.4,203.2,2067.65,
+TP-0225,Thermal Pad,Laird Technologies - Thermal Materials,A12618-01,Thermal Pad Blue-Violet 228.60mm x 228.60mm Square Tacky - Both Sides,3.0,1.02,228.6,228.6,2103.73,
+TP-0226,Thermal Pad,t-Global Technology,TG-A1250-100-100-2.5,Thermal Pad Green 100.00mm x 100.00mm Square,12.5,2.5,100.0,100.0,2114.13,
+TP-0227,Thermal Pad,Parker Chomerics,61-04-0909-G579,Thermal Pad Pink 228.60mm x 228.60mm Square,3.0,1.02,228.6,228.6,2148.25,
+TP-0228,Thermal Pad,Parker Chomerics,61-04-0909-HCS10G,Thermal Pad Orange 228.60mm x 228.60mm Square,1.0,1.02,228.6,228.6,2150.2,
+TP-0229,Thermal Pad,Laird Technologies - Thermal Materials,A14412-01,Thermal Pad Blue-Violet 228.60mm x 228.60mm Square Tacky - One Side,3.0,1.02,228.6,228.6,2160.6,
+TP-0230,Thermal Pad,Bergquist,2191193,Thermal Pad Pink 406.40mm x 203.20mm Rectangular Tacky - One Side,1.0,3.18,406.4,203.2,2181.08,
+TP-0231,Thermal Pad,Bergquist Company,TGP40000SF-0.020-01-0406-NA,"Thermal Interface Products GAP PAD, Sil-Free, 40W/m-K, 4 x 6"" Sheet, Tacky Pad, 0.020"" Thickness, Thermexit",40.0,0.51,4.0,6.0,2189.2,
+TP-0232,Thermal Pad,t-Global Technology,TG-A6200-310-310-0.5,Thermal Pad Blue 310.00mm x 310.00mm Square Tacky - Both Sides,6.2,0.5,310.0,310.0,2190.83,
+TP-0233,Thermal Pad,Wakefield Thermal,PLX-1-3-210X310-30,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 3 W/m-K, 210x310mm, Blue",3.0,1.0,210.0,310.0,2213.58,
+TP-0234,Thermal Pad,t-Global Technology,TG-A1660-100-100-1.0,Thermal Pad Gray 100.00mm x 100.00mm Square,16.6,1.0,100.0,100.0,2335.13,
+TP-0235,Thermal Pad,Laird Technologies - Thermal Materials,A10080-01,Thermal Pad Blue 203.20mm x 203.20mm Square,6.0,0.51,203.2,203.2,2341.95,
+TP-0236,Thermal Pad,Wakefield Thermal Solutions,PL-1-12-76X127-75,Thermal Pad Gray 127.00mm x 76.20mm Rectangular Tacky - One Side,12.0,1.0,127.0,76.2,2403.7,
+TP-0237,Thermal Pad,Parker Chomerics,62-04-0909-A579,Thermal Pad Pink 228.60mm x 228.60mm Square Adhesive - One Side,3.0,1.02,228.6,228.6,2445.3,
+TP-0238,Thermal Pad,t-Global Technology,TG-A4500-310-310-1.0,Thermal Pad Purple 310.00mm x 310.00mm Square Tacky - Both Sides,4.5,1.0,310.0,310.0,2446.28,
+TP-0239,Thermal Pad,3M,5519 210 MM X 155 MM X 2.0 MM,Thermal Pad Gray 210.00mm x 155.00mm Rectangular Tacky - Both Sides,4.9,2.01,210.0,155.0,2471.95,
+TP-0240,Thermal Pad,Laird Technologies - Thermal Materials,A10538-17,Thermal Pad White 228.60mm x 228.60mm Square Tacky - Both Sides,3.0,0.51,228.6,228.6,2480.73,
+TP-0241,Thermal Pad,t-Global Technology,TG-A1250-100-100-3.0,Thermal Pad Green 100.00mm x 100.00mm Square,12.5,3.0,100.0,100.0,2507.05,
+TP-0242,Thermal Pad,Bergquist,GPHC5.0-0.020-02-0816,Thermal Pad Gray 406.40mm x 203.20mm Rectangular Tacky - Both Sides,5.0,0.51,406.4,203.2,2636.73,
+TP-0243,Thermal Pad,Laird Technologies - Thermal Materials,A17690-06,Thermal Pad Pink 228.60mm x 228.60mm Square Tacky - One Side,5.0,1.52,228.6,228.6,2696.2,
+TP-0244,Thermal Pad,Laird Technologies - Thermal Materials,A12619-01,Thermal Pad Blue-Violet 228.60mm x 228.60mm Square Tacky - Both Sides,3.0,1.27,228.6,228.6,2775.18,
+TP-0245,Thermal Pad,t-Global Technology,TG-A1250-150-150-1.5,Thermal Pad Green 150.00mm x 150.00mm Square,12.5,1.5,150.0,150.0,2824.58,
+TP-0246,Thermal Pad,3M,5549S 210 MM X 155MM X 1.5MM,Thermal Pad Gray 210.00mm x 155.00mm Rectangular Tacky - One Side,3.5,1.5,210.0,155.0,2836.6,
+TP-0247,Thermal Pad,Laird Technologies - Thermal Materials,A16104-10,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides,3.0,2.54,228.6,228.6,2840.5,
+TP-0248,Thermal Pad,Laird Technologies - Thermal Materials,A17653-07,Thermal Pad Pink 228.60mm x 228.60mm Square Tacky - Both Sides,5.0,1.78,228.6,228.6,2861.63,
+TP-0249,Thermal Pad,Wakefield Thermal,PLX-1-12-76X127-58,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 12 W/mK, 76x127mm, Grey",12.0,1.0,76.0,127.0,2915.9,
+TP-0250,Thermal Pad,Wakefield Thermal,PLF-1-8-76X127-70,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone-Free, 1mm Thickness, 8 W/mK, 76.2x127mm, Grey",8.0,1.0,76.2,127.0,2931.83,
+TP-0251,Thermal Pad,Bergquist Company,TGP7000ULM-0.040-02-0808,"Thermal Interface Products GAP PAD, 7W/m-K, 8"" x 8"" Sheet, 0.040"" Thickness, TGP7000ULM, IDH 2261480",7.0,1.02,203.2,203.2,2986.43,
+TP-0252,Thermal Pad,t-Global Technology,TG-A1780-125-125-0.5,Thermal Pad Gray 125.00mm x 125.00mm Square,18.0,0.5,125.0,125.0,3019.58,
+TP-0253,Thermal Pad,t-Global Technology,TG-A1250-250-250-0.5,Thermal Pad Green 250.00mm x 250.00mm Square,12.5,0.5,250.0,250.0,3031.93,
+TP-0254,Thermal Pad,Laird Technologies - Thermal Materials,A12620-34,Thermal Pad Blue-Violet 228.60mm x 228.60mm Square Tacky - One Side,3.0,1.52,228.6,228.6,3042.98,
+TP-0255,Thermal Pad,Laird Technologies - Thermal Materials,A17883-04,Thermal Pad Teal 228.60mm x 228.60mm Square,6.0,1.02,228.6,228.6,3103.1,
+TP-0256,Thermal Pad,Bergquist Company,TGP7000ULM-0.020-02-0808,"Thermal Interface Products GAP PAD, 7W/m-K, 8"" x 8"" Sheet, 0.020"" Thickness, TGP7000ULM, IDH 2563017",7.0,0.51,203.2,203.2,3250.65,
+TP-0257,Thermal Pad,t-Global Technology,TG-A1450-100-100-2.0,Thermal Pad Red 100.00mm x 100.00mm Square,14.5,2.01,100.0,100.0,3263.65,
+TP-0258,Thermal Pad,Bergquist,GPHC5.0-0.060-02-0816,Thermal Pad Gray 406.40mm x 203.20mm Rectangular Tacky - Both Sides,5.0,1.52,406.4,203.2,3407.3,
+TP-0259,Thermal Pad,t-Global Technology,TG-A6200-310-310-1.0,Thermal Pad Blue 310.00mm x 310.00mm Square Tacky - Both Sides,6.2,1.0,310.0,310.0,3440.13,
+TP-0260,Thermal Pad,Laird Technologies - Thermal Materials,A18213-04,Thermal Pad Gray 229.00mm x 229.00mm Square,10.0,1.0,229.0,229.0,3492.78,
+TP-0261,Thermal Pad,Laird Technologies - Thermal Materials,A18171-05,Thermal Pad Gray 457.20mm x 457.20mm Square Tacky - Both Sides,7.5,0.12,457.2,457.2,3532.1,
+TP-0262,Thermal Pad,Parker Chomerics,61-06-0909-G579,Thermal Pad Pink 228.60mm x 228.60mm Square,3.0,1.52,228.6,228.6,3601.98,
+TP-0263,Thermal Pad,Laird Technologies - Thermal Materials,A18171-08,Thermal Pad Gray 457.20mm x 457.20mm Square Tacky - Both Sides,7.5,0.2,457.2,457.2,3653.32,
+TP-0264,Thermal Pad,t-Global Technology,TG-A1250-150-150-2.0,Thermal Pad Green 150.00mm x 150.00mm Square,12.5,2.01,150.0,150.0,3690.7,
+TP-0265,Thermal Pad,Wakefield Thermal,PLX-1-5-210X310-40,"Thermal Interface Products ulTIMiFlux Gap Pad, Silicone, 1mm Thickness, 5 W/m-K, 210x310mm, Grey",5.0,1.0,210.0,310.0,3718.98,
+TP-0266,Thermal Pad,Parker Chomerics,61-06-1015-PAD60,Thermal Pad Green 381.00mm x 254.00mm Rectangular,6.0,1.52,381.0,254.0,3772.28,
+TP-0267,Thermal Pad,Taica North America Corporation,COH-4000LVC-400-05,Thermal Pad Gray 400.00mm x 400.00mm Square Tacky - Both Sides,2.3,0.51,400.0,400.0,3810.63,
+TP-0268,Thermal Pad,Laird Technologies - Thermal Materials,A17883-06,Thermal Pad Teal 228.60mm x 228.60mm Square,6.0,1.52,228.6,228.6,3845.73,
+TP-0269,Thermal Pad,Parker Chomerics,62-06-0909-A579,Thermal Pad Pink 228.60mm x 228.60mm Square Adhesive - One Side,3.0,1.52,228.6,228.6,3922.75,
+TP-0270,Thermal Pad,Laird Technologies - Thermal Materials,A11809-02,Thermal Pad Yellow 457.20mm x 457.20mm Square Tacky - Both Sides,0.7,0.13,457.2,457.2,3941.28,
+TP-0271,Thermal Pad,Laird Technologies - Thermal Materials,A18171-10,Thermal Pad Gray 457.20mm x 457.20mm Square Tacky - Both Sides,7.5,0.25,457.2,457.2,3978.89,
+TP-0272,Thermal Pad,Laird Technologies - Thermal Materials,A10233-30,Thermal Pad White 228.60mm x 228.60mm Square Tacky - Both Sides,3.0,1.02,228.6,228.6,4127.5,
+TP-0273,Thermal Pad,Laird Technologies - Thermal Materials,A17156-06,Thermal Pad Pink 457.20mm x 457.20mm Square Tacky - Both Sides,2.7,1.52,457.2,457.2,4266.28,
+TP-0274,Thermal Pad,Parker Chomerics,61-08-0909-G579,Thermal Pad Pink 228.60mm x 228.60mm Square,3.0,2.03,228.6,228.6,4341.35,
+TP-0275,Thermal Pad,Bergquist Company,TGP6000ULM-0.040-12-0816,"Thermal Interface Products GAP PAD, 6W/m-K, 8"" x 16"" Sheet, 0.040"" Thickness, TGP6000ULM, IDH 2195666",6.0,1.02,203.2,406.4,4350.78,
+TP-0276,Thermal Pad,Laird Technologies - Thermal Materials,A18171-16,Thermal Pad Gray 457.20mm x 457.20mm Square Tacky - Both Sides,7.5,0.4,457.2,457.2,4363.45,
+TP-0277,Thermal Pad,Parker Chomerics,61-04-1015-PAD80G,Thermal Pad Dark Gray 381.00mm x 254.00mm Rectangular,8.3,1.02,381.0,254.0,4565.93,
+TP-0278,Thermal Pad,Parker Chomerics,61-08-1015-PAD60,Thermal Pad Green 381.00mm x 254.00mm Rectangular,6.0,2.03,381.0,254.0,4666.03,
+TP-0279,Thermal Pad,Laird Technologies - Thermal Materials,A12624-01,Thermal Pad Blue-Violet 228.60mm x 228.60mm Square Tacky - Both Sides,3.0,2.54,228.6,228.6,4675.45,
+TP-0280,Thermal Pad,Laird Technologies - Thermal Materials,A18213-06,Thermal Pad Gray 229.00mm x 229.00mm Square,10.0,1.5,229.0,229.0,4677.4,
+TP-0281,Thermal Pad,Laird Technologies - Thermal Materials,A12616-08,Thermal Pad Blue-Violet 457.20mm x 457.20mm Square Tacky - Both Sides,3.0,0.51,457.2,457.2,4806.43,
+TP-0282,Thermal Pad,Laird Technologies - Thermal Materials,A10832-09,Thermal Pad Yellow 457.20mm x 457.20mm Square Tacky - Both Sides,2.2,0.25,457.2,457.2,4831.02,
+TP-0283,Thermal Pad,Laird Technologies - Thermal Materials,A15896-05,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides,5.0,1.27,228.6,228.6,4918.88,
+TP-0284,Thermal Pad,Laird Technologies - Thermal Materials,A15726-00,Thermal Pad Gray 457.20mm x 457.20mm Square Tacky - Both Sides,3.8,0.25,457.2,457.2,4940.0,
+TP-0285,Thermal Pad,t-Global Technology,TG-A1450-250-250-0.5,Thermal Pad Red 250.00mm x 250.00mm Square,14.5,0.5,250.0,250.0,5001.1,
+TP-0286,Thermal Pad,Bergquist Company,TGP7000ULM-0.060-02-0808,"Thermal Interface Products GAP PAD, 7W/m-K, 8"" x 8"" Sheet, 0.060"" Thickness, TGP7000ULM, IDH 2474875",7.0,1.52,203.2,203.2,5015.73,
+TP-0287,Thermal Pad,Laird Technologies - Thermal Materials,A17752-04,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides,7.5,1.02,228.6,228.6,5022.55,
+TP-0288,Thermal Pad,Parker Chomerics,61-10-0808-T500,Thermal Pad Green 203.20mm x 203.20mm Square,2.1,0.25,203.2,203.2,5057.65,
+TP-0289,Thermal Pad,Parker Chomerics,61-06-1015-PAD80G,Thermal Pad Dark Gray 381.00mm x 254.00mm Rectangular,8.3,1.52,381.0,254.0,5063.83,
+TP-0290,Thermal Pad,Parker Chomerics,62-10-0909-A579,Thermal Pad Pink 228.60mm x 228.60mm Square Adhesive - One Side,3.0,2.54,228.6,228.6,5153.53,
+TP-0291,Thermal Pad,Bergquist,SPA2000-0.015-00-1012-NA,Thermal Pad White 304.80mm x 254.00mm Rectangular,3.0,0.38,304.8,254.0,5180.18,
+TP-0292,Thermal Pad,Laird Technologies - Thermal Materials,A18444-04,Thermal Pad Gray 228.60mm x 228.60mm Square,7.5,1.02,228.6,228.6,5194.48,
+TP-0293,Thermal Pad,Bergquist,GPHC3.0-0.125-02-0816,Thermal Pad Blue 406.40mm x 203.20mm Rectangular Tacky - Both Sides,3.0,3.18,406.4,203.2,5208.13,
+TP-0294,Thermal Pad,Parker Chomerics,62-03-1015-PAD80A,Thermal Pad Dark Gray 381.00mm x 254.00mm Rectangular Adhesive - One Side,8.3,0.76,381.0,254.0,5370.3,
+TP-0295,Thermal Pad,Bergquist,GPTGP7000ULM-0.100-02-0808,Thermal Pad Gray 203.20mm x 203.20mm Square Tacky - Both Sides,7.0,2.54,203.2,203.2,5374.2,
+TP-0296,Thermal Pad,Parker Chomerics,61-10-0909-G579,Thermal Pad Pink 228.60mm x 228.60mm Square,3.0,2.54,228.6,228.6,5405.4,
+TP-0297,Thermal Pad,Parker Chomerics,62-04-1015-PAD80A,Thermal Pad Dark Gray 381.00mm x 254.00mm Rectangular Adhesive - One Side,8.3,1.02,381.0,254.0,5442.78,
+TP-0298,Thermal Pad,Bergquist Company,TGP 40000SF-0.040-00-0606,"Thermal Interface Products GAP PAD, Sil-Free, 40W/m-K, 6x6"" Sheet, 0.040"" Thickness, Thermexit, IDH 2972782",40.0,1.02,6.0,6.0,5560.75,
+TP-0299,Thermal Pad,Laird Technologies - Thermal Materials,A10235-31,Thermal Pad White 228.60mm x 228.60mm Square Tacky - Both Sides,3.0,1.52,228.6,228.6,5661.83,
+TP-0300,Thermal Pad,Bergquist Company,TGP12000ULM-0.040-00-0808,"Thermal Interface Products GAP PAD, 12W/m-K, Ultra-Low Modulus, 8""x8"" Sheet, 0.040"" Thickness, TGP12000ULM",12.0,1.02,203.2,203.2,5718.05,
+TP-0301,Thermal Pad,Laird Technologies - Thermal Materials,A18500-01,Thermal Pad White 431.80mm x 431.80mm Rectangular,5.0,0.25,431.8,431.8,5765.18,
+TP-0302,Thermal Pad,Laird Technologies - Thermal Materials,A18213-08,Thermal Pad Gray 229.00mm x 229.00mm Square,10.2,2.01,229.0,229.0,5845.78,
+TP-0303,Thermal Pad,Bergquist,GP3000S30-0.125-02-0816,Thermal Pad Blue 406.40mm x 203.20mm Rectangular Tacky - Both Sides,3.0,3.18,406.4,203.2,5867.55,
+TP-0304,Thermal Pad,Laird Technologies - Thermal Materials,A17752-05,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides,7.5,1.25,228.6,228.6,5876.98,
+TP-0305,Thermal Pad,Bergquist,GPHC5.0-0.100-02-0816,Thermal Pad Gray 406.40mm x 203.20mm Rectangular Tacky - Both Sides,5.0,2.54,406.4,203.2,5882.18,
+TP-0306,Thermal Pad,Bergquist Company,TGP6000ULM-0.060-12-0816,"Thermal Interface Products GAP PAD, 6W/m-K, 8"" x 16"" Sheet, 0.060"" Thickness, TGP6000ULM, IDH 2195667",6.0,1.52,203.2,406.4,6036.23,
+TP-0307,Thermal Pad,Bergquist Company,TGP7000ULM-0.080-02-0808,"Thermal Interface Products GAP PAD, 7W/m-K, 8"" x 8"" Sheet, 0.080"" Thickness, TGP7000ULM, IDH 2474885",7.0,2.03,203.2,203.2,6103.18,
+TP-0308,Thermal Pad,Bergquist Company,TGP40000SF-0.040-01-0606-NA,"Thermal Interface Products GAP PAD, Sil-Free, 40W/m-K, 6 x 6"" Sheet, Tacky Pad, 0.040"" Thickness, Thermexit",40.0,1.02,6.0,6.0,6117.15,
+TP-0309,Thermal Pad,Laird Technologies - Thermal Materials,A17536-04,Thermal Pad Pink 457.20mm x 457.20mm Square Tacky - Both Sides,5.0,1.02,457.2,457.2,6348.23,
+TP-0310,Thermal Pad,Laird Technologies - Thermal Materials,A17690-13,Thermal Pad Pink 228.60mm x 228.60mm Square Tacky - One Side,5.0,3.3,228.6,228.6,6349.2,
+TP-0311,Thermal Pad,t-Global Technology,TG-A1780-150-150-0.8,Thermal Pad Gray 150.00mm x 150.00mm Square,17.8,0.79,150.0,150.0,6504.88,
+TP-0312,Thermal Pad,Parker Chomerics,61-15-0808-1671,Thermal Pad White 203.20mm x 203.20mm Square,2.6,0.38,203.2,203.2,6549.4,
+TP-0313,Thermal Pad,Laird Technologies - Thermal Materials,A12617-25,Thermal Pad Blue-Violet 457.20mm x 457.20mm Square Tacky - Both Sides,3.0,0.76,457.2,457.2,6683.63,
+TP-0314,Thermal Pad,Aavid,SuperThermal-B132-10-02-1500-1500,"Thermal Interface Products SuperThermal Pad, 13.2 W/mK Conductivity, 1mm Thick, 2-Side Adhesive, 150x150mm",13.2,1.0,150.0,150.0,6703.45,
+TP-0315,Thermal Pad,Laird Technologies - Thermal Materials,A17752-06,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides,7.5,1.5,228.6,228.6,6724.9,
+TP-0316,Thermal Pad,Parker Chomerics,62-15-0808-1671,Thermal Pad White 203.20mm x 203.20mm Square,2.6,0.38,203.2,203.2,6755.45,
+TP-0317,Thermal Pad,t-Global Technology,TG-A1660-250-250-0.5,Thermal Pad Gray 250.00mm x 250.00mm Square,16.6,0.5,250.0,250.0,6821.75,
+TP-0318,Thermal Pad,Bergquist Company,TGP 40000SF-0.060-00-0606,"Thermal Interface Products GAP PAD, Sil-Free, 40W/m-K, 6x6"" Sheet, 0.060"" Thickness, Thermexit, IDH 2972780",40.0,1.52,6.0,6.0,6851.33,
+TP-0319,Thermal Pad,Bergquist Company,TGP12000ULM-0.060-00-0808,"Thermal Interface Products GAP PAD, 12W/m-K, Ultra-Low Modulus, 8""x8"" Sheet, 0.060"" Thickness, TGP12000ULM",12.0,1.52,203.2,203.2,7045.35,
+TP-0320,Thermal Pad,Laird Technologies - Thermal Materials,A10237-21,Thermal Pad White 228.60mm x 228.60mm Square Tacky - Both Sides,3.0,2.03,228.6,228.6,7258.55,
+TP-0321,Thermal Pad,Parker Chomerics,61-08-1015-PAD80G,Thermal Pad Dark Gray 381.00mm x 254.00mm Rectangular,8.3,2.03,381.0,254.0,7343.38,
+TP-0322,Thermal Pad,Bergquist Company,2722287,"Thermal Interface Products GAP PAD, 12 W/m-K, Ultra-Low Modulus, 8"" x 8"" Sheet, 0.040"" Thickness",12.0,1.02,203.2,203.2,7462.65,
+TP-0323,Thermal Pad,Bergquist Company,TGP40000SF-0.060-01-0606-NA,"Thermal Interface Products GAP PAD, Sil-Free, 40W/m-K, 6 x 6"" Sheet, Tacky Pad, 0.060"" Thickness, Thermexit",40.0,1.52,6.0,6.0,7536.75,
+TP-0324,Thermal Pad,Bergquist Company,GP7000ULM-0.100-02-0808,"Thermal Interface Products GAP PAD, Silicone Thermal Interface, 7 W/m-K Thermal Conductivity, Ultra-Low Modulus, 8"" x 8"" Sheet, 0.100"" Thickness, GAP PAD TGP 7000ULM Series, IDH 2474876",7.0,2.54,203.2,203.2,7633.93,
+TP-0325,Thermal Pad,Laird Technologies - Thermal Materials,A10833-06,Thermal Pad Yellow 457.20mm x 457.20mm Square Tacky - Both Sides,2.2,0.51,457.2,457.2,7783.1,
+TP-0326,Thermal Pad,Bergquist,SP2000-0.020-00-1212,Thermal Pad White 304.80mm x 304.80mm Square,3.5,0.51,304.8,304.8,7885.8,
+TP-0327,Thermal Pad,t-Global Technology,TG-A1250-310-310-1.0,Thermal Pad Green 310.00mm x 310.00mm Square,12.5,1.0,310.0,310.0,7988.5,
+TP-0328,Thermal Pad,t-Global Technology,TG-A1780-150-150-1.0,Thermal Pad Gray 150.00mm x 150.00mm Square,17.8,1.0,150.0,150.0,8002.15,
+TP-0329,Thermal Pad,Bergquist Company,TGP10000ULM-0.040-02-0808,"Thermal Interface Products GAP PAD, 10W/m-K, 8"" x 8"" Sheet, 0.040"" Thickness, TGP10000ULM, IDH 2591008",10.0,1.02,203.2,203.2,8062.28,
+TP-0330,Thermal Pad,Bergquist Company,TGP 40000SF-0.080-00-0606,"Thermal Interface Products GAP PAD, Sil-Free, 40W/m-K, 6x6"" Sheet, 0.080"" Thickness, Thermexit, IDH 2972781",40.0,2.03,6.0,6.0,8149.7,
+TP-0331,Thermal Pad,Laird Technologies - Thermal Materials,A17752-08,Thermal Pad Gray 228.60mm x 228.60mm Square Tacky - Both Sides,7.5,2.01,228.6,228.6,8402.55,
+TP-0332,Thermal Pad,Bergquist Company,TGP12000ULM-0.080-00-0808,"Thermal Interface Products GAP PAD, 12W/m-K, Ultra-Low Modulus, 8""x8"" Sheet, 0.080"" Thickness, TGP12000ULM",12.0,2.03,203.2,203.2,8570.58,
+TP-0333,Thermal Pad,Bergquist Company,TGP40000SF-0.080-01-0606-NA,"Thermal Interface Products GAP PAD, Sil-Free, 40W/m-K, 6 x 6"" Sheet, Tacky Pad, 0.080"" Thickness, Thermexit",40.0,2.03,6.0,6.0,8870.55,
+TP-0334,Thermal Pad,Parker Chomerics,62-08-1015-PAD80A,Thermal Pad Dark Gray 381.00mm x 254.00mm Rectangular Adhesive - One Side,8.3,2.03,381.0,254.0,8917.35,
+TP-0335,Thermal Pad,Laird Technologies - Thermal Materials,A18213-10,Thermal Pad Gray 229.00mm x 229.00mm Square,10.0,2.5,229.0,229.0,9145.5,
+TP-0336,Thermal Pad,Bergquist Company,2722288,"Thermal Interface Products GAP PAD, 12 W/m-K, Ultra-Low Modulus, 8"" x 8"" Sheet, 0.060"" Thickness",12.0,1.52,203.2,203.2,9149.73,
+TP-0337,Thermal Pad,Bergquist Company,TGP7000ULM-0.125-02-0808,"Thermal Interface Products GAP PAD, 7W/m-K, 8"" x 8"" Sheet, 0.125"" Thickness, TGP7000ULM, IDH 2474886",7.0,3.18,203.2,203.2,9358.7,
+TP-0338,Thermal Pad,Bergquist,GP3004SF-0.040-01-0918,Thermal Pad Gray 457.20mm x 228.60mm Rectangular Tacky - One Side,3.0,1.02,457.2,228.6,9987.71,
+TP-0339,Thermal Pad,Bergquist Company,TGP 40000SF-0.100-00-0606,"Thermal Interface Products GAP PAD, Sil-Free, 40W/m-K, 6x6"" Sheet, 0.100"" Thickness, Thermexit, IDH 2964639",40.0,2.54,6.0,6.0,10059.73,
+TP-0340,Thermal Pad,Laird Technologies - Thermal Materials,A14428-01,Thermal Pad Blue-Violet 228.60mm x 228.60mm Square Tacky - One Side,3.0,5.08,228.6,228.6,10225.8,
+TP-0341,Thermal Pad,Bergquist Company,TGP6000ULM-0.080-12-0816,"Thermal Interface Products GAP PAD, 6W/m-K, 8"" x 16"" Sheet, 0.080"" Thickness, TGP6000ULM, IDH 2195669",6.0,2.03,203.2,406.4,10276.83,
+TP-0342,Thermal Pad,Bergquist Company,TGP10000ULM-0.060-02-0808,"Thermal Interface Products GAP PAD, 10W/m-K, 8"" x 8"" Sheet, 0.060"" Thickness, TGP10000ULM, IDH 2591009",10.0,1.52,203.2,203.2,10326.88,
+TP-0343,Thermal Pad,Bergquist Company,TGP40000SF-0.100-01-0606-NA,"Thermal Interface Products GAP PAD, Sil-Free, 40W/m-K, 6 x 6"" Sheet, Tacky Pad, 0.105"" Thickness, Thermexit",40.0,2.67,6.0,6.0,11065.28,
+TP-0344,Thermal Pad,Bergquist Company,2722289,"Thermal Interface Products GAP PAD, 12 W/m-K, Ultra-Low Modulus, 8"" x 8"" Sheet, 0.080"" Thickness",12.0,2.03,203.2,203.2,11169.93,
+TP-0345,Thermal Pad,t-Global Technology,TG-A1780-250-250-0.5,Thermal Pad Gray 250.00mm x 250.00mm Square,18.0,0.5,250.0,250.0,11171.55,
+TP-0346,Thermal Pad,t-Global Technology,TG-A1780-150-150-1.5,Thermal Pad Gray 150.00mm x 150.00mm Square,17.8,1.5,150.0,150.0,11671.73,
+TP-0347,Thermal Pad,Bergquist,2214846,Thermal Pad Gray 406.40mm x 203.20mm Rectangular Tacky - Both Sides,6.0,3.18,406.4,203.2,11808.23,
+TP-0348,Thermal Pad,Bergquist Company,TGP 40000SF-0.125-00-0606,"Thermal Interface Products GAP PAD, Sil-Free, 40W/m-K, 6x6"" Sheet, 0.125"" Thickness, Thermexit, IDH 2964638",40.0,3.18,6.0,6.0,12061.08,
+TP-0349,Thermal Pad,Leader Tech Inc.,TGF30SF-07870787-039,Thermal Pad Gray 199.90mm x 199.90mm Square Tacky - Both Sides,3.0,0.99,199.9,199.9,12351.63,
+TP-0350,Thermal Pad,Bergquist Company,TGP6000ULM-0.100-12-0816,"Thermal Interface Products GAP PAD, 6W/m-K, 8"" x 16"" Sheet, 0.100"" Thickness, TGP6000ULM, IDH 2196912",6.0,2.54,203.2,406.4,12615.85,
+TP-0351,Thermal Pad,Bergquist Company,TGP10000ULM-0.080-02-0808,"Thermal Interface Products GAP PAD, 10W/m-K, 8"" x 8"" Sheet, 0.080"" Thickness, TGP10000ULM, IDH 2591010",10.0,2.03,203.2,203.2,12675.65,
+TP-0352,Thermal Pad,Bergquist Company,TGP40000SF-0.125-01-0606-NA,"Thermal Interface Products GAP PAD, Sil-Free, 40W/m-K, 6 x 6"" Sheet, Tacky Pad, 0.125"" Thickness, Thermexit",40.0,3.18,6.0,6.0,13266.83,
+TP-0353,Thermal Pad,Bergquist Company,2722290,"Thermal Interface Products GAP PAD, 12 W/m-K, Ultra-Low Modulus, 8"" x 8"" Sheet, 0.100"" Thickness",12.0,2.54,203.2,203.2,13720.2,
+TP-0354,Thermal Pad,t-Global Technology,TG-A1250-310-310-2.0,Thermal Pad Green 310.00mm x 310.00mm Square,12.5,2.01,310.0,310.0,15193.75,
+TP-0355,Thermal Pad,t-Global Technology,TG-A1780-150-150-2.0,Thermal Pad Gray 150.00mm x 150.00mm Square,17.8,2.01,150.0,150.0,15272.08,
+TP-0356,Thermal Pad,Bergquist Company,TGP6000ULM-0.125-12-0816,"Thermal Interface Products GAP PAD, 6W/m-K, 8"" x 16"" Sheet, 0.125"" Thickness, TGP6000ULM, IDH 2214846",6.0,3.18,203.2,406.4,16094.98,
+TP-0357,Thermal Pad,Bergquist Company,2722291,"Thermal Interface Products GAP PAD, 12 W/m-K, Ultra-Low Modulus, 8"" x 8"" Sheet, 0.120"" Thickness",12.0,3.05,203.2,203.2,17475.9,
+TP-0358,Thermal Pad,Bergquist Company,TGP12000ULM-0.100-00-0808,"Thermal Interface Products GAP PAD, 12W/m-K, Ultra-Low Modulus, 8""x8"" Sheet, 0.100"" Thickness, TGP12000ULM",12.0,2.54,203.2,203.2,17744.68,
+TP-0359,Thermal Pad,Bergquist Company,TGP12000ULM-0.125-00-0808,"Thermal Interface Products GAP PAD, 12W/m-K, Ultra-Low Modulus, 8""x8"" Sheet, 0.125"" Thickness, TGP12000ULM",12.0,3.18,203.2,203.2,18197.08,
+TP-0360,Thermal Pad,Laird Technologies - Thermal Materials,A17751-04,Thermal Pad Gray 457.20mm x 457.20mm Square Tacky - Both Sides,7.5,1.02,457.2,457.2,18578.3,
+TP-0361,Thermal Pad,Bergquist Company,2722292,"Thermal Interface Products GAP PAD, 12 W/m-K, Ultra-Low Modulus, 8"" x 8"" Sheet, 0.140"" Thickness",12.0,3.56,203.2,203.2,18925.73,
+TP-0362,Thermal Pad,Bergquist Company,TGP10000ULM-0.100-02-0808,"Thermal Interface Products GAP PAD, 10W/m-K, 8"" x 8"" Sheet, 0.100"" Thickness, TGP10000ULM, IDH 2599712",10.0,2.54,203.2,203.2,19206.85,
+TP-0363,Thermal Pad,Bergquist Company,TGP10000ULM-0.125-02-0808,"Thermal Interface Products GAP PAD, 10W/m-K, 8"" x 8"" Sheet, 0.125"" Thickness, TGP10000ULM, IDH 2599713",10.0,3.18,203.2,203.2,21142.55,
+TP-0364,Thermal Pad,Bergquist Company,2722293,"Thermal Interface Products GAP PAD, 12 W/m-K, Ultra-Low Modulus, 8"" x 8"" Sheet, 0.160"" Thickness",12.0,4.06,203.2,203.2,21634.93,

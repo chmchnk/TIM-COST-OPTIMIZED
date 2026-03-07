@@ -51,7 +51,7 @@ def run_simulation(data_name='cost_data.csv', config_name='simulation_config.yam
         HEATSINK_LIST = config['heatsinks']
     except KeyError as e:
         print(f"Config Error: Missing key {e} in yaml file.")
-        return
+        return False
 
     data_path = find_file(data_name)
     if data_path:
@@ -59,7 +59,7 @@ def run_simulation(data_name='cost_data.csv', config_name='simulation_config.yam
         df_original = pd.read_csv(data_path)
     else:
         print(f"Error: Data file '{data_name}' not found.")
-        return
+        return False
 
     # Setup Common Physics
     led_radius = LED_PARAMS['outer_dia_mm'] / 2.0
@@ -95,8 +95,8 @@ def run_simulation(data_name='cost_data.csv', config_name='simulation_config.yam
 
         # threshold is negative or too low
         if system_threshold_cw <= 0:
-            print("   WARNING: System fails even with ideal TIM (R_tim=0). Skipping...")
-            continue
+            print(f"   ERROR: System fails even with ideal TIM (R_tim=0) for {hs_model}. Threshold: {system_threshold_cw:.4f} C/W. Halting pipeline.")
+            return False
 
         results = []
         
@@ -201,6 +201,8 @@ def run_simulation(data_name='cost_data.csv', config_name='simulation_config.yam
         # Quick Summary
         passed_count = len(res_df[res_df['reliability_status'] == 'PASS'])
         print(f"Summary for {hs_model}: {passed_count}/{len(res_df)} items passed.")
+        
+    return True
 
 if __name__ == "__main__":
     run_simulation()

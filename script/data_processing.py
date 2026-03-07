@@ -336,11 +336,9 @@ def clean_raw_data(df):
          'thermal_conductivity_wmk', 'thickness_mm', 'width_mm', 'length_mm',
          'price_thb', 'weight_g'
     ]
-    
     final_cols = [c for c in cols_order if c in df.columns] + [c for c in df.columns if c not in cols_order]
     df = df[final_cols]
     
-    df.to_csv("data/processed/cleanned_data.csv", index=False)
     type_counts = df["type"].value_counts()
     print(type_counts)
 
@@ -374,6 +372,10 @@ def clean_raw_data(df):
         return ids
     df["tim_id"] = generate_id(df)
 
+    output_path = "data/processed/cleanned_data.csv"
+    df.to_csv(output_path, index=False)
+    print(f"Cleaned data saved to: {os.path.abspath(output_path)}")
+    
     return df
 
 # -----------------------------------------------------
