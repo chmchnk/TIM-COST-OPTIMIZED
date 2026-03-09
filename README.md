@@ -12,7 +12,7 @@ The goal is to recommend the optimal TIM by balancing **thermal performance** (T
 ### Key Features
 - **Physics-Based Thermal Model**: Calculates LED heat load and total system thermal resistance.
 - **Monte Carlo Simulation**: Simulates thousands of scenarios to estimate the probability of thermal failure (Pass/Fail).
-- **Machine Learning Recommendations**: Uses K-Means Clustering to categorize TIMs into groups like "Best Value", "Premium", or "Avoid".
+- **Machine Learning Recommendations**: Uses K-Means Clustering to categorize TIMs into groups like "Best Value", "Standard", or "Avoid".
 
 ---
 
@@ -30,9 +30,6 @@ The goal is to recommend the optimal TIM by balancing **thermal performance** (T
     - `cleanned_data.csv`: Cleaned TIM dataset.
     - `cost_data.csv`: TIM data with calculated cost per application.
     - `recommendations.db`: SQLite database storing simulation results and scenarios.
-    - `simulation/`: Folder containing outputs.
-      - `simu_results_*.csv`: Output simulation reports for each heatsink.
-      - `dashboard.py`: Interactive Streamlit dashboard script.
 - **`config/`**:
   - `simulation_config.yaml`: Configuration for simulation parameters (LED specs, Heatsink models, Uncertainties).
 - **`notebooks/`**: Jupyter notebooks for exploratory data analysis (EDA) and prototyping.
@@ -61,10 +58,7 @@ python script/run_pipeline.py --scenario "My Run Scenario"
 ```
 *Output: `data/processed/recommendations.db`, `data/processed/simulation/simu_results_*.csv`*
 
-### 4. View Dashboard
-Launch the interactive Streamlit dashboard to explore the results:
 ```bash
-streamlit run data/processed/simulation/dashboard.py
 ```
 
 ---
@@ -113,9 +107,9 @@ The final outputs in the database (`recommendations.db`) and CSV records are opt
 ### 3. Analysis
 - [x] **Pass/Fail Logic**: Establish reliability thresholds based on max LED temperature.
 - [x] **K-Means Clustering**: Group TIMs by Performance vs. Cost (`ml_analysis.py`).
-- [x] **Interactive Dashboard**: Deployed Streamlit dashboard for real-time data exploration and scenario tracking.
 - [x] **Database Integration**: Implemented SQLite to store run history and compare simulation scenarios.
 
 ### 4. Future Work / To-Do
+- [ ] **Publish Dashboard**: Deploy Power BI Dashboard for team access.
 - [ ] **More Heatsinks**: Expand the library of heatsink models.
 - [ ] **Dynamic Pricing**: Connect to live API for real-time pricing.
