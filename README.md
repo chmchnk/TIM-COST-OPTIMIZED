@@ -12,7 +12,7 @@ The goal is to recommend the optimal TIM by balancing **thermal performance** (T
 ### Key Features
 - **Physics-Based Thermal Model**: Calculates LED heat load and total system thermal resistance.
 - **Monte Carlo Simulation**: Simulates thousands of scenarios to estimate the probability of thermal failure (Pass/Fail).
-- **Machine Learning Recommendations (v2.0)**: Uses Multi-Dimensional Auto-K Clustering and Relative Labeling (considering safety and cost bounds) to group TIMs reliably.
+- **Machine Learning Recommendations**: Uses Multi-Dimensional Auto-K Clustering and Relative Labeling (considering safety and cost bounds) to group TIMs reliably.
 
 ---
 
@@ -20,7 +20,7 @@ The goal is to recommend the optimal TIM by balancing **thermal performance** (T
 
 - **`script/`**: Core executable scripts.
   - `run_pipeline.py`: Main orchestration script (End-to-End orchestration from data cleaning to DB save).
-  - `data_processing.py`: Cleans raw data and calculates unit costs (now runs automatically as Step 0).
+  - `data_processing.py`: Cleans raw data and calculates unit costs.
   - `simulation.py`: Runs the Monte Carlo simulation for defined heatsink scenarios.
   - `ml_analysis.py`: Runs the Auto-K Clustering, labels recommendations based on risk vs. reward, and logs to SQLite.
   - `thermal_model.py`: Library for thermal calculations (Power, R_th).
@@ -38,11 +38,17 @@ The goal is to recommend the optimal TIM by balancing **thermal performance** (T
 
 ---
 
-## Usage
-
-### 1. Prerequisites
-Install the required Python packages:
+### 1. Installation
+First, clone the repository and navigate into the project directory:
 ```bash
+git clone https://github.com/your-username/Senior-project-TIM-Cost.git
+cd Senior-project-TIM-Cost
+```
+
+Then, set up a virtual environment and install the required Python packages:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
@@ -117,8 +123,8 @@ The final outputs in the database (`recommendations.db`) and CSV records are opt
 
 ### 3. Analysis
 - [x] **Pass/Fail Logic**: Establish reliability thresholds based on max LED temperature.
-- [x] **Clustering (v2.0)**: Multi-Dimensional grouping using `cost`, `r_th`, `max_t_case_99`, and `pass_probability_pct`.
-- [x] **Auto-K Optimization (v2.0)**: Determine optimal number of segments using Silhouette Scores (`ml_analysis.py`).
+- [x] **Clustering **: Multi-Dimensional grouping using `cost`, `r_th`, `max_t_case_99`, and `pass_probability_pct`.
+- [x] **Auto-K Optimization**: Determine optimal number of segments using Silhouette Scores (`ml_analysis.py`).
 - [x] **Database Integration**: Implemented SQLite to store run history, recommendations, and execution metadata dynamically.
 
 ### 4. Future Work / To-Do
