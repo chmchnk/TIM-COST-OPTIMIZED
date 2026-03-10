@@ -12,17 +12,17 @@ The goal is to recommend the optimal TIM by balancing **thermal performance** (T
 ### Key Features
 - **Physics-Based Thermal Model**: Calculates LED heat load and total system thermal resistance.
 - **Monte Carlo Simulation**: Simulates thousands of scenarios to estimate the probability of thermal failure (Pass/Fail).
-- **Machine Learning Recommendations**: Uses K-Means Clustering to categorize TIMs into groups like "Best Value", "Standard", or "Avoid".
+- **Machine Learning Recommendations (v2.0)**: Uses Multi-Dimensional Auto-K Clustering and Relative Labeling (considering safety and cost bounds) to group TIMs reliably.
 
 ---
 
 ## 📂 Directory Structure
 
 - **`script/`**: Core executable scripts.
-  - `run_pipeline.py`: Main orchestration script to run the full pipeline automation.
-  - `data_processing.py`: Cleans raw data and calculates unit costs.
+  - `run_pipeline.py`: Main orchestration script (End-to-End orchestration from data cleaning to DB save).
+  - `data_processing.py`: Cleans raw data and calculates unit costs (now runs automatically as Step 0).
   - `simulation.py`: Runs the Monte Carlo simulation for defined heatsink scenarios.
-  - `ml_analysis.py`: Analyzes simulation results and generates final recommendations.
+  - `ml_analysis.py`: Runs the Auto-K Clustering, labels recommendations based on risk vs. reward, and logs to SQLite.
   - `thermal_model.py`: Library for thermal calculations (Power, R_th).
   - `utils.py`: Helper functions.
 - **`data/`**:
@@ -30,6 +30,8 @@ The goal is to recommend the optimal TIM by balancing **thermal performance** (T
     - `cleanned_data.csv`: Cleaned TIM dataset.
     - `cost_data.csv`: TIM data with calculated cost per application.
     - `recommendations.db`: SQLite database storing simulation results and scenarios.
+    - `simulation/`: Folder containing outputs.
+      - `simu_results_*.csv`: Output simulation reports for each heatsink.
 - **`config/`**:
   - `simulation_config.yaml`: Configuration for simulation parameters (LED specs, Heatsink models, Uncertainties).
 - **`notebooks/`**: Jupyter notebooks for exploratory data analysis (EDA) and prototyping.
@@ -52,14 +54,16 @@ Edit `config/simulation_config.yaml` to adjust:
 - **Uncertainties**: Manufacturing tolerances (e.g., `thermal_conductivity_unc`, `grease_blt`).
 
 ### 3. Run Pipeline
-Execute the full automated pipeline to process data, run predictions, and save results to the database.
+Execute the full automated pipeline to parse data, run physics simulations, execute ML analysis, and persist the results.
 ```bash
-python script/run_pipeline.py --scenario "My Run Scenario"
+python script/run_pipeline.py --scenario_name "My Run Scenario"
 ```
-*Output: `data/processed/recommendations.db`, `data/processed/simulation/simu_results_*.csv`*
 
+To skip data processing (e.g. if you only modified `simulation_config.yaml`), use the bypass flag:
 ```bash
+python script/run_pipeline.py --scenario_name "My Run Scenario" --skip_data_prep
 ```
+*Output: `data/processed/recommendations.db` and output CSV records.*
 
 ---
 
@@ -83,12 +87,19 @@ The final outputs in the database (`recommendations.db`) and CSV records are opt
 - **`cost_per_app`**: Estimated cost per 1 LED application (THB).
 - **`calculated_tim_r_cw`**: Effective Thermal Resistance of the TIM (C/W).
 - **`pass_probability_pct`**: % chance the TIM keeps the LED under the max temperature.
+- **`max_t_case_99`**: The LED junction temperature at the 99th highest percentile of all simulation throws (C).
 - **`reliability_status`**: **PASS** / **FAIL** based on the simulation threshold.
 - **`avg_margin_cw`**: Thermal margin remaining (Safety factor).
 
 ### 🌡️ Environment Context
 - **`heatsink_model`**: Name of the heatsink used in simulation.
 - **`heatsink_r_th`**: Thermal Resistance of the heatsink (C/W).
+
+### 📓 Metadata (run_metadata table)
+- **`run_timestamp`**: Precise timestamp of execution.
+- **`scenario_name`**: The grouping label provided by the user.
+- **`algorithm`**: Records clustering parameters like `K-Means (Auto-K)`.
+- **`optimal_k`** / **`silhouette_score`**: Metrics tracking the clustering performance output.
 
 ---
 
@@ -106,8 +117,9 @@ The final outputs in the database (`recommendations.db`) and CSV records are opt
 
 ### 3. Analysis
 - [x] **Pass/Fail Logic**: Establish reliability thresholds based on max LED temperature.
-- [x] **K-Means Clustering**: Group TIMs by Performance vs. Cost (`ml_analysis.py`).
-- [x] **Database Integration**: Implemented SQLite to store run history and compare simulation scenarios.
+- [x] **Clustering (v2.0)**: Multi-Dimensional grouping using `cost`, `r_th`, `max_t_case_99`, and `pass_probability_pct`.
+- [x] **Auto-K Optimization (v2.0)**: Determine optimal number of segments using Silhouette Scores (`ml_analysis.py`).
+- [x] **Database Integration**: Implemented SQLite to store run history, recommendations, and execution metadata dynamically.
 
 ### 4. Future Work / To-Do
 - [ ] **Publish Dashboard**: Deploy Power BI Dashboard for team access.

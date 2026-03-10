@@ -5,6 +5,7 @@ from datetime import datetime
 import sqlite3
 import pandas as pd
 
+import data_processing
 import simulation
 import ml_analysis
 
@@ -68,7 +69,7 @@ def save_to_database(df, scenario_name):
     try:
         conn = sqlite3.connect(db_path)
         
-        # We use if_exists='append' for non-destructive storage
+        # use if_exists='append' for non-destructive storage
         df.to_sql('recommendations', conn, if_exists='append', index=False)
         print(f"[SUCCESS] Appended {len(df)} records to database at:")
         print(f"   -> {db_path} (Table: recommendations)")
@@ -78,7 +79,7 @@ def save_to_database(df, scenario_name):
         print(f"[ERROR] Failed to save to database: {str(e)}")
         sys.exit(1)
 
-def run_pipeline(scenario_name):
+def run_pipeline(scenario_name, skip_data_prep=False):
     print("\n" + "#"*60)
     print(f"STARTING ANTIGRAVITY ORCHESTRATION PIPELINE")
     print(f"Scenario: {scenario_name}")
@@ -87,7 +88,21 @@ def run_pipeline(scenario_name):
     # 1. Dependency Management
     check_dependencies()
     
-    # 2. Sequential Execution - Simulation
+    # 2. Sequential Execution - Data Processing
+    if not skip_data_prep:
+        print("\n>>> STEP 0: Running Data Processing (Cleaning & Preparation) >>>")
+        dp_success = data_processing.run_data_processing()
+        if not dp_success:
+            print("\n" + "!"*60)
+            print("[HALT] Data Processing failed.")
+            print("Pipeline execution aborted.")
+            print("!"*60)
+            sys.exit(1)
+        print("\n[SUCCESS] Data Processing completed.")
+    else:
+        print("\n>>> STEP 0: Skipped Data Processing (Data Prep) >>>")
+        
+    # 3. Sequential Execution - Simulation
     print("\n>>> STEP 1: Running Physics Simulation >>>")
     sim_success = simulation.run_simulation()
     
@@ -100,7 +115,7 @@ def run_pipeline(scenario_name):
         
     print("\n[SUCCESS] Simulation completed.")
     
-    # 3. Sequential Execution - ML Analysis
+    # 4. Sequential Execution - ML Analysis
     print("\n>>> STEP 2: Running ML Clustering Analysis >>>")
     df_final = ml_analysis.run_ml_analysis()
     
@@ -113,9 +128,9 @@ def run_pipeline(scenario_name):
         
     print("\n[SUCCESS] ML Analysis completed.")
     
-    # 4. Data Persistence & Metadata
-    save_to_database(df_final, scenario_name)
     
+    # 4. Data Persistence & Metadata (Now handled internally by ml_analysis.py)
+    print("\n[INFO] Data is now saved internally during ML Analysis step.")
     print("\n" + "#"*60)
     print("PIPELINE COMPLETED SUCCESSFULLY")
     print("#"*60 + "\n")
@@ -123,7 +138,8 @@ def run_pipeline(scenario_name):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Orchestration Pipeline for TIM Cost Optimization")
     parser.add_argument('--scenario_name', type=str, required=True, help="Label to categorize environmental tests (e.g., 'Standard_25C')")
+    parser.add_argument('--skip_data_prep', action='store_true', help="Skip data processing (Step 0) and use existing cost_data.csv")
     
     args = parser.parse_args()
     
-    run_pipeline(args.scenario_name)
+    run_pipeline(args.scenario_name, skip_data_prep=args.skip_data_prep)

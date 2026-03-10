@@ -36,20 +36,17 @@ def merge_data(df):
 
         frame = pd.concat(li, axis=0, ignore_index=True)
 
-        os.makedirs(processed_path, exist_ok=True)  # Create destination folder if doesn't exist
-        
-        save_path = os.path.join(processed_path, output_filename)
-        frame.to_csv(save_path, index=False)
-
-        print(f"\nSaved to:\n{save_path}")
+        return frame
     else:
         print(f"There are no CSV files in the folder {raw_path}")
+        return None
 
 # ------------------------------------------------------
 # CLEANING MERGED DATA
 # ------------------------------------------------------
 def clean_raw_data(df):
-    df = pd.read_csv("data/processed/merged_data.csv")
+    if df is None:
+        return None
     columns_to_drop = ["Category", "source_file"]   # Drop unneeded columns
     df.drop(columns=columns_to_drop, inplace=True) 
 
@@ -372,10 +369,6 @@ def clean_raw_data(df):
         return ids
     df["tim_id"] = generate_id(df)
 
-    output_path = "data/processed/cleanned_data.csv"
-    df.to_csv(output_path, index=False)
-    print(f"Cleaned data saved to: {os.path.abspath(output_path)}")
-    
     return df
 
 # -----------------------------------------------------
@@ -429,10 +422,22 @@ def feature_calculation(df, config):
     df = df.round(precision)
     return df
 
-if __name__ == "__main__":
-    merge_data(None)
-    clean_df = clean_raw_data(None)
-    config_path = "config/simulation_config.yaml"
+def run_data_processing():
+    print("\n" + "="*60)
+    print("STARTING DATA PROCESSING (CLEANING & FEATURE CALCULATION)")
+    print("="*60)
+    
+    merged_df = merge_data(None)
+    if merged_df is None:
+        print("Error: No data to process.")
+        return False
+        
+    clean_df = clean_raw_data(merged_df)
+    
+    current_dir = os.getcwd()
+    project_root = os.path.abspath(os.path.join(current_dir, '..')) if not os.path.exists(os.path.join(current_dir, 'config')) else current_dir
+    config_path = os.path.join(project_root, "config", "simulation_config.yaml")
+
     if os.path.exists(config_path):
         config = load_config(config_path)
         cost_df = feature_calculation(clean_df, config)
@@ -447,6 +452,13 @@ if __name__ == "__main__":
         final_cols = [c for c in cols_order if c in cost_df.columns] + [c for c in cost_df.columns if c not in cols_order]
         cost_df = cost_df[final_cols]
         
-        cost_df.to_csv("data/processed/cost_data.csv", index=False)
+        out_path = os.path.join(project_root, "data", "processed", "cost_data.csv")
+        cost_df.to_csv(out_path, index=False)
+        print(f"Final cost data saved to: {out_path}")
+        return True
     else:
-        print(f"Can't find config file at {config_path}")
+        print(f"Error: Can't find config file at {config_path}")
+        return False
+
+if __name__ == "__main__":
+    run_data_processing()
