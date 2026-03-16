@@ -79,7 +79,7 @@ def save_to_database(df, scenario_name):
         print(f"[ERROR] Failed to save to database: {str(e)}")
         sys.exit(1)
 
-def run_pipeline(scenario_name, skip_data_prep=False):
+def run_pipeline(scenario_name, skip_data_prep=False, clear_db=False):
     print("\n" + "#"*60)
     print(f"STARTING ANTIGRAVITY ORCHESTRATION PIPELINE")
     print(f"Scenario: {scenario_name}")
@@ -87,6 +87,13 @@ def run_pipeline(scenario_name, skip_data_prep=False):
     
     # 1. Dependency Management
     check_dependencies()
+    
+    # Optional Database Clearance
+    if clear_db:
+        db_path = os.path.join(PROJECT_ROOT, "data", "processed", "recommendations.db")
+        if os.path.exists(db_path):
+            os.remove(db_path)
+            print(f"\n[INFO] Cleared existing database at: {db_path}")
     
     # 2. Sequential Execution - Data Processing
     if not skip_data_prep:
@@ -117,7 +124,7 @@ def run_pipeline(scenario_name, skip_data_prep=False):
     
     # 4. Sequential Execution - ML Analysis
     print("\n>>> STEP 2: Running ML Clustering Analysis >>>")
-    df_final = ml_analysis.run_ml_analysis()
+    df_final = ml_analysis.run_ml_analysis(scenario_name=scenario_name)
     
     if df_final is None or df_final.empty:
         print("\n" + "!"*60)
@@ -139,7 +146,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Orchestration Pipeline for TIM Cost Optimization")
     parser.add_argument('--scenario_name', type=str, required=True, help="Label to categorize environmental tests (e.g., 'Standard_25C')")
     parser.add_argument('--skip_data_prep', action='store_true', help="Skip data processing (Step 0) and use existing cost_data.csv")
+    parser.add_argument('--clear_db', action='store_true', help="Clear existing recommendations.db before running the pipeline")
     
     args = parser.parse_args()
     
-    run_pipeline(args.scenario_name, skip_data_prep=args.skip_data_prep)
+    run_pipeline(args.scenario_name, skip_data_prep=args.skip_data_prep, clear_db=args.clear_db)

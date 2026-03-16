@@ -41,8 +41,8 @@ The goal is to recommend the optimal TIM by balancing **thermal performance** (T
 ### 1. Installation
 First, clone the repository and navigate into the project directory:
 ```bash
-git clone https://github.com/your-username/Senior-project-TIM-Cost.git
-cd Senior-project-TIM-Cost
+git clone https://github.com/chmchnk/TIM-COST-OPTIMIZED.git
+cd TIM-COST-OPTIMIZED
 ```
 
 Then, set up a virtual environment and install the required Python packages:
@@ -70,6 +70,38 @@ To skip data processing (e.g. if you only modified `simulation_config.yaml`), us
 python script/run_pipeline.py --scenario_name "My Run Scenario" --skip_data_prep
 ```
 *Output: `data/processed/recommendations.db` and output CSV records.*
+
+To **clear all existing data** in the database before running (fresh start), add the `--clear_db` flag:
+```bash
+python script/run_pipeline.py --scenario_name "New Scenario" --skip_data_prep --clear_db
+```
+
+> **How `--clear_db` works:**
+> 1. Deletes the old `recommendations.db` file entirely.
+> 2. Runs the pipeline and creates a brand-new database containing only the new run's data.
+> 3. The `scenario_name` given in this command (e.g. `"New Scenario"`) becomes the **only** scenario stored in the new database.
+
+> [!WARNING]
+> **⚠️ Power BI Refresh Warning**
+> If you connect Power BI to `recommendations.db`, avoid re-running the pipeline with the **same `--scenario_name`** without using `--clear_db`. Doing so will append **duplicate rows** with the same `scenario_name` to the database, which will cause incorrect data aggregations and may cause errors or inconsistencies when refreshing Power BI reports.
+> - ✅ **Safe:** Use a new unique `--scenario_name` for each run, OR use `--clear_db` to start fresh.
+> - ❌ **Avoid:** Running the same `--scenario_name` multiple times without `--clear_db`.
+
+### ⚠️ Troubleshooting
+
+**Error: `command not found: python`** (even after running `source venv/bin/activate`)
+- **Cause:** This usually happens if you've **renamed or moved the project folder** after creating the virtual environment. Python's `activate` script hard-codes the absolute path to the environment when it's created.
+- **Solution:** Recreate the virtual environment to update the paths, or fix it manually.
+  ```bash
+  # Option 1: Recreate Environment (Recommended)
+  rm -rf venv
+  python3 -m venv venv
+  source venv/bin/activate
+  pip install -r requirements.txt
+  
+  # Option 2: Run using absolute path within venv
+  venv/bin/python script/run_pipeline.py --scenario_name "Test" 
+  ```
 
 ---
 

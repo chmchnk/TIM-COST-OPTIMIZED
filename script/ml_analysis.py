@@ -8,6 +8,7 @@ import datetime
 import os
 import sys
 import argparse
+import yaml
 
 # -----------------------------------------------------
 # SETUP PATHS
@@ -70,90 +71,124 @@ def run_ml_analysis(scenario_name="default"):
             print(f"Error: Required column '{col}' missing. Check simulation.py output.")
             return None
 
-    df_all['log_cost'] = np.log1p(df_all['cost_per_app']) 
-
-    features = ['log_cost', 'calculated_tim_r_cw', 'pass_probability_pct', 'max_t_case_99']
-    df_clean = df_all.dropna(subset=features).copy()
-    X = df_clean[features].copy()
-    
-    # Scale Data
-    scaler = StandardScaler()
-    X_scaled = scaler.fit_transform(X)
-
-    # Apply Weights (Safety dimensions get 2.0x multiplier)
-    weights = np.array([1.0, 1.0, 2.0, 2.0])
-    X_weighted = X_scaled * weights
+    # -----------------------------------------------------
+    # DYNAMIC SAFETY CUTOFF FROM CONFIG
+    # -----------------------------------------------------
+    config_path = find_file("simulation_config.yaml", search_subdirs=["config", "../config", "."])
+    min_pass_pct = 99.0 # Default fallback
+    if config_path:
+        with open(config_path, 'r') as f:
+            config = yaml.safe_load(f)
+            risk_threshold = float(config.get('simulation', {}).get('risk_threshold_percent', 1.0))
+            min_pass_pct = 100.0 - risk_threshold
+            print(f"Safety Threshold Loaded: Ranks with pass probability < {min_pass_pct}% will be removed.")
+    else:
+        print(f"Warning: simulation_config.yaml not found. Using default cutoff {min_pass_pct}%")
 
     # -----------------------------------------------------
-    # AUTO-K OPTIMIZATION (SILHOUETTE SCORE)
+    # STAGE 1: HARD SAFETY FILTER
     # -----------------------------------------------------
-    print("\nOptimizing Cluster Count (Auto-K)...")
-    best_k = 4
-    best_score = -1
-    best_kmeans = None
+    df_all['recommendation_group'] = "Pending"
+    unsafe_mask = df_all['pass_probability_pct'] < min_pass_pct
+    df_all.loc[unsafe_mask, 'recommendation_group'] = "❌ Avoid"
     
-    K_range = range(3, 9)
-    for k in K_range:
-        kmeans = KMeans(n_clusters=k, random_state=42, n_init=10)
-        labels = kmeans.fit_predict(X_weighted)
-        score = silhouette_score(X_weighted, labels)
-        print(f"  K={k}: Silhouette Score = {score:.4f}")
+    df_safe = df_all[~unsafe_mask].dropna(subset=['cost_per_app', 'calculated_tim_r_cw', 'max_t_case_99']).copy()
+
+    if len(df_safe) == 0:
+        print("Warning: No TIMs passed the safety filter (>99%).")
+        best_k = 0
+        best_score = 0.0
+        features = []
+    else:
+        print(f"Safe Data Points for ML: {len(df_safe)} / {len(df_all)}")
+
+        # -----------------------------------------------------
+        # STAGE 2: COMPETITIVE CLUSTERING
+        # -----------------------------------------------------
+        df_safe['log_cost'] = np.log1p(df_safe['cost_per_app']) 
+        features = ['log_cost', 'calculated_tim_r_cw', 'max_t_case_99']
         
-        if score > best_score:
-            best_score = score
-            best_k = k
-            best_kmeans = kmeans
+        # Scale Data (Per-Heatsink normalization to prevent large heatsinks from dominating)
+        scaler = StandardScaler()
+        X_scaled_df = pd.DataFrame(index=df_safe.index, columns=features)
+        
+        for hs in df_safe['heatsink_model'].unique():
+            mask = df_safe['heatsink_model'] == hs
+            if mask.sum() > 0:
+                X_scaled_df.loc[mask, features] = scaler.fit_transform(df_safe.loc[mask, features])
+                
+        X_scaled = X_scaled_df.values.astype(float)
 
-    print(f"--> Selected Optimal K = {best_k} (Score: {best_score:.4f})")
-    
-    df_clean['cluster_id'] = best_kmeans.labels_
+        # Apply Weights
+        # log_cost: 1.5x, calculated_tim_r_cw: 1.5x, max_t_case_99: 1.0x
+        weights = np.array([1.5, 1.5, 1.0])
+        X_weighted = X_scaled * weights
 
-    # -----------------------------------------------------
-    # RELATIVE CENTROID LABELING
-    # -----------------------------------------------------
-    centroids = df_clean.groupby('cluster_id')[['cost_per_app', 'calculated_tim_r_cw', 'pass_probability_pct']].mean()
-    print("\n--- Cluster Centroids ---")
-    print(centroids.round(2))
-
-    cluster_labels = {}
-    
-    # Rank clusters by target metrics
-    perf_ranks = centroids['calculated_tim_r_cw'].rank(method='min')
-    cost_ranks = centroids['cost_per_app'].rank(method='min')
-    tradeoff_scores = perf_ranks + cost_ranks
-
-    for cid, row in centroids.iterrows():
-        # Safety rule
-        if row['pass_probability_pct'] < 99.0:
-            cluster_labels[cid] = "❌ Avoid"
+        # -----------------------------------------------------
+        # AUTO-K OPTIMIZATION (SILHOUETTE SCORE)
+        # -----------------------------------------------------
+        print("\nOptimizing Cluster Count (Auto-K)...")
+        best_k = 3
+        best_score = -1
+        best_kmeans = None
+        
+        K_range = range(3, 6) # Try K=3, 4, 5
+        for k in K_range:
+            if len(X_weighted) < k:
+                continue
+            kmeans = KMeans(n_clusters=k, random_state=42, n_init=10)
+            labels = kmeans.fit_predict(X_weighted)
+            score = silhouette_score(X_weighted, labels)
+            print(f"  K={k}: Silhouette Score = {score:.4f}")
             
-    # From remaining safe clusters, find Industrial and Best Value
-    safe_cids = [cid for cid in centroids.index if cid not in cluster_labels]
-    
-    # Industrial: Best Performance (Lowest R_th)
-    if safe_cids:
-        industrial_cid = centroids.loc[safe_cids, 'calculated_tim_r_cw'].idxmin()
-        cluster_labels[industrial_cid] = "🏭 Industrial"
-        safe_cids.remove(industrial_cid)
+            if score > best_score:
+                best_score = score
+                best_k = k
+                best_kmeans = kmeans
 
-    # Best Value: Best Tradeoff
-    if safe_cids:
-        best_value_cid = tradeoff_scores.loc[safe_cids].idxmin()
-        cluster_labels[best_value_cid] = "🏆 Best Value"
-        safe_cids.remove(best_value_cid)
+        if best_kmeans is not None:
+            print(f"--> Selected Optimal K = {best_k} (Score: {best_score:.4f})")
+            df_safe['cluster_id'] = best_kmeans.labels_
 
-    # Standard: Everything else
-    for cid in safe_cids:
-        cluster_labels[cid] = "✅ Standard"
+            # -----------------------------------------------------
+            # DYNAMIC CENTROID RANKING
+            # -----------------------------------------------------
+            centroids = df_safe.groupby('cluster_id')[['cost_per_app', 'calculated_tim_r_cw']].mean()
+            print("\n--- Safe Cluster Centroids ---")
+            print(centroids.round(2))
 
-    df_clean['recommendation_group'] = df_clean['cluster_id'].map(cluster_labels)
+            cluster_labels = {}
+            
+            # Rank clusters by target metrics
+            perf_ranks = centroids['calculated_tim_r_cw'].rank(method='min')
+            cost_ranks = centroids['cost_per_app'].rank(method='min')
+            tradeoff_scores = perf_ranks + cost_ranks
 
-    # Hard-fallback Rule
-    df_clean.loc[df_clean['pass_probability_pct'] < 99.0, 'recommendation_group'] = "❌ Avoid"
+            # 🏭 Industrial: Best Performance (Lowest R_th)
+            industrial_cid = centroids['calculated_tim_r_cw'].idxmin()
+            cluster_labels[industrial_cid] = "🏭 Industrial"
 
-    # Merge back to df_all
-    df_all = df_all.merge(df_clean[['tim_id', 'heatsink_model', 'recommendation_group']], 
-                          on=['tim_id', 'heatsink_model'], how='left')
+            remaining_cids = [cid for cid in centroids.index if cid != industrial_cid]
+
+            # 🏆 Best Value: Best Tradeoff
+            best_value_cid = None
+            if remaining_cids:
+                best_value_cid = tradeoff_scores.loc[remaining_cids].idxmin()
+                cluster_labels[best_value_cid] = "🏆 Best Value"
+                remaining_cids.remove(best_value_cid)
+
+            # ✅ Standard: Everything else
+            for cid in remaining_cids:
+                cluster_labels[cid] = "✅ Standard"
+
+            df_safe['recommendation_group'] = df_safe['cluster_id'].map(cluster_labels)
+            
+            # Merge back to df_all (Match by index)
+            df_all.loc[df_safe.index, 'recommendation_group'] = df_safe['recommendation_group']
+        else:
+            print("Warning: Not enough data points to cluster. Fallback to Standard.")
+            df_all.loc[df_safe.index, 'recommendation_group'] = "✅ Standard"
+            
     df_all['recommendation_group'] = df_all['recommendation_group'].fillna("❌ Avoid")
 
     # -----------------------------------------------------
