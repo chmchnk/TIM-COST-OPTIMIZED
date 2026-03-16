@@ -4,6 +4,7 @@ import argparse
 from datetime import datetime
 import sqlite3
 import pandas as pd
+import yaml
 
 import data_processing
 import simulation
@@ -124,7 +125,22 @@ def run_pipeline(scenario_name, skip_data_prep=False, clear_db=False):
     
     # 4. Sequential Execution - ML Analysis
     print("\n>>> STEP 2: Running ML Clustering Analysis >>>")
-    df_final = ml_analysis.run_ml_analysis(scenario_name=scenario_name)
+    
+    # Load config parameters to pass to ML Analysis for metadata
+    config_params = {}
+    config_path = os.path.join(PROJECT_ROOT, "config", "simulation_config.yaml")
+    if os.path.exists(config_path):
+        with open(config_path, 'r') as f:
+            config = yaml.safe_load(f)
+            config_params = {
+                'ambient_temp_c': float(config.get('environment', {}).get('ambient_temp_c', 25.0)),
+                'risk_threshold_percent': float(config.get('simulation', {}).get('risk_threshold_percent', 1.0)),
+                'n_interactions': int(config.get('simulation', {}).get('n_interactions', 10000)),
+                'max_case_temp_c': float(config.get('heat_source', {}).get('max_case_temp_c', 105.0)),
+                'heat_coefficient': float(config.get('heat_source', {}).get('heat_coefficient', 0.75))
+            }
+            
+    df_final = ml_analysis.run_ml_analysis(scenario_name=scenario_name, config_params=config_params)
     
     if df_final is None or df_final.empty:
         print("\n" + "!"*60)

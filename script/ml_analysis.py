@@ -29,7 +29,7 @@ def find_db_path(dbname='recommendations.db'):
     os.makedirs(os.path.dirname(db_path), exist_ok=True)
     return db_path
 
-def run_ml_analysis(scenario_name="default"):
+def run_ml_analysis(scenario_name="default", config_params=None):
     print("\n" + "="*60)
     print("STARTING MACHINE LEARNING ANALYSIS V2.0")
     print("="*60)
@@ -76,7 +76,11 @@ def run_ml_analysis(scenario_name="default"):
     # -----------------------------------------------------
     config_path = find_file("simulation_config.yaml", search_subdirs=["config", "../config", "."])
     min_pass_pct = 99.0 # Default fallback
-    if config_path:
+    if config_params and 'risk_threshold_percent' in config_params:
+        risk_threshold = float(config_params['risk_threshold_percent'])
+        min_pass_pct = 100.0 - risk_threshold
+        print(f"Safety Threshold Loaded (from pipeline): Ranks with pass probability < {min_pass_pct}% will be removed.")
+    elif config_path:
         with open(config_path, 'r') as f:
             config = yaml.safe_load(f)
             risk_threshold = float(config.get('simulation', {}).get('risk_threshold_percent', 1.0))
@@ -217,7 +221,7 @@ def run_ml_analysis(scenario_name="default"):
         conn = sqlite3.connect(db_path)
         df_final.to_sql('recommendations', conn, if_exists='append', index=False)
         
-        metadata = pd.DataFrame([{
+        metadata_dict = {
             'run_timestamp': run_timestamp,
             'scenario_name': scenario_name,
             'algorithm': f'K-Means (Auto-K)',
@@ -225,7 +229,11 @@ def run_ml_analysis(scenario_name="default"):
             'silhouette_score': float(best_score),
             'features': ', '.join(features),
             'records_processed': len(df_final)
-        }])
+        }
+        if config_params:
+            metadata_dict.update(config_params)
+            
+        metadata = pd.DataFrame([metadata_dict])
         metadata.to_sql('run_metadata', conn, if_exists='append', index=False)
         
         conn.close()
