@@ -3,3 +3,5 @@ numpy
 scikit-learn
 pyyaml
 tqdm
+requests
+python-dotenv

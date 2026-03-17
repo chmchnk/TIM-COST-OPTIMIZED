@@ -94,12 +94,12 @@ def run_ml_analysis(scenario_name="default", config_params=None):
     # -----------------------------------------------------
     df_all['recommendation_group'] = "Pending"
     unsafe_mask = df_all['pass_probability_pct'] < min_pass_pct
-    df_all.loc[unsafe_mask, 'recommendation_group'] = "❌ Avoid"
+    df_all.loc[unsafe_mask, 'recommendation_group'] = "Avoid"
     
     df_safe = df_all[~unsafe_mask].dropna(subset=['cost_per_app', 'calculated_tim_r_cw', 'max_t_case_99']).copy()
 
     if len(df_safe) == 0:
-        print("Warning: No TIMs passed the safety filter (>99%).")
+        print(f"Warning: No TIMs passed the safety filter (>{min_pass_pct}%).")
         best_k = 0
         best_score = 0.0
         features = []
@@ -168,22 +168,22 @@ def run_ml_analysis(scenario_name="default", config_params=None):
             cost_ranks = centroids['cost_per_app'].rank(method='min')
             tradeoff_scores = perf_ranks + cost_ranks
 
-            # 🏭 Industrial: Best Performance (Lowest R_th)
+            # Industrial: Best Performance (Lowest R_th)
             industrial_cid = centroids['calculated_tim_r_cw'].idxmin()
-            cluster_labels[industrial_cid] = "🏭 Industrial"
+            cluster_labels[industrial_cid] = "Industrial"
 
             remaining_cids = [cid for cid in centroids.index if cid != industrial_cid]
 
-            # 🏆 Best Value: Best Tradeoff
+            # Best Value: Best Tradeoff
             best_value_cid = None
             if remaining_cids:
                 best_value_cid = tradeoff_scores.loc[remaining_cids].idxmin()
-                cluster_labels[best_value_cid] = "🏆 Best Value"
+                cluster_labels[best_value_cid] = "Best Value"
                 remaining_cids.remove(best_value_cid)
 
-            # ✅ Standard: Everything else
+            # Standard: Everything else
             for cid in remaining_cids:
-                cluster_labels[cid] = "✅ Standard"
+                cluster_labels[cid] = "Standard"
 
             df_safe['recommendation_group'] = df_safe['cluster_id'].map(cluster_labels)
             
@@ -191,9 +191,9 @@ def run_ml_analysis(scenario_name="default", config_params=None):
             df_all.loc[df_safe.index, 'recommendation_group'] = df_safe['recommendation_group']
         else:
             print("Warning: Not enough data points to cluster. Fallback to Standard.")
-            df_all.loc[df_safe.index, 'recommendation_group'] = "✅ Standard"
+            df_all.loc[df_safe.index, 'recommendation_group'] = "Standard"
             
-    df_all['recommendation_group'] = df_all['recommendation_group'].fillna("❌ Avoid")
+    df_all['recommendation_group'] = df_all['recommendation_group'].fillna("Avoid")
 
     # -----------------------------------------------------
     # SQLITE DATABASE EXPORT
