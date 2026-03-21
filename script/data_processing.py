@@ -453,6 +453,7 @@ def run_data_processing():
         cost_df = cost_df[final_cols]
         
         out_path = os.path.join(project_root, "data", "processed", "cost_data.csv")
+        os.makedirs(os.path.dirname(out_path), exist_ok=True)
         cost_df.to_csv(out_path, index=False)
         print(f"Final cost data saved to: {out_path}")
         return True
