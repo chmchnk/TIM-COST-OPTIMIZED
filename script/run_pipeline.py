@@ -1,3 +1,7 @@
+
+from rich.console import Console
+from rich.panel import Panel
+console = Console()
 import os
 import sys
 import argparse
@@ -18,9 +22,9 @@ PROJECT_ROOT = os.path.dirname(CURRENT_SCRIPT_DIR)
 
 def check_dependencies():
     """Verify that necessary configuration and raw data directories exist"""
-    print("\n" + "="*60)
-    print("CHECKING DEPENDENCIES")
-    print("="*60)
+    console.rule(style="dim cyan")
+    console.print("CHECKING DEPENDENCIES")
+    console.rule(style="dim cyan")
     
     config_path = os.path.join(PROJECT_ROOT, "config", "simulation_config.yaml")
     data_raw_dir = os.path.join(PROJECT_ROOT, "data", "raw")
@@ -31,30 +35,30 @@ def check_dependencies():
         # Additional fallback check for config just in case
         fallback = os.path.join(CURRENT_SCRIPT_DIR, "simulation_config.yaml")
         if not os.path.exists(fallback):
-            print(f"[ERROR] Configuration file not found at: {config_path}")
+            console.print(f"[ERROR] Configuration file not found at: {config_path}")
             deps_ok = False
         else:
-            print(f"[OK] Found config at fallback path: {fallback}")
+            console.print(f"[bold green]OK[/bold green] Found config at fallback path: {fallback}")
     else:
-        print(f"[OK] Found config at: {config_path}")
+        console.print(f"[bold green]OK[/bold green] Found config at: {config_path}")
         
     if not os.path.exists(data_raw_dir):
-        print(f"[ERROR] Raw data directory not found at: {data_raw_dir}")
+        console.print(f"[ERROR] Raw data directory not found at: {data_raw_dir}")
         deps_ok = False
     else:
-        print(f"[OK] Found raw data directory at: {data_raw_dir}")
+        console.print(f"[bold green]OK[/bold green] Found raw data directory at: {data_raw_dir}")
         
     if not deps_ok:
-        print("\n[HALT] Missing essential dependencies. Aborting pipeline.")
+        console.print("\n[HALT] Missing essential dependencies. Aborting pipeline.")
         sys.exit(1)
         
-    print("[OK] All essential dependencies found.")
+    console.print("[bold green]OK[/bold green] All essential dependencies found.")
 
 def save_to_database(df, scenario_name):
     """Save the final DataFrame to SQLite database"""
-    print("\n" + "="*60)
-    print("SAVING RESULTS TO DATABASE")
-    print("="*60)
+    console.rule(style="dim cyan")
+    console.print("SAVING RESULTS TO DATABASE")
+    console.rule(style="dim cyan")
     
     processed_dir = os.path.join(PROJECT_ROOT, "data", "processed")
     os.makedirs(processed_dir, exist_ok=True)
@@ -72,19 +76,17 @@ def save_to_database(df, scenario_name):
         
         # use if_exists='append' for non-destructive storage
         df.to_sql('recommendations', conn, if_exists='append', index=False)
-        print(f"[SUCCESS] Appended {len(df)} records to database at:")
-        print(f"   -> {db_path} (Table: recommendations)")
+        console.print(f"[bold green]SUCCESS[/bold green] Appended {len(df)} records to database at:")
+        console.print(f"   -> {db_path} (Table: recommendations)")
         
         conn.close()
     except Exception as e:
-        print(f"[ERROR] Failed to save to database: {str(e)}")
+        console.print(f"[ERROR] Failed to save to database: {str(e)}")
         sys.exit(1)
 
 def run_pipeline(scenario_name, skip_data_prep=False, clear_db=False):
-    print("\n" + "#"*60)
-    print(f"STARTING ANTIGRAVITY ORCHESTRATION PIPELINE")
-    print(f"Scenario: {scenario_name}")
-    print("#"*60)
+    console.print("\n")
+    console.print(Panel(f"[bold cyan]STARTING PIPELINE[/bold cyan]\nScenario: {scenario_name}", border_style="cyan"))
     
     # 1. Dependency Management
     check_dependencies()
@@ -94,37 +96,41 @@ def run_pipeline(scenario_name, skip_data_prep=False, clear_db=False):
         db_path = os.path.join(PROJECT_ROOT, "data", "processed", "recommendations.db")
         if os.path.exists(db_path):
             os.remove(db_path)
-            print(f"\n[INFO] Cleared existing database at: {db_path}")
+            console.print(f"\n[INFO] Cleared existing database at: {db_path}")
     
     # 2. Sequential Execution - Data Processing
     if not skip_data_prep:
-        print("\n>>> STEP 0: Running Data Processing (Cleaning & Preparation) >>>")
+        console.print("\n")
+        console.print(Panel("[bold cyan]STEP 0: Running Data Processing (Cleaning & Preparation)[/bold cyan]", border_style="cyan"))
         dp_success = data_processing.run_data_processing()
         if not dp_success:
-            print("\n" + "!"*60)
-            print("[HALT] Data Processing failed.")
-            print("Pipeline execution aborted.")
-            print("!"*60)
+            console.print("\n" + "!"*60)
+            console.print("[HALT] Data Processing failed.")
+            console.print("Pipeline execution aborted.")
+            console.print("!"*60)
             sys.exit(1)
-        print("\n[SUCCESS] Data Processing completed.")
+        console.print("\n[bold green]SUCCESS[/bold green] Data Processing completed.")
     else:
-        print("\n>>> STEP 0: Skipped Data Processing (Data Prep) >>>")
+        console.print("\n")
+        console.print(Panel("[bold cyan]STEP 0: Skipped Data Processing (Data Prep)[/bold cyan]", border_style="cyan"))
         
     # 3. Sequential Execution - Simulation
-    print("\n>>> STEP 1: Running Physics Simulation >>>")
+    console.print("\n")
+    console.print(Panel("[bold cyan]STEP 1: Running Physics Simulation[/bold cyan]", border_style="cyan"))
     sim_success = simulation.run_simulation()
     
     if not sim_success:
-        print("\n" + "!"*60)
-        print("[HALT] Simulation failed due to critical error (e.g., negative thermal threshold).")
-        print("Pipeline execution aborted before ML analysis.")
-        print("!"*60)
+        console.print("\n" + "!"*60)
+        console.print("[HALT] Simulation failed due to critical error (e.g., negative thermal threshold).")
+        console.print("Pipeline execution aborted before ML analysis.")
+        console.print("!"*60)
         sys.exit(1)
         
-    print("\n[SUCCESS] Simulation completed.")
+    console.print("\n[bold green]SUCCESS[/bold green] Simulation completed.")
     
     # 4. Sequential Execution - ML Analysis
-    print("\n>>> STEP 2: Running ML Clustering Analysis >>>")
+    console.print("\n")
+    console.print(Panel("[bold cyan]STEP 2: Running ML Clustering Analysis[/bold cyan]", border_style="cyan"))
     
     # Load config parameters to pass to ML Analysis for metadata
     config_params = {}
@@ -143,20 +149,20 @@ def run_pipeline(scenario_name, skip_data_prep=False, clear_db=False):
     df_final = ml_analysis.run_ml_analysis(scenario_name=scenario_name, config_params=config_params)
     
     if df_final is None or df_final.empty:
-        print("\n" + "!"*60)
-        print("[ERROR] ML Analysis failed to return data.")
-        print("Pipeline execution aborted before saving.")
-        print("!"*60)
+        console.print("\n" + "!"*60)
+        console.print("[ERROR] ML Analysis failed to return data.")
+        console.print("Pipeline execution aborted before saving.")
+        console.print("!"*60)
         sys.exit(1)
         
-    print("\n[SUCCESS] ML Analysis completed.")
+    console.print("\n[bold green]SUCCESS[/bold green] ML Analysis completed.")
     
     
     # 4. Data Persistence & Metadata (Now handled internally by ml_analysis.py)
-    print("\n[INFO] Data is now saved internally during ML Analysis step.")
-    print("\n" + "#"*60)
-    print("PIPELINE COMPLETED SUCCESSFULLY")
-    print("#"*60 + "\n")
+    console.print("\n[INFO] Data is now saved internally during ML Analysis step.")
+    console.print("\n")
+    console.print(Panel("[bold green]PIPELINE COMPLETED SUCCESSFULLY[/bold green]", border_style="green"))
+    console.print("\n")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Orchestration Pipeline for TIM Cost Optimization")

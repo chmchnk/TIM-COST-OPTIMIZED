@@ -1,3 +1,7 @@
+
+from rich.console import Console
+from rich.panel import Panel
+console = Console()
 import pandas as pd
 import numpy as np
 from sklearn.cluster import KMeans
@@ -30,9 +34,9 @@ def find_db_path(dbname='recommendations.db'):
     return db_path
 
 def run_ml_analysis(scenario_name="default", config_params=None):
-    print("\n" + "="*60)
-    print("STARTING MACHINE LEARNING ANALYSIS V2.0")
-    print("="*60)
+    console.rule(style="dim cyan")
+    console.print("STARTING MACHINE LEARNING ANALYSIS V2.0")
+    console.rule(style="dim cyan")
 
     # -----------------------------------------------------
     # DYNAMIC CONFIGURATION (HEATSINKS & THRESHOLD)
@@ -44,7 +48,7 @@ def run_ml_analysis(scenario_name="default", config_params=None):
     if config_params and 'risk_threshold_percent' in config_params:
         risk_threshold = float(config_params['risk_threshold_percent'])
         min_pass_pct = 100.0 - risk_threshold
-        print(f"Safety Threshold Loaded (from pipeline): Ranks with pass probability < {min_pass_pct}% will be removed.")
+        console.print(f"Safety Threshold Loaded (from pipeline): Ranks with pass probability < {min_pass_pct}% will be removed.")
     
     if config_path:
         with open(config_path, 'r') as f:
@@ -54,18 +58,18 @@ def run_ml_analysis(scenario_name="default", config_params=None):
             if not config_params or 'risk_threshold_percent' not in config_params:
                 risk_threshold = float(config.get('simulation', {}).get('risk_threshold_percent', 1.0))
                 min_pass_pct = 100.0 - risk_threshold
-                print(f"Safety Threshold Loaded: Ranks with pass probability < {min_pass_pct}% will be removed.")
+                console.print(f"Safety Threshold Loaded: Ranks with pass probability < {min_pass_pct}% will be removed.")
             
             # Extract heatsinks
             heatsinks = config.get('heatsinks', [])
             heatsink_models = [hs['model'].replace(" ", "_").replace(".", "") for hs in heatsinks]
-            print(f"Loaded {len(heatsink_models)} expected heatsink models from config.")
+            console.print(f"Loaded {len(heatsink_models)} expected heatsink models from config.")
             
     if not config_path and (not config_params or 'risk_threshold_percent' not in config_params):
-        print(f"Warning: simulation_config.yaml not found. Using default cutoff {min_pass_pct}%")
+        console.print(f"Warning: simulation_config.yaml not found. Using default cutoff {min_pass_pct}%")
 
     if not heatsink_models:
-        print("Warning: Could not parse heatsinks from config. Using defaults.")
+        console.print("Warning: Could not parse heatsinks from config. Using defaults.")
         heatsink_models = [
             'Micro_8680',
             'Micro_8560',
@@ -82,18 +86,18 @@ def run_ml_analysis(scenario_name="default", config_params=None):
         filepath = find_file(filename)
         
         if filepath:
-            print(f"Loaded: {filename}")
+            console.print(f"Loaded: {filename}")
             df_part = pd.read_csv(filepath)
             dfs.append(df_part)
         else:
-            print(f"Warning: {filename} not found. Skipping.")
+            console.print(f"Warning: {filename} not found. Skipping.")
 
     if not dfs:
-        print("Error: No simulation results found. Please run simulation.py first.")
+        console.print("[bold red]Error:[/bold red] No simulation results found. Please run simulation.py first.")
         return None
 
     df_all = pd.concat(dfs, ignore_index=True)
-    print(f"Total Data Points: {len(df_all)}")
+    console.print(f"Total Data Points: {len(df_all)}")
 
     # -----------------------------------------------------
     # PREPARE FEATURES FOR MACHINE LEARNING
@@ -101,7 +105,7 @@ def run_ml_analysis(scenario_name="default", config_params=None):
     required_cols = ['cost_per_app', 'calculated_tim_r_cw', 'pass_probability_pct', 'max_t_case_99']
     for col in required_cols:
         if col not in df_all.columns:
-            print(f"Error: Required column '{col}' missing. Check simulation.py output.")
+            console.print(f"[bold red]Error:[/bold red] Required column '{col}' missing. Check simulation.py output.")
             return None
 
     # (Safety cutoff and config now loaded dynamically at the start of the function)
@@ -116,12 +120,12 @@ def run_ml_analysis(scenario_name="default", config_params=None):
     df_safe = df_all[~unsafe_mask].dropna(subset=['cost_per_app', 'calculated_tim_r_cw', 'max_t_case_99']).copy()
 
     if len(df_safe) == 0:
-        print(f"Warning: No TIMs passed the safety filter (>{min_pass_pct}%).")
+        console.print(f"Warning: No TIMs passed the safety filter (>{min_pass_pct}%).")
         best_k = 0
         best_score = 0.0
         features = []
     else:
-        print(f"Safe Data Points for ML: {len(df_safe)} / {len(df_all)}")
+        console.print(f"Safe Data Points for ML: {len(df_safe)} / {len(df_all)}")
 
         # -----------------------------------------------------
         # STAGE 2: COMPETITIVE CLUSTERING
@@ -148,7 +152,7 @@ def run_ml_analysis(scenario_name="default", config_params=None):
         # -----------------------------------------------------
         # AUTO-K OPTIMIZATION (SILHOUETTE SCORE)
         # -----------------------------------------------------
-        print("\nOptimizing Cluster Count (Auto-K)...")
+        console.print("\nOptimizing Cluster Count (Auto-K)...")
         best_k = 3
         best_score = -1
         best_kmeans = None
@@ -160,7 +164,7 @@ def run_ml_analysis(scenario_name="default", config_params=None):
             kmeans = KMeans(n_clusters=k, random_state=42, n_init=10)
             labels = kmeans.fit_predict(X_weighted)
             score = silhouette_score(X_weighted, labels)
-            print(f"  K={k}: Silhouette Score = {score:.4f}")
+            console.print(f"  K={k}: Silhouette Score = {score:.4f}")
             
             if score > best_score:
                 best_score = score
@@ -168,15 +172,15 @@ def run_ml_analysis(scenario_name="default", config_params=None):
                 best_kmeans = kmeans
 
         if best_kmeans is not None:
-            print(f"--> Selected Optimal K = {best_k} (Score: {best_score:.4f})")
+            console.print(f"--> Selected Optimal K = {best_k} (Score: {best_score:.4f})")
             df_safe['cluster_id'] = best_kmeans.labels_
 
             # -----------------------------------------------------
             # DYNAMIC CENTROID RANKING
             # -----------------------------------------------------
             centroids = df_safe.groupby('cluster_id')[['cost_per_app', 'calculated_tim_r_cw']].mean()
-            print("\n--- Safe Cluster Centroids ---")
-            print(centroids.round(2))
+            console.print("\n--- Safe Cluster Centroids ---")
+            console.print(centroids.round(2))
 
             cluster_labels = {}
             
@@ -207,7 +211,7 @@ def run_ml_analysis(scenario_name="default", config_params=None):
             # Merge back to df_all (Match by index)
             df_all.loc[df_safe.index, 'recommendation_group'] = df_safe['recommendation_group']
         else:
-            print("Warning: Not enough data points to cluster. Fallback to Standard.")
+            console.print("Warning: Not enough data points to cluster. Fallback to Standard.")
             df_all.loc[df_safe.index, 'recommendation_group'] = "Standard"
             
     df_all['recommendation_group'] = df_all['recommendation_group'].fillna("Avoid")
@@ -216,7 +220,7 @@ def run_ml_analysis(scenario_name="default", config_params=None):
     # SQLITE DATABASE EXPORT
     # -----------------------------------------------------
     db_path = find_db_path()
-    print(f"\nSaving results to Database: {db_path}")
+    console.print(f"\nSaving results to Database: {db_path}")
     
     cols_order = [
          'recommendation_group', 
@@ -254,13 +258,13 @@ def run_ml_analysis(scenario_name="default", config_params=None):
         metadata.to_sql('run_metadata', conn, if_exists='append', index=False)
         
         conn.close()
-        print("Database save successful.")
+        console.print("Database save successful.")
     except Exception as e:
-        print(f"Error saving to database: {e}")
+        console.print(f"Error saving to database: {e}")
 
     # Show Summary
-    print("\n=== Recommendation Summary ===")
-    print(df_all['recommendation_group'].value_counts())
+    console.print("\n=== Recommendation Summary ===")
+    console.print(df_all['recommendation_group'].value_counts())
     
     return df_final
 

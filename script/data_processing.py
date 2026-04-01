@@ -1,3 +1,7 @@
+
+from rich.console import Console
+from rich.panel import Panel
+console = Console()
 import pandas as pd
 import numpy as np
 import glob
@@ -22,8 +26,8 @@ def merge_data(df):
     output_filename = 'merged_data.csv'
 
     # Read all files and merge
-    print(f"Reading from: {raw_path}")
-    print(f"Saving to:    {processed_path}")
+    console.print(f"Reading from: {raw_path}")
+    console.print(f"Saving to:    {processed_path}")
 
     all_files = glob.glob(os.path.join(raw_path, "*.csv"))
 
@@ -38,7 +42,7 @@ def merge_data(df):
 
         return frame
     else:
-        print(f"There are no CSV files in the folder {raw_path}")
+        console.print(f"There are no CSV files in the folder {raw_path}")
         return None
 
 # ------------------------------------------------------
@@ -363,7 +367,7 @@ def clean_raw_data(df):
     df = df[final_cols]
     
     type_counts = df["type"].value_counts()
-    print(type_counts)
+    console.print(type_counts)
 
         # CREATE TIM ID FOR EACH TYPE
     def generate_id(df):
@@ -449,13 +453,13 @@ def feature_calculation(df, config):
     return df
 
 def run_data_processing():
-    print("\n" + "="*60)
-    print("STARTING DATA PROCESSING (CLEANING & FEATURE CALCULATION)")
-    print("="*60)
+    console.rule(style="dim cyan")
+    console.print("STARTING DATA PROCESSING (CLEANING & FEATURE CALCULATION)")
+    console.rule(style="dim cyan")
     
     merged_df = merge_data(None)
     if merged_df is None:
-        print("Error: No data to process.")
+        console.print("[bold red]Error:[/bold red] No data to process.")
         return False
         
     clean_df = clean_raw_data(merged_df)
@@ -481,10 +485,10 @@ def run_data_processing():
         out_path = os.path.join(project_root, "data", "processed", "cost_data.csv")
         os.makedirs(os.path.dirname(out_path), exist_ok=True)
         cost_df.to_csv(out_path, index=False)
-        print(f"Final cost data saved to: {out_path}")
+        console.print(f"Final cost data saved to: {out_path}")
         return True
     else:
-        print(f"Error: Can't find config file at {config_path}")
+        console.print(f"[bold red]Error:[/bold red] Can't find config file at {config_path}")
         return False
 
 if __name__ == "__main__":

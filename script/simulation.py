@@ -1,3 +1,7 @@
+
+from rich.console import Console
+from rich.panel import Panel
+console = Console()
 import pandas as pd
 import numpy as np
 import yaml
@@ -25,20 +29,20 @@ def find_file(filename, search_subdirs=['config', 'data', 'data/processed', '..'
 def load_config(config_name='simulation_config.yaml'):
     config_path = find_file(config_name)
     if config_path:
-        print(f"Found Config at: {config_path}")
+        console.print(f"Found Config at: {config_path}")
         with open(config_path, 'r') as file:
             return yaml.safe_load(file)
     else:
-        print(f"Error: Config file '{config_name}' not found")
+        console.print(f"[bold red]Error:[/bold red] Config file '{config_name}' not found")
         sys.exit(1)
 
 # -----------------------------------------------------
 # MONTECARLO SIMULATION (MULTI-HEATSINK MODE)
 # -----------------------------------------------------
 def run_simulation(data_name='cost_data.csv', config_name='simulation_config.yaml'):
-    print("\n" + "="*60)
-    print("INITIALIZING MULTI-SCENARIO SIMULATION")
-    print("="*60)
+    console.rule(style="dim cyan")
+    console.print("INITIALIZING MULTI-SCENARIO SIMULATION")
+    console.rule(style="dim cyan")
     
     config = load_config(config_name)
     
@@ -50,15 +54,15 @@ def run_simulation(data_name='cost_data.csv', config_name='simulation_config.yam
         UNCERTAINTIES = config['uncertainties']
         HEATSINK_LIST = config['heatsinks']
     except KeyError as e:
-        print(f"Config Error: Missing key {e} in yaml file.")
+        console.print(f"Config [bold red]Error:[/bold red] Missing key {e} in yaml file.")
         return False
 
     data_path = find_file(data_name)
     if data_path:
-        print(f"Found Data at: {data_path}")
+        console.print(f"Found Data at: {data_path}")
         df_original = pd.read_csv(data_path)
     else:
-        print(f"Error: Data file '{data_name}' not found.")
+        console.print(f"[bold red]Error:[/bold red] Data file '{data_name}' not found.")
         return False
 
     # Setup Common Physics
@@ -69,9 +73,9 @@ def run_simulation(data_name='cost_data.csv', config_name='simulation_config.yam
         LED_PARAMS['drive_current_a'], 
         LED_PARAMS['heat_coefficient']
     )
-    print(f"   - Heat Load: {heat_power_mean:.2f} Watts")
-    print(f"   - Target LED Area: {target_area_mm2:.2f} mm²")
-    print(f"   - Scenarios to Run: {len(HEATSINK_LIST)}")
+    console.print(f"   - Heat Load: {heat_power_mean:.2f} Watts")
+    console.print(f"   - Target LED Area: {target_area_mm2:.2f} mm²")
+    console.print(f"   - Scenarios to Run: {len(HEATSINK_LIST)}")
 
     # ==================================================
     # LOOP THROUGH EACH HEATSINKS MODEL
@@ -80,9 +84,9 @@ def run_simulation(data_name='cost_data.csv', config_name='simulation_config.yam
         hs_model = hs_config['model']
         r_hs = hs_config['r_heatsink']
         
-        print("\n" + "-"*60)
-        print(f"SCENARIO {hs_idx+1}/{len(HEATSINK_LIST)}: {hs_model} (R_th={r_hs} C/W)")
-        print("-"*60)
+        console.print("\n" + "-"*60)
+        console.print(f"SCENARIO {hs_idx+1}/{len(HEATSINK_LIST)}: {hs_model} (R_th={r_hs} C/W)")
+        console.rule(style="dim")
         
         # Calculate system threshold for current heatsink
         system_threshold_cw = tm.calculate_threshold_thermal_resistance(
@@ -91,11 +95,11 @@ def run_simulation(data_name='cost_data.csv', config_name='simulation_config.yam
             heat_power_mean, 
             r_hs
         )
-        print(f"   - Max Allowable R_tim (Limit): {system_threshold_cw:.4f} C/W")
+        console.print(f"   - Max Allowable R_tim (Limit): {system_threshold_cw:.4f} C/W")
 
         # threshold is negative or too low
         if system_threshold_cw <= 0:
-            print(f"   ERROR: System fails even with ideal TIM (R_tim=0) for {hs_model}. Threshold: {system_threshold_cw:.4f} C/W. Halting pipeline.")
+            console.print(f"   ERROR: System fails even with ideal TIM (R_tim=0) for {hs_model}. Threshold: {system_threshold_cw:.4f} C/W. Halting pipeline.")
             return False
 
         results = []
@@ -196,11 +200,11 @@ def run_simulation(data_name='cost_data.csv', config_name='simulation_config.yam
         res_df = res_df.round(precision)
         
         res_df.to_csv(output_file, index=False)
-        print(f"Results saved to: {output_file}")
+        console.print(f"Results saved to: {output_file}")
         
         # Quick Summary
         passed_count = len(res_df[res_df['reliability_status'] == 'PASS'])
-        print(f"Summary for {hs_model}: {passed_count}/{len(res_df)} items passed.")
+        console.print(f"Summary for {hs_model}: {passed_count}/{len(res_df)} items passed.")
         
     return True
 
