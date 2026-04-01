@@ -154,24 +154,49 @@ def clean_raw_data(df):
         if pd.isna(desc): return None, None
         s = str(desc).lower()
         
-        # For example, 5x5mm
-        m = re.search(r'(\d+(?:\.\d+)?)\s*(?:mm)?\s*[xX]\s*(\d+(?:\.\d+)?)\s*mm', s)
-        if m: return float(m.group(1)), float(m.group(2))
-        
-        # For inch pattern
-        m = re.search(r'(\d+(?:\.\d+)?)\s*"?\s*[xX]\s*(\d+(?:\.\d+)?)\s*"', s)
-        if m: return float(m.group(1))*25.4, float(m.group(2))*25.4
-        
-        # For mixed inch and mm pattern
-        m = re.search(r'(\d+(?:\.\d+)?)\s*"\s*[xX]\s*(\d+(?:\.\d+)?)', s)
-        if m:
-            v1 = float(m.group(1)) * 25.4
-            v2_str = m.group(2)
-            # Checking unit
-            if re.search(re.escape(v2_str) + r'\s*m\b', s): return v1, float(v2_str) * 1000 # meter
-            if re.search(re.escape(v2_str) + r'\s*mm', s): return v1, float(v2_str)        # millimeter
-            return v1, float(v2_str) * 25.4 
+        # Option 1 Area Pattern: "กว้าง x ยาว" (ex. 11.5"x250', 5x5mm, 12" X 12")
+        area_regex = r'(\d+(?:\.\d+)?)\s*(in|"|inch|inches|\'|ft|feet|mm|cm|m|meter)?\s*[xX*]\s*(\d+(?:\.\d+)?)\s*(in|"|inch|inches|\'|ft|feet|yd|yard|mm|cm|m|meter)'
+        match_area = re.search(area_regex, s)
+        if match_area:
+            w_val = float(match_area.group(1))
+            w_unit = match_area.group(2)
+            l_val = float(match_area.group(3))
+            l_unit = match_area.group(4)
             
+            # W
+            if w_unit in ["'", 'ft', 'feet']: w_val *= 304.8
+            elif w_unit in ['in', '"', 'inch', 'inches']: w_val *= 25.4
+            elif w_unit == 'cm': w_val *= 10
+            elif w_unit in ['m', 'meter']: w_val *= 1000
+            elif not w_unit:
+                # ถ้าไม่มีหน่วย (เช่น 5x5mm) อิงตามหน่วย l_unit
+                if l_unit in ['in', '"', 'inch', 'inches']: w_val *= 25.4
+                elif l_unit == 'cm': w_val *= 10
+                elif l_unit in ['m', 'meter']: w_val *= 1000
+                elif l_unit in ["'", 'ft', 'feet']: w_val *= 304.8
+            
+            # L
+            if l_unit in ["'", 'ft', 'feet']: l_val *= 304.8
+            elif l_unit in ['in', '"', 'inch', 'inches']: l_val *= 25.4
+            elif l_unit in ['yd', 'yard']: l_val *= 914.4
+            elif l_unit == 'cm': l_val *= 10
+            elif l_unit in ['m', 'meter']: l_val *= 1000
+            
+            return w_val, l_val
+            
+        # Pattern เดี่ยว (Length Only) กรณีที่กว้างอยู่ในคอลัมน์แล้ว
+        length_regex = r'(?<!x\s)(?<!\*\s)(?<!x)(?<!\*)(\d+(?:\.\d+)?)\s?(\'|ft|feet|yd|yard|m|meter)\b'
+        match_len = re.search(length_regex, s)
+        if match_len:
+            # ดักตัวหลอก m ที่แปลเป็นนาที
+            if not re.search(r'(?i)(pot\s*life|cure\s*time|time)[\s:=]*\d+\s*m\b', s):
+                l_val = float(match_len.group(1))
+                l_unit = match_len.group(2)
+                if l_unit in ["'", 'ft', 'feet']: l_val *= 304.8
+                elif l_unit in ['yd', 'yard']: l_val *= 914.4
+                elif l_unit in ['m', 'meter']: l_val *= 1000
+                return None, l_val
+
         return None, None
 
     def process_row(row):
@@ -182,9 +207,8 @@ def clean_raw_data(df):
         # For missing value, extract from description
         if w is None or l is None:
             dw, dl = parse_desc(row['description'])
-            if dw is not None and dl is not None:
-                if w is None: w = dw
-                if l is None: l = dl
+            if w is None and dw is not None: w = dw
+            if l is None and dl is not None: l = dl
                 
         return w, l
 
@@ -268,19 +292,21 @@ def clean_raw_data(df):
         desc = str(desc).lower()
         
         # Extract gram unit 
-        match_g = re.search(r'(\d*\.?\d+)\s*(gram|g|oz|ounce|ml|cc|kg|mg|lb)', desc)
+        match_g = re.search(r'(\d*\.?\d+)\s*(gram|grams|g|oz|ounce|ounces|ml|cc|kg|mg|lb|lbs|gallon|gallons|gal|l|liter|liters)\b', desc)
         if match_g:
             val = float(match_g.group(1))
             unit = match_g.group(2)
     
             # need to clarify that there is no density information available for accurate conversion
             # convert units
-            if unit in ['g', 'gram']: return val
-            if unit in ['oz', 'ounce']: return val * 28.35  # ounces -> grams
-            if unit == 'lb': return val * 453.6  # pounds -> grams
+            if unit in ['g', 'gram', 'grams']: return val
+            if unit in ['oz', 'ounce', 'ounces']: return val * 28.35  # ounces -> grams
+            if unit in ['lb', 'lbs']: return val * 453.6  # pounds -> grams
             if unit == 'kg': return val * 1000   # kilograms -> grams
             if unit == 'mg': return val / 1000   # milligrams -> grams
             if unit in ['ml','cc']: return val * 2.5 # volume -> grams (assumed Density ~2.5)
+            if unit in ['gallon', 'gallons', 'gal']: return val * 3785.4 * 2.5 # Gallon to grams
+            if unit in ['l', 'liter', 'liters']: return val * 1000 * 2.5 # Liter to grams
         
         return None
 

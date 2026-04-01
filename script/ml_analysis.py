@@ -35,13 +35,46 @@ def run_ml_analysis(scenario_name="default", config_params=None):
     print("="*60)
 
     # -----------------------------------------------------
-    # LOAD DATA (ALL 3 SCENARIOS)
+    # DYNAMIC CONFIGURATION (HEATSINKS & THRESHOLD)
     # -----------------------------------------------------
-    heatsink_models = [
-        'ModuleLED_Micro_8680',
-        'ModuleLED_Micro_8560',
-        'ModuleLED_Nano_7050'
-    ]
+    config_path = find_file("simulation_config.yaml", search_subdirs=["config", "../config", "."])
+    min_pass_pct = 99.0 # Default fallback
+    heatsink_models = []
+    
+    if config_params and 'risk_threshold_percent' in config_params:
+        risk_threshold = float(config_params['risk_threshold_percent'])
+        min_pass_pct = 100.0 - risk_threshold
+        print(f"Safety Threshold Loaded (from pipeline): Ranks with pass probability < {min_pass_pct}% will be removed.")
+    
+    if config_path:
+        with open(config_path, 'r') as f:
+            config = yaml.safe_load(f)
+            
+            # Fallback for risk_threshold if not passed from pipeline
+            if not config_params or 'risk_threshold_percent' not in config_params:
+                risk_threshold = float(config.get('simulation', {}).get('risk_threshold_percent', 1.0))
+                min_pass_pct = 100.0 - risk_threshold
+                print(f"Safety Threshold Loaded: Ranks with pass probability < {min_pass_pct}% will be removed.")
+            
+            # Extract heatsinks
+            heatsinks = config.get('heatsinks', [])
+            heatsink_models = [hs['model'].replace(" ", "_").replace(".", "") for hs in heatsinks]
+            print(f"Loaded {len(heatsink_models)} expected heatsink models from config.")
+            
+    if not config_path and (not config_params or 'risk_threshold_percent' not in config_params):
+        print(f"Warning: simulation_config.yaml not found. Using default cutoff {min_pass_pct}%")
+
+    if not heatsink_models:
+        print("Warning: Could not parse heatsinks from config. Using defaults.")
+        heatsink_models = [
+            'Micro_8680',
+            'Micro_8560',
+            'Nano_7050'
+        ]
+
+    # -----------------------------------------------------
+    # LOAD DATA
+    # -----------------------------------------------------
     
     dfs = []
     for model in heatsink_models:
@@ -71,23 +104,7 @@ def run_ml_analysis(scenario_name="default", config_params=None):
             print(f"Error: Required column '{col}' missing. Check simulation.py output.")
             return None
 
-    # -----------------------------------------------------
-    # DYNAMIC SAFETY CUTOFF FROM CONFIG
-    # -----------------------------------------------------
-    config_path = find_file("simulation_config.yaml", search_subdirs=["config", "../config", "."])
-    min_pass_pct = 99.0 # Default fallback
-    if config_params and 'risk_threshold_percent' in config_params:
-        risk_threshold = float(config_params['risk_threshold_percent'])
-        min_pass_pct = 100.0 - risk_threshold
-        print(f"Safety Threshold Loaded (from pipeline): Ranks with pass probability < {min_pass_pct}% will be removed.")
-    elif config_path:
-        with open(config_path, 'r') as f:
-            config = yaml.safe_load(f)
-            risk_threshold = float(config.get('simulation', {}).get('risk_threshold_percent', 1.0))
-            min_pass_pct = 100.0 - risk_threshold
-            print(f"Safety Threshold Loaded: Ranks with pass probability < {min_pass_pct}% will be removed.")
-    else:
-        print(f"Warning: simulation_config.yaml not found. Using default cutoff {min_pass_pct}%")
+    # (Safety cutoff and config now loaded dynamically at the start of the function)
 
     # -----------------------------------------------------
     # STAGE 1: HARD SAFETY FILTER
