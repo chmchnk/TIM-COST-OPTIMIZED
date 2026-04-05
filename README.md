@@ -118,10 +118,10 @@ The final outputs in the database (`recommendations.db`) and CSV records are opt
 
 ### 🏷️ Recommendation
 - **`recommendation_group`**:
-  - 🏆 **Best Value**: High performance, reasonable cost.
-  - ✅ **Standard**: Good balance for general use.
-  - 🏭 **Industrial**: High performance, higher cost (for demanding applications).
-  - ❌ **Avoid**: High risk of failure or poor cost-benefit.
+  - **Best Value**: High performance, reasonable cost.
+  - **Standard**: Good balance for general use.
+  - **Industrial**: High performance, higher cost (for demanding applications).
+  - **Avoid**: High risk of failure or poor cost-benefit.
 
 ### ⚙️ Identity & Specs
 - **`tim_id`**, **`mpn`**, **`manufacturer`**: TIM Identifiers.
