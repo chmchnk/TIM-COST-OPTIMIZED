@@ -84,7 +84,7 @@ def save_to_database(df, scenario_name):
         console.print(f"[ERROR] Failed to save to database: {str(e)}")
         sys.exit(1)
 
-def run_pipeline(scenario_name, skip_data_prep=False, clear_db=False):
+def run_pipeline(scenario_name, skip_data_prep=False, clear_db=False, use_custom=False):
     console.print("\n")
     console.print(Panel(f"[bold cyan]STARTING PIPELINE[/bold cyan]\nScenario: {scenario_name}", border_style="cyan"))
     
@@ -102,7 +102,7 @@ def run_pipeline(scenario_name, skip_data_prep=False, clear_db=False):
     if not skip_data_prep:
         console.print("\n")
         console.print(Panel("[bold cyan]STEP 0: Running Data Processing (Cleaning & Preparation)[/bold cyan]", border_style="cyan"))
-        dp_success = data_processing.run_data_processing()
+        dp_success = data_processing.run_data_processing(use_custom_data=use_custom)
         if not dp_success:
             console.print("\n" + "!"*60)
             console.print("[HALT] Data Processing failed.")
@@ -169,7 +169,8 @@ if __name__ == "__main__":
     parser.add_argument('--scenario_name', type=str, required=True, help="Label to categorize environmental tests (e.g., 'Standard_25C')")
     parser.add_argument('--skip_data_prep', action='store_true', help="Skip data processing (Step 0) and use existing cost_data.csv")
     parser.add_argument('--clear_db', action='store_true', help="Clear existing recommendations.db before running the pipeline")
+    parser.add_argument('--use_custom', action='store_true', help="Use custom data from data/custom/ instead of raw API data from data/raw/")
     
     args = parser.parse_args()
     
-    run_pipeline(args.scenario_name, skip_data_prep=args.skip_data_prep, clear_db=args.clear_db)
+    run_pipeline(args.scenario_name, skip_data_prep=args.skip_data_prep, clear_db=args.clear_db, use_custom=args.use_custom)

@@ -26,12 +26,14 @@ The goal is to recommend the optimal TIM by balancing **thermal performance** (T
   - `thermal_model.py`: Library for thermal calculations (Power, R_th).
   - `utils.py`: Helper functions.
 - **`data/`**:
+  - `custom/`: Place your confidential / custom CSV data here (must follow the template).
   - `processed/`:
     - `cleanned_data.csv`: Cleaned TIM dataset.
     - `cost_data.csv`: TIM data with calculated cost per application.
     - `recommendations.db`: SQLite database storing simulation results and scenarios.
     - `simulation/`: Folder containing outputs.
       - `simu_results_*.csv`: Output simulation reports for each heatsink.
+  - `template/`: Contains `custom_data_template.csv` structure for custom data input.
 - **`config/`**:
   - `simulation_config.yaml`: Configuration for simulation parameters (LED specs, Heatsink models, Uncertainties).
 - **`notebooks/`**: Jupyter notebooks for exploratory data analysis (EDA) and prototyping.
@@ -70,6 +72,11 @@ To skip data processing (e.g. if you only modified `simulation_config.yaml`), us
 python script/run_pipeline.py --scenario_name "My Run Scenario" --skip_data_prep
 ```
 *Output: `data/processed/recommendations.db` and output CSV records.*
+
+To **use your own confidential data** instead of the provided API data, copy the `data/template/custom_data_template.csv`, fill it with your data, put it in the `data/custom/` folder, and use the `--use_custom` flag:
+```bash
+python script/run_pipeline.py --scenario_name "Confidential_Sim" --use_custom
+```
 
 To **clear all existing data** in the database before running (fresh start), add the `--clear_db` flag:
 ```bash

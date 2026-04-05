@@ -13,7 +13,7 @@ import math
 # ------------------------------------------------------
 # READ RAW DATA AND MERGE THEM INTO DESIRED FOLDER
 # ------------------------------------------------------
-def merge_data(df):
+def merge_data(use_custom_data=False):
     current_dir = os.getcwd()   # Find current directory
     # Parent directory
     project_root = os.path.abspath(os.path.join(current_dir, '..'))
@@ -21,28 +21,35 @@ def merge_data(df):
         project_root = current_dir
 
     # Define paths
-    raw_path = os.path.join(project_root, 'data', 'raw')
+    if use_custom_data:
+        data_source_path = os.path.join(project_root, 'data', 'custom')
+        console.print("[bold yellow]Using CUSTOM DATA source[/bold yellow]")
+    else:
+        data_source_path = os.path.join(project_root, 'data', 'raw')
+        
     processed_path = os.path.join(project_root, 'data', 'processed')
-    output_filename = 'merged_data.csv'
 
     # Read all files and merge
-    console.print(f"Reading from: {raw_path}")
+    console.print(f"Reading from: {data_source_path}")
     console.print(f"Saving to:    {processed_path}")
 
-    all_files = glob.glob(os.path.join(raw_path, "*.csv"))
+    all_files = glob.glob(os.path.join(data_source_path, "*.csv"))
 
     if all_files:
         li = []
         for filename in all_files:
             df = pd.read_csv(filename, index_col=None, header=0)
             df['source_file'] = os.path.basename(filename) 
+            # Make sure Category column exist if missing in custom data
+            if "Category" not in df.columns:
+                df["Category"] = "Custom"
             li.append(df)
 
         frame = pd.concat(li, axis=0, ignore_index=True)
 
         return frame
     else:
-        console.print(f"There are no CSV files in the folder {raw_path}")
+        console.print(f"[bold red]There are no CSV files in the folder {data_source_path}[/bold red]")
         return None
 
 # ------------------------------------------------------
@@ -80,7 +87,7 @@ def clean_raw_data(df):
     df = df[df["thermal_conductivity_wmk"] != "-"].copy()
     df = df[df["thickness_mm"] != "-"].copy()
     df = df[df["price_thb"] != "Active"].copy()
-    df["thermal_conductivity_wmk"] = df["thermal_conductivity_wmk"].str.replace("W/m-K", "", regex=False).str.strip()
+    df["thermal_conductivity_wmk"] = df["thermal_conductivity_wmk"].astype(str).str.replace("W/m-K", "", regex=False).str.strip()
 
     # CREATE TIM TYPE BASE ON KEYWORD IN DESCRIPTION
     def define_nontim(type_str):
@@ -280,7 +287,8 @@ def clean_raw_data(df):
 
     df['thickness_clean'] = df['thickness_mm'].apply(extract_thck_mm)
     mask_nan = df['thickness_clean'].isna()
-    df.loc[mask_nan, 'thickness_clean'] = df.loc[mask_nan, 'description'].apply(extract_thck_from_desc)
+    if mask_nan.any():
+        df.loc[mask_nan, 'thickness_clean'] = df.loc[mask_nan, 'description'].apply(extract_thck_from_desc)
     df['thickness_mm'] = df['thickness_clean']
     df.drop(columns=['thickness_clean'], inplace=True)
 
@@ -452,12 +460,12 @@ def feature_calculation(df, config):
     df = df.round(precision)
     return df
 
-def run_data_processing():
+def run_data_processing(use_custom_data=False):
     console.rule(style="dim cyan")
     console.print("STARTING DATA PROCESSING (CLEANING & FEATURE CALCULATION)")
     console.rule(style="dim cyan")
     
-    merged_df = merge_data(None)
+    merged_df = merge_data(use_custom_data)
     if merged_df is None:
         console.print("[bold red]Error:[/bold red] No data to process.")
         return False
@@ -492,4 +500,8 @@ def run_data_processing():
         return False
 
 if __name__ == "__main__":
-    run_data_processing()
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--use_custom', action='store_true')
+    args = parser.parse_args()
+    run_data_processing(use_custom_data=args.use_custom)
