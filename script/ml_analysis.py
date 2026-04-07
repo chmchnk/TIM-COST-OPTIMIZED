@@ -225,7 +225,7 @@ def run_ml_analysis(scenario_name="default", config_params=None):
     cols_order = [
          'recommendation_group', 
          'tim_id', 'mpn', 'manufacturer', 'description', 'type',
-         'cost_per_app', 'calculated_tim_r_cw', 'pass_probability_pct',
+         'cost_per_app', 'price_thb', 'calculated_tim_r_cw', 'pass_probability_pct',
          'max_t_case_99',
          'heatsink_model', 'heatsink_r_th',
          'reliability_status', 'avg_margin_cw',

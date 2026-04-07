@@ -157,6 +157,7 @@ def run_simulation(data_name='cost_data.csv', config_name='simulation_config.yam
                 'mpn': row['mpn'],
                 'type': row['type'],
                 'cost_per_app': row['cost_per_application'],
+                'price_thb': row['price_thb'],
                 'k_wmk': row['thermal_conductivity_wmk'],
                 'heatsink_model': hs_model,
                 'heatsink_r_th': r_hs,   # Added for Power BI context
@@ -185,7 +186,7 @@ def run_simulation(data_name='cost_data.csv', config_name='simulation_config.yam
              'reliability_status', 'pass_probability_pct', 'avg_margin_cw',
              'tim_id', 'mpn', 'type', 'heatsink_model', 'heatsink_r_th',
              'calculated_tim_r_cw', 'threshold_limit_cw', 'max_t_case_99',
-             'cost_per_app', 'k_wmk', 'thickness_mm', 'manufacturer', 'description'
+             'cost_per_app', 'price_thb', 'k_wmk', 'thickness_mm', 'manufacturer', 'description'
         ]
         final_cols = [c for c in cols_order if c in res_df.columns] + [c for c in res_df.columns if c not in cols_order]
         res_df = res_df[final_cols]
