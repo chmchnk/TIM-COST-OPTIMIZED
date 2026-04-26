@@ -57,7 +57,7 @@ pip install -r requirements.txt
 ### 2. Configure Simulation
 Edit `config/simulation_config.yaml` to adjust:
 - **LED Parameters**: `drive_current_a`, `forward_voltage_v`, `max_case_temp_c`.
-- **Environment**: `ambient_temp_c`.
+- **Environment Temperature**: `ambient_temp_c`.
 - **Heatsinks**: List of heatsink models and their thermal resistance (`r_heatsink`).
 - **Uncertainties**: Manufacturing tolerances (e.g., `thermal_conductivity_unc`, `grease_blt`).
 
@@ -148,6 +148,39 @@ The final outputs in the database (`recommendations.db`) and CSV records are opt
 
 ---
 
+
+## 📊 Power BI Dashboard
+
+This project includes an interactive Power BI dashboard to visualize the simulation results and recommendations. The access to power bi dashboard is provided in `TIM_dashboard.pbix` file in the root directory. 
+
+For initial setup before using Power BI dashboard, please do the following step:
+1. Click arrow down below `Transform data` in Home tab.
+![Transform Data](assets/pbix_edit_param.png)
+2. Click `Edit Parameters`
+3. Copy path of `recommendations.db` file and paste it into `DB_PATH` parameter.
+![DB_Path](assets/pbix_path_input.png)
+4. Click `OK`
+5. Click `Refresh` in Home tab.
+![Refresh](assets/pbix_refresh.png)
+
+> Path of `recommendations.db` file is needed to update only one time but, `Refresh` button is needed to click every time you run the pipeline to update the data. If you move the `recommendations.db` file to other place, you need to update the path again.
+
+Here is the sample of the dashboard:
+### 1. Executive Summary
+Provides a high-level overview of TIM performance vs. cost and the distribution of recommended groups.
+![Executive Summary](assets/executive_summary.jpg)
+
+
+### 2. Technical Validation
+Displays the technical details of the Monte Carlo simulations, including thermal resistance distributions and pass/fail probabilities.
+![Technical Validation](assets/technical_validation.jpg)
+
+### 3. Material Details
+Allows for detailed comparison between different material types (Grease vs. Pad) and specific manufacturers.
+![Material Details](assets/material_details.jpg)
+
+---
+
 ## ✅ Project Progress / Goals
 
 ### 1. Data Pipeline & Processing
@@ -167,6 +200,6 @@ The final outputs in the database (`recommendations.db`) and CSV records are opt
 - [x] **Database Integration**: Implemented SQLite to store run history, recommendations, and execution metadata dynamically.
 
 ### 4. Future Work / To-Do
-- [ ] **Publish Dashboard**: Deploy Power BI Dashboard for team access.
+- [x] **Publish Dashboard**: Deploy Power BI Dashboard for team access.
 - [ ] **More Heatsinks**: Expand the library of heatsink models.
 - [ ] **Dynamic Pricing**: Connect to live API for real-time pricing.
