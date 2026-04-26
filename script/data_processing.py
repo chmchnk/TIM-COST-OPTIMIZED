@@ -288,7 +288,7 @@ def clean_raw_data(df):
     df['thickness_clean'] = df['thickness_mm'].apply(extract_thck_mm)
     mask_nan = df['thickness_clean'].isna()
     if mask_nan.any():
-        df.loc[mask_nan, 'thickness_clean'] = df.loc[mask_nan, 'description'].apply(extract_thck_from_desc)
+        df.loc[mask_nan, 'thickness_clean'] = df.loc[mask_nan, 'description'].apply(extract_thck_from_desc).astype(float)
     df['thickness_mm'] = df['thickness_clean']
     df.drop(columns=['thickness_clean'], inplace=True)
 
