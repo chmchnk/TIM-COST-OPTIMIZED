@@ -36,7 +36,6 @@ The goal is to recommend the optimal TIM by balancing **thermal performance** (T
   - `template/`: Contains `custom_data_template.csv` structure for custom data input.
 - **`config/`**:
   - `simulation_config.yaml`: Configuration for simulation parameters (LED specs, Heatsink models, Uncertainties).
-- **`notebooks/`**: Jupyter notebooks for exploratory data analysis (EDA) and prototyping.
 
 ---
 
